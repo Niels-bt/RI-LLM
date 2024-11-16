@@ -1,0 +1,20 @@
+SELECT ?propertyLabel ?valueLabel {           #From ?property and ?value, we request the Labels
+  VALUES (?entry) {(wd:Q26876)}               #We choose an ?entry
+  
+                                              #These statements work like FROM. We take a value and a property, which then leads to a value.
+  ?entry ?p ?v .                              #For the ?entry, we take every ?p (property) which then leads to every ?v (value)
+                                              #?p is the reference to the property, ?v is the reference to the value. We can't get the Labels yet.
+  ?v ?temp ?value .                           #For each ?v (value), we take every ?temp (a temporary value which will later be equal to p) which leads to every ?value.
+                                              #Sadly, we can't just use ?p instead of ?temp, as they are formatted a little differently.
+                                              #From this ?value, we can get the Label
+  
+                                              #These statements work like WHERE. We take a value and compare it in a certain way with another value
+  ?property wikibase:claim ?p.                #We define ?property as the wikibase:claim of ?p
+  ?property wikibase:statementProperty ?temp. #We define ?property as the wikibase:statementProperty of ?temp
+                                              #Now, we are sure, that ?p = ?temp
+                                              #Additionally, this form of ?property can give us it's Label
+                                              
+  SERVICE wikibase:label {                    #This defines, that each time we ask for a Label, it is returned in english
+    bd:serviceParam wikibase:language "en".
+  }
+}
