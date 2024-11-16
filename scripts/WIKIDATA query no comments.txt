@@ -1,0 +1,13 @@
+SELECT ?propertyLabel ?valueLabel {
+  VALUES (?entry) {(wd:Q26876)}
+  
+  ?entry ?p ?v .
+  ?v ?a ?value .
+  
+  ?property wikibase:claim ?p.
+  ?property wikibase:statementProperty ?a.
+            
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+  }
+}
