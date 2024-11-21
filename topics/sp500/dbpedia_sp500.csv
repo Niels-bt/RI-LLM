@@ -1,15 +1,15 @@
-1, Apple, https://de.wikipedia.org/wiki/Apple,Q89,https://dbpedia.org/page/Apple_Inc.
+1, Apple, https://de.wikipedia.org/wiki/Apple,Q312,https://dbpedia.org/page/Apple_Inc.
 2, Microsoft, https://de.wikipedia.org/wiki/Microsoft,Q2283,https://dbpedia.org/page/Microsoft
-3, Amazon, https://de.wikipedia.org/wiki/Amazon,Q456120,https://dbpedia.org/page/Amazon_(company)
-4, Tesla, https://de.wikipedia.org/wiki/Tesla,Q765530,https://dbpedia.org/page/Tesla
+3, Amazon, https://de.wikipedia.org/wiki/Amazon,Q3884,https://dbpedia.org/page/Amazon_(company)
+4, Tesla, https://de.wikipedia.org/wiki/Tesla,Q478214,https://dbpedia.org/page/Tesla
 6, Alphabet Inc., https://de.wikipedia.org/wiki/Alphabet_Inc.,Q20800404,https://dbpedia.org/page/Alphabet_Inc.
 7, Berkshire Hathaway, https://de.wikipedia.org/wiki/Berkshire_Hathaway,Q217583,https://dbpedia.org/page/Berkshire_Hathaway
 8, UnitedHealth, https://de.wikipedia.org/wiki/UnitedHealth,Q2103926,https://dbpedia.org/page/UnitedHealth
 9, Nvidia, https://de.wikipedia.org/wiki/Nvidia,Q182477,https://dbpedia.org/page/Nvidia
-10, Johnson & Johnson, https://de.wikipedia.org/wiki/Johnson_%26_Johnson,Q217460,https://dbpedia.org/page/Johnson_&_Johnson
+10, Johnson & Johnson, https://de.wikipedia.org/wiki/Johnson_%26_Johnson,Q333718,https://dbpedia.org/page/Johnson_&_Johnson
 11, ExxonMobil, https://de.wikipedia.org/wiki/ExxonMobil,Q156238,https://dbpedia.org/page/ExxonMobil
 12, Meta Platforms, https://de.wikipedia.org/wiki/Meta_Platforms,Q380,https://dbpedia.org/page/Meta_Platforms
-13, Procter & Gamble, https://de.wikipedia.org/wiki/Procter_%26_Gamble,Q520045,https://dbpedia.org/page/Procter_&_Gamble
+13, Procter & Gamble, https://de.wikipedia.org/wiki/Procter_%26_Gamble,Q212405,https://dbpedia.org/page/Procter_&_Gamble
 14, Visa Inc., https://de.wikipedia.org/wiki/Visa_Inc.,Q328840,https://dbpedia.org/page/Visa_Inc.
 15, JPMorgan Chase, https://de.wikipedia.org/wiki/JPMorgan_Chase,Q192314,https://dbpedia.org/page/JPMorgan_Chase
 16, Chevron Corporation, https://de.wikipedia.org/wiki/Chevron_Corporation,Q319642,https://dbpedia.org/page/Chevron_Corporation
@@ -23,7 +23,7 @@
 24, Costco Wholesale, https://de.wikipedia.org/wiki/Costco_Wholesale,Q715583,https://dbpedia.org/page/Costco_Wholesale
 25, Bank of America, https://de.wikipedia.org/wiki/Bank_of_America,Q487907,https://dbpedia.org/page/Bank_of_America
 26, Thermo Fisher Scientific, https://de.wikipedia.org/wiki/Thermo_Fisher_Scientific,Q643674,https://dbpedia.org/page/Thermo_Fisher_Scientific
-27, Merck & Co., https://de.wikipedia.org/wiki/Merck_%26_Co.,Q246985,https://dbpedia.org/page/Merck_&_Co.
+27, Merck & Co., https://de.wikipedia.org/wiki/Merck_%26_Co.,Q247489,https://dbpedia.org/page/Merck_&_Co.
 28, Broadcom Inc., https://de.wikipedia.org/wiki/Broadcom_Inc.,Q4827416,https://dbpedia.org/page/Broadcom_Inc.
 29, Adobe Inc., https://de.wikipedia.org/wiki/Adobe_Inc.,Q11463,https://dbpedia.org/page/Adobe_Inc.
 30, McDonald’s, https://de.wikipedia.org/wiki/McDonald’s,Q38076,https://dbpedia.org/page/McDonald’s
@@ -45,21 +45,21 @@
 46, Philip Morris International, https://de.wikipedia.org/wiki/Philip_Morris_International,Q1852556,https://dbpedia.org/page/Philip_Morris_International
 47, Linde plc, https://de.wikipedia.org/wiki/Linde_plc,Q682759,https://dbpedia.org/page/Linde_plc
 48, Intel, https://de.wikipedia.org/wiki/Intel,Q248,https://dbpedia.org/page/Intel
-49, Nike, https://de.wikipedia.org/wiki/Nike_(Unternehmen),Q218202,"""https://dbpedia.org/page/Nike,_Inc."""
+49, Nike, https://de.wikipedia.org/wiki/Nike_(Unternehmen),Q483915,"""https://dbpedia.org/page/Nike,_Inc."""
 50, United Parcel Service, https://de.wikipedia.org/wiki/United_Parcel_Service,Q155026,https://dbpedia.org/page/United_Parcel_Service
 51, Union Pacific Corporation, https://de.wikipedia.org/wiki/Union_Pacific_Corporation,Q20183163,https://dbpedia.org/page/Union_Pacific_Corporation
 52, Raytheon Technologies, https://de.wikipedia.org/wiki/Raytheon_Technologies,Q89368734,https://dbpedia.org/page/Raytheon_Technologies
-53, AT&T, https://de.wikipedia.org/wiki/AT%26T,Q210323,https://dbpedia.org/page/AT&T
+53, AT&T, https://de.wikipedia.org/wiki/AT%26T,Q35476,https://dbpedia.org/page/AT&T
 54, Amgen, https://de.wikipedia.org/wiki/Amgen,Q470517,https://dbpedia.org/page/Amgen
 55, Honeywell International, https://de.wikipedia.org/wiki/Honeywell_International,Q898208,https://dbpedia.org/page/Honeywell_International
-56, S&P Global, https://de.wikipedia.org/wiki/S%26P_Global,Q9956,https://dbpedia.org/page/S%26P_Global
+56, S&P Global, https://de.wikipedia.org/wiki/S%26P_Global,Q868587,https://dbpedia.org/page/S%26P_Global
 57, Intuit, https://de.wikipedia.org/wiki/Intuit,Q1318848,https://dbpedia.org/page/Intuit
 58, CVS Health, https://de.wikipedia.org/wiki/CVS_Health,Q624375,https://dbpedia.org/page/CVS_Health
 59, Medtronic, https://de.wikipedia.org/wiki/Medtronic,Q642189,https://dbpedia.org/page/Medtronic
 60, Lowe’s, https://de.wikipedia.org/wiki/Lowe’s,Q1373493,https://dbpedia.org/page/Lowe’s
 61, American Tower, https://de.wikipedia.org/wiki/American_Tower,Q4745263,https://dbpedia.org/page/American_Tower
 62, ConocoPhillips, https://de.wikipedia.org/wiki/ConocoPhillips,Q214763,https://dbpedia.org/page/ConocoPhillips
-63, Oracle, https://de.wikipedia.org/wiki/Oracle,Q217123,https://dbpedia.org/page/Oracle_Corporation
+63, Oracle, https://de.wikipedia.org/wiki/Oracle,Q19900,https://dbpedia.org/page/Oracle_Corporation
 64, IBM, https://de.wikipedia.org/wiki/IBM,Q37156,https://dbpedia.org/page/IBM
 65, Morgan Stanley, https://de.wikipedia.org/wiki/Morgan_Stanley,Q334204,https://dbpedia.org/page/Morgan_Stanley
 66, Elevance Health, https://de.wikipedia.org/wiki/Elevance_Health,Q677488,https://dbpedia.org/page/Elevance_Health
@@ -69,12 +69,12 @@
 70, Lockheed Martin, https://de.wikipedia.org/wiki/Lockheed_Martin,Q7240,https://dbpedia.org/page/Lockheed_Martin
 71, Automatic Data Processing, https://de.wikipedia.org/wiki/Automatic_Data_Processing,Q489080,https://dbpedia.org/page/Automatic_Data_Processing
 72, Citigroup, https://de.wikipedia.org/wiki/Citigroup,Q219508,https://dbpedia.org/page/Citigroup
-73, Netflix, https://de.wikipedia.org/wiki/Netflix,Q907311,https://dbpedia.org/page/Netflix
-74, Caterpillar, https://de.wikipedia.org/wiki/Caterpillar,Q81825,https://dbpedia.org/page/Caterpillar_Inc.
+73, Netflix, https://de.wikipedia.org/wiki/Netflix,Q116452644,https://dbpedia.org/page/Netflix
+74, Caterpillar, https://de.wikipedia.org/wiki/Caterpillar,Q459965,https://dbpedia.org/page/Caterpillar_Inc.
 75, Starbucks, https://de.wikipedia.org/wiki/Starbucks,Q37158,https://dbpedia.org/page/Starbucks
 76, ProLogis, https://de.wikipedia.org/wiki/ProLogis,Q16983765,https://dbpedia.org/page/ProLogis
 77, BlackRock, https://de.wikipedia.org/wiki/BlackRock,Q219635,https://dbpedia.org/page/BlackRock
-78, Deere & Company, https://de.wikipedia.org/wiki/John_Deere,Q56538139,https://dbpedia.org/page/John_Deere
+78, Deere & Company, https://de.wikipedia.org/wiki/John_Deere,Q496302,https://dbpedia.org/page/John_Deere
 79, Applied Materials, https://de.wikipedia.org/wiki/Applied_Materials,Q621610,https://dbpedia.org/page/Applied_Materials
 80, American Express, https://de.wikipedia.org/wiki/American_Express,Q194360,https://dbpedia.org/page/American_Express
 81, ServiceNow, https://de.wikipedia.org/wiki/ServiceNow,Q7455653,https://dbpedia.org/page/ServiceNow
@@ -87,7 +87,7 @@
 88, Zoetis, https://de.wikipedia.org/wiki/Zoetis,Q8073337,https://dbpedia.org/page/Zoetis
 89, T-Mobile US, https://de.wikipedia.org/wiki/T-Mobile_US,Q3511885,https://dbpedia.org/page/T-Mobile_US
 90, General Electric, https://de.wikipedia.org/wiki/General_Electric,Q54173,https://dbpedia.org/page/General_Electric
-91, Marsh & McLennan Companies, https://de.wikipedia.org/wiki/Marsh_%26_McLennan_Companies,Q30198,https://dbpedia.org/page/Marsh_McLennan
+91, Marsh & McLennan Companies, https://de.wikipedia.org/wiki/Marsh_%26_McLennan_Companies,Q1786345,https://dbpedia.org/page/Marsh_McLennan
 92, 3M, https://de.wikipedia.org/wiki/3M,Q159433,https://dbpedia.org/page/3M
 93, Southern Company, https://de.wikipedia.org/wiki/Southern_Company,Q2304693,https://dbpedia.org/page/Southern_Company
 94, Altria Group, https://de.wikipedia.org/wiki/Altria_Group,Q445007,https://dbpedia.org/page/Altria_Group
@@ -112,7 +112,7 @@
 114, Edwards Lifesciences, https://de.wikipedia.org/wiki/Edwards_Lifesciences,Q16966841,https://dbpedia.org/page/Edwards_Lifesciences
 115, U.S. Bancorp, https://de.wikipedia.org/wiki/U.S._Bancorp,Q739084,https://dbpedia.org/page/U.S._Bancorp
 116, Equinix, https://de.wikipedia.org/wiki/Equinix,Q851641,https://dbpedia.org/page/Equinix
-117, Waste Management, https://de.wikipedia.org/wiki/Waste_Management,Q180388,https://dbpedia.org/page/Waste_Management_(company)
+117, Waste Management, https://de.wikipedia.org/wiki/Waste_Management,Q2552219,https://dbpedia.org/page/Waste_Management_(company)
 118, EOG Resources, https://de.wikipedia.org/wiki/EOG_Resources,Q1275577,https://dbpedia.org/page/EOG_Resources
 119, Fidelity National Information Services, https://de.wikipedia.org/wiki/Fidelity_National_Information_Services,Q1411295,https://dbpedia.org/page/Fidelity_National_Information_Services
 120, Estée Lauder Companies, https://de.wikipedia.org/wiki/Estée_Lauder_Companies,Q1260606,https://dbpedia.org/page/Estée_Lauder_Companies
