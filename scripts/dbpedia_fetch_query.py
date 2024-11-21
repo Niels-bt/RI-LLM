@@ -1,3 +1,4 @@
+import numpy
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 import spacy
@@ -104,16 +105,18 @@ def get_person_data(person):
 # This function takes a list of tuples with (label, value) and returns (lemmatized_label, value)
 # Only label will be processed. Value is used to give the algorithm context
 # This function performs better when given a big list of tuples instead of calling it for each tuple separately
-def lemmatization(words):
+def lemmatization(tuples):
     # Loads the lemmatization algorithm for english
     nlp = spacy.load('en_core_web_sm')
 
     # Here, we will store all the transformed tuples
     processed_data = []
-
-    # This creates the lemmatized labels and stores them in the list
-    for label, value in nlp.pipe(words, as_tuples=True):
-        processed_data.append((label.doc[0].lemma_, value))
+    # We split the data into smaller chunks
+    for chunk in numpy.array_split(tuples, len(tuples) % 10):
+        # This creates the lemmatized labels and stores them in the list
+        parsed_words = nlp.pipe(chunk, as_tuples=True, disable="parser")
+        for label, value in parsed_words:
+            processed_data.append((label.doc[0].lemma_, value))
 
     return processed_data
 
