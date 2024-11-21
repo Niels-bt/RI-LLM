@@ -1,5 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+import spacy
+
 def keep(string):
     if "ID" in string:
         return False
@@ -99,5 +101,18 @@ def get_person_data(person):
 
 
 
+def lemmatization(words):
+    nlp = spacy.load('en_core_web_sm')
+
+    processedData = []
+    for label, value in nlp.pipe(words, as_tuples=True):
+        processedData.append((label.doc[0].lemma_, value))
+
+    return processedData
+
+
+
 if __name__ == "__main__":
-    get_person_data("Marie_Curie")
+    #get_person_data("Marie_Curie")
+    for word in lemmatization([("child", "running"), ("children", "walking"), ("doctoralStudent", "Leon"), ("doctoralStudents", "Niels"), ("birthDate", "12.12.2001")]):
+        print(word)
