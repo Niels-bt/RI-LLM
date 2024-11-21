@@ -28,7 +28,7 @@ def keep(string):
 
 
 
-def get_marie_curie_data():
+def get_person_data(person):
     a=0
     total =0
     good_ones = 0
@@ -37,8 +37,14 @@ def get_marie_curie_data():
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
     # SPARQL query
+    query = f"""
+            SELECT ?property ?value
+            WHERE {{
+                <http://dbpedia.org/resource/{person}> ?property ?value .
+            }}
+            """
 
-    query = """
+    query_more_results = """
     SELECT ?property ?value
     WHERE {
     {
@@ -49,21 +55,8 @@ def get_marie_curie_data():
         ?value ?property <http://dbpedia.org/resource/Marie_Curie> .
     }
     }
-    """
-    query_more_results ="""
-    SELECT DISTINCT ?s ?p ?o
-    WHERE {
-        {
-            <http://dbpedia.org/resource/Marie_Curie> ?p ?o .
-            BIND(<http://dbpedia.org/resource/Marie_Curie> AS ?s)
-        }
-        UNION
-        {
-            ?s ?p <http://dbpedia.org/resource/Marie_Curie> .
-            BIND(<http://dbpedia.org/resource/Marie_Curie> AS ?o)
-        }
-    }
     """ #wont be used discussed with acosta
+
 
     # Configure the query
     sparql.setQuery(query)
@@ -84,21 +77,20 @@ def get_marie_curie_data():
             # Clean up the property name by removing the URI prefix
             prop_name = prop.split("/")[-1]
             if keep(prop_name):
-                good_ones +=1
-                if val.startswith('http'):
-                    # Split the URL by '/' and get the last non-empty element
-                    segments = [seg for seg in val.split('/') if seg]
-                    print(f"{prop_name}: {segments[-1]}")
-                    #return segments[-1] if segments else text
-                else:
-                    print(f"{prop_name}: {val}")
+                if "ID" not in prop_name:
+                    good_ones += 1
+                    if val.startswith('http'):
+                        # Split the URL by '/' and get the last non-empty element
+                        segments = [seg for seg in val.split('/') if seg]
+                        print(f"{prop_name}: {segments[-1]}")
+                        #return segments[-1] if segments else text
+                    else:
+                        print(f"{prop_name}: {val}")
 
 
             else:
                 a+=1
             total+=1
-
-
 
         print("total is:",total," total shitty: ",a," so total good: ",good_ones)
 
@@ -108,4 +100,4 @@ def get_marie_curie_data():
 
 
 if __name__ == "__main__":
-    get_marie_curie_data()
+    get_person_data("Marie_Curie")
