@@ -1,125 +1,124 @@
-1, Apple, https://de.wikipedia.org/wiki/Apple,Q89
-2, Microsoft, https://de.wikipedia.org/wiki/Microsoft,Q2283
-3, Amazon, https://de.wikipedia.org/wiki/Amazon,Q456120
-4, Tesla, https://de.wikipedia.org/wiki/Tesla,Q765530
-5, Alphabet Inc., https://de.wikipedia.org/wiki/Alphabet_Inc.,Q20800404
-6, Alphabet Inc., https://de.wikipedia.org/wiki/Alphabet_Inc.,Q20800404
-7, Berkshire Hathaway, https://de.wikipedia.org/wiki/Berkshire_Hathaway,Q217583
-8, UnitedHealth, https://de.wikipedia.org/wiki/UnitedHealth,Q2103926
-9, Nvidia, https://de.wikipedia.org/wiki/Nvidia,Q182477
-10, Johnson & Johnson, https://de.wikipedia.org/wiki/Johnson_%26_Johnson,Q217460
-11, ExxonMobil, https://de.wikipedia.org/wiki/ExxonMobil,Q156238
-12, Meta Platforms, https://de.wikipedia.org/wiki/Meta_Platforms,Q380
-13, Procter & Gamble, https://de.wikipedia.org/wiki/Procter_%26_Gamble,Q520045
-14, Visa Inc., https://de.wikipedia.org/wiki/Visa_Inc.,Q328840
-15, JPMorgan Chase, https://de.wikipedia.org/wiki/JPMorgan_Chase,Q192314
-16, Chevron Corporation, https://de.wikipedia.org/wiki/Chevron_Corporation,Q319642
-17, The Home Depot, https://de.wikipedia.org/wiki/The_Home_Depot,Q864407
-18, Mastercard, https://de.wikipedia.org/wiki/Mastercard,Q489921
-19, Pfizer, https://de.wikipedia.org/wiki/Pfizer,Q206921
-20, Eli Lilly and Company, https://de.wikipedia.org/wiki/Eli_Lilly_and_Company,Q632240
-21, The Coca-Cola Company, https://de.wikipedia.org/wiki/The_Coca-Cola_Company,Q3295867
-22, AbbVie, https://de.wikipedia.org/wiki/AbbVie,Q14662364
-23, PepsiCo, https://de.wikipedia.org/wiki/PepsiCo,Q334800
-24, Costco Wholesale, https://de.wikipedia.org/wiki/Costco_Wholesale,Q715583
-25, Bank of America, https://de.wikipedia.org/wiki/Bank_of_America,Q487907
-26, Thermo Fisher Scientific, https://de.wikipedia.org/wiki/Thermo_Fisher_Scientific,Q643674
-27, Merck & Co., https://de.wikipedia.org/wiki/Merck_%26_Co.,Q246985
-28, Broadcom Inc., https://de.wikipedia.org/wiki/Broadcom_Inc.,Q4827416
-29, Adobe Inc., https://de.wikipedia.org/wiki/Adobe_Inc.,Q11463
-30, McDonald’s, https://de.wikipedia.org/wiki/McDonald’s,Q38076
-31, Accenture, https://de.wikipedia.org/wiki/Accenture,Q338825
-32, The Walt Disney Company, https://de.wikipedia.org/wiki/The_Walt_Disney_Company,Q7414
-33, Verizon Communications, https://de.wikipedia.org/wiki/Verizon_Communications,Q467752
-34, Abbott Laboratories, https://de.wikipedia.org/wiki/Abbott_Laboratories,Q306764
-35, Cisco Systems, https://de.wikipedia.org/wiki/Cisco_Systems,Q173395
-36, Walmart, https://de.wikipedia.org/wiki/Walmart,Q483551
-37, Danaher Corporation, https://de.wikipedia.org/wiki/Danaher_Corporation,Q1159256
-38, Salesforce, https://de.wikipedia.org/wiki/Salesforce,Q941127
-39, Comcast, https://de.wikipedia.org/wiki/Comcast,Q1113804
-40, NextEra Energy, https://de.wikipedia.org/wiki/NextEra_Energy,Q967868
-41, Qualcomm, https://de.wikipedia.org/wiki/Qualcomm,Q544847
-42, Texas Instruments, https://de.wikipedia.org/wiki/Texas_Instruments,Q193412
-43, Wells Fargo, https://de.wikipedia.org/wiki/Wells_Fargo,Q744149
-44, AMD, https://de.wikipedia.org/wiki/AMD,Q128896
-45, Bristol-Myers Squibb, https://de.wikipedia.org/wiki/Bristol-Myers_Squibb,Q266423
-46, Philip Morris International, https://de.wikipedia.org/wiki/Philip_Morris_International,Q1852556
-47, Linde plc, https://de.wikipedia.org/wiki/Linde_plc,Q682759
-48, Intel, https://de.wikipedia.org/wiki/Intel,Q248
-49, Nike, https://de.wikipedia.org/wiki/Nike_(Unternehmen),Q218202
-50, United Parcel Service, https://de.wikipedia.org/wiki/United_Parcel_Service,Q155026
-51, Union Pacific Corporation, https://de.wikipedia.org/wiki/Union_Pacific_Corporation,Q20183163
-52, Raytheon Technologies, https://de.wikipedia.org/wiki/Raytheon_Technologies,Q89368734
-53, AT&T, https://de.wikipedia.org/wiki/AT%26T,Q210323
-54, Amgen, https://de.wikipedia.org/wiki/Amgen,Q470517
-55, Honeywell International, https://de.wikipedia.org/wiki/Honeywell_International,Q898208
-56, S&P Global, https://de.wikipedia.org/wiki/S%26P_Global,Q9956
-57, Intuit, https://de.wikipedia.org/wiki/Intuit,Q1318848
-58, CVS Health, https://de.wikipedia.org/wiki/CVS_Health,Q624375
-59, Medtronic, https://de.wikipedia.org/wiki/Medtronic,Q642189
-60, Lowe’s, https://de.wikipedia.org/wiki/Lowe’s,Q1373493
-61, American Tower, https://de.wikipedia.org/wiki/American_Tower,Q4745263
-62, ConocoPhillips, https://de.wikipedia.org/wiki/ConocoPhillips,Q214763
-63, Oracle, https://de.wikipedia.org/wiki/Oracle,Q217123
-64, IBM, https://de.wikipedia.org/wiki/IBM,Q37156
-65, Morgan Stanley, https://de.wikipedia.org/wiki/Morgan_Stanley,Q334204
-66, Elevance Health, https://de.wikipedia.org/wiki/Elevance_Health,Q677488
-67, Goldman Sachs, https://de.wikipedia.org/wiki/Goldman_Sachs,Q193326
-68, PayPal, https://de.wikipedia.org/wiki/PayPal,Q483959
-69, Charles Schwab Corporation, https://de.wikipedia.org/wiki/Charles_Schwab_Corporation,Q1066028
-70, Lockheed Martin, https://de.wikipedia.org/wiki/Lockheed_Martin,Q7240
-71, Automatic Data Processing, https://de.wikipedia.org/wiki/Automatic_Data_Processing,Q489080
-72, Citigroup, https://de.wikipedia.org/wiki/Citigroup,Q219508
-73, Netflix, https://de.wikipedia.org/wiki/Netflix,Q907311
-74, Caterpillar, https://de.wikipedia.org/wiki/Caterpillar,Q81825
-75, Starbucks, https://de.wikipedia.org/wiki/Starbucks,Q37158
-76, ProLogis, https://de.wikipedia.org/wiki/ProLogis,Q16983765
-77, BlackRock, https://de.wikipedia.org/wiki/BlackRock,Q219635
-78, Deere & Company, https://de.wikipedia.org/wiki/John_Deere,Q56538139
-79, Applied Materials, https://de.wikipedia.org/wiki/Applied_Materials,Q621610
-80, American Express, https://de.wikipedia.org/wiki/American_Express,Q194360
-81, ServiceNow, https://de.wikipedia.org/wiki/ServiceNow,Q7455653
-82, Boeing, https://de.wikipedia.org/wiki/Boeing,Q66
-83, Mondelēz International, https://de.wikipedia.org/wiki/Mondelēz_International,Q12857502
-84, Analog Devices, https://de.wikipedia.org/wiki/Analog_Devices,Q484930
-85, Cigna, https://de.wikipedia.org/wiki/CIGNA,Q642271
-86, Intuitive Surgical, https://de.wikipedia.org/wiki/Intuitive_Surgical,Q2743863
-87, Duke Energy, https://de.wikipedia.org/wiki/Duke_Energy,Q1264404
-88, Zoetis, https://de.wikipedia.org/wiki/Zoetis,Q8073337
-89, T-Mobile US, https://de.wikipedia.org/wiki/T-Mobile_US,Q3511885
-90, General Electric, https://de.wikipedia.org/wiki/General_Electric,Q54173
-91, Marsh & McLennan Companies, https://de.wikipedia.org/wiki/Marsh_%26_McLennan_Companies,Q30198
-92, 3M, https://de.wikipedia.org/wiki/3M,Q159433
-93, Southern Company, https://de.wikipedia.org/wiki/Southern_Company,Q2304693
-94, Altria Group, https://de.wikipedia.org/wiki/Altria_Group,Q445007
-95, Booking Holdings, https://de.wikipedia.org/wiki/Booking_Holdings,Q18674747
-96, Chubb Limited, https://de.wikipedia.org/wiki/Chubb_Limited,Q1089060
-97, Crown Castle, https://de.wikipedia.org/wiki/Crown_Castle,Q5189320
-98, Target Corporation, https://de.wikipedia.org/wiki/Target_Corporation,Q1046951
-99, Gilead Sciences, https://de.wikipedia.org/wiki/Gilead_Sciences,Q663596
-100, TJX Companies, https://de.wikipedia.org/wiki/TJX_Companies101,Q1285819
-102, CME Group, https://de.wikipedia.org/wiki/CME_Group,Q1023876
-103, Northrop Grumman, https://de.wikipedia.org/wiki/Northrop_Grumman,Q329953
-104, Vertex Pharmaceuticals, https://de.wikipedia.org/wiki/Vertex_Pharmaceuticals,Q2744099
-105, Lam Research, https://de.wikipedia.org/wiki/Lam_Research,Q1342041
-106, CSX Corporation, https://de.wikipedia.org/wiki/CSX_Corporation,Q1024454
-107, Micron Technology, https://de.wikipedia.org/wiki/Micron_Technology,Q1197548
-108, Becton Dickinson, https://de.wikipedia.org/wiki/Becton_Dickinson,Q813780
-109, PNC Financial Services, https://de.wikipedia.org/wiki/PNC_Financial_Services,Q38928
-110, Colgate-Palmolive, https://de.wikipedia.org/wiki/Colgate-Palmolive,Q609466
-111, Dominion Energy, https://de.wikipedia.org/wiki/Dominion_Energy,Q677464
-112, Progressive Corporation, https://de.wikipedia.org/wiki/Progressive_Corporation,Q7248721
-113, Truist Financial, https://de.wikipedia.org/wiki/Truist_Financial,Q795486
-114, Edwards Lifesciences, https://de.wikipedia.org/wiki/Edwards_Lifesciences,Q16966841
-115, U.S. Bancorp, https://de.wikipedia.org/wiki/U.S._Bancorp,Q739084
-116, Equinix, https://de.wikipedia.org/wiki/Equinix,Q851641
-117, Waste Management, https://de.wikipedia.org/wiki/Waste_Management,Q180388
-118, EOG Resources, https://de.wikipedia.org/wiki/EOG_Resources,Q1275577
-119, Fidelity National Information Services, https://de.wikipedia.org/wiki/Fidelity_National_Information_Services,Q1411295
-120, Estée Lauder Companies, https://de.wikipedia.org/wiki/Estée_Lauder_Companies,Q1260606
-121, Regeneron Pharmaceuticals, https://de.wikipedia.org/wiki/Regeneron_Pharmaceuticals,Q7308054
-122, Fiserv, https://de.wikipedia.org/wiki/Fiserv,Q1420513
-123, Activision Blizzard, https://de.wikipedia.org/wiki/Activision_Blizzard,Q344341
-124, Humana Inc., https://de.wikipedia.org/wiki/Humana_Inc.,Q910866
-125, Aon plc, https://de.wikipedia.org/wiki/Aon_plc,Q739518
-126, Stryker Corporation, https://de.wikipedia.org/wiki/Stryker_Corporation,Q2357515
+1, Apple,Q312, https://de.wikipedia.org/wiki/Apple
+2, Microsoft,Q2283, https://de.wikipedia.org/wiki/Microsoft
+3, Amazon,Q3884, https://de.wikipedia.org/wiki/Amazon
+4, Tesla,Q478214, https://de.wikipedia.org/wiki/Tesla
+6, Alphabet Inc.,Q20800404, https://de.wikipedia.org/wiki/Alphabet_Inc.
+7, Berkshire Hathaway,Q217583, https://de.wikipedia.org/wiki/Berkshire_Hathaway
+8, UnitedHealth,Q2103926, https://de.wikipedia.org/wiki/UnitedHealth
+9, Nvidia,Q182477, https://de.wikipedia.org/wiki/Nvidia
+10, Johnson & Johnson,Q333718, https://de.wikipedia.org/wiki/Johnson_%26_Johnson
+11, ExxonMobil,Q156238, https://de.wikipedia.org/wiki/ExxonMobil
+12, Meta Platforms,Q380, https://de.wikipedia.org/wiki/Meta_Platforms
+13, Procter & Gamble,Q212405, https://de.wikipedia.org/wiki/Procter_%26_Gamble
+14, Visa Inc.,Q328840, https://de.wikipedia.org/wiki/Visa_Inc.
+15, JPMorgan Chase,Q192314, https://de.wikipedia.org/wiki/JPMorgan_Chase
+16, Chevron Corporation,Q319642, https://de.wikipedia.org/wiki/Chevron_Corporation
+17, The Home Depot,Q864407, https://de.wikipedia.org/wiki/The_Home_Depot
+18, Mastercard,Q489921, https://de.wikipedia.org/wiki/Mastercard
+19, Pfizer,Q206921, https://de.wikipedia.org/wiki/Pfizer
+20, Eli Lilly and Company,Q632240, https://de.wikipedia.org/wiki/Eli_Lilly_and_Company
+21, The Coca-Cola Company,Q3295867, https://de.wikipedia.org/wiki/The_Coca-Cola_Company
+22, AbbVie,Q14662364, https://de.wikipedia.org/wiki/AbbVie
+23, PepsiCo,Q334800, https://de.wikipedia.org/wiki/PepsiCo
+24, Costco Wholesale,Q715583, https://de.wikipedia.org/wiki/Costco_Wholesale
+25, Bank of America,Q487907, https://de.wikipedia.org/wiki/Bank_of_America
+26, Thermo Fisher Scientific,Q643674, https://de.wikipedia.org/wiki/Thermo_Fisher_Scientific
+27, Merck & Co.,Q247489, https://de.wikipedia.org/wiki/Merck_%26_Co.
+28, Broadcom Inc.,Q4827416, https://de.wikipedia.org/wiki/Broadcom_Inc.
+29, Adobe Inc.,Q11463, https://de.wikipedia.org/wiki/Adobe_Inc.
+30, McDonald’s,Q38076, https://de.wikipedia.org/wiki/McDonald’s
+31, Accenture,Q338825, https://de.wikipedia.org/wiki/Accenture
+32, The Walt Disney Company,Q7414, https://de.wikipedia.org/wiki/The_Walt_Disney_Company
+33, Verizon Communications,Q467752, https://de.wikipedia.org/wiki/Verizon_Communications
+34, Abbott Laboratories,Q306764, https://de.wikipedia.org/wiki/Abbott_Laboratories
+35, Cisco Systems,Q173395, https://de.wikipedia.org/wiki/Cisco_Systems
+36, Walmart,Q483551, https://de.wikipedia.org/wiki/Walmart
+37, Danaher Corporation,Q1159256, https://de.wikipedia.org/wiki/Danaher_Corporation
+38, Salesforce,Q941127, https://de.wikipedia.org/wiki/Salesforce
+39, Comcast,Q1113804, https://de.wikipedia.org/wiki/Comcast
+40, NextEra Energy,Q967868, https://de.wikipedia.org/wiki/NextEra_Energy
+41, Qualcomm,Q544847, https://de.wikipedia.org/wiki/Qualcomm
+42, Texas Instruments,Q193412, https://de.wikipedia.org/wiki/Texas_Instruments
+43, Wells Fargo,Q744149, https://de.wikipedia.org/wiki/Wells_Fargo
+44, AMD,Q128896, https://de.wikipedia.org/wiki/AMD
+45, Bristol-Myers Squibb,Q266423, https://de.wikipedia.org/wiki/Bristol-Myers_Squibb
+46, Philip Morris International,Q1852556, https://de.wikipedia.org/wiki/Philip_Morris_International
+47, Linde plc,Q682759, https://de.wikipedia.org/wiki/Linde_plc
+48, Intel,Q248, https://de.wikipedia.org/wiki/Intel
+49, Nike,Q483915, https://de.wikipedia.org/wiki/Nike_(Unternehmen)
+50, United Parcel Service,Q155026, https://de.wikipedia.org/wiki/United_Parcel_Service
+51, Union Pacific Corporation,Q20183163, https://de.wikipedia.org/wiki/Union_Pacific_Corporation
+52, Raytheon Technologies,Q89368734, https://de.wikipedia.org/wiki/Raytheon_Technologies
+53, AT&T,Q35476, https://de.wikipedia.org/wiki/AT%26T
+54, Amgen,Q470517, https://de.wikipedia.org/wiki/Amgen
+55, Honeywell International,Q898208, https://de.wikipedia.org/wiki/Honeywell_International
+56, S&P Global,Q868587, https://de.wikipedia.org/wiki/S%26P_Global
+57, Intuit,Q1318848, https://de.wikipedia.org/wiki/Intuit
+58, CVS Health,Q624375, https://de.wikipedia.org/wiki/CVS_Health
+59, Medtronic,Q642189, https://de.wikipedia.org/wiki/Medtronic
+60, Lowe’s,Q1373493, https://de.wikipedia.org/wiki/Lowe’s
+61, American Tower,Q4745263, https://de.wikipedia.org/wiki/American_Tower
+62, ConocoPhillips,Q214763, https://de.wikipedia.org/wiki/ConocoPhillips
+63, Oracle,Q19900, https://de.wikipedia.org/wiki/Oracle
+64, IBM,Q37156, https://de.wikipedia.org/wiki/IBM
+65, Morgan Stanley,Q334204, https://de.wikipedia.org/wiki/Morgan_Stanley
+66, Elevance Health,Q677488, https://de.wikipedia.org/wiki/Elevance_Health
+67, Goldman Sachs,Q193326, https://de.wikipedia.org/wiki/Goldman_Sachs
+68, PayPal,Q483959, https://de.wikipedia.org/wiki/PayPal
+69, Charles Schwab Corporation,Q1066028, https://de.wikipedia.org/wiki/Charles_Schwab_Corporation
+70, Lockheed Martin,Q7240, https://de.wikipedia.org/wiki/Lockheed_Martin
+71, Automatic Data Processing,Q489080, https://de.wikipedia.org/wiki/Automatic_Data_Processing
+72, Citigroup,Q219508, https://de.wikipedia.org/wiki/Citigroup
+73, Netflix,Q116452644, https://de.wikipedia.org/wiki/Netflix
+74, Caterpillar,Q459965, https://de.wikipedia.org/wiki/Caterpillar
+75, Starbucks,Q37158, https://de.wikipedia.org/wiki/Starbucks
+76, ProLogis,Q16983765, https://de.wikipedia.org/wiki/ProLogis
+77, BlackRock,Q219635, https://de.wikipedia.org/wiki/BlackRock
+78, Deere & Company,Q496302, https://de.wikipedia.org/wiki/John_Deere
+79, Applied Materials,Q621610, https://de.wikipedia.org/wiki/Applied_Materials
+80, American Express,Q194360, https://de.wikipedia.org/wiki/American_Express
+81, ServiceNow,Q7455653, https://de.wikipedia.org/wiki/ServiceNow
+82, Boeing,Q66, https://de.wikipedia.org/wiki/Boeing
+83, Mondelēz International,Q12857502, https://de.wikipedia.org/wiki/Mondelēz_International
+84, Analog Devices,Q484930, https://de.wikipedia.org/wiki/Analog_Devices
+85, Cigna,Q642271, https://de.wikipedia.org/wiki/CIGNA
+86, Intuitive Surgical,Q2743863, https://de.wikipedia.org/wiki/Intuitive_Surgical
+87, Duke Energy,Q1264404, https://de.wikipedia.org/wiki/Duke_Energy
+88, Zoetis,Q8073337, https://de.wikipedia.org/wiki/Zoetis
+89, T-Mobile US,Q3511885, https://de.wikipedia.org/wiki/T-Mobile_US
+90, General Electric,Q54173, https://de.wikipedia.org/wiki/General_Electric
+91, Marsh & McLennan Companies,Q1786345, https://de.wikipedia.org/wiki/Marsh_%26_McLennan_Companies
+92, 3M,Q159433, https://de.wikipedia.org/wiki/3M
+93, Southern Company,Q2304693, https://de.wikipedia.org/wiki/Southern_Company
+94, Altria Group,Q445007, https://de.wikipedia.org/wiki/Altria_Group
+95, Booking Holdings,Q18674747, https://de.wikipedia.org/wiki/Booking_Holdings
+96, Chubb Limited,Q1089060, https://de.wikipedia.org/wiki/Chubb_Limited
+97, Crown Castle,Q5189320, https://de.wikipedia.org/wiki/Crown_Castle
+98, Target Corporation,Q1046951, https://de.wikipedia.org/wiki/Target_Corporation
+99, Gilead Sciences,Q663596, https://de.wikipedia.org/wiki/Gilead_Sciences
+100, TJX Companies,Q1285819, https://de.wikipedia.org/wiki/TJX_Companies101
+102, CME Group,Q1023876, https://de.wikipedia.org/wiki/CME_Group
+103, Northrop Grumman,Q329953, https://de.wikipedia.org/wiki/Northrop_Grumman
+104, Vertex Pharmaceuticals,Q2744099, https://de.wikipedia.org/wiki/Vertex_Pharmaceuticals
+105, Lam Research,Q1342041, https://de.wikipedia.org/wiki/Lam_Research
+106, CSX Corporation,Q1024454, https://de.wikipedia.org/wiki/CSX_Corporation
+107, Micron Technology,Q1197548, https://de.wikipedia.org/wiki/Micron_Technology
+108, Becton Dickinson,Q813780, https://de.wikipedia.org/wiki/Becton_Dickinson
+109, PNC Financial Services,Q38928, https://de.wikipedia.org/wiki/PNC_Financial_Services
+110, Colgate-Palmolive,Q609466, https://de.wikipedia.org/wiki/Colgate-Palmolive
+111, Dominion Energy,Q677464, https://de.wikipedia.org/wiki/Dominion_Energy
+112, Progressive Corporation,Q7248721, https://de.wikipedia.org/wiki/Progressive_Corporation
+113, Truist Financial,Q795486, https://de.wikipedia.org/wiki/Truist_Financial
+114, Edwards Lifesciences,Q16966841, https://de.wikipedia.org/wiki/Edwards_Lifesciences
+115, U.S. Bancorp,Q739084, https://de.wikipedia.org/wiki/U.S._Bancorp
+116, Equinix,Q851641, https://de.wikipedia.org/wiki/Equinix
+117, Waste Management,Q2552219, https://de.wikipedia.org/wiki/Waste_Management
+118, EOG Resources,Q1275577, https://de.wikipedia.org/wiki/EOG_Resources
+119, Fidelity National Information Services,Q1411295, https://de.wikipedia.org/wiki/Fidelity_National_Information_Services
+120, Estée Lauder Companies,Q1260606, https://de.wikipedia.org/wiki/Estée_Lauder_Companies
+121, Regeneron Pharmaceuticals,Q7308054, https://de.wikipedia.org/wiki/Regeneron_Pharmaceuticals
+122, Fiserv,Q1420513, https://de.wikipedia.org/wiki/Fiserv
+123, Activision Blizzard,Q344341, https://de.wikipedia.org/wiki/Activision_Blizzard
+124, Humana Inc.,Q910866, https://de.wikipedia.org/wiki/Humana_Inc.
+125, Aon plc,Q739518, https://de.wikipedia.org/wiki/Aon_plc
+126, Stryker Corporation,Q2357515, https://de.wikipedia.org/wiki/Stryker_Corporation
