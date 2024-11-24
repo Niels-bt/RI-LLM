@@ -1,0 +1,12 @@
+query_more_results = """
+    SELECT ?property ?value
+    WHERE {
+    {
+        <http://dbpedia.org/resource/Marie_Curie> ?property ?value .
+    }
+    UNION
+    {
+        ?value ?property <http://dbpedia.org/resource/Marie_Curie> .
+    }
+    }
+    """ #wont be used discussed with acosta

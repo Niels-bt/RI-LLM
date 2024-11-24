@@ -2,57 +2,37 @@ import time
 
 import dbpedia_fetch_query
 import wikidata_fetch_query
-import spacy
+from scripts.data_cleaning import lemmatization, prep_db, prep_wd
+
 
 db_hash = dbpedia_fetch_query.get_person_data("Marie_Curie")
 wd_hash = wikidata_fetch_query.get_person_data("Q7186")
 
-db_hash_lemma = []
-wd_hash_lemma = []
 
-for prop in db_hash:
-    db_hash_lemma.append((prop.replace(" ",""),db_hash[prop]))
+# prepares the tuples and transforms them into lists
+db_list = prep_db(db_hash)
+wd_list = prep_wd(wd_hash)
 
-for prop in wd_hash:
-    if " of " in prop:
-        lst = prop.split(" of ")
-        prop_rightorder = lst[1]+lst[0]
-        wd_hash_lemma.append((prop_rightorder.replace(" ", ""), wd_hash[prop]))
-    else:
-        wd_hash_lemma.append((prop.replace(" ",""),wd_hash[prop]))
 
-def lemmatization(words):
-    nlp = spacy.load('en_core_web_sm')
-    processedData = []
-    leon = nlp.pipe(words, as_tuples=True,disable="parser")
-    for label, value in leon:
-        # processedData.append((label,label.doc[0].lemma_.lower(), value)) some tests
-        processedData.append((label.doc[0].lemma_.lower(), value))
+# replaces the properties by their lemmas
+wd_list = lemmatization(wd_list)
+db_list = lemmatization(db_list)
 
-    return processedData
 
+# transforms the tuples into a hashmap
+db_hash_new = {}
+wd_hash_new = {}
+for i,i2 in db_list:
+    db_hash_new[i]=i2
+
+for i,i2 in wd_list:
+    wd_hash_new[i]=i2
+
+
+# simple property comparison
 print("-"*90)
-
-
-
-start = time.time()
-wd_hash_lemma_done = lemmatization(wd_hash_lemma)
-print("end",time.time()-start)
-db_hash_lemma_done = lemmatization(db_hash_lemma)
-
-db_hash_lemma_done_hash = {}
-wd_hash_lemma_done_hash = {}
-for i,i2 in db_hash_lemma_done:
-    db_hash_lemma_done_hash[i]=i2
-
-for i,i2 in wd_hash_lemma_done:
-    wd_hash_lemma_done_hash[i]=i2
-
-
-
-for prop in wd_hash_lemma_done_hash:
-    if prop in db_hash_lemma_done_hash:
-        print("prop is",prop,"wd_val",wd_hash_lemma_done_hash[prop],"db",db_hash_lemma_done_hash[prop])
+for prop in wd_hash_new:
+    if prop in db_hash_new:
+        print("prop is", prop,"wd_val", wd_hash_new[prop], "db", db_hash_new[prop])
     else:
-        print("prop is", prop, "wdata", wd_hash_lemma_done_hash[prop], "wikidata", "notfound")
-
+        print("prop is", prop, "wdata", wd_hash_new[prop], "wikidata", "notfound")
