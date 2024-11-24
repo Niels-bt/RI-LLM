@@ -1,7 +1,4 @@
-import numpy
 from SPARQLWrapper import SPARQLWrapper, JSON
-
-import spacy
 
 def keep(string):
     if "ID" in string:
@@ -74,6 +71,7 @@ def get_person_data(person):
         # Process and print results
         print(f"{person} - DBpedia Properties:")
         print("-" * 50)
+        filtered_result = {}
 
         for result in results["results"]["bindings"]:
             prop = result["property"]["value"]
@@ -87,42 +85,22 @@ def get_person_data(person):
                     # Split the URL by '/' and get the last non-empty element
                     segments = [seg for seg in val.split('/') if seg]
                     print(f"{prop_name}: {segments[-1]}")
+                    filtered_result[prop_name]=segments[-1]
                     #return segments[-1] if segments else text
                 else:
                     print(f"{prop_name}: {val}")
+                    filtered_result[prop_name] = val
 
             else:
                 not_good+=1
             total+=1
 
         print("total is:",total," total shitty: ",not_good," so total good: ",good_ones)
+        return filtered_result
 
     except Exception as e:
         print(f"An error occurred: {e}")
 
 
-
-# This function takes a list of tuples with (label, value) and returns (lemmatized_label, value)
-# Only label will be processed. Value is used to give the algorithm context
-# This function performs better when given a big list of tuples instead of calling it for each tuple separately
-def lemmatization(tuples):
-    # Loads the lemmatization algorithm for english
-    nlp = spacy.load('en_core_web_sm')
-
-    # Here, we will store all the transformed tuples
-    processed_data = []
-    # We split the data into smaller chunks
-    for chunk in numpy.array_split(tuples, len(tuples) % 10):
-        # This creates the lemmatized labels and stores them in the list
-        parsed_words = nlp.pipe(chunk, as_tuples=True, disable="parser")
-        for label, value in parsed_words:
-            processed_data.append((label.doc[0].lemma_, value))
-
-    return processed_data
-
-
-
 if __name__ == "__main__":
-    #get_person_data("Marie_Curie")
-    for word in lemmatization([("child", "running"), ("children", "walking"), ("doctoralStudent", "Leon"), ("doctoralStudents", "Niels"), ("birthDate", "12.12.2001")]):
-        print(word)
+    get_person_data("J._K._Rowling")
