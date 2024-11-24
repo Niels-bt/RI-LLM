@@ -30,6 +30,7 @@ def keep_db(string):
             return True
 
 
+# Transforms the list into a hashmap
 # Gets rid of whitespaces
 def prep_db(db_hash):
     db_hash_prepared = []
@@ -37,8 +38,10 @@ def prep_db(db_hash):
         db_hash_prepared.append((prop.replace(" ", ""), db_hash[prop]))
     return db_hash_prepared
 
+# Transforms the list into a hashmap
 # Gets rid of whitespaces
-# If the property contains _of_, its deleted and the words before and after it are switched (Place of Birth -> birthplace)
+# If the property contains _of_, its deleted and the
+# words before and after it are switched (Place of Birth -> birthplace)
 def prep_wd(wd_hash):
     wd_hash_prepared = []
     for prop in wd_hash:
