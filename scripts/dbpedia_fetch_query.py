@@ -1,33 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-def keep(string):
-    if "ID" in string:
-        return False
-    match string:
-        case "wikiPageWikiLink":
-            return False
-        case "wikiPageExternalLink":
-            return False
-        case "owl#sameAs":
-            return False
-        case "abstract":
-            return False
-        case "22-rdf-syntax-ns#type":
-            return False
-        case "rdf-schema#comment":
-            return False
-        case "rdf-schema#label":
-            return False
-        case "depiction":
-            return False
-        case "wikiPageUsesTemplate":
-            return False
-        case "subject":
-            return False
-        case _:
-            return True
-
-
+from scripts.data_cleaning import keep_db
 
 
 def get_person_data(person):
@@ -45,20 +18,6 @@ def get_person_data(person):
                 <http://dbpedia.org/resource/{person}> ?property ?value .
             }}
             """
-
-    query_more_results = """
-    SELECT ?property ?value
-    WHERE {
-    {
-        <http://dbpedia.org/resource/Marie_Curie> ?property ?value .
-    }
-    UNION
-    {
-        ?value ?property <http://dbpedia.org/resource/Marie_Curie> .
-    }
-    }
-    """ #wont be used discussed with acosta
-
 
     # Configure the query
     sparql.setQuery(query)
@@ -79,7 +38,8 @@ def get_person_data(person):
 
             # Clean up the property name by removing the URI prefix
             prop_name = prop.split("/")[-1]
-            if keep(prop_name):
+
+            if keep_db(prop_name):
                 good_ones += 1
                 if val.startswith('http'):
                     # Split the URL by '/' and get the last non-empty element
