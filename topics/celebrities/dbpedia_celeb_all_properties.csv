@@ -1,4 +1,4 @@
-Relevancy, Property_Name, Value_Example,
+IsRelevant, Property_Name, Value_Example,
 false, 22-rdf-syntax-ns#type, Example:  value:Whole100003553,
 false, rdf-schema#label, Example:  value:U2,
 false, rdf-schema#comment, Example:  value:U2,
