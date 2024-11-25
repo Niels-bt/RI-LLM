@@ -3,7 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from scripts.data_cleaning import keep_db
 
 
-def get_person_data(person):
+def get_person_data(person,printing,newquery=True):
     not_good = 0
     total =0
     good_ones = 0
@@ -11,13 +11,28 @@ def get_person_data(person):
     # Initialize SPARQLWrapper with DBpedia endpoint
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
+
+
+    if newquery:
+        query=f"""
+        SELECT DISTINCT ?property ?value WHERE {{
+        {{
+        <http://dbpedia.org/resource/{person}> ?property ?value . 
+        }}
+        UNION 
+        {{
+        ?value ?property <http://dbpedia.org/resource/{person}> . 
+        }}
+        }}
+        """
     # SPARQL query
-    query = f"""
-            SELECT ?property ?value
-            WHERE {{
-                <http://dbpedia.org/resource/{person}> ?property ?value .
-            }}
-            """
+    else :
+        query = f"""
+        SELECT ?property ?value
+        WHERE {{
+            <http://dbpedia.org/resource/{person}> ?property ?value .
+        }}
+        """
 
     # Configure the query
     sparql.setQuery(query)
@@ -44,11 +59,13 @@ def get_person_data(person):
                 if val.startswith('http'):
                     # Split the URL by '/' and get the last non-empty element
                     segments = [seg for seg in val.split('/') if seg]
-                    print(f"{prop_name}: {segments[-1]}")
+                    if printing:
+                        print(f"{prop_name}: {segments[-1]}")
                     filtered_result[prop_name]=segments[-1]
                     #return segments[-1] if segments else text
                 else:
-                    print(f"{prop_name}: {val}")
+                    if printing:
+                        print(f"{prop_name}: {val}")
                     filtered_result[prop_name] = val
 
             else:
@@ -63,4 +80,5 @@ def get_person_data(person):
 
 
 if __name__ == "__main__":
-    get_person_data("J._K._Rowling")
+    get_person_data("J._K._Rowling", True, False)
+    get_person_data("J._K._Rowling",True)
