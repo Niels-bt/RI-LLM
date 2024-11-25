@@ -1,22 +1,36 @@
 import requests
 
 
-def get_person_data(person):
-    query = f"""
-    SELECT ?propertyLabel ?valueLabel {{
-      VALUES (?entry) {{(wd:{person})}}
+def get_person_data(person,newquery=True):
 
-      ?entry ?p ?v .
-      ?v ?a ?value .
-
-      ?property wikibase:claim ?p.
-      ?property wikibase:statementProperty ?a.
-
-      SERVICE wikibase:label {{
+    if newquery:
+        query = f"""
+        SELECT DISTINCT ?propertyLabel ?valueLabel WHERE {{
+        {{
+        wd:{person} ?property ?value .
+        }}
+        SERVICE wikibase:label {{
         bd:serviceParam wikibase:language "en".
-      }}
-    }}
-    """
+        }}
+        }}
+        """
+    else:
+        query = f"""
+        SELECT ?propertyLabel ?valueLabel {{
+          VALUES (?entry) {{(wd:{person})}}
+
+          ?entry ?p ?v .
+          ?v ?a ?value .
+
+          ?property wikibase:claim ?p.
+          ?property wikibase:statementProperty ?a.
+
+          SERVICE wikibase:label {{
+            bd:serviceParam wikibase:language "en".
+          }}
+        }}
+        """
+
 
     endpoint = "https://query.wikidata.org/sparql"
     headers = {
@@ -54,6 +68,7 @@ def get_person_data(person):
 
 if __name__=="__main__":
 
+    get_person_data("Q7186",False) #this is for marie curie
     get_person_data("Q7186") #this is for marie curie
 
 

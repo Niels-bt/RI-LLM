@@ -26,6 +26,8 @@ def keep_db(string):
             return False
         case "subject":
             return False
+        case "wikiPageRedirects":
+            return False
         case _:
             return True
 
