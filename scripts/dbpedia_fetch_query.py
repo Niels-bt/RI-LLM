@@ -3,9 +3,9 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from scripts.data_cleaning import keep_db
 
 
-def get_person_data(person,printing,newquery=True):
+def get_person_data(person, printing = False, new_query = True):
     not_good = 0
-    total =0
+    total = 0
     good_ones = 0
 
     # Initialize SPARQLWrapper with DBpedia endpoint
@@ -13,7 +13,7 @@ def get_person_data(person,printing,newquery=True):
 
 
 
-    if newquery:
+    if new_query:
         query=f"""
         SELECT DISTINCT ?property ?value WHERE {{
         {{
