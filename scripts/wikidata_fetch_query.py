@@ -1,9 +1,9 @@
 import requests
 
 
-def get_person_data(person,newquery=True):
+def get_person_data(person, new_query=True):
 
-    if newquery:
+    if new_query:
         query = f"""
         SELECT DISTINCT ?propertyLabel ?valueLabel WHERE {{
         {{
