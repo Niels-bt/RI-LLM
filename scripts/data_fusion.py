@@ -1,5 +1,3 @@
-import time
-
 import dbpedia_fetch_query
 import wikidata_fetch_query
 from scripts.data_cleaning import lemmatization, prep_db, prep_wd
