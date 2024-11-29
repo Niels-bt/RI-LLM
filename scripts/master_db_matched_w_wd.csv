@@ -1,0 +1,957 @@
+0,rdf-schema#seeAlso,nothing
+1,name,short name,official name,stylized name,name,name in native language,birth name,family name,given name,Douban site name,married name,alternative name,name in kana,first family name in Portuguese name,second family name in Spanish name,language of work or name
+2,homepage,page banner
+3,wgs84_pos#lat,nothing
+4,wgs84_pos#long,nothing
+5,secCik,nothing
+6,thumbnail,nothing
+7,bloomberg,nothing
+8,google,nothing
+9,reuters,nothing
+10,yahoo,nothing
+11,align,nothing
+12,alt,nothing
+13,areaServed,nothing
+14,assets,total assets,operating income,total equity,total liabilities,assets under management
+15,auto,nothing
+16,caption,nothing
+17,date,date of incorporation,date of birth,date of death,publication date,date depicted,date of first performance,announcement date,production date
+18,direction,nothing
+19,equity,market capitalization,total equity,investor,common equity tier 1 capital ratio (CETI)
+20,equityYear,nothing
+21,formerName,nothing
+22,founded,founded by
+23,founders,nothing
+24,hqLocation,nothing
+25,hqLocationCity,nothing
+26,hqLocationCountry,nothing
+27,image,logo image,image,flag image,locator map image,plaque image,montage image,related image,astronomic symbol image
+28,imageCaption,nothing
+29,imageSize,nothing
+30,industry,industry,production company
+31,keyPeople,nothing
+32,logo,logo image,small logo or icon
+33,logoSize,nothing
+34,netIncome,nothing
+35,numEmployees,nothing
+36,numEmployeesYear,nothing
+37,numLocations,nothing
+38,numLocationsYear,nothing
+39,operatingIncome,nothing
+40,perrow,nothing
+41,products,product
+42,quote,quotes work
+43,revenue,operating income,net profit,total revenue
+44,revenueYear,nothing
+45,services,terms of service URL,service status information URL
+46,source,described by source,source of income,source of energy
+47,subsid,nothing
+48,symbol,symbol of,official symbol,element symbol,astronomic symbol image
+49,title,noble title,title,working title
+50,totalWidth,nothing
+51,tradedAs,nothing
+52,type,type foundry,voice type,blood type
+53,voy,nothing
+54,website,official website,official blog URL,contact page URL,website account on,press information URL,research site,web feed URL,Douban site name
+55,width,height
+56,point,boiling point,melting point
+57,assetsYear,nothing
+58,find,nothing
+59,incomeYear,nothing
+60,isin,nothing
+61,netIncomeYear,nothing
+62,sameAs,nothing
+63,wordnet_type,nothing
+64,core#closeMatch,nothing
+65,prov#wasDerivedFrom,nothing
+66,wikiPageLength,nothing
+67,foundingDate,nothing
+68,foundingYear,nothing
+69,numberOfEmployees,nothing
+70,numberOfLocations,nothing
+71,foundedBy,nothing
+72,headquarter,nothing
+73,keyPerson,nothing
+74,locationCity,nothing
+75,product,product,by-product,by-product of
+76,service,terms of service URL,service status information URL
+77,subsidiary,has subsidiary
+78,isPrimaryTopicOf,nothing
+79,wgs84_pos#geometry,nothing
+80,owl#differentFrom,nothing
+81,wikiPageDisambiguates,nothing
+82,videoFormat,nothing
+83,workplaces,nothing
+84,manuf,nothing
+85,namesake,nothing
+86,affiliations,affiliation
+87,author,author,author of foreword
+88,branding,nothing
+89,company,has subsidiary,Spectrum Management System Company Number,production company,business division,D&B Hoovers company profile
+90,currentowner,nothing
+91,designer,production designer,costume designer,sound designer
+92,developer,developer,Google Play developer slug
+93,distributor,manufacturer
+94,manufacturer,manufacturer,kit supplier
+95,membership,nothing
+96,mostWins,nothing
+97,network,card network,mobile network code
+98,organization,category for employees of the organization,parent organization,affiliated worker organisation,performing organization
+99,owner,owner of
+100,parent,parent organization,parent
+101,platform,platform
+102,producer,producer,executive producer
+103,publisher,publisher,ISBN publisher prefix
+104,tv,nothing
+105,award1pub,nothing
+106,organized,nothing
+107,boards,nothing
+108,brand,brand
+109,commissionedBy,nothing
+110,designfirm,nothing
+111,employer,employer,employees,IRS Employer Identification Number
+112,foundry,type foundry
+113,parentOrganization,nothing
+114,board,board member
+115,institution,nothing
+116,affiliation,affiliation
+117,computingPlatform,nothing
+118,cpu,CPU
+119,knownFor,nothing
+120,license,copyright license,copyright registration
+121,literaryGenre,nothing
+122,nonFictionSubject,nothing
+123,occupation,occupation
+124,operatingSystem,nothing
+125,owningCompany,nothing
+126,parentCompany,nothing
+127,parentOrganisation,nothing
+128,primaryTopic,nothing
+129,brands,brand
+130,b,nothing
+131,commons,Commons category,Commons gallery
+132,d,EAGLE id
+133,divisions,business division
+134,footnotes,nothing
+135,logoAlt,nothing
+136,n,D-U-N-S number
+137,portal,nothing
+138,q,nothing
+139,reason,item for this sense,has cause,said to be the same as,does not have part,immediately dangerous to life or health,has immediate cause
+140,s,nothing
+141,species,nothing
+142,style,nothing
+143,text,spoken text audio,motto text
+144,tradeName,nothing
+145,v,nothing
+146,wikt,nothing
+147,hypernym,nothing
+148,division,business division
+149,commercial,nothing
+150,currentStatus,nothing
+151,founder,nothing
+152,language,spoken text audio,Wolfram Language entity code,language used,name in native language,languages spoken,native language,writing language,language of work or name
+153,logoCaption,nothing
+154,programmingLanguage,nothing
+155,registration,copyright registration
+156,screenshot,nothing
+157,sign,nothing
+158,collapsetext,nothing
+159,collapsible,nothing
+160,licensee,nothing
+161,platforms,platform
+162,rev,nothing
+163,nativeClients,nothing
+164,tradingName,nothing
+165,owners,owner of
+166,registry,CAS Registry Number,Reaxys registry number
+167,location,location of formation,location,headquarters location,work location,location information URL,coordinate location,location of creation,location of discovery,narrative location,filming location,location of first performance
+168,successor,nothing
+169,foundation,nothing
+170,soc,nothing
+171,workInstitutions,nothing
+172,graphics,nothing
+173,partners,partnership with,unmarried partner
+174,stockrow,nothing
+175,xaxistitle,nothing
+176,y1title,nothing
+177,yaxismin,nothing
+178,yaxistitle,nothing
+179,border,shares border with
+180,height,height
+181,locationCountry,nothing
+182,x,X username
+183,y,nothing
+184,ta,nothing
+185,workInstitution,nothing
+186,previousowners,nothing
+187,sponsor,sponsor
+188,institutions,nothing
+189,patrons,nothing
+190,award,award received,winner,nominated for
+191,predecessor,nothing
+192,currentTenants,nothing
+193,operator,operator
+194,operators,operator
+195,opponents,nothing
+196,companies,industry,production company
+197,contractors,main building contractor,launch contractor
+198,customValue,nothing
+199,significantBuilding,nothing
+200,funding,nothing
+201,recordLabel,nothing
+202,creator,creator,exhibited creator,Commons Creator page
+203,free,nothing
+204,presenter,presenter
+205,producedby,nothing
+206,footer,nothing
+207,nasdaq,nothing
+208,sponsors,sponsor
+209,ratio,Poisson's ratio
+210,aum,nothing
+211,predecessors,nothing
+212,assetUnderManagement,nothing
+213,office,box office
+214,formerNames,nothing
+215,thirdTeam,nothing
+216,locations,location,headquarters location,work location,coordinate location
+217,areasServed,nothing
+218,client,nothing
+219,projectParticipant,nothing
+220,space,nothing
+221,data,Transferred Account Data Interchange Group Code
+222,academicDiscipline,nothing
+223,currentMember,nothing
+224,titlestyle,nothing
+225,toggle,nothing
+226,left,nothing
+227,titlebar,nothing
+228,float,nothing
+229,state,oxidation state
+230,successors,nothing
+231,opponent,nothing
+232,manufacturers,manufacturer
+233,colwidth,nothing
+234,organised,nothing
+235,1a,nothing
+236,1p,nothing
+237,1pp,nothing
+238,1y,nothing
+239,2a,nothing
+240,2p,nothing
+241,2pp,nothing
+242,2y,nothing
+243,fmt,nothing
+244,index,Central Index Key,stock market index,refractive index,time index
+245,p,nothing
+246,startYear,nothing
+247,value,applicable 'stated in' value
+248,artist,make-up artist,storyboard artist,art director
+249,label,record label,native label,Vintage Fashion Guild label
+250,origin,country of origin
+251,shipOwner,nothing
+252,studio,nothing
+253,advertising,nothing
+254,currentOwner,nothing
+255,initiator,nothing
+256,issuingAuthority,nothing
+257,licensedfrom,nothing
+258,productionCompany,nothing
+259,associatedBand,nothing
+260,associatedMusicalArtist,nothing
+261,carrier,nothing
+262,captionAlign,nothing
+263,footerAlign,nothing
+264,aux,nothing
+265,importantStation,nothing
+266,dir,nothing
+267,tvstation,nothing
+268,management,Spectrum Management System Company Number,assets under management
+269,networkEn,nothing
+270,needed,nothing
+271,modem,nothing
+272,processor,nothing
+273,soldby,nothing
+274,sound,audio recording of the subject's spoken voice,speed of sound,sound designer
+275,developers,developer
+276,regionServed,nothing
+277,image2Caption,nothing
+278,managerclubs,nothing
+279,processors,nothing
+280,managerClub,nothing
+281,team,supported sports team,team captain,member of sports team,position played on team / speciality
+282,fid,nothing
+283,content,nothing
+284,sizeFrom,nothing
+285,members,board member,member of,cast member,member category,member of political party
+286,boardOfDirectors,nothing
+287,inventName,nothing
+288,titleSponsor,nothing
+289,patron,nothing
+290,place,work location,place of publication,location of creation,said to be the same as,place of birth,present in work,place of death,place of burial,place of detention,takes place in fictional universe,location of first performance
+291,sp,nothing
+292,carriers,nothing
+293,connectivity,nothing
+294,currentposition,nothing
+295,networks,card network,mobile network code
+296,carrier(s)_,victim(s)
+297,position,position held,position played on team / speciality
+298,production,production company,production designer,production statistics,production date
+299,technicalServiceProvider,nothing
+300,markTitle,nothing
+301,copyright,copyright holder,copyright representative,copyright status,copyright license,copyright registration
+302,designers,production designer
+303,by,designed by,owned by,distributed by,described by source,founded by,used by,commissioned by,conferred by,followed by,issued by,replaced by,maintained by,named by,endorsed by,donated by,produced by,influenced by,regulated by,inspired by,worn by,after a work by,represented by,depicted by,adapted by,drafted by,trained by,cover art by,by-product,powered by,by-product of
+304,header,nothing
+305,rating,NMHH film rating,ICAA rating,Kijkwijzer rating,Medierådet rating,IMDA rating,ClassInd rating,IFCO rating,INCAA film rating,BAMID film rating,Filmiroda rating,RARS rating,EIRIN film rating,IGAC rating,MTRCB rating,KMRB film rating,KAVI rating,CBFC rating
+306,proteam,nothing
+307,bot,nothing
+308,fixAttempted,nothing
+309,lsp,nothing
+310,builders,nothing
+311,launchContractor,nothing
+312,designGroup,nothing
+313,laterwork,nothing
+314,profession,nothing
+315,builder,nothing
+316,credits,nothing
+317,companyType,nothing
+318,description,nothing
+319,filename,nothing
+320,imageStyle,nothing
+321,numUsers,nothing
+322,soundRecording,nothing
+323,engine,nothing
+324,ownership,nothing
+325,psUnitsManuModel,nothing
+326,engineType,nothing
+327,powerType,nothing
+328,address,email address,street address
+329,notableRestaurants,nothing
+330,fate,nothing
+331,side,nothing
+332,curator,nothing
+333,moreUsers,nothing
+334,primaryUser,nothing
+335,road,nothing
+336,aircraftType,nothing
+337,manufacturier,nothing
+338,trademarkregistrations,nothing
+339,creatorOfDish,nothing
+340,agency,nothing
+341,plantOperator,nothing
+342,certain,contributor to the creative work or subject,item for this sense,instance of,payment types accepted,significant person,said to be the same as,applies to part,manner of death,category of associated people,time of discovery or invention,does not have part,immediately dangerous to life or health,language of work or name
+343,hoovers,nothing
+344,thTechnology,nothing
+345,tractionmotors,nothing
+346,design,nothing
+347,eng1Name,nothing
+348,invented,nothing
+349,npReactorSupplier,nothing
+350,plantTurbines,nothing
+351,psUnitsOperational,nothing
+352,spacecraft,nothing
+353,routeEnd,nothing
+354,url,Stack Exchange site URL,official jobs URL,official shop URL,sitemap URL,official forum URL,official blog URL,search formatter URL,contact page URL,charter URL,press information URL,location information URL,URL,WordLift URL,web feed URL
+355,secondTeam,nothing
+356,video,video
+357,headerimage,nothing
+358,profit,operating income,net profit,total revenue,net worth
+359,predecessorLine,nothing
+360,target,target
+361,administrator,nothing
+362,birthPlace,nothing
+363,birthDate,nothing
+364,works,notable work,has works in the collection,cites work,list of works,present in work,references work,form of creative work,contributed to creative work
+365,awards,award received
+366,birthName,nothing
+367,children,number of children,child
+368,yearsActive,nothing
+369,display,nothing
+370,activeYearsStartYear,nothing
+371,birthYear,nothing
+372,associatedActs,nothing
+373,director,chief executive officer,director / manager,executive producer,director,director of photography,art director,assistant director
+374,extra,nothing
+375,note,highest note,lowest note
+376,starring,nothing
+377,writer,author,screenwriter,author of foreword
+378,composer,composer,musical conductor
+379,executiveProducer,nothing
+380,formerBandMember,nothing
+381,musicComposer,nothing
+382,narrator,narrator
+383,openingTheme,nothing
+384,signature,signature
+385,after,named after,after a work by
+386,almaMater,nothing
+387,before,named after,said to be the same as,after a work by,date of first performance
+388,c,nothing
+389,class,object class of occurrence
+390,id,D-U-N-S number,EAGLE id
+391,m,nothing
+392,mw,nothing
+393,spouse,spouse,unmarried partner
+394,years,nothing
+395,2data,nothing
+396,chronology,nothing
+397,mostAwards,nothing
+398,music,music created for,theme music
+399,module,nothing
+400,bgcolor,nothing
+401,citizenship,country of citizenship
+402,father,father,mother,married name
+403,mother,father,child,mother,married name
+404,otherNames,nothing
+405,relatives,family
+406,alias,nothing
+407,relative,relative,relative to,relative permeability
+408,portrayer,nothing
+409,child,number of children,child,mother,child astronomical body
+410,qalign,nothing
+411,quoted,nothing
+412,currentMembers,nothing
+413,genre,genre
+414,landscape,nothing
+415,salign,nothing
+416,acts,nothing
+417,anthem,nothing
+418,birthname,nothing
+419,party,member of political party
+420,relations,nothing
+421,relation,nothing
+422,leaderName,nothing
+423,person,significant person,Plex person key
+424,commonscat,nothing
+425,fontsize,nothing
+426,parents,parent,father,child,mother,family
+427,halftime,nothing
+428,mostNominations,nothing
+429,holder,copyright holder
+430,endorsedBy,nothing
+431,headliner,nothing
+432,otherp,nothing
+433,rtitle,nothing
+434,bandMember,nothing
+435,voice,voice actor,voice type,audio recording of the subject's spoken voice
+436,pastMembers,nothing
+437,hometown,nothing
+438,spinoffs,nothing
+439,participation,participant
+440,pastMemberOf,nothing
+441,contentstyle,nothing
+442,format,distribution format,original film format
+443,imageUpright,nothing
+444,pos,nothing
+445,hosts,nothing
+446,notableWork,nothing
+447,showJudge,nothing
+448,basedOn,nothing
+449,lyrics,nothing
+450,musicBy,nothing
+451,headerAlign,nothing
+452,allWriting,nothing
+453,host,nothing
+454,participants,participant
+455,nationality,nothing
+456,activeYearsEndYear,nothing
+457,shortsummary,nothing
+458,voices,voice actor
+459,actor,voice actor
+460,entrant,nothing
+461,deathPlace,nothing
+462,nickname,nickname
+463,notableWorks,nothing
+464,spinoffOf,nothing
+465,youthclubs,nothing
+466,youthyears,nothing
+467,fullname,nothing
+468,goals,points/goal scored by,total goals in career,has goal
+469,caps,nothing
+470,clubUpdate,nothing
+471,clubs,nothing
+472,nationalcaps,nothing
+473,nationalgoals,nothing
+474,nationalteam,nothing
+475,nationalteamUpdate,nothing
+476,nationalyears,nothing
+477,careerStation,nothing
+478,lw,nothing
+479,captain,team captain
+480,lcf,nothing
+481,rcf,nothing
+482,ss,nothing
+483,topScorer,nothing
+484,manOfTheMatch1a,nothing
+485,manOfTheMatch1b,nothing
+486,leagueTopscorer,nothing
+487,seasonTopscorer,nothing
+488,topGoalScorer,nothing
+489,motm,nothing
+490,ambassadors,nothing
+491,bracesPlayer,nothing
+492,firstHatTrickPlayer,nothing
+493,hatTricksPlayer,nothing
+494,mostCaps,nothing
+495,mostGoalsAssistsPlayer,nothing
+496,mostGoalsPlayerMatchPlayer,nothing
+497,mostGoalsPlayerPlayer,nothing
+498,oldestScorerPlayer,nothing
+499,penaltiesMissedPlayer,nothing
+500,penaltiesScoredPlayer,nothing
+501,partner,partnership with,unmarried partner
+502,notableworks,nothing
+503,organisation,affiliated worker organisation
+504,bg,nothing
+505,agent,nothing
+506,bordercolor,nothing
+507,fg,nothing
+508,chairman,chief executive officer
+509,rcm,nothing
+510,rm,nothing
+511,education,student,academic major,academic degree
+512,afterElection,nothing
+513,lyricist,lyricist
+514,writers,nothing
+515,family,family name,family
+516,weight,nothing
+517,bowlgames,nothing
+518,currentnumber,nothing
+519,heightft,nothing
+520,heightin,nothing
+521,highlights,nothing
+522,highschool,nothing
+523,major,academic major
+524,pastschools,nothing
+525,rd1Team,nothing
+526,engvoice,nothing
+527,honorificSuffix,nothing
+528,postmatch,nothing
+529,prematch,nothing
+530,medium,nothing
+531,story,nothing
+532,honorificPrefix,nothing
+533,allMusic,nothing
+534,guests,nothing
+535,themeMusicComposer,nothing
+536,creatorname,nothing
+537,programmeFormat,nothing
+538,nick,nothing
+539,ko,nothing
+540,next,said to be the same as
+541,rows,nothing
+542,section,nothing
+543,total,total assets,total equity,total liabilities,total revenue,total debt,total goals in career,total produced
+544,wins,winner,victory
+545,decWins,nothing
+546,koWins,nothing
+547,nonscore,nothing
+548,reach,nothing
+549,last,date of first performance
+550,fighter,nothing
+551,imdbId,nothing
+552,bestActor,nothing
+553,core#exactMatch,nothing
+554,cinematography,nothing
+555,creators,creator
+556,editing,nothing
+557,influenced,influenced by
+558,halign,nothing
+559,candidate,candidate
+560,influences,nothing
+561,influencedBy,nothing
+562,screenplay,screenwriter
+563,deathDate,nothing
+564,deathYear,nothing
+565,authors,author
+566,television,television judge
+567,compiler,nothing
+568,optionName,nothing
+569,domesticPartner,nothing
+570,judges,nothing
+571,headliners,nothing
+572,active,has active ingredient,active ingredient in
+573,domesticpartner,nothing
+574,username,Reddit username,GitHub username,X username,Instagram username,Facebook username,TikTok username,Pinterest username,Giphy username,GitLab.com username,Threads username,Snapchat username,Telegram username,Zhihu username,Tumblr username,OnlyFans username,Ameblo username
+575,archiveDate,nothing
+576,archiveUrl,nothing
+577,small,nothing
+578,signatureSize,nothing
+579,stat1label,nothing
+580,stat1value,nothing
+581,stat2label,nothing
+582,stat2value,nothing
+583,stat3label,nothing
+584,stat3value,nothing
+585,weightLb,nothing
+586,champion,nothing
+587,heightFt,nothing
+588,heightIn,nothing
+589,leader,statistical leader
+590,highSchool,nothing
+591,bbr,nothing
+592,careerEnd,nothing
+593,careerNumber,nothing
+594,careerPosition,nothing
+595,careerStart,nothing
+596,draftPick,nothing
+597,draftRound,nothing
+598,draftTeam,nothing
+599,draftYear,nothing
+600,heightFootnote,nothing
+601,hofPlayer,nothing
+602,nba,nothing
+603,mvp,nothing
+604,hofers,nothing
+605,assist,nothing
+606,finalsMvp,nothing
+607,seeAlso,nothing
+608,supportAct,nothing
+609,bestActress,nothing
+610,league,league or competition,sports season of league or competition
+611,number,phone number,Delaware Division of Corporations file number,fax number,number of branches,number of children,Munzinger Sport number,sport number,atomic number,E number,EC number,ZVG number,Gmelin number,RTECS number,CosIng number,Reaxys registry number,exploitation mark number,Amazon Standard Identification Number,Global Trade Item Number
+612,record,record label,doubles record,singles record
+613,topPick,nothing
+614,assistsLeader,nothing
+615,clubnumber,nothing
+616,currentclub,nothing
+617,topGoalscorer,nothing
+618,youngestScorerPlayer,nothing
+619,namedafter,nothing
+620,player,nothing
+621,mostAssistsPlayer,nothing
+622,mostConvertedFreeKicksPlayer,nothing
+623,mostPlayerAppearances,nothing
+624,currentMemberOf,nothing
+625,loser,nothing
+626,branch,number of branches,military branch
+627,percentage,nothing
+628,rank,Similarweb ranking,Alexa rank,ranking
+629,termEnd,nothing
+630,termStart,nothing
+631,votes,nothing
+632,winner,winner
+633,otherparty,nothing
+634,militaryService,nothing
+635,termPeriod,nothing
+636,torchLighter,nothing
+637,cand,nothing
+638,callsignMeaning,nothing
+639,coach,head coach
+640,other,category for employees of the organization,contributor to the creative work or subject,different from,said to be the same as,number of children,list of works,category of associated people,immediately dangerous to life or health,language of work or name
+641,1namedata,nothing
+642,flagbearer,nothing
+643,shipSponsor,nothing
+644,allLyrics,nothing
+645,teleplay,nothing
+646,stat21label,nothing
+647,stat21value,nothing
+648,stat22label,nothing
+649,stat22value,nothing
+650,stat2league,nothing
+651,statleague,nothing
+652,statsLeague,nothing
+653,statyear,nothing
+654,throws,nothing
+655,college,student,student of
+656,draftpick,nothing
+657,draftround,nothing
+658,draftyear,nothing
+659,finaldate,nothing
+660,teams,supported sports team,team captain,league or competition,member of sports team,sports season of league or competition
+661,weightLbs,nothing
+662,bats,nothing
+663,debut2league,nothing
+664,debut2team,nothing
+665,debut2year,nothing
+666,debutdate,nothing
+667,debutleague,nothing
+668,debutteam,nothing
+669,debutyear,nothing
+670,draftteam,nothing
+671,fibaHofPlayer,nothing
+672,finalleague,nothing
+673,finalteam,nothing
+674,finalyear,nothing
+675,mostwins,nothing
+676,president,chief executive officer
+677,playeroftheyear,nothing
+678,ownerNames,nothing
+679,mostrecent,nothing
+680,firstBracePlayer,nothing
+681,firstGoalPlayer,nothing
+682,latestGoalPlayer,nothing
+683,background,nothing
+684,award1Winner,nothing
+685,narrated,nothing
+686,religion,religion or worldview,political ideology
+687,imagesize,nothing
+688,restaurants,nothing
+689,motto,motto,motto text
+690,notes,nothing
+691,crest,nothing
+692,escutcheon,escutcheon image
+693,organisers,nothing
+694,5optionName,nothing
+695,notableMembers,nothing
+696,singlestitles,nothing
+697,turnedpro,nothing
+698,usopendoublesresult,nothing
+699,usopenresult,nothing
+700,wimbledondoublesresult,nothing
+701,wimbledonresult,nothing
+702,residence,residence
+703,retired,nothing
+704,lost,nothing
+705,won,winner,victory
+706,australianopendoublesresult,nothing
+707,australianopenresult,nothing
+708,careerprizemoney,nothing
+709,daviscupresult,nothing
+710,doublestitles,nothing
+711,frenchopendoublesresult,nothing
+712,frenchopenresult,nothing
+713,highestdoublesranking,nothing
+714,highestsinglesranking,nothing
+715,hopmancupresult,nothing
+716,integer,nothing
+717,masterscupresult,nothing
+718,medaltemplatesExpand,nothing
+719,medaltemplatesTitle,nothing
+720,olympicsdoublesresult,nothing
+721,olympicsresult,nothing
+722,othertournaments,nothing
+723,othertournamentsdoubles,nothing
+724,plays,nothing
+725,careerPrizeMoney,nothing
+726,singlesWins,nothing
+727,gold,nothing
+728,silver,nothing
+729,team2Abbrev,nothing
+730,coachplayers,nothing
+731,doublesWins,nothing
+732,menMostS,nothing
+733,mostYears,nothing
+734,playerWins,nothing
+735,goldMedalist,nothing
+736,silverMedalist,nothing
+737,championInDoubleMale,nothing
+738,championInSingleMale,nothing
+739,restingPlace,nothing
+740,ft,nothing
+741,in,has works in the collection,stated in,in opposition to,participant in,interested in,published in,present in work,studied in,set in environment,set in period,plot expanded in
+742,cbbaskhofYear,nothing
+743,draftLeague,nothing
+744,espn,nothing
+745,nbaHistorical,nothing
+746,portrayedBy,nothing
+747,group,ethnic group
+748,theme,theme music
+749,editor,editor,film editor
+750,adaptedBy,nothing
+751,directedby,nothing
+752,indent,nothing
+753,blankData,nothing
+754,opentheme,nothing
+755,show,talk show guest,original language of film or TV show
+756,namedAfter,nothing
+757,collections,collection
+758,beforeElection,nothing
+759,usopen,nothing
+760,wghofid,nothing
+761,wghofyear,nothing
+762,yearpro,nothing
+763,open,nothing
+764,year,nothing
+765,pga,nothing
+766,tour,nothing
+767,asiawins,nothing
+768,auswins,nothing
+769,awardssection,nothing
+770,eurowins,nothing
+771,japwins,nothing
+772,majorwins,nothing
+773,masters,nothing
+774,otherwins,nothing
+775,pgawins,nothing
+776,prowins,nothing
+777,winsAtAsia,nothing
+778,winsAtPGA,nothing
+779,winsAtAus,nothing
+780,winsAtJapan,nothing
+781,winsAtOtherTournaments,nothing
+782,winsAtProTournaments,nothing
+783,winsInEurope,nothing
+784,awaycaptain,nothing
+785,link,contact page URL
+786,nocat,nothing
+787,audioReadBy,nothing
+788,directed,nothing
+789,help,nothing
+790,bSearch,nothing
+791,book,author,author of foreword
+792,vSearch,nothing
+793,wiktSearch,nothing
+794,containerOnly,nothing
+795,lcheading,nothing
+796,onlinebooks,nothing
+797,isPartOf,nothing
+798,thFuelPrimary,nothing
+799,volumeNote,nothing
+800,atmosphereComposition,nothing
+801,chemical,chemical formula
+802,fuelSource,nothing
+803,naturalResources,nothing
+804,contaminants,nothing
+805,reflector,nothing
+806,fields,nothing
+807,formula,chemical formula
+808,industries,industry
+809,composition,nothing
+810,melt,melting point
+811,related,related category,related image
+812,doi,DOI prefix
+813,first,said to be the same as,after a work by,first family name in Portuguese name,second family name in Spanish name,part of the series,first appearance,date of first performance,location of first performance
+814,isbn,ISBN publisher prefix
+815,pages,page banner
+816,talk,talk show guest
+817,volume,nothing
+818,field,field of work
+819,opt4n,nothing
+820,filling,nothing
+821,chassis,chassis
+822,impurities,nothing
+823,blockAlloy,nothing
+824,carbody,nothing
+825,head,head coach
+826,material,made from material,raw material processed
+827,block,nothing
+828,exportGoods,nothing
+829,automobilePlatform,nothing
+830,headAlloy,nothing
+831,bodyStyle,nothing
+832,shipNamesake,nothing
+833,core#narrower,nothing
+834,hotSpringType,nothing
+835,namedFor,nothing
+836,colour,official color,eye color,hair color,color
+837,weapons,nothing
+838,developmentCode,nothing
+839,treatment,medical condition,drug or therapy used for treatment,medical condition treated,possible treatment
+840,medicalCause,nothing
+841,medication,significant drug interaction,drug or therapy used for treatment
+842,valves,nothing
+843,structuralSystem,nothing
+844,compositionSecondary,nothing
+845,etymology,nothing
+846,lithology,nothing
+847,battleHonours,nothing
+848,construction,main building contractor
+849,drum,nothing
+850,constructionMaterial,nothing
+851,blankInfoSec,nothing
+852,commodity,nothing
+853,materials,made from material,raw material processed
+854,mineral,nothing
+855,otherlithology,nothing
+856,currency,currency
+857,region,area
+858,ew,nothing
+859,ns,nothing
+860,category,Commons category,category combines topics,category's main topic,topic's main category,category for maps,category contains,related category,member category
+861,nams,nothing
+862,opt2n,nothing
+863,pams,nothing
+864,causes,has cause,cause of death,has immediate cause
+865,risks,associated hazard
+866,with,partnership with,after a work by,solid solution series with,complies with,shares border with
+867,opt1n,nothing
+868,opt3n,nothing
+869,mainIngredient,nothing
+870,primaryMaterial,nothing
+871,ingredient,has listed ingredient,has active ingredient,active ingredient in
+872,cs1Dates,nothing
+873,sSearch,nothing
+874,colours,color
+875,meaning,OmegaWiki Defined Meaning,language of work or name
+876,peggedWith,nothing
+877,ramtype,nothing
+878,keel,nothing
+879,btype,nothing
+880,wordOrigin,nothing
+881,element,element symbol
+882,wikiPageInterLanguageLink,nothing
+883,a,is a list of,after a work by
+884,w,nothing
+885,end,said to be the same as
+886,nSearch,nothing
+887,e,E number
+888,u,EAGLE id
+889,stardistancely,nothing
+890,stardistancepc,nothing
+891,starmagnitude,nothing
+892,symbolism,nothing
+893,abbreviation,nothing
+894,month,nothing
+895,arearank,nothing
+896,areatotal,nothing
+897,bordering,nothing
+898,brighteststarname,nothing
+899,dec,nothing
+900,genitive,nothing
+901,latmax,nothing
+902,latmin,nothing
+903,meteorshowers,nothing
+904,neareststarname,nothing
+905,numberbfstars,nothing
+906,numberbrightstars,nothing
+907,numbermainstars,nothing
+908,numbermessierobjects,nothing
+909,numbernearbystars,nothing
+910,numberstarsplanets,nothing
+911,pronounce,nothing
+912,ra,nothing
+913,neighbourConstellations,nothing
+914,constellation,nothing
+915,constell,nothing
+916,constellationName,nothing
+917,page,contact page URL,page banner
+918,wstitle,nothing
+919,quadrant,nothing
+920,declination,declination
+921,constel,nothing
+922,mascot,mascot
+923,budget,budget
+924,country,country of origin,country,country of citizenship,country for sport
+925,gross,nothing
+926,runtime,nothing
+927,prevTitle,nothing
+928,lastAppearance,nothing
+929,album,soundtrack release
+930,nextTitle,nothing
+931,productionCompanies,nothing
+932,series,part of the series
+933,previousWork,nothing
+934,subsequentWork,nothing
+935,dSearch,nothing
+936,prevYear,nothing
+937,released,soundtrack release
+938,firstMajor,nothing
+939,collapsed,nothing
+940,extraColumn,nothing
+941,length,nothing
+942,misc,nothing
+943,nextYear,nothing
+944,totalLength,nothing
+945,producers,producer
+946,recorded,recorded participant
+947,labels,record label
+948,lastMajor,nothing
+949,urlStatus,nothing
+950,accessDate,nothing
+951,count,nothing
+952,ref,nothing
+953,score,review score
+954,average,time-weighted average exposure limit
+955,consensus,nothing
+956,bestActorFilm,nothing
