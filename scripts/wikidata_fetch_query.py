@@ -5,15 +5,23 @@ def get_person_data(person, new_query=True):
 
     if new_query:
         query = f"""
-        SELECT DISTINCT ?propertyLabel ?valueLabel WHERE {{
-        {{
-        wd:{person} ?property ?value .
-        }}
-        SERVICE wikibase:label {{
-        bd:serviceParam wikibase:language "en".
-        }}
-        }}
-        """
+        SELECT DISTINCT ?propertyLabel ?valueLabel
+            WHERE {{
+                {{
+                    wd:{person} ?p ?v .
+                    ?v ?a ?value .
+                    ?property wikibase:claim ?p.
+                    ?property wikibase:statementProperty ?a.
+                }}
+                UNION {{
+                    ?value ?p wd:{person} .
+                    ?property wikibase:directClaim ?p
+                }}
+                SERVICE wikibase:label {{
+                    bd:serviceParam wikibase:language "en".
+                }}
+            }}
+            """
     else:
         query = f"""
         SELECT ?propertyLabel ?valueLabel {{
@@ -68,8 +76,8 @@ def get_person_data(person, new_query=True):
 
 if __name__=="__main__":
 
-    get_person_data("Q7186",False) #this is for marie curie
-    get_person_data("Q7186") #this is for marie curie
+    # get_person_data("Q34660",False) #this is for marie curie
+    get_person_data("Q34660") #this is for marie curie
 
 
 
