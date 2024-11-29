@@ -1,0 +1,751 @@
+1,Reddit username
+2,subreddit
+3,category for employees of the organization
+4,board member
+5,hashtag
+6,total assets
+7,IPv4 routing prefix
+8,permanent duplicated item
+9,operating income
+10,net profit
+11,market capitalization
+12,autonomous system number
+13,PermID
+14,Code List for Cultural Heritage Organizations
+15,has subsidiary
+16,archives at
+17,industry
+18,official website
+19,part of
+20,inception
+21,stock exchange
+22,country of origin
+23,Commons category
+24,chairperson
+25,member of
+26,location of formation
+27,location
+28,employer
+29,developer
+30,manufacturer
+31,operator
+32,designed by
+33,type foundry
+34,owner of
+35,copyright holder
+36,owned by
+37,publisher
+38,has part(s)
+39,distributed by
+40,spoken text audio
+41,product
+42,GitHub username
+43,Commons gallery
+44,total equity
+45,X username
+46,motto
+47,history of topic
+48,employees
+49,Legal Entity Identifier
+50,legal form
+51,topic's main Wikimedia portal
+52,described by source
+53,phone number
+54,short name
+55,topic's main template
+56,total liabilities
+57,Instagram username
+58,described at URL
+59,total revenue
+60,official name
+61,OmegaWiki Defined Meaning
+62,ISIN
+63,IRS Employer Identification Number
+64,Facebook username
+65,notable work
+66,creator
+67,advertises
+68,parent organization
+69,authority
+70,merged into
+71,privacy policy URL
+72,TikTok username
+73,Wikimedia outline
+74,terms of service URL
+75,has works in the collection
+76,OpenCorporates corporate grouping
+77,Spectrum Management System Company Number
+78,Stack Exchange site URL
+79,Wolfram Language entity code
+80,Central Index Key
+81,National Equipment Registration System Supplier Number
+82,copyright status as a creator
+83,FCC Grantee Code
+84,Libris-URI
+85,external auditor
+86,on focus list of Wikimedia project
+87,record label
+88,founded by
+89,main subject
+90,facet of
+91,used by
+92,plaintiff
+93,participant
+94,affiliation
+95,commissioned by
+96,named after
+97,funder
+98,brand
+99,model item
+100,template has topic
+101,category combines topics
+102,discoverer or inventor
+103,sponsor
+104,category's main topic
+105,defendant
+106,symbol of
+107,partnership with
+108,Wikimedia portal's main topic
+109,organizer
+110,conferred by
+111,author
+112,production company
+113,occupant
+114,followed by
+115,performer
+116,issued by
+117,has part(s) of the class
+118,contributor to the creative work or subject
+119,field of work
+120,exhibited creator
+121,topic's main category
+122,investor
+123,chief executive officer
+124,YouTube handle
+125,item for this sense
+126,Wikidata property example
+127,social media followers
+128,official jobs URL
+129,service status information URL
+130,date of incorporation
+131,headquarters location
+132,award received
+133,official shop URL
+134,instance of
+135,shortened URL formatter
+136,country
+137,ISNI
+138,Google Play developer slug
+139,sitemap URL
+140,official forum URL
+141,logo image
+142,affiliated worker organisation
+143,image
+144,Commons Creator page
+145,official blog URL
+146,different from
+147,ISO 9362 SWIFT/BIC code
+148,work location
+149,email address
+150,search formatter URL
+151,public key fingerprint
+152,Corporate Number (Japan)
+153,Pinterest username
+154,small logo or icon
+155,replaced by
+156,editor
+157,copyright representative
+158,translator
+159,has use
+160,maintained by
+161,architect
+162,standards body
+163,educated at
+164,signatory
+165,acknowledged
+166,copyright status
+167,named by
+168,contact page URL
+169,Similarweb ranking
+170,business division
+171,parent
+172,stated in
+173,maintains linking to
+174,has written for
+175,place of publication
+176,platform
+177,in opposition to
+178,website account on
+179,Wikidata property
+180,Giphy username
+181,stylized name
+182,Delaware Division of Corporations file number
+183,GitHub topic
+184,applicable 'stated in' value
+185,vehicle normally used
+186,depicts
+187,target
+188,Bilibili UID
+189,EBITDA
+190,Baidu Tieba name
+191,schematic
+192,motto text
+193,native label
+194,replaces
+195,D-U-N-S number
+196,director / manager
+197,ACM Classification Code (2012)
+198,exact match
+199,Stack Exchange tag
+200,corporate officer
+201,postal code
+202,follows
+203,ArchWiki article
+204,GitLab.com username
+205,EU Participant Identification Code
+206,uses
+207,represents
+208,significant event
+209,contributing factor of
+210,panoramic view
+211,street address
+212,cites work
+213,endorsed by
+214,IPv6 routing prefix
+215,designated as terrorist by
+216,official symbol
+217,name
+218,source of income
+219,chief operating officer
+220,participant in
+221,item operated
+222,Threads username
+223,charter URL
+224,press information URL
+225,card network
+226,payment types accepted
+227,common equity tier 1 capital ratio (CETI)
+228,donated by
+229,assets under management
+230,reward program
+231,winner
+232,language used
+233,located in the administrative territorial entity
+234,official color
+235,location information URL
+236,has characteristic
+237,Xiaohongshu profile
+238,research site
+239,partner in business or sport
+240,subclass of
+241,addressee
+242,IPA transcription
+243,exhibition history
+244,fictional or mythical analog of
+245,has list
+246,Snapchat username
+247,has facility
+248,has effect
+249,video
+250,DPLA subject term
+251,D&B Hoovers company profile
+252,Telegram username
+253,separated from
+254,characters
+255,coordinate location
+256,collection
+257,copyright license
+258,pronunciation audio
+259,fax number
+260,produced by
+261,influenced by
+262,franchisor
+263,nickname
+264,category for maps
+265,number of branches
+266,European Union trademark number
+267,category contains
+268,based on
+269,flag image
+270,mascot
+271,flag
+272,operating area
+273,location of creation
+274,producer
+275,interested in
+276,dedicated to
+277,has cause
+278,central bank/issuer
+279,original broadcaster
+280,page banner
+281,significant person
+282,enemy
+283,LastDodo-area-ID
+284,fandom
+285,Zhihu username
+286,Archive of Our Own tag
+287,ISBN publisher prefix
+288,EU VAT number
+289,total debt
+290,catchphrase
+291,reply to
+292,Uniform Resource Identifier Scheme
+293,URL
+294,CPU
+295,performing organization
+296,said to be the same as
+297,cast member
+298,is a list of
+299,applies to part
+300,kit supplier
+301,contains
+302,Vintage Fashion Guild label
+303,main building contractor
+304,published in
+305,KulturNav-ID
+306,occupation
+307,DOI prefix
+308,Tumblr username
+309,BHCL UUID
+310,operating system
+311,stock market index
+312,applies to jurisdiction
+313,commemorates
+314,position held
+315,MIC market code
+316,Alexa rank
+317,OpenStreetMap tag or key
+318,launch contractor
+319,WordLift URL
+320,audio
+321,Egapro gender equality index
+322,vessel
+323,ARCHON code
+324,Transferred Account Data Interchange Group Code
+325,mobile network code
+326,dissolved
+327,GUI number
+328,regulated by
+329,web feed URL
+330,IMDb keyword
+331,locator map image
+332,adjacent building
+333,CAGE code
+334,executive producer
+335,father
+336,composer
+337,lyricist
+338,voice actor
+339,screenwriter
+340,director
+341,presenter
+342,work period (start)
+343,number of children
+344,name in native language
+345,filmography
+346,birth name
+347,family name
+348,height
+349,given name
+350,date of birth
+351,pseudonym
+352,instrument
+353,nominated for
+354,discography
+355,languages spoken
+356,ethnic group
+357,native language
+358,sex or gender
+359,genre
+360,country of citizenship
+361,child
+362,place of birth
+363,writing language
+364,related category
+365,spouse
+366,mother
+367,unmarried partner
+368,IPI name number
+369,signature
+370,voice type
+371,Douban site name
+372,relative
+373,inspired by
+374,sibling
+375,guest of honor
+376,religion or worldview
+377,ancestral home
+378,sexual orientation
+379,eye color
+380,residence
+381,godparent
+382,handedness
+383,hair color
+384,U.S. National Archives Identifier
+385,RIA Novosti reference
+386,EcuRed article
+387,married name
+388,worn by
+389,recorded participant
+390,Plex person key
+391,member category
+392,list of works
+393,stepparent
+394,medical condition
+395,sport
+396,talk show guest
+397,member of political party
+398,student
+399,student of
+400,CLARA-ID
+401,net worth
+402,personal pronoun
+403,narrator
+404,lifestyle
+405,notable role
+406,supported sports team
+407,Krugosvet article
+408,plaque image
+409,blood type
+410,mass
+411,Europeana entity
+412,work period (end)
+413,victory
+414,documentation files at
+415,setlist
+416,points/goal scored by
+417,team captain
+418,statistical leader
+419,league or competition
+420,member of sports team
+421,Munzinger Sport number
+422,ORCID iD
+423,position played on team / speciality
+424,sport number
+425,convicted of
+426,country for sport
+427,number of matches played/races/starts
+428,total goals in career
+429,footedness
+430,after a work by
+431,Colon Classification
+432,head coach
+433,time period
+434,sports discipline competed in
+435,full work available at URL
+436,represented by
+437,wears
+438,subject has role
+439,OnlyFans username
+440,coat of arms image
+441,noble title
+442,depicted by
+443,honorific prefix
+444,affiliation string
+445,generational suffix
+446,has pet
+447,director of photography
+448,film editor
+449,present in work
+450,movement
+451,maintained by WikiProject
+452,audio recording of the subject's spoken voice
+453,NLC authorities
+454,Regensburg Classification
+455,production designer
+456,date of death
+457,place of death
+458,cause of death
+459,manner of death
+460,references work
+461,hairstyle / hairlength
+462,alternative name
+463,facial hair
+464,academic major
+465,academic degree
+466,adapted by
+467,Ameblo username
+468,candidate
+469,author of foreword
+470,family
+471,Parler username (archived)
+472,name in kana
+473,IAFD actor UUID
+474,place of burial
+475,defender
+476,drafted by
+477,victim(s)
+478,date of burial or cremation
+479,officially opened by
+480,category of associated people
+481,flag bearer
+482,is the study of
+483,model
+484,Library of Congress Classification
+485,studied in
+486,military branch
+487,torch lit by
+488,Fach vocal classification
+489,highest note
+490,lowest note
+491,permanent resident of
+492,trained by
+493,first family name in Portuguese name
+494,speaker
+495,cover art by
+496,escutcheon image
+497,sports season of league or competition
+498,playing hand
+499,doubles record
+500,singles record
+501,ranking
+502,prize money
+503,political ideology
+504,second family name in Spanish name
+505,place of detention
+506,television judge
+507,montage image
+508,boiling point
+509,melting point
+510,atomic number
+511,density
+512,time of discovery or invention
+513,speed of sound
+514,refractive index
+515,Unicode character
+516,color
+517,E number
+518,oxidation state
+519,thermal conductivity
+520,MeSH tree code
+521,electronegativity
+522,Dewey Decimal Classification
+523,does not have part
+524,made from material
+525,antiparticle
+526,raw material processed
+527,coolant
+528,by-product
+529,powered by
+530,source of energy
+531,manifestation of
+532,ionic radius
+533,UMLS CUI
+534,electron configuration
+535,ionization energy
+536,molar enthalpy of vaporization
+537,location of discovery
+538,CAS Registry Number
+539,element symbol
+540,Common Procurement Vocabulary code
+541,standard molar entropy
+542,by-product of
+543,ASHRAE refrigerant number
+544,conjugate acid
+545,DSSTOX compound identifier
+546,chemical formula
+547,EC number
+548,PubChem CID
+549,ZVG number
+550,InChI
+551,UNII
+552,canonical SMILES
+553,ATC code
+554,InChIKey
+555,significant drug interaction
+556,drug or therapy used for treatment
+557,production statistics
+558,medical condition treated
+559,molar fusion enthalpy
+560,has listed ingredient
+561,immediately dangerous to life or health
+562,associated hazard
+563,Gmelin number
+564,electrical conductivity
+565,ceiling exposure limit
+566,time-weighted average exposure limit
+567,vapor pressure
+568,RTECS number
+569,ultimate tensile strength
+570,crystal system
+571,CosIng number
+572,measures
+573,physically interacts with
+574,opposite of
+575,UNSPSC Code
+576,radius
+577,frequency
+578,facilitates flow of
+579,solid solution series with
+580,found in taxon
+581,Gujarati Vishwakosh entry
+582,designed to carry
+583,recycling code
+584,safety classification and labelling
+585,CPV Supplementary code
+586,chassis
+587,minimum explosive concentration
+588,type locality (geology)
+589,has active ingredient
+590,NSC number
+591,Reaxys registry number
+592,EPPO Code
+593,conjugate base
+594,relative to
+595,dynamic viscosity
+596,possible treatment
+597,object class of occurrence
+598,specific heat capacity
+599,tensile modulus of elasticity
+600,Mohs' hardness
+601,hardness
+602,Poisson's ratio
+603,shear modulus
+604,short-term exposure limit
+605,magnetic ordering
+606,embodied energy
+607,relative permeability
+608,IMA Mineral Symbol
+609,ritual object
+610,electrical resistivity
+611,compressive modulus of elasticity
+612,fossil found in this unit
+613,fabrication method
+614,active ingredient in
+615,Biology Online Biology Dictionary entry
+616,minimal lethal concentration
+617,median lethal dose (LD50)
+618,minimal lethal dose
+619,sublimation temperature
+620,principal investigator
+621,MCN code
+622,Dictionary.com entry
+623,currency
+624,has immediate cause
+625,UN number
+626,Kemler code
+627,electric dipole moment
+628,research intervention
+629,subject lexeme
+630,related image
+631,heritage designation
+632,price
+633,total produced
+634,aerial view
+635,thermal diffusivity
+636,Thomson Reuters Business Classification
+637,type of passengers/cargo
+638,has goal
+639,domain of saint or deity
+640,typically sells
+641,icon
+642,armament
+643,EAGLE id
+644,original language of film or TV show
+645,MPA film rating
+646,narrative location
+647,ISAN
+648,takes place in fictional universe
+649,JMK film rating
+650,FSK film rating
+651,title
+652,filming location
+653,NMHH film rating
+654,distribution format
+655,ICAA rating
+656,CNC film rating (Romania)
+657,review score
+658,duration
+659,Kijkwijzer rating
+660,box office
+661,publication date
+662,capital cost
+663,film crew member
+664,exploitation mark number
+665,fictional universe described in
+666,derivative work
+667,Medierådet rating
+668,Amazon Standard Identification Number
+669,RTC film rating
+670,Plex media key
+671,part of the series
+672,assessment
+673,form of creative work
+674,BBFC rating
+675,costume designer
+676,CNC film rating (France)
+677,aspect ratio (W:H)
+678,supplement to
+679,IMDA rating
+680,ClassInd rating
+681,FPB rating
+682,set in environment
+683,RCQ classification
+684,IFCO rating
+685,INCAA film rating
+686,first appearance
+687,working title
+688,attendance
+689,soundtrack release
+690,language of work or name
+691,make-up artist
+692,music created for
+693,OFLC classification
+694,Australian Classification
+695,Hong Kong film rating
+696,media franchise
+697,BAMID film rating
+698,set in period
+699,has edition or translation
+700,list of characters
+701,edition or translation of
+702,date depicted
+703,Filmiroda rating
+704,has spin-off
+705,date of first performance
+706,RARS rating
+707,EIRIN film rating
+708,OCLC control number
+709,time index
+710,original film format
+711,IGAC rating
+712,theme music
+713,set during recurring event
+714,quotes work
+715,storyboard artist
+716,budget
+717,KFCB classification (Kenya)
+718,choreographer
+719,crew member(s)
+720,film poster
+721,tracklist
+722,featured track(s)
+723,art director
+724,animator
+725,plot expanded in
+726,Global Trade Item Number
+727,copyright registration
+728,announcement date
+729,location of first performance
+730,MTRCB rating
+731,CHVRS Classification
+732,KMRB film rating
+733,contributed to creative work
+734,complies with
+735,assistant director
+736,KAVI rating
+737,sound designer
+738,catalog code
+739,CBFC rating
+740,created for
+741,musical conductor
+742,production date
+743,shares border with
+744,astronomic symbol image
+745,area
+746,Hederich encyclopedia article
+747,notation
+748,child astronomical body
+749,declination
+750,right ascension
+751,partially coincident with
