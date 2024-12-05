@@ -1,0 +1,958 @@
+Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_y
+1, ,rdf-schema#seeAlso,,4.0,False, Example:  value:List_of_Tom_Hanks_performances
+2, ,name,,5.0,True, Example:  value:U2
+3, ,homepage,,64.0,True, Example:  value:www.rushlimbaugh.com
+4, ,wgs84_pos#lat,,,False,
+5, ,wgs84_pos#long,,,False,
+6, ,secCik,,,False,
+7, ,thumbnail,,16.0,False, Example:  value:U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg?width=300
+8, ,bloomberg,,,True,
+9, ,google,,,True,
+10, ,reuters,,,True,
+11, ,yahoo,,,True,
+12, ,align,,46.0,True, Example:  value:right
+13, ,alt,,48.0,True, Example:  value:The band onstage
+14, ,areaServed,,,True,
+15, ,assets,,,True,
+16, ,auto,,,True,
+17, ,caption,,20.0,False," Example:  value:After the elaborate stadium productions of their previous two tours, U2's 2001 Elevation Tour was a scaled-down affair that featured a heart-shaped stage."
+18, ,date,,113.0,True, Example:  value:2012-09-16
+19, ,direction,,114.0,False, Example:  value:vertical
+20, ,equity,,,True,
+21, ,equityYear,,,True,
+22, ,formerName,,,True,
+23, ,founded,,149.0,True, Example:  value:2007
+24, ,founders,,,True,
+25, ,hqLocation,,,True,
+26, ,hqLocationCity,,,True,
+27, ,hqLocationCountry,,,True,
+28, ,image,,93.0,False," Example:  value:U2 PopMart Tour, Belfast, August 1997 .jpg"
+29, ,imageCaption,,202.0,False, Example:  value:Perry performing in 2021
+30, ,imageSize,,98.0,False, Example:  value:275
+31, ,industry,,151.0,True, Example:  value:Film production company
+32, ,keyPeople,,,True,
+33, ,logo,,,False,
+34, ,logoSize,,,False,
+35, ,netIncome,,,True,
+36, ,numEmployees,,,True,
+37, ,numEmployeesYear,,,False,
+38, ,numLocations,,,True,
+39, ,numLocationsYear,,,False,
+40, ,operatingIncome,,,,
+41, ,perrow,,235.0,False, Example:  value:2
+42, ,products,,,True,
+43, ,quote,,56.0,False," Example:  value:The wild beauty, cultural richness, spiritual vacancy and ferocious violence of America are explored to compelling effect in virtually every aspect of The Joshua Tree—in the title and the cover art, the blues and country borrowings evident in the music ... Indeed, Bono says that 'dismantling the mythology of America' is an important part of The Joshua Trees artistic objective."
+44, ,revenue,,,True,
+45, ,revenueYear,,,False,
+46, ,services,,,True,
+47, ,source,,57.0,True," Example:  value:Brian Eno, on the recording of Achtung Baby"
+48, ,subsid,,,False,
+49, ,symbol,,,False,
+50, ,title,,60.0,True, Example:  value:Vertigo
+51, ,totalWidth,,95.0,False, Example:  value:350
+52, ,tradedAs,,,False,
+53, ,type,,140.0,True, Example:  value:author
+54, ,voy,,61.0,False, Example:  value:no
+55, ,website,,111.0,True, Example:  value:www.pauladeen.com
+56, ,width,,62.0,False, Example:  value:25
+57, ,point,,,False,
+58, ,assetsYear,,,False,
+59, ,find,,,False,
+60, ,incomeYear,,,True,
+61, ,isin,,,False,
+62, ,netIncomeYear,,,True,
+63, ,sameAs,,35.0,False, Example:  value:124268369
+64, ,wordnet_type,,36.0,True, Example:  value:synset-musician-noun-1
+65, ,core#closeMatch,,,False,
+66, ,prov#wasDerivedFrom,,37.0,False, Example:  value:U2?oldid=1121669628&ns=0
+67, ,wikiPageLength,,38.0,False, Example:  value:218395
+68, ,foundingDate,,,True,
+69, ,foundingYear,,,True,
+70, ,numberOfEmployees,,,True,
+71, ,numberOfLocations,,,True,
+72, ,foundedBy,,,True,
+73, ,headquarter,,,True,
+74, ,keyPerson,,,True,
+75, ,locationCity,,,True,
+76, ,product,,,True,
+77, ,service,,,True,
+78, ,subsidiary,,,True,
+79, ,isPrimaryTopicOf,,42.0,True, Example:  value:U2
+80, ,wgs84_pos#geometry,,,False,
+81, ,owl#differentFrom,,75.0,False, Example:  value:Weekend
+82, ,wikiPageDisambiguates,,154.0,False, Example:  value:R._L._Drake_Company
+83, ,videoFormat,,,False,
+84, ,workplaces,,,True,
+85, ,manuf,,,True,
+86, ,namesake,,,True,
+87, ,affiliations,,,True,
+88, ,author,,124.0,False, Example:  value:yes
+89, ,branding,,,True,
+90, ,company,,,True,
+91, ,currentowner,,,True,
+92, ,designer,,,True,
+93, ,developer,,,True,
+94, ,distributor,,,True,
+95, ,manufacturer,,,True,
+96, ,membership,,,True,
+97, ,mostWins,,,True,
+98, ,network,,,True,
+99, ,organization,,26.0,True, Example:  value:Syco_Entertainment
+100, ,owner,,152.0,True, Example:  value:New_Line_Cinema
+101, ,parent,,97.0,True, Example:  value:Robert_Downey_Sr.
+102, ,platform,,,True,
+103, ,producer,,,True,
+104, ,publisher,,,True,
+105, ,tv,,,True,
+106, ,award1pub,,,True,
+107, ,organized,,,True,
+108, ,boards,,195.0,True, Example:  value:
+109, ,brand,,,True,
+110, ,commissionedBy,,,True,
+111, ,designfirm,,,True,
+112, ,employer,,,True,
+113, ,foundry,,,True,
+114, ,parentOrganization,,,True,
+115, ,board,,196.0,True, Example:  value:Aspiro
+116, ,institution,,,True,
+117, ,affiliation,,,True,
+118, ,computingPlatform,,,True,
+119, ,cpu,,,True,
+120, ,knownFor,,229.0,True, Example:  value:Kylie_Cosmetics
+121, ,license,,,True,
+122, ,literaryGenre,,,True,
+123, ,nonFictionSubject,,,False,
+124, ,occupation,,25.0,True, Example:  value:Tyler_Perry__PersonFunction__1
+125, ,operatingSystem,,,True,
+126, ,owningCompany,,,True,
+127, ,parentCompany,,,True,
+128, ,parentOrganisation,,,True,
+129, ,primaryTopic,,,True,
+130, ,brands,,,True,
+131, ,b,,18.0,False, Example:  value:no
+132, ,commons,,22.0,False, Example:  value:Category:U2
+133, ,d,,23.0,False, Example:  value:Q396
+134, ,divisions,,,False,
+135, ,footnotes,,,False,
+136, ,logoAlt,,,False,
+137, ,n,,24.0,False, Example:  value:Category:U2
+138, ,portal,,,False,
+139, ,q,,71.0,False, Example:  value:Tom Hanks
+140, ,reason,,121.0,True, Example:  value:Persistent disruptive editing
+141, ,s,,27.0,False, Example:  value:no
+142, ,species,,28.0,True, Example:  value:no
+143, ,style,,59.0,True, Example:  value:padding:10px;
+144, ,text,,175.0,False, Example:  value:citaded
+145, ,tradeName,,,True,
+146, ,v,,29.0,False, Example:  value:no
+147, ,wikt,,30.0,False, Example:  value:no
+148, ,hypernym,,34.0,True, Example:  value:Band
+149, ,division,,,True,
+150, ,commercial,,,True,
+151, ,currentStatus,,,True,
+152, ,founder,,150.0,True, Example:  value:Dr. Dre
+153, ,language,,,True,
+154, ,logoCaption,,,False,
+155, ,programmingLanguage,,,True,
+156, ,registration,,,False,
+157, ,screenshot,,,False,
+158, ,sign,,,False,
+159, ,collapsetext,,,False,
+160, ,collapsible,,86.0,True, Example:  value:true
+161, ,licensee,,,True,
+162, ,platforms,,,True,
+163, ,rev,,,False,
+164, ,nativeClients,,,True,
+165, ,tradingName,,,True,
+166, ,owners,,,True,
+167, ,registry,,,True,
+168, ,location,,,True,
+169, ,successor,,244.0,True, Example:  value:Rogelio Pacquiao
+170, ,foundation,,,True,
+171, ,soc,,,False,
+172, ,workInstitutions,,,True,
+173, ,graphics,,,False,
+174, ,partners,,,True,
+175, ,stockrow,,,False,
+176, ,xaxistitle,,,False,
+177, ,y1title,,,False,
+178, ,yaxismin,,,False,
+179, ,yaxistitle,,,False,
+180, ,border,,89.0,False, Example:  value:1
+181, ,height,,127.0,True, Example:  value:1.8542
+182, ,locationCountry,,,True,
+183, ,x,,,False,
+184, ,y,,,False,
+185, ,ta,,,False,
+186, ,workInstitution,,,True,
+187, ,previousowners,,,True,
+188, ,sponsor,,,True,
+189, ,institutions,,,True,
+190, ,patrons,,,True,
+191, ,award,,41.0,True, Example:  value:List_of_awards_and_nominations_received_by_Tom_Hanks
+192, ,predecessor,,241.0,True, Example:  value:Erwin Chiongbian
+193, ,currentTenants,,,True,
+194, ,operator,,,True,
+195, ,operators,,,True,
+196, ,opponents,,,True,
+197, ,companies,,,True,
+198, ,contractors,,,True,
+199, ,customValue,,,True,
+200, ,significantBuilding,,,True,
+201, ,funding,,,True,
+202, ,recordLabel,,103.0,True, Example:  value:Mercury_Records
+203, ,creator,,,True,
+204, ,free,,,False,
+205, ,presenter,,,True,
+206, ,producedby,,,True,
+207, ,footer,,92.0,True," Example:  value:Tesfaye cites Michael Jackson, Prince, and R. Kelly as his main musical inspirations"
+208, ,nasdaq,,,True,
+209, ,sponsors,,,True,
+210, ,ratio,,,True,
+211, ,aum,,,False,
+212, ,predecessors,,,True,
+213, ,assetUnderManagement,,,False,
+214, ,office,,239.0,True, Example:  value:Chair of the Senate Ethics and Privileges Committee
+215, ,formerNames,,,True,
+216, ,thirdTeam,,,True,
+217, ,locations,,,True,
+218, ,areasServed,,,True,
+219, ,client,,,True,
+220, ,projectParticipant,,,True,
+221, ,space,,,True,
+222, ,data,,,False,
+223, ,academicDiscipline,,,True,
+224, ,currentMember,,,True,
+225, ,titlestyle,,,False,
+226, ,toggle,,,False,
+227, ,left,,,False,
+228, ,titlebar,,,False,
+229, ,float,,266.0,False, Example:  value:right
+230, ,state,,243.0,True, Example:  value:collapsed
+231, ,successors,,,True,
+232, ,opponent,,,True,
+233, ,manufacturers,,,True,
+234, ,colwidth,,334.0,False, Example:  value:30
+235, ,organised,,,True,
+236, ,1a,,328.0,False, Example:  value:Gould
+237, ,1p,,329.0,False, Example:  value:206
+238, ,1pp,,336.0,False, Example:  value:290
+239, ,1y,,330.0,False, Example:  value:2007
+240, ,2a,,331.0,False, Example:  value:Lewisohn
+241, ,2p,,332.0,False, Example:  value:33
+242, ,2pp,,337.0,False, Example:  value:5962
+243, ,2y,,333.0,False, Example:  value:1988
+244, ,fmt,,,False,
+245, ,index,,,False,
+246, ,p,,,False,
+247, ,startYear,,,True,
+248, ,value,,,False,
+249, ,artist,,,True,
+250, ,label,,53.0,True, Example:  value:Interscope
+251, ,origin,,82.0,True," Example:  value:Dublin, Ireland"
+252, ,shipOwner,,,True,
+253, ,studio,,,True,
+254, ,advertising,,,True,
+255, ,currentOwner,,,True,
+256, ,initiator,,,True,
+257, ,issuingAuthority,,,True,
+258, ,licensedfrom,,,True,
+259, ,productionCompany,,,True,
+260, ,associatedBand,,341.0,True, Example:  value:The_New_Barbarians_(band)
+261, ,associatedMusicalArtist,,342.0,True, Example:  value:The_New_Barbarians_(band)
+262, ,carrier,,,True,
+263, ,captionAlign,,,False,
+264, ,footerAlign,,115.0,False, Example:  value:center
+265, ,aux,,,False,
+266, ,importantStation,,,True,
+267, ,dir,,,True,
+268, ,tvstation,,,True,
+269, ,management,,,True,
+270, ,networkEn,,,True,
+271, ,needed,,,False,
+272, ,modem,,,True,
+273, ,processor,,,True,
+274, ,soldby,,,True,
+275, ,sound,,,True,
+276, ,developers,,,True,
+277, ,regionServed,,,True,
+278, ,image2Caption,,,False,
+279, ,managerclubs,,,True,
+280, ,processors,,,True,
+281, ,managerClub,,,True,
+282, ,team,,138.0,True, Example:  value:Orlando_Magic
+283, ,fid,,,True,
+284, ,content,,104.0,True, Example:  value:2006-05-27
+285, ,sizeFrom,,,True,
+286, ,members,,,True,
+287, ,boardOfDirectors,,,True,
+288, ,inventName,,,True,
+289, ,titleSponsor,,,True,
+290, ,patron,,,True,
+291, ,place,,,True,
+292, ,sp,,,True,
+293, ,carriers,,,True,
+294, ,connectivity,,,True,
+295, ,currentposition,,159.0,True, Example:  value:Defensive_tackle
+296, ,networks,,,True,
+297, ,carrier(s)_,,,True,
+298, ,position,,128.0,True, Example:  value:Center_(basketball)
+299, ,production,,,True,
+300, ,technicalServiceProvider,,,True,
+301, ,markTitle,,,True,
+302, ,copyright,,,True,
+303, ,designers,,,True,
+304, ,by,,188.0,False, Example:  value:yes
+305, ,header,,116.0,False, Example:  value:Springsteen at a Barack Obama campaign rally
+306, ,rating,,,True,
+307, ,proteam,,,True,
+308, ,bot,,,False,
+309, ,fixAttempted,,,True,
+310, ,lsp,,,False,
+311, ,builders,,,True,
+312, ,launchContractor,,,True,
+313, ,designGroup,,,True,
+314, ,laterwork,,,True,
+315, ,profession,,,True,
+316, ,builder,,,True,
+317, ,credits,,,True,
+318, ,companyType,,,True,
+319, ,description,,106.0,False," Example:  value:-The Fly- features hip-hop beats, distorted vocals, and a hard industrial edge that differed from U2's typical sound."
+320, ,filename,,107.0,False, Example:  value:U2 Vertigo.ogg
+321, ,imageStyle,,,False,
+322, ,numUsers,,,True,
+323, ,soundRecording,,112.0,False, Example:  value:U2__Sound__1
+324, ,engine,,,True,
+325, ,ownership,,,True,
+326, ,psUnitsManuModel,,,True,
+327, ,engineType,,,True,
+328, ,powerType,,,True,
+329, ,address,,,True,
+330, ,notableRestaurants,,,True,
+331, ,fate,,148.0,True, Example:  value:Inactive
+332, ,side,,,False,
+333, ,curator,,,True,
+334, ,moreUsers,,,False,
+335, ,primaryUser,,,True,
+336, ,road,,,False,
+337, ,aircraftType,,,True,
+338, ,manufacturier,,,True,
+339, ,trademarkregistrations,,,True,
+340, ,creatorOfDish,,,True,
+341, ,agency,,,True,
+342, ,plantOperator,,,True,
+343, ,certain,,,True,
+344, ,hoovers,,,True,
+345, ,thTechnology,,,True,
+346, ,tractionmotors,,,True,
+347, ,design,,,True,
+348, ,eng1Name,,,True,
+349, ,invented,,,True,
+350, ,npReactorSupplier,,,True,
+351, ,plantTurbines,,,True,
+352, ,psUnitsOperational,,,True,
+353, ,spacecraft,,,True,
+354, ,routeEnd,,,True,
+355, ,url,,118.0,False, Example:  value:ViewArticle.dbml%3FDB_OEM_ID=5200&ATCLID=174841
+356, ,secondTeam,,,True,
+357, ,video,,184.0,False, Example:  value:--02-22
+358, ,headerimage,,,False,
+359, ,profit,,,True,
+360, ,predecessorLine,,,True,
+361, ,target,,,True,
+362, ,administrator,,,True,
+363, ,birthPlace,,7.0,True," Example:  value:New Orleans, Louisiana, U.S."
+364, ,birthDate,,8.0,True, Example:  value:1969-09-13
+365, ,works,,14.0,True, Example:  value:List_of_Tom_Hanks_performances
+366, ,awards,,17.0,True, Example:  value:List_of_awards_and_nominations_received_by_Tom_Hanks
+367, ,birthName,,19.0,True, Example:  value:Emmitt Perry Jr.
+368, ,children,,21.0,True, Example:  value:1
+369, ,yearsActive,,31.0,True, Example:  value:1976
+370, ,display,,33.0,False, Example:  value:Tom Cruise
+371, ,activeYearsStartYear,,39.0,True, Example:  value:1976
+372, ,birthYear,,40.0,True, Example:  value:1969
+373, ,associatedActs,,78.0,True, Example:  value:The Pretty Things
+374, ,director,,,True,
+375, ,extra,,,False,
+376, ,note,,,False,
+377, ,starring,,,True,
+378, ,writer,,,True,
+379, ,composer,,,True,
+380, ,executiveProducer,,,True,
+381, ,formerBandMember,,101.0,True, Example:  value:Dik_Evans
+382, ,musicComposer,,,True,
+383, ,narrator,,,True,
+384, ,openingTheme,,,True,
+385, ,signature,,44.0,False, Example:  value:Tom Cruise signature.svg
+386, ,after,,45.0,True, Example:  value:Manny Pacquiao
+387, ,almaMater,,47.0,True," Example:  value:California_State_University,_Long_Beach"
+388, ,before,,49.0,True, Example:  value:Frank Carmona
+389, ,c,,50.0,False, Example:  value:Category:Tom Hanks
+390, ,class,,51.0,True, Example:  value:artist
+391, ,id,,52.0,True, Example:  value:41706
+392, ,m,,54.0,False, Example:  value:no
+393, ,mw,,55.0,False, Example:  value:no
+394, ,spouse,,58.0,True, Example:  value:Rita_Wilson
+395, ,years,,63.0,True, Example:  value:
+396, ,2data,,,True,
+397, ,chronology,,,True,
+398, ,mostAwards,,,True,
+399, ,music,,,True,
+400, ,module,,65.0,False, Example:  value:--09-30
+401, ,bgcolor,,66.0,False, Example:  value:#E0E6F8
+402, ,citizenship,,67.0,True, Example:  value:
+403, ,father,,68.0,True, Example:  value:Arnold_Spielberg
+404, ,mother,,69.0,True, Example:  value:Cynthia_Germanotta
+405, ,otherNames,,70.0,True, Example:  value:Nils Sjeoberg
+406, ,relatives,,72.0,True, Example:  value:William_Mapother
+407, ,alias,,73.0,True, Example:  value:Nils Sjeoberg
+408, ,relative,,74.0,True, Example:  value:William_Mapother
+409, ,portrayer,,,True,
+410, ,child,,96.0,True, Example:  value:Chet_Hanks
+411, ,qalign,,76.0,False, Example:  value:center
+412, ,quoted,,77.0,False, Example:  value:1
+413, ,currentMembers,,79.0,True, Example:  value:* Bono * Adam Clayton * The Edge * Larry Mullen Jr.
+414, ,genre,,80.0,True, Example:  value:Rock_music
+415, ,landscape,,81.0,False, Example:  value:yes
+416, ,salign,,83.0,False, Example:  value:center
+417, ,acts,,,True,
+418, ,anthem,,,True,
+419, ,birthname,,84.0,True, Example:  value:Benjamin Geza Affleck-Boldt
+420, ,party,,85.0,True, Example:  value:Independent_voter
+421, ,relations,,87.0,True, Example:  value:Douglas_Pitt
+422, ,relation,,88.0,True, Example:  value:Bobby_Pacquiao
+423, ,leaderName,,,True,
+424, ,person,,,True,
+425, ,commonscat,,90.0,False, Example:  value:yes
+426, ,fontsize,,91.0,False, Example:  value:90.0
+427, ,parents,,94.0,True, Example:  value:Robert_Downey_Sr.
+428, ,halftime,,,True,
+429, ,mostNominations,,,True,
+430, ,holder,,,True,
+431, ,endorsedBy,,,True,
+432, ,headliner,,,True,
+433, ,otherp,,,False,
+434, ,rtitle,,,False,
+435, ,bandMember,,100.0,True, Example:  value:Larry_Mullen_Jr.
+436, ,voice,,,True,
+437, ,pastMembers,,99.0,True, Example:  value:* Dik Evans * Ivan McCormick
+438, ,hometown,,102.0,True, Example:  value:Dublin
+439, ,spinoffs,,340.0,True, Example:  value:Plastic_Ono_Band
+440, ,participation,,,True,
+441, ,pastMemberOf,,,True,
+442, ,contentstyle,,105.0,False, Example:  value:text-align:left
+443, ,format,,108.0,False, Example:  value:Ogg
+444, ,imageUpright,,109.0,False, Example:  value:0.9
+445, ,pos,,110.0,False, Example:  value:right
+446, ,hosts,,,True,
+447, ,notableWork,,141.0,True, Example:  value:Women's_Murder_Club_(book_series)
+448, ,showJudge,,,True,
+449, ,basedOn,,,True,
+450, ,lyrics,,,True,
+451, ,musicBy,,,True,
+452, ,headerAlign,,117.0,False, Example:  value:left/right/center
+453, ,allWriting,,,True,
+454, ,host,,,True,
+455, ,participants,,,True,
+456, ,nationality,,119.0,True, Example:  value:United_States
+457, ,activeYearsEndYear,,120.0,True, Example:  value:1986
+458, ,shortsummary,,,False,
+459, ,voices,,,True,
+460, ,actor,,,True,
+461, ,entrant,,,True,
+462, ,deathPlace,,191.0,True," Example:  value:Palm Beach, Florida, US"
+463, ,nickname,,172.0,True, Example:  value:Tiger
+464, ,notableWorks,,,True,
+465, ,spinoffOf,,339.0,True, Example:  value:The_Quarrymen
+466, ,youthclubs,,122.0,True, Example:  value:Associacao_Atletica_Portuguesa_(Santos)
+467, ,youthyears,,123.0,True, Example:  value:2003
+468, ,fullname,,125.0,True, Example:  value:Eldrick Tont Woods
+469, ,goals,,126.0,True, Example:  value:107
+470, ,caps,,129.0,True, Example:  value:177
+471, ,clubUpdate,,130.0,True, Example:  value:--11-13
+472, ,clubs,,131.0,True, Example:  value:Paris_Saint-Germain_F.C.
+473, ,nationalcaps,,132.0,True, Example:  value:122
+474, ,nationalgoals,,133.0,True, Example:  value:75
+475, ,nationalteam,,134.0,True, Example:  value:Brazil Olympic
+476, ,nationalteamUpdate,,135.0,True, Example:  value:2022-11-24
+477, ,nationalyears,,136.0,True, Example:  value:2016
+478, ,careerStation,,137.0,True, Example:  value:Shaquille_O'Neal__CareerStation__6
+479, ,lw,,,False,
+480, ,captain,,,False,
+481, ,lcf,,,False,
+482, ,rcf,,,False,
+483, ,ss,,,False,
+484, ,topScorer,,,True,
+485, ,manOfTheMatch1a,,,True,
+486, ,manOfTheMatch1b,,,True,
+487, ,leagueTopscorer,,,True,
+488, ,seasonTopscorer,,,True,
+489, ,topGoalScorer,,,True,
+490, ,motm,,,False,
+491, ,ambassadors,,,True,
+492, ,bracesPlayer,,,True,
+493, ,firstHatTrickPlayer,,,True,
+494, ,hatTricksPlayer,,,True,
+495, ,mostCaps,,,True,
+496, ,mostGoalsAssistsPlayer,,,True,
+497, ,mostGoalsPlayerMatchPlayer,,,True,
+498, ,mostGoalsPlayerPlayer,,,True,
+499, ,oldestScorerPlayer,,,True,
+500, ,penaltiesMissedPlayer,,,True,
+501, ,penaltiesScoredPlayer,,,True,
+502, ,partner,,198.0,True, Example:  value:Gelila Bekele
+503, ,notableworks,,139.0,True, Example:  value:Women's Murder Club series
+504, ,organisation,,142.0,True, Example:  value:Savage X Fenty
+505, ,bg,,143.0,False, Example:  value:#FFDF00
+506, ,agent,,144.0,True, Example:  value:Scooter_Braun
+507, ,bordercolor,,145.0,False, Example:  value:blue
+508, ,fg,,146.0,True, Example:  value:navy
+509, ,chairman,,,True,
+510, ,rcm,,,False,
+511, ,rm,,,False,
+512, ,education,,147.0,True, Example:  value:Chabot_College
+513, ,afterElection,,,True,
+514, ,lyricist,,,True,
+515, ,writers,,,True,
+516, ,family,,155.0,True, Example:  value:Anoa'i_family
+517, ,weight,,156.0,True, Example:  value:83916.0
+518, ,bowlgames,,157.0,True, Example:  value:* Cotton Bowl Classic * Orange Bowl
+519, ,currentnumber,,158.0,True, Example:  value:94
+520, ,heightft,,160.0,True, Example:  value:6
+521, ,heightin,,161.0,True, Example:  value:5
+522, ,highlights,,162.0,True, Example:  value:* 4x NBA champion * 3x NBA Finals MVP * NBA Most Valuable Player * 15 NBA All-Star * 3x NBA All-Star Game MVP * 8x All-NBA First Team * 2x All-NBA Second Team * 4x All-NBA Third Team * 3x NBA All-Defensive Second Team * NBA Rookie of the Year * NBA All-Rookie First Team * 2x NBA scoring champion * 2x IBM Award * NBA anniversary team * No. 34 retired by Los Angeles Lakers * No. 32 retired by Miami Heat * Associated Press Player of the Year * UPI Player of the Year * Adolph Rupp Trophy * 2x Consensus first-team All-American * 2x SEC Player of the Year * NCAA blocks leader * NCAA rebounding leader * No. 33 retired by LSU Tigers * FIBA World Championship MVP * USA Basketball Male Athlete of the Year * McDonald's All-American Game Co-MVP * First-team Parade All-American * Texas Mr. Basketball
+523, ,highschool,,163.0,True, Example:  value:
+524, ,major,,164.0,True, Example:  value:Criminology and physiology
+525, ,pastschools,,165.0,True, Example:  value:* Miami (FL)
+526, ,rd1Team,,,True,
+527, ,engvoice,,,True,
+528, ,honorificSuffix,,166.0,True, Example:  value:Order_of_the_British_Empire
+529, ,postmatch,,,True,
+530, ,prematch,,,True,
+531, ,medium,,167.0,True, Example:  value:Stand-up
+532, ,story,,,True,
+533, ,honorificPrefix,,168.0,True, Example:  value:The_Right_Excellent
+534, ,allMusic,,,True,
+535, ,guests,,,True,
+536, ,themeMusicComposer,,,True,
+537, ,creatorname,,,True,
+538, ,programmeFormat,,,True,
+539, ,nick,,169.0,True, Example:  value:Tiger
+540, ,ko,,170.0,True, Example:  value:27
+541, ,next,,171.0,False, Example:  value:Jose Luis Castillo
+542, ,rows,,173.0,False, Example:  value:2
+543, ,section,,174.0,True, Example:  value:Discussion about whom
+544, ,total,,176.0,True, Example:  value:50
+545, ,wins,,177.0,True, Example:  value:50
+546, ,decWins,,178.0,True, Example:  value:23
+547, ,koWins,,179.0,True, Example:  value:27
+548, ,nonscore,,180.0,True, Example:  value:2
+549, ,reach,,181.0,True, Example:  value:72.0
+550, ,last,,,True,
+551, ,fighter,,,True,
+552, ,imdbId,,182.0,True, Example:  value:1114695
+553, ,bestActor,,,True,
+554, ,core#exactMatch,,183.0,False, Example:  value:i95412
+555, ,cinematography,,,True,
+556, ,creators,,,True,
+557, ,editing,,,True,
+558, ,influenced,,,True,
+559, ,halign,,185.0,False, Example:  value:left
+560, ,candidate,,238.0,True, Example:  value:Roy Chiongbian
+561, ,influences,,,True,
+562, ,influencedBy,,,True,
+563, ,screenplay,,,True,
+564, ,deathDate,,192.0,True, Example:  value:2021-02-17
+565, ,deathYear,,193.0,True, Example:  value:2021
+566, ,authors,,,True,
+567, ,television,,194.0,True, Example:  value:The X Factor US
+568, ,compiler,,,True,
+569, ,optionName,,,True,
+570, ,domesticPartner,,,True,
+571, ,judges,,,True,
+572, ,headliners,,,True,
+573, ,active,,197.0,True, Example:  value:2001
+574, ,domesticpartner,,,True,
+575, ,username,,199.0,True, Example:  value:kanyewest
+576, ,archiveDate,,200.0,True, Example:  value:2022-10-09
+577, ,archiveUrl,,201.0,False, Example:  value:1578957396604424193
+578, ,small,,203.0,False, Example:  value:yes
+579, ,signatureSize,,204.0,False, Example:  value:40
+580, ,stat1label,,205.0,False, Example:  value:Point_(basketball)
+581, ,stat1value,,206.0,False, Example:  value:28596
+582, ,stat2label,,207.0,False, Example:  value:Rebound_(basketball)
+583, ,stat2value,,208.0,False, Example:  value:13099
+584, ,stat3label,,209.0,False, Example:  value:Block_(basketball)
+585, ,stat3value,,210.0,False, Example:  value:2732
+586, ,weightLb,,211.0,True, Example:  value:250
+587, ,champion,,212.0,True, Example:  value:y
+588, ,heightFt,,213.0,True, Example:  value:6
+589, ,heightIn,,214.0,True, Example:  value:6
+590, ,leader,,215.0,True, Example:  value:y
+591, ,highSchool,,216.0,True, Example:  value:* Robert G. Cole
+592, ,bbr,,217.0,False, Example:  value:o/onealsh01
+593, ,careerEnd,,218.0,True, Example:  value:2011
+594, ,careerNumber,,219.0,True, Example:  value:32343336
+595, ,careerPosition,,220.0,True, Example:  value:Center_(basketball)
+596, ,careerStart,,221.0,True, Example:  value:1992
+597, ,draftPick,,222.0,True, Example:  value:1
+598, ,draftRound,,223.0,True, Example:  value:1
+599, ,draftTeam,,224.0,True, Example:  value:Orlando_Magic
+600, ,draftYear,,225.0,True, Example:  value:1992
+601, ,heightFootnote,,226.0,True," Example:  value:ref|In 2017, Vanessa Bryant said that Kobe was 6 feet 4 and 3/4 inches (1.95 m) without shoes and  with shoes. In 2006, Bryant said that he was . In 2008, he stated he was -probably-  in shoes.|group=lower-alpha|name=height_note"
+602, ,hofPlayer,,227.0,True, Example:  value:shaquille-oneal
+603, ,nba,,228.0,True, Example:  value:893
+604, ,mvp,,,True,
+605, ,hofers,,,True,
+606, ,assist,,,True,
+607, ,finalsMvp,,,True,
+608, ,seeAlso,,,False,
+609, ,supportAct,,,True,
+610, ,bestActress,,,True,
+611, ,league,,230.0,True, Example:  value:National_Basketball_Association
+612, ,number,,231.0,False, Example:  value:32343336
+613, ,record,,232.0,False, Example:  value:y
+614, ,topPick,,,True,
+615, ,assistsLeader,,,True,
+616, ,clubnumber,,233.0,True, Example:  value:10
+617, ,currentclub,,234.0,True, Example:  value:Paris_Saint-Germain_F.C.
+618, ,topGoalscorer,,,True,
+619, ,youngestScorerPlayer,,,True,
+620, ,namedafter,,,True,
+621, ,player,,,True,
+622, ,mostAssistsPlayer,,,True,
+623, ,mostConvertedFreeKicksPlayer,,,True,
+624, ,mostPlayerAppearances,,,True,
+625, ,currentMemberOf,,,True,
+626, ,loser,,236.0,True, Example:  value:Sarangani Reconciliation and Reformation Organization
+627, ,branch,,237.0,True, Example:  value:25
+628, ,percentage,,240.0,True, Example:  value:100
+629, ,rank,,242.0,True, Example:  value:40
+630, ,termEnd,,245.0,True, Example:  value:2022-06-30
+631, ,termStart,,246.0,True, Example:  value:2018-09-18
+632, ,votes,,247.0,True, Example:  value:214969
+633, ,winner,,248.0,True, Example:  value:United Nationalist Alliance
+634, ,otherparty,,249.0,True, Example:  value:Nacionalista
+635, ,militaryService,,250.0,True, Example:  value:Manny_Pacquiao__MilitaryService__1
+636, ,termPeriod,,251.0,True, Example:  value:Manny_Pacquiao__Tenure__4
+637, ,torchLighter,,,True,
+638, ,cand,,,True,
+639, ,callsignMeaning,,,True,
+640, ,coach,,295.0,True, Example:  value:Severin_Leuthi
+641, ,other,,,False,
+642, ,1namedata,,,False,
+643, ,flagbearer,,,True,
+644, ,shipSponsor,,,True,
+645, ,allLyrics,,,True,
+646, ,teleplay,,,True,
+647, ,stat21label,,252.0,True, Example:  value:Batting average
+648, ,stat21value,,253.0,True, Example:  value:0.252
+649, ,stat22label,,254.0,True, Example:  value:Runs batted in
+650, ,stat22value,,255.0,True, Example:  value:8
+651, ,stat2league,,256.0,True, Example:  value:Arizona Fall League
+652, ,statleague,,257.0,True, Example:  value:Southern League
+653, ,statsLeague,,258.0,True, Example:  value:NBA
+654, ,statyear,,259.0,True, Example:  value:1994
+655, ,throws,,260.0,True, Example:  value:Right
+656, ,college,,261.0,True, Example:  value:Stanford_University
+657, ,draftpick,,262.0,True, Example:  value:3
+658, ,draftround,,263.0,True, Example:  value:1
+659, ,draftyear,,264.0,True, Example:  value:1984
+660, ,finaldate,,265.0,True, Example:  value:--03-10
+661, ,teams,,267.0,True, Example:  value:* Birmingham Barons * Scottsdale Scorpions
+662, ,weightLbs,,268.0,True, Example:  value:216
+663, ,bats,,269.0,False, Example:  value:Right
+664, ,debut2league,,270.0,True, Example:  value:Arizona_Fall_League
+665, ,debut2team,,271.0,True, Example:  value:Scottsdale Scorpions
+666, ,debut2year,,272.0,True, Example:  value:1994
+667, ,debutdate,,273.0,True, Example:  value:--04-08
+668, ,debutleague,,274.0,True, Example:  value:Southern_League_(1964-2020)
+669, ,debutteam,,275.0,True, Example:  value:Birmingham Barons
+670, ,debutyear,,276.0,True, Example:  value:1994
+671, ,draftteam,,277.0,True, Example:  value:Chicago_Bulls
+672, ,fibaHofPlayer,,278.0,True, Example:  value:Shaquille-O-Neal
+673, ,finalleague,,279.0,True, Example:  value:Southern League
+674, ,finalteam,,280.0,True, Example:  value:Birmingham Barons
+675, ,finalyear,,281.0,True, Example:  value:1995
+676, ,mostwins,,,True,
+677, ,president,,,True,
+678, ,playeroftheyear,,,True,
+679, ,ownerNames,,,True,
+680, ,mostrecent,,,True,
+681, ,firstBracePlayer,,,True,
+682, ,firstGoalPlayer,,,True,
+683, ,latestGoalPlayer,,,True,
+684, ,background,,282.0,True, Example:  value:group_or_band
+685, ,award1Winner,,,True,
+686, ,narrated,,,True,
+687, ,religion,,,True,
+688, ,imagesize,,283.0,True, Example:  value:250
+689, ,restaurants,,284.0,True," Example:  value:The Lady & Sons Restaurant, Paula Deen's Family Kitchen , Paula Deen's Creek House"
+690, ,motto,,285.0,True, Example:  value:ECCE COR MEUM
+691, ,notes,,286.0,False, Example:  value:--06-18
+692, ,crest,,287.0,True, Example:  value:On a wreath of the colours a Liver Bird calling Sable supporting with the dexter claws a guitar Or stringed Sable.
+693, ,escutcheon,,288.0,True, Example:  value:Or between two Flaunches fracted fesswise two roundels Sable over all six guitar strings palewise throughout counterchanged.
+694, ,organisers,,,True,
+695, ,5optionName,,,True,
+696, ,notableMembers,,,True,
+697, ,singlestitles,,289.0,True, Example:  value:103
+698, ,turnedpro,,290.0,True, Example:  value:1998
+699, ,usopendoublesresult,,291.0,True, Example:  value:3.0
+700, ,usopenresult,,292.0,True, Example:  value:W
+701, ,wimbledondoublesresult,,293.0,True, Example:  value:QF
+702, ,wimbledonresult,,294.0,True, Example:  value:W
+703, ,residence,,296.0,True," Example:  value:Jupiter_Island,_Florida"
+704, ,retired,,297.0,True, Example:  value:2022
+705, ,lost,,298.0,True, Example:  value:60
+706, ,won,,299.0,True, Example:  value:369
+707, ,australianopendoublesresult,,300.0,True, Example:  value:3.0
+708, ,australianopenresult,,301.0,True, Example:  value:W
+709, ,careerprizemoney,,302.0,True, Example:  value:1.30594339E8
+710, ,daviscupresult,,303.0,True, Example:  value:W
+711, ,doublestitles,,304.0,True, Example:  value:8
+712, ,frenchopendoublesresult,,305.0,True, Example:  value:1.0
+713, ,frenchopenresult,,306.0,True, Example:  value:W
+714, ,highestdoublesranking,,307.0,True, Example:  value:No. 24
+715, ,highestsinglesranking,,308.0,True, Example:  value:List_of_ATP_number_1_ranked_singles_tennis_players
+716, ,hopmancupresult,,309.0,True, Example:  value:W
+717, ,integer,,310.0,False, Example:  value:yes
+718, ,masterscupresult,,311.0,True, Example:  value:W
+719, ,medaltemplatesExpand,,312.0,True, Example:  value:yes
+720, ,medaltemplatesTitle,,313.0,True, Example:  value:Olympic medal record
+721, ,olympicsdoublesresult,,314.0,True, Example:  value:15
+722, ,olympicsresult,,315.0,True, Example:  value:15
+723, ,othertournaments,,316.0,True, Example:  value:yes
+724, ,othertournamentsdoubles,,317.0,True, Example:  value:yes
+725, ,plays,,318.0,True, Example:  value:Right-handed (one-handed backhand)
+726, ,careerPrizeMoney,,319.0,True, Example:  value:1.30594339E8
+727, ,singlesWins,,,True,
+728, ,gold,,,True,
+729, ,silver,,,True,
+730, ,team2Abbrev,,,True,
+731, ,coachplayers,,,True,
+732, ,doublesWins,,,True,
+733, ,menMostS,,,True,
+734, ,mostYears,,,True,
+735, ,playerWins,,,True,
+736, ,goldMedalist,,,True,
+737, ,silverMedalist,,,True,
+738, ,championInDoubleMale,,,True,
+739, ,championInSingleMale,,,True,
+740, ,restingPlace,,320.0,True, Example:  value:St._Louis
+741, ,ft,,321.0,True, Example:  value:7
+742, ,in,,322.0,True, Example:  value:10
+743, ,cbbaskhofYear,,323.0,True, Example:  value:2014
+744, ,draftLeague,,324.0,True, Example:  value:NBA
+745, ,espn,,325.0,True, Example:  value:614
+746, ,nbaHistorical,,326.0,True, Example:  value:shaquille_oneal
+747, ,portrayedBy,,,True,
+748, ,group,,327.0,True, Example:  value:nb
+749, ,theme,,,True,
+750, ,editor,,,True,
+751, ,adaptedBy,,,True,
+752, ,directedby,,,True,
+753, ,indent,,335.0,False, Example:  value:yes
+754, ,blankData,,,False,
+755, ,opentheme,,,True,
+756, ,show,,338.0,True, Example:  value:30
+757, ,namedAfter,,,True,
+758, ,collections,,,True,
+759, ,beforeElection,,,True,
+760, ,usopen,,343.0,True, Example:  value:Won: 2000 * 2002 * 2008
+761, ,wghofid,,344.0,True, Example:  value:tiger-woods
+762, ,wghofyear,,345.0,True, Example:  value:2021
+763, ,yearpro,,346.0,True, Example:  value:1996
+764, ,open,,347.0,True, Example:  value:Won: 2000 * 2005 * 2006
+765, ,year,,348.0,True, Example:  value:9223372036854775807
+766, ,pga,,349.0,True, Example:  value:Won: 1999 * 2000 * 2006 * 2007
+767, ,tour,,350.0,True, Example:  value:PGA_Tour
+768, ,asiawins,,351.0,True, Example:  value:2
+769, ,auswins,,352.0,True, Example:  value:3
+770, ,awardssection,,353.0,True, Example:  value:List of career achievements by Tiger Woods#Awards
+771, ,eurowins,,354.0,True, Example:  value:41
+772, ,japwins,,355.0,True, Example:  value:3
+773, ,majorwins,,356.0,True, Example:  value:15
+774, ,masters,,357.0,True, Example:  value:Won: 1997 * 2001 * 2002 * 2005 * 2019
+775, ,otherwins,,358.0,True, Example:  value:17
+776, ,pgawins,,359.0,True, Example:  value:82
+777, ,prowins,,360.0,True, Example:  value:110
+778, ,winsAtAsia,,361.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+779, ,winsAtPGA,,362.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+780, ,winsAtAus,,363.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+781, ,winsAtJapan,,364.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+782, ,winsAtOtherTournaments,,365.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+783, ,winsAtProTournaments,,366.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+784, ,winsInEurope,,367.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+785, ,awaycaptain,,,False,
+786, ,link,,368.0,True, Example:  value:Wikipedia:
+787, ,nocat,,369.0,False, Example:  value:yes
+788, ,audioReadBy,,,True,
+789, ,directed,,,True,
+790, ,help,,370.0,False, Example:  value:no
+791, ,bSearch,,,False,
+792, ,book,,,True,
+793, ,vSearch,,,False,
+794, ,wiktSearch,,,False,
+795, ,containerOnly,,,False,
+796, ,lcheading,,,False,
+797, ,onlinebooks,,189.0,True, Example:  value:no
+798, ,isPartOf,,,True,
+799, ,thFuelPrimary,,,True,
+800, ,volumeNote,,,True,
+801, ,atmosphereComposition,,,True,
+802, ,chemical,,,True,
+803, ,fuelSource,,,True,
+804, ,naturalResources,,,True,
+805, ,contaminants,,,True,
+806, ,reflector,,,True,
+807, ,fields,,,True,
+808, ,formula,,,True,
+809, ,industries,,,True,
+810, ,composition,,,True,
+811, ,melt,,,True,
+812, ,related,,,True,
+813, ,doi,,,False,
+814, ,first,,,False,
+815, ,isbn,,,True,
+816, ,pages,,,True,
+817, ,talk,,,True,
+818, ,volume,,,True,
+819, ,field,,,True,
+820, ,opt4n,,,False,
+821, ,filling,,,True,
+822, ,chassis,,,True,
+823, ,impurities,,,True,
+824, ,blockAlloy,,,True,
+825, ,carbody,,,True,
+826, ,head,,,True,
+827, ,material,,,True,
+828, ,block,,,True,
+829, ,exportGoods,,,False,
+830, ,automobilePlatform,,,True,
+831, ,headAlloy,,,True,
+832, ,bodyStyle,,,True,
+833, ,shipNamesake,,,True,
+834, ,core#narrower,,,True,
+835, ,hotSpringType,,,True,
+836, ,namedFor,,,True,
+837, ,colour,,,True,
+838, ,weapons,,,True,
+839, ,developmentCode,,,True,
+840, ,treatment,,,True,
+841, ,medicalCause,,,True,
+842, ,medication,,,True,
+843, ,valves,,,True,
+844, ,structuralSystem,,,True,
+845, ,compositionSecondary,,,True,
+846, ,etymology,,,True,
+847, ,lithology,,,True,
+848, ,battleHonours,,,True,
+849, ,construction,,,True,
+850, ,drum,,,False,
+851, ,constructionMaterial,,,True,
+852, ,blankInfoSec,,,False,
+853, ,commodity,,,True,
+854, ,materials,,,True,
+855, ,mineral,,,True,
+856, ,otherlithology,,,False,
+857, ,currency,,,True,
+858, ,region,,,True,
+859, ,ew,,,False,
+860, ,ns,,,False,
+861, ,category,,,True,
+862, ,nams,,,True,
+863, ,opt2n,,,False,
+864, ,pams,,,False,
+865, ,causes,,,True,
+866, ,risks,,,True,
+867, ,with,,,False,
+868, ,opt1n,,,False,
+869, ,opt3n,,,False,
+870, ,mainIngredient,,,True,
+871, ,primaryMaterial,,,True,
+872, ,ingredient,,,True,
+873, ,cs1Dates,,,False,
+874, ,sSearch,,,False,
+875, ,colours,,,True,
+876, ,meaning,,,True,
+877, ,peggedWith,,,False,
+878, ,ramtype,,,True,
+879, ,keel,,,True,
+880, ,btype,,,False,
+881, ,wordOrigin,,,True,
+882, ,element,,,True,
+883, ,wikiPageInterLanguageLink,,,False,
+884, ,a,,,False,
+885, ,w,,,False,
+886, ,end,,,False,
+887, ,nSearch,,,False,
+888, ,e,,,False,
+889, ,u,,,False,
+890, ,stardistancely,,,True,
+891, ,stardistancepc,,,True,
+892, ,starmagnitude,,,True,
+893, ,symbolism,,,True,
+894, ,abbreviation,,,True,
+895, ,month,,,,
+896, ,arearank,,,True,
+897, ,areatotal,,,True,
+898, ,bordering,,,True,
+899, ,brighteststarname,,,True,
+900, ,dec,,,False,
+901, ,genitive,,,True,
+902, ,latmax,,,False,
+903, ,latmin,,,False,
+904, ,meteorshowers,,,True,
+905, ,neareststarname,,,True,
+906, ,numberbfstars,,,True,
+907, ,numberbrightstars,,,True,
+908, ,numbermainstars,,,True,
+909, ,numbermessierobjects,,,True,
+910, ,numbernearbystars,,,True,
+911, ,numberstarsplanets,,,True,
+912, ,pronounce,,,False,
+913, ,ra,,,False,
+914, ,neighbourConstellations,,,True,
+915, ,constellation,,,True,
+916, ,constell,,,True,
+917, ,constellationName,,,True,
+918, ,page,,,False,
+919, ,wstitle,,,False,
+920, ,quadrant,,,True,
+921, ,declination,,,True,
+922, ,constel,,,True,
+923, ,mascot,,,True,
+924, ,budget,,,True,
+925, ,country,,,True,
+926, ,gross,,,True,
+927, ,runtime,,,True,
+928, ,prevTitle,,,True,
+929, ,lastAppearance,,,True,
+930, ,album,,,True,
+931, ,nextTitle,,,True,
+932, ,productionCompanies,,,True,
+933, ,series,,,True,
+934, ,previousWork,,,True,
+935, ,subsequentWork,,,True,
+936, ,dSearch,,,False,
+937, ,prevYear,,,True,
+938, ,released,,,True,
+939, ,firstMajor,,,True,
+940, ,collapsed,,,True,
+941, ,extraColumn,,,False,
+942, ,length,,,True,
+943, ,misc,,,True,
+944, ,nextYear,,,True,
+945, ,totalLength,,,True,
+946, ,producers,,,True,
+947, ,recorded,,,True,
+948, ,labels,,,True,
+949, ,lastMajor,,,True,
+950, ,urlStatus,,,False,
+951, ,accessDate,,,False,
+952, ,count,,,True,
+953, ,ref,,,False,
+954, ,score,,,True,
+955, ,average,,,True,
+956, ,consensus,,,True,
+957, ,bestActorFilm,,,True,
