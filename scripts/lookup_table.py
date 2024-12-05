@@ -7,7 +7,6 @@ new_document = open("../scripts/lookup_table_db.csv", mode='a')
 nlp = spacy.load("en_core_web_lg")
 
 threshold = 0.8
-# ----------
 tokenized_properties = []
 
 # For every property, we create the token:

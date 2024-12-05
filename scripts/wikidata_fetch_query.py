@@ -75,8 +75,7 @@ def get_person_data(person, new_query=True):
 
 
 if __name__=="__main__":
-
-    # get_person_data("Q34660",False) #this is for marie curie
+    get_person_data("Q34660",False) #this is for marie curie
     get_person_data("Q34660") #this is for marie curie
 
 
