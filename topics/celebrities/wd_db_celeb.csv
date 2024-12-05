@@ -16,7 +16,7 @@
 16, Dan Brown, https://en.wikipedia.org/wiki/Dan_Brown,Q7345,https://dbpedia.org/page/Dan_Brown,Dan_Brown
 17, David Beckham, https://en.wikipedia.org/wiki/David_Beckham,Q10520,https://dbpedia.org/page/David_Beckham,David_Beckham
 18, Dr. Dre, https://en.wikipedia.org/wiki/Dr._Dre,Q6078,https://dbpedia.org/page/Dr._Dre,Dr._Dre
-19, Dr. Phil McGraw, https://en.wikipedia.org/wiki/Dr._Phil_McGraw,Q204630,https://dbpedia.org/page/Dr._Phil_McGraw,Dr._Phil_McGraw
+19, Dr. Phil McGraw, https://en.wikipedia.org/wiki/Dr._Phil_McGraw,Q204630,https://dbpedia.org/page/Dr._Phil_McGraw,Phil_McGraw
 20, Drake, https://en.wikipedia.org/wiki/Drake_(musician),Q33240,https://dbpedia.org/page/Drake_(musician),Drake_(musician)
 21, Dwayne Johnson, https://en.wikipedia.org/wiki/Dwayne_Johnson,Q10738,https://dbpedia.org/page/Dwayne_Johnson,Dwayne_Johnson
 22, Edie Falco, https://en.wikipedia.org/wiki/Edie_Falco,Q229034,https://dbpedia.org/page/Edie_Falco,Edie_Falco
@@ -30,7 +30,7 @@
 30, George Lucas, https://en.wikipedia.org/wiki/George_Lucas,Q38222,https://dbpedia.org/page/George_Lucas,George_Lucas
 31, Harrison Ford, https://en.wikipedia.org/wiki/Harrison_Ford,Q81328,https://dbpedia.org/page/Harrison_Ford,Harrison_Ford
 32, Howard Stern, https://en.wikipedia.org/wiki/Howard_Stern,Q348603,https://dbpedia.org/page/Howard_Stern,Howard_Stern
-33, J.K. Rowling, https://en.wikipedia.org/wiki/J.K._Rowling,Q34660,https://dbpedia.org/page/J.K._Rowling,J.K._Rowling
+33, J.K. Rowling, https://en.wikipedia.org/wiki/J.K._Rowling,Q34660,https://dbpedia.org/page/J.K._Rowling,J._K._Rowling
 34, James Cameron, https://en.wikipedia.org/wiki/James_Cameron,Q42574,https://dbpedia.org/page/James_Cameron,James_Cameron
 35, James Gandolfini, https://en.wikipedia.org/wiki/James_Gandolfini,Q308722,https://dbpedia.org/page/James_Gandolfini,James_Gandolfini
 36, James Patterson, https://en.wikipedia.org/wiki/James_Patterson,Q311671,https://dbpedia.org/page/James_Patterson,James_Patterson
@@ -39,7 +39,7 @@
 39, Jennifer Lopez, https://en.wikipedia.org/wiki/Jennifer_Lopez,Q40715,https://dbpedia.org/page/Jennifer_Lopez,Jennifer_Lopez
 40, Jerry Seinfeld, https://en.wikipedia.org/wiki/Jerry_Seinfeld,Q215506,https://dbpedia.org/page/Jerry_Seinfeld,Jerry_Seinfeld
 41, Johnny Depp, https://en.wikipedia.org/wiki/Johnny_Depp,Q37175,https://dbpedia.org/page/Johnny_Depp,Johnny_Depp
-42, Judge Judy Sheindlin, https://en.wikipedia.org/wiki/Judge_Judy_Sheindlin,Q2660811,https://dbpedia.org/page/Judge_Judy_Sheindlin,Judge_Judy_Sheindlin
+42, Judge Judy Sheindlin, https://en.wikipedia.org/wiki/Judge_Judy_Sheindlin,Q2660811,https://dbpedia.org/page/Judge_Judy_Sheindlin,Judy_Sheindlin
 43, Julia Roberts, https://en.wikipedia.org/wiki/Julia_Roberts,Q40523,https://dbpedia.org/page/Julia_Roberts,Julia_Roberts
 44, Justin Bieber, https://en.wikipedia.org/wiki/Justin_Bieber,Q34086,https://dbpedia.org/page/Justin_Bieber,Justin_Bieber
 45, Kanye West, https://en.wikipedia.org/wiki/Kanye_West,Q15935,https://dbpedia.org/page/Kanye_West,Kanye_West
@@ -73,14 +73,14 @@
 73, Rush Limbaugh, https://en.wikipedia.org/wiki/Rush_Limbaugh,Q319072,https://dbpedia.org/page/Rush_Limbaugh,Rush_Limbaugh
 74, Sandra Bullock, https://en.wikipedia.org/wiki/Sandra_Bullock,Q40791,https://dbpedia.org/page/Sandra_Bullock,Sandra_Bullock
 75, Saul Canelo Alvarez, https://en.wikipedia.org/wiki/Canelo_Alvarez,Q2117769,https://dbpedia.org/page/Canelo_%C3%81lvarez,Canelo_%C3%81lvarez
-76, Sean Diddy Combs, https://en.wikipedia.org/wiki/Sean_Combs,Q216936,https://dbpedia.org/page/Sean_Diddy_Combs,Sean_Diddy_Combs
+76, Sean Diddy Combs, https://en.wikipedia.org/wiki/Sean_Combs,Q216936,https://dbpedia.org/page/Sean_Diddy_Combs,Sean_Combs
 77, Shaquille O'Neal, https://en.wikipedia.org/wiki/Shaquille_O%27Neal,Q169452,https://dbpedia.org/page/Shaquille_O'Neal,Shaquille_O'Neal
 78, Simon Cowell, https://en.wikipedia.org/wiki/Simon_Cowell,Q162629,https://dbpedia.org/page/Simon_Cowell,Simon_Cowell
 79, Spice Girls, https://en.wikipedia.org/wiki/Spice_Girls,Q55641,https://dbpedia.org/page/Spice_Girls,Spice_Girls
 80, Steven Spielberg, https://en.wikipedia.org/wiki/Steven_Spielberg,Q8877,https://dbpedia.org/page/Steven_Spielberg,Steven_Spielberg
 81, Taylor Swift, https://en.wikipedia.org/wiki/Taylor_Swift,Q26876,https://dbpedia.org/page/Taylor_Swift,Taylor_Swift
 82, The Beatles, https://en.wikipedia.org/wiki/The_Beatles,Q1299,https://dbpedia.org/page/The_Beatles,The_Beatles
-83, The Eagles, https://en.wikipedia.org/wiki/The_Eagles,Q189635,https://dbpedia.org/page/The_Eagles,The_Eagles
+83, The Eagles, https://en.wikipedia.org/wiki/The_Eagles,Q189635,https://dbpedia.org/page/The_Eagles,Eagles_(band)
 84, The Police, https://en.wikipedia.org/wiki/The_Police,Q178095,https://dbpedia.org/page/The_Police,The_Police
 85, The Rolling Stones, https://en.wikipedia.org/wiki/The_Rolling_Stones,Q11036,https://dbpedia.org/page/The_Rolling_Stones,The_Rolling_Stones
 86, The Weeknd, https://en.wikipedia.org/wiki/The_Weeknd,Q2121062,https://dbpedia.org/page/The_Weeknd,The_Weeknd
