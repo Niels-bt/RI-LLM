@@ -59,13 +59,23 @@ def get_person_data(person, printing = False, new_query = True):
                 if val.startswith('http'):
                     # Split the URL by '/' and get the last non-empty element
                     segments = [seg for seg in val.split('/') if seg]
-                    if printing:
-                        print(f"{prop_name}: {segments[-1]}")
-                    filtered_result[prop_name]=segments[-1]
+                    val=segments[-1]
+
                     #return segments[-1] if segments else text
+
+
+                if printing:
+                    print(f"{prop_name}: {val}")
+
+                if prop_name in filtered_result:
+                    if type(filtered_result[prop_name]) == list:
+                        filtered_result[prop_name].append(val)
+                    else:
+                        temp = []
+                        temp.append(filtered_result[prop_name])
+                        temp.append(val)
+                        filtered_result[prop_name] = temp
                 else:
-                    if printing:
-                        print(f"{prop_name}: {val}")
                     filtered_result[prop_name] = val
 
             else:
@@ -81,4 +91,5 @@ def get_person_data(person, printing = False, new_query = True):
 
 if __name__ == "__main__":
     get_person_data("J._K._Rowling", True, False)
-    get_person_data("J._K._Rowling",True)
+    aa = get_person_data("J._K._Rowling",True)
+
