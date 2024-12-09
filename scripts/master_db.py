@@ -7,13 +7,14 @@ file_sp500 = open("../topics/sp500/wd_db_sp500.csv",mode='r')
 files=[file_sp500,file_celeb,file_chm,file_constellations,file_movies]
 
 
+
 file_master = open("db_master.csv", mode="w")
 
 
 def add_in_dic(dic,toadd):
     for ii in toadd:
         if ii not in dic:
-            dic[ii]=""
+            dic[ii]=toadd[ii]
 
 
 
@@ -37,6 +38,6 @@ for f in files:
 
 new_ct = 1
 for i in all_prop_hash:
-    towrite = str(new_ct)+","+i+"\n"
+    towrite = str(new_ct)+","+i+","+all_prop_hash[i]+"\n"
     file_master.write(towrite)
     new_ct+=1
