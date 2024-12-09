@@ -2,6 +2,7 @@ import time
 
 import wikidata_fetch_query as wd_f_q
 
+
 file_celeb = open("../topics/celebrities/wd_db_celeb.csv",mode='r')
 file_chm = open("../topics/chemical_elements/wd_db_chemical_elements.csv",mode='r')
 file_constellations = open("../topics/constellations/wd_db_constellations.csv",mode='r')
@@ -49,10 +50,10 @@ for f in files:
         add_in_dic(all_prop_hash,new_to_add)
         print(elems[5])
         counter+=1
-        time.sleep(2.01)
+        time.sleep(2)
 
 new_ct = 1
 for i in all_prop_hash:
-    towrite = str(new_ct)+","+i+"\n"
+    towrite = str(new_ct)+","+i+","+all_prop_hash[i]+"\n"
     file_master.write(towrite)
     new_ct+=1
