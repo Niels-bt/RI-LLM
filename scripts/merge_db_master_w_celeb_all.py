@@ -11,6 +11,6 @@ print("dbpedia_celeb columns:", dbpedia_celeb.columns)
 merged_df = pd.merge(db_master, dbpedia_celeb, on=' Property_Name', how='left')
 
 # save to csv file
-merged_df.to_csv('merged_db_master_w_celeb_all.csv', index=False)
+merged_df.to_csv('corrected_master_db.csv', index=False)
 
-print("Merge completed. The result is saved in 'merged_db_master_w_celeb_all.csv'.")
+print("Merge completed. The result is saved in 'corrected_master_db.csv'.")
