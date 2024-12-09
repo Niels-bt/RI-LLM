@@ -24,9 +24,6 @@ def add_in_dic(dic,toadd):
             dic[ii]=toadd[ii]
 
 
-
-
-
 counter=0
 all_prop_hash = {}
 '''
@@ -44,6 +41,8 @@ for f in files:
         if f == file_constellations:
             #for this the new query doesnt work timeout
             #can't really explain why, timeout of the sparql query not our side
+
+
             new_to_add = wd_f_q.get_person_data(elems[3],False,False)
         else:
             new_to_add = wd_f_q.get_person_data(elems[3], True, False)
