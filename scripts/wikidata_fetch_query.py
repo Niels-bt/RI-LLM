@@ -1,7 +1,7 @@
 import requests
 
 
-def get_person_data(person, new_query=True):
+def get_person_data(person, new_query=True,printing = False):
 
     if new_query:
         query = f"""
@@ -61,9 +61,9 @@ def get_person_data(person, new_query=True):
             if " ID" in item['propertyLabel']['value']:
                 i += 1
             else:
-
-                relations[item['propertyLabel']['value']] = ""
-                print(f"Item: {item['propertyLabel']['value']}, Label: {item['valueLabel']['value']}")
+                #relations[item['propertyLabel']['value']] = ""
+                if printing:
+                    print(f"Item: {item['propertyLabel']['value']}, Label: {item['valueLabel']['value']}")
                 clean_data[item['propertyLabel']['value']]=item['valueLabel']['value']
             i2 += 1
 
@@ -76,7 +76,7 @@ def get_person_data(person, new_query=True):
 
 if __name__=="__main__":
     get_person_data("Q34660",False) #this is for marie curie
-    get_person_data("Q34660") #this is for marie curie
+    get_person_data("Q34660",True) #this is for marie curie
 
 
 
