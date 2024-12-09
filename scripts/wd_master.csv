@@ -1,751 +1,745 @@
-1,Reddit username
-2,subreddit
-3,category for employees of the organization
-4,board member
-5,hashtag
-6,total assets
-7,IPv4 routing prefix
-8,permanent duplicated item
-9,operating income
-10,net profit
-11,market capitalization
-12,autonomous system number
-13,PermID
-14,Code List for Cultural Heritage Organizations
-15,has subsidiary
-16,archives at
-17,industry
-18,official website
-19,part of
-20,inception
-21,stock exchange
-22,country of origin
-23,Commons category
-24,chairperson
-25,member of
-26,location of formation
-27,location
-28,employer
-29,developer
-30,manufacturer
-31,operator
-32,designed by
-33,type foundry
-34,owner of
-35,copyright holder
-36,owned by
-37,publisher
-38,has part(s)
-39,distributed by
-40,spoken text audio
-41,product
-42,GitHub username
-43,Commons gallery
-44,total equity
-45,X username
-46,motto
-47,history of topic
-48,employees
-49,Legal Entity Identifier
-50,legal form
-51,topic's main Wikimedia portal
-52,described by source
-53,phone number
-54,short name
-55,topic's main template
-56,total liabilities
-57,Instagram username
-58,described at URL
-59,total revenue
-60,official name
-61,OmegaWiki Defined Meaning
-62,ISIN
-63,IRS Employer Identification Number
-64,Facebook username
-65,notable work
-66,creator
-67,advertises
-68,parent organization
-69,authority
-70,merged into
-71,privacy policy URL
-72,TikTok username
-73,Wikimedia outline
-74,terms of service URL
-75,has works in the collection
-76,OpenCorporates corporate grouping
-77,Spectrum Management System Company Number
-78,Stack Exchange site URL
-79,Wolfram Language entity code
-80,Central Index Key
-81,National Equipment Registration System Supplier Number
-82,copyright status as a creator
-83,FCC Grantee Code
-84,Libris-URI
-85,external auditor
-86,on focus list of Wikimedia project
-87,record label
-88,founded by
-89,main subject
-90,facet of
-91,used by
-92,plaintiff
-93,participant
-94,affiliation
-95,commissioned by
-96,named after
-97,funder
-98,brand
-99,model item
-100,template has topic
-101,category combines topics
-102,discoverer or inventor
-103,sponsor
-104,category's main topic
-105,defendant
-106,symbol of
-107,partnership with
-108,Wikimedia portal's main topic
-109,organizer
-110,conferred by
-111,author
-112,production company
-113,occupant
-114,followed by
-115,performer
-116,issued by
-117,has part(s) of the class
-118,contributor to the creative work or subject
-119,field of work
-120,exhibited creator
-121,topic's main category
-122,investor
-123,chief executive officer
-124,YouTube handle
-125,item for this sense
-126,Wikidata property example
-127,social media followers
-128,official jobs URL
-129,service status information URL
-130,date of incorporation
-131,headquarters location
-132,award received
-133,official shop URL
-134,instance of
-135,shortened URL formatter
-136,country
-137,ISNI
-138,Google Play developer slug
-139,sitemap URL
-140,official forum URL
-141,logo image
-142,affiliated worker organisation
-143,image
-144,Commons Creator page
-145,official blog URL
-146,different from
-147,ISO 9362 SWIFT/BIC code
-148,work location
-149,email address
-150,search formatter URL
-151,public key fingerprint
-152,Corporate Number (Japan)
-153,Pinterest username
-154,small logo or icon
-155,replaced by
-156,editor
-157,copyright representative
-158,translator
-159,has use
-160,maintained by
-161,architect
-162,standards body
-163,educated at
-164,signatory
-165,acknowledged
-166,copyright status
-167,named by
-168,contact page URL
-169,Similarweb ranking
-170,business division
-171,parent
-172,stated in
-173,maintains linking to
-174,has written for
-175,place of publication
-176,platform
-177,in opposition to
-178,website account on
-179,Wikidata property
-180,Giphy username
-181,stylized name
-182,Delaware Division of Corporations file number
-183,GitHub topic
-184,applicable 'stated in' value
-185,vehicle normally used
-186,depicts
-187,target
-188,Bilibili UID
-189,EBITDA
-190,Baidu Tieba name
-191,schematic
-192,motto text
-193,native label
-194,replaces
-195,D-U-N-S number
-196,director / manager
-197,ACM Classification Code (2012)
-198,exact match
-199,Stack Exchange tag
-200,corporate officer
-201,postal code
-202,follows
-203,ArchWiki article
-204,GitLab.com username
-205,EU Participant Identification Code
-206,uses
-207,represents
-208,significant event
-209,contributing factor of
-210,panoramic view
-211,street address
-212,cites work
-213,endorsed by
-214,IPv6 routing prefix
-215,designated as terrorist by
-216,official symbol
-217,name
-218,source of income
-219,chief operating officer
-220,participant in
-221,item operated
-222,Threads username
-223,charter URL
-224,press information URL
-225,card network
-226,payment types accepted
-227,common equity tier 1 capital ratio (CETI)
-228,donated by
-229,assets under management
-230,reward program
-231,winner
-232,language used
-233,located in the administrative territorial entity
-234,official color
-235,location information URL
-236,has characteristic
-237,Xiaohongshu profile
-238,research site
-239,partner in business or sport
-240,subclass of
-241,addressee
-242,IPA transcription
-243,exhibition history
-244,fictional or mythical analog of
-245,has list
-246,Snapchat username
-247,has facility
-248,has effect
-249,video
-250,DPLA subject term
-251,D&B Hoovers company profile
-252,Telegram username
-253,separated from
-254,characters
-255,coordinate location
-256,collection
-257,copyright license
-258,pronunciation audio
-259,fax number
-260,produced by
-261,influenced by
-262,franchisor
-263,nickname
-264,category for maps
-265,number of branches
-266,European Union trademark number
-267,category contains
-268,based on
-269,flag image
-270,mascot
-271,flag
-272,operating area
-273,location of creation
-274,producer
-275,interested in
-276,dedicated to
-277,has cause
-278,central bank/issuer
-279,original broadcaster
-280,page banner
-281,significant person
-282,enemy
-283,LastDodo-area-ID
-284,fandom
-285,Zhihu username
-286,Archive of Our Own tag
-287,ISBN publisher prefix
-288,EU VAT number
-289,total debt
-290,catchphrase
-291,reply to
-292,Uniform Resource Identifier Scheme
-293,URL
-294,CPU
-295,performing organization
-296,said to be the same as
-297,cast member
-298,is a list of
-299,applies to part
-300,kit supplier
-301,contains
-302,Vintage Fashion Guild label
-303,main building contractor
-304,published in
-305,KulturNav-ID
-306,occupation
-307,DOI prefix
-308,Tumblr username
-309,BHCL UUID
-310,operating system
-311,stock market index
-312,applies to jurisdiction
-313,commemorates
-314,position held
-315,MIC market code
-316,Alexa rank
-317,OpenStreetMap tag or key
-318,launch contractor
-319,WordLift URL
-320,audio
-321,Egapro gender equality index
-322,vessel
-323,ARCHON code
-324,Transferred Account Data Interchange Group Code
-325,mobile network code
-326,dissolved
-327,GUI number
-328,regulated by
-329,web feed URL
-330,IMDb keyword
-331,locator map image
-332,adjacent building
-333,CAGE code
-334,executive producer
-335,father
-336,composer
-337,lyricist
-338,voice actor
-339,screenwriter
-340,director
-341,presenter
-342,work period (start)
-343,number of children
-344,name in native language
-345,filmography
-346,birth name
-347,family name
-348,height
-349,given name
-350,date of birth
-351,pseudonym
-352,instrument
-353,nominated for
-354,discography
-355,languages spoken
-356,ethnic group
-357,native language
-358,sex or gender
-359,genre
-360,country of citizenship
-361,child
-362,place of birth
-363,writing language
-364,related category
-365,spouse
-366,mother
-367,unmarried partner
-368,IPI name number
-369,signature
-370,voice type
-371,Douban site name
-372,relative
-373,inspired by
-374,sibling
-375,guest of honor
-376,religion or worldview
-377,ancestral home
-378,sexual orientation
-379,eye color
-380,residence
-381,godparent
-382,handedness
-383,hair color
-384,U.S. National Archives Identifier
-385,RIA Novosti reference
-386,EcuRed article
-387,married name
-388,worn by
-389,recorded participant
-390,Plex person key
-391,member category
-392,list of works
-393,stepparent
-394,medical condition
-395,sport
-396,talk show guest
-397,member of political party
-398,student
-399,student of
-400,CLARA-ID
-401,net worth
-402,personal pronoun
-403,narrator
-404,lifestyle
-405,notable role
-406,supported sports team
-407,Krugosvet article
-408,plaque image
-409,blood type
-410,mass
-411,Europeana entity
-412,work period (end)
-413,victory
-414,documentation files at
-415,setlist
-416,points/goal scored by
-417,team captain
-418,statistical leader
-419,league or competition
-420,member of sports team
-421,Munzinger Sport number
-422,ORCID iD
-423,position played on team / speciality
-424,sport number
-425,convicted of
-426,country for sport
-427,number of matches played/races/starts
-428,total goals in career
-429,footedness
-430,after a work by
-431,Colon Classification
-432,head coach
-433,time period
-434,sports discipline competed in
-435,full work available at URL
-436,represented by
-437,wears
-438,subject has role
-439,OnlyFans username
-440,coat of arms image
-441,noble title
-442,depicted by
-443,honorific prefix
-444,affiliation string
-445,generational suffix
-446,has pet
-447,director of photography
-448,film editor
-449,present in work
-450,movement
-451,maintained by WikiProject
-452,audio recording of the subject's spoken voice
-453,NLC authorities
-454,Regensburg Classification
-455,production designer
-456,date of death
-457,place of death
-458,cause of death
-459,manner of death
-460,references work
-461,hairstyle / hairlength
-462,alternative name
-463,facial hair
-464,academic major
-465,academic degree
-466,adapted by
-467,Ameblo username
-468,candidate
-469,author of foreword
-470,family
-471,Parler username (archived)
-472,name in kana
-473,IAFD actor UUID
-474,place of burial
-475,defender
-476,drafted by
-477,victim(s)
-478,date of burial or cremation
-479,officially opened by
-480,category of associated people
-481,flag bearer
-482,is the study of
-483,model
-484,Library of Congress Classification
-485,studied in
-486,military branch
-487,torch lit by
-488,Fach vocal classification
-489,highest note
-490,lowest note
-491,permanent resident of
-492,trained by
-493,first family name in Portuguese name
-494,speaker
-495,cover art by
-496,escutcheon image
-497,sports season of league or competition
-498,playing hand
-499,doubles record
-500,singles record
-501,ranking
-502,prize money
-503,political ideology
-504,second family name in Spanish name
-505,place of detention
-506,television judge
-507,montage image
-508,boiling point
-509,melting point
-510,atomic number
-511,density
-512,time of discovery or invention
-513,speed of sound
-514,refractive index
-515,Unicode character
-516,color
-517,E number
-518,oxidation state
-519,thermal conductivity
-520,MeSH tree code
-521,electronegativity
-522,Dewey Decimal Classification
-523,does not have part
-524,made from material
-525,antiparticle
-526,raw material processed
-527,coolant
-528,by-product
-529,powered by
-530,source of energy
-531,manifestation of
-532,ionic radius
-533,UMLS CUI
-534,electron configuration
-535,ionization energy
-536,molar enthalpy of vaporization
-537,location of discovery
-538,CAS Registry Number
-539,element symbol
-540,Common Procurement Vocabulary code
-541,standard molar entropy
-542,by-product of
-543,ASHRAE refrigerant number
-544,conjugate acid
-545,DSSTOX compound identifier
-546,chemical formula
-547,EC number
-548,PubChem CID
-549,ZVG number
-550,InChI
-551,UNII
-552,canonical SMILES
-553,ATC code
-554,InChIKey
-555,significant drug interaction
-556,drug or therapy used for treatment
-557,production statistics
-558,medical condition treated
-559,molar fusion enthalpy
-560,has listed ingredient
-561,immediately dangerous to life or health
-562,associated hazard
-563,Gmelin number
-564,electrical conductivity
-565,ceiling exposure limit
-566,time-weighted average exposure limit
-567,vapor pressure
-568,RTECS number
-569,ultimate tensile strength
-570,crystal system
-571,CosIng number
-572,measures
-573,physically interacts with
-574,opposite of
-575,UNSPSC Code
-576,radius
-577,frequency
-578,facilitates flow of
-579,solid solution series with
-580,found in taxon
-581,Gujarati Vishwakosh entry
-582,designed to carry
-583,recycling code
-584,safety classification and labelling
-585,CPV Supplementary code
-586,chassis
-587,minimum explosive concentration
-588,type locality (geology)
-589,has active ingredient
-590,NSC number
-591,Reaxys registry number
-592,EPPO Code
-593,conjugate base
-594,relative to
-595,dynamic viscosity
-596,possible treatment
-597,object class of occurrence
-598,specific heat capacity
-599,tensile modulus of elasticity
-600,Mohs' hardness
-601,hardness
-602,Poisson's ratio
-603,shear modulus
-604,short-term exposure limit
-605,magnetic ordering
-606,embodied energy
-607,relative permeability
-608,IMA Mineral Symbol
-609,ritual object
-610,electrical resistivity
-611,compressive modulus of elasticity
-612,fossil found in this unit
-613,fabrication method
-614,active ingredient in
-615,Biology Online Biology Dictionary entry
-616,minimal lethal concentration
-617,median lethal dose (LD50)
-618,minimal lethal dose
-619,sublimation temperature
-620,principal investigator
-621,MCN code
-622,Dictionary.com entry
-623,currency
-624,has immediate cause
-625,UN number
-626,Kemler code
-627,electric dipole moment
-628,research intervention
-629,subject lexeme
-630,related image
-631,heritage designation
-632,price
-633,total produced
-634,aerial view
-635,thermal diffusivity
-636,Thomson Reuters Business Classification
-637,type of passengers/cargo
-638,has goal
-639,domain of saint or deity
-640,typically sells
-641,icon
-642,armament
-643,EAGLE id
-644,original language of film or TV show
-645,MPA film rating
-646,narrative location
-647,ISAN
-648,takes place in fictional universe
-649,JMK film rating
-650,FSK film rating
-651,title
-652,filming location
-653,NMHH film rating
-654,distribution format
-655,ICAA rating
-656,CNC film rating (Romania)
-657,review score
-658,duration
-659,Kijkwijzer rating
-660,box office
-661,publication date
-662,capital cost
-663,film crew member
-664,exploitation mark number
-665,fictional universe described in
-666,derivative work
-667,Medierådet rating
-668,Amazon Standard Identification Number
-669,RTC film rating
-670,Plex media key
-671,part of the series
-672,assessment
-673,form of creative work
-674,BBFC rating
-675,costume designer
-676,CNC film rating (France)
-677,aspect ratio (W:H)
-678,supplement to
-679,IMDA rating
-680,ClassInd rating
-681,FPB rating
-682,set in environment
-683,RCQ classification
-684,IFCO rating
-685,INCAA film rating
-686,first appearance
-687,working title
-688,attendance
-689,soundtrack release
-690,language of work or name
-691,make-up artist
-692,music created for
-693,OFLC classification
-694,Australian Classification
-695,Hong Kong film rating
-696,media franchise
-697,BAMID film rating
-698,set in period
-699,has edition or translation
-700,list of characters
-701,edition or translation of
-702,date depicted
-703,Filmiroda rating
-704,has spin-off
-705,date of first performance
-706,RARS rating
-707,EIRIN film rating
-708,OCLC control number
-709,time index
-710,original film format
-711,IGAC rating
-712,theme music
-713,set during recurring event
-714,quotes work
-715,storyboard artist
-716,budget
-717,KFCB classification (Kenya)
-718,choreographer
-719,crew member(s)
-720,film poster
-721,tracklist
-722,featured track(s)
-723,art director
-724,animator
-725,plot expanded in
-726,Global Trade Item Number
-727,copyright registration
-728,announcement date
-729,location of first performance
-730,MTRCB rating
-731,CHVRS Classification
-732,KMRB film rating
-733,contributed to creative work
-734,complies with
-735,assistant director
-736,KAVI rating
-737,sound designer
-738,catalog code
-739,CBFC rating
-740,created for
-741,musical conductor
-742,production date
-743,shares border with
-744,astronomic symbol image
-745,area
-746,Hederich encyclopedia article
-747,notation
-748,child astronomical body
-749,declination
-750,right ascension
-751,partially coincident with
+1,has subsidiary,AuthenTec
+2,archives at,Stanford University Libraries Department of Special Collections and University Archives
+3,industry,digital distribution
+4,official website,https://www.apple.com/
+5,part of,Apple Support
+6,inception,1976-04-01T00:00:00Z
+7,stock exchange,Nasdaq
+8,country of origin,United States of America
+9,Commons category,Apple Inc.
+10,chairperson,Arthur D. Levinson
+11,member of,Computer & Communications Industry Association
+12,location of formation,Los Altos
+13,location,United States of America
+14,Reddit username,apple
+15,autonomous system number,2709
+16,subreddit,apple
+17,category for employees of the organization,Category:Apple Inc. people
+18,employer,Rami Krispin
+19,developer,GarageBand
+20,manufacturer,Q130242904
+21,operator,Apple Trade In
+22,designed by,Q130738840
+23,type foundry,Apple Chancery
+24,owner of,JANA Partners
+25,copyright holder,Apple Sports
+26,owned by,BlackRock
+27,publisher,Passwords
+28,has part(s),Magnificent Seven stocks
+29,distributed by,Q125917333
+30,notable work,Steve Wozniak
+31,described by source,Lentapedia
+32,creator,Playground
+33,advertises,Kom og sett oss fri
+34,parent organization,DarwinAI
+35,authority,Apple Account
+36,merged into,Cue
+37,spoken text audio,http://commons.wikimedia.org/wiki/Special:FilePath/Nl-Apple%20Computer-article.ogg
+38,product, material, or service produced or provided,Nabih's Inc.
+39,GitHub username,apple
+40,Commons gallery,Apple Inc.
+41,total equity,62146000000
+42,X username,AppleSupport
+43,motto,Think different.
+44,history of topic,history of Apple Inc.
+45,employees,132000
+46,Legal Entity Identifier,HWUPKR0MPOU8FGXBT394
+47,legal form,corporation
+48,topic's main Wikimedia portal,Portal:Apple Inc.
+49,topic's main category,Category:Apple Inc.
+50,phone number,+1-800-275-2273
+51,short name,Apple
+52,market capitalization,2240000000000
+53,topic's main template,Template:Apple
+54,total liabilities,241272000000
+55,Instagram username,apple
+56,described at URL,http://www.fundinguniverse.com/company-histories/apple-computer-inc-history/
+57,total revenue,383285000000
+58,official name,Apple Inc.
+59,OmegaWiki Defined Meaning,1623618
+60,ISIN,US0378331005
+61,IRS Employer Identification Number,94-2404110
+62,Facebook username,apple
+63,organizer,WWDC 2024
+64,conferred by,Mac Game of the Year
+65,discoverer or inventor,AirPods (3rd generation)
+66,main subject,King & Spalding Defends NSO Group in Apple Suit Over Alleged Spyware
+67,used by,anti-repair design
+68,author,CFNetwork
+69,brand,iPhone 16 Pro Max
+70,founded by,Steve Jobs
+71,participant,Q56408440
+72,record label,The Apple Boogie
+73,facet of,environmental impact of Apple
+74,plaintiff,Apple v. Does
+75,defendant,Epic Games v. Apple
+76,board member,Tim Cook
+77,hashtag,apple
+78,total assets,323888000000
+79,IPv4 routing prefix,17.0.0.0/8
+80,permanent duplicated item,Q25696231
+81,operating income,114301000000
+82,net profit,96995000000
+83,PermID,4295905573
+84,operating area,worldwide
+85,Code List for Cultural Heritage Organizations,ccupaci
+86,production company,Bad Sisters
+87,category combines topics,Category:Apple Inc. software
+88,symbol of,Apple logo
+89,partnership with,Apple Developer Academy
+90,Wikimedia portal's main topic,Portal:Apple Inc.
+91,named after,apple
+92,commissioned by,Apple Color Emoji
+93,category's main topic,Category:Apple Inc.
+94,privacy policy URL,https://www.apple.com/legal/privacy/
+95,TikTok username,apple
+96,Wikimedia outline,outline of Apple Inc.
+97,terms of service URL,https://www.apple.com/legal/internet-services/terms/site.html
+98,has works in the collection,San Francisco Museum of Modern Art
+99,OpenCorporates corporate grouping,Apple
+100,Spectrum Management System Company Number,579C
+101,Stack Exchange site URL,https://apple.stackexchange.com/
+102,Wolfram Language entity code,Entity["HistoricalEvent", "AppleComputerIsCreated"]
+103,Central Index Key,0000320193
+104,National Equipment Registration System Supplier Number,E73
+105,copyright status as a creator,works protected by copyrights
+106,FCC Grantee Code,BCG
+107,Libris-URI,sq47fckb21dd937
+108,on focus list of Wikimedia project,Wikipedia:Vital articles/Level/4
+109,occupant,Parc Central
+110,followed by,Siri Inc.
+111,sponsor,2023 Conference on Human Factors in Computing
+112,date of incorporation,1977-01-03T00:00:00Z
+113,official shop URL,https://www.apple.com/mx/store
+114,shortened URL formatter,https://apple.co/$1
+115,Google Play developer slug,Apple Inc.
+116,sitemap URL,https://www.apple.com/sitemap.xml
+117,official forum URL,https://discussions.apple.com/
+118,affiliated worker organisation,Apple worker organizations
+119,YouTube handle,Apple
+120,social media followers,18600000
+121,official jobs URL,https://www.apple.com/careers/us/
+122,service status information URL,https://www.apple.com/support/systemstatus/
+123,external auditor,Ernst & Young LLP
+124,performer,An Apple a Day
+125,affiliation,Athreya Buddhavarapu
+126,funder,WikidataCon 2021
+127,model item,business
+128,issued by,Apple Maps ID
+129,template has topic,Template:Apple
+130,has part(s) of the class,Progressbar95
+131,contributor to the creative work or subject,OpenStreetMap database
+132,field of work,Ask Different
+133,exhibited creator,Recent Acquisitions
+134,investor,Gamma
+135,chief executive officer,Gil Amelio
+136,headquarters location,Cupertino
+137,award received,National Design Awards
+138,instance of,enterprise
+139,country,United States of America
+140,ISNI,0000000406359049
+141,Wikidata property example,contact page URL
+142,logo image,http://commons.wikimedia.org/wiki/Special:FilePath/Apple%20logo%20black.svg
+143,image,http://commons.wikimedia.org/wiki/Special:FilePath/Apple%20park%20cupertino%202019.jpg
+144,item for this sense,L1360559-S1
+145,Commons Creator page,Microsoft
+146,official blog URL,https://blogs.microsoft.com/
+147,different from,Mirrorsoft
+148,ISO 9362 SWIFT/BIC code,MSFTUS66XXX
+149,work location,Kira Radinsky
+150,email address,mailto:opensource@microsoft.com
+151,search formatter URL,https://www.microsoft.com/zh-cn/search/result.aspx?q=$1&form=MSHOME
+152,public key fingerprint,BC52 8686 B50D 79E3 39D3 721C EB3E 94AD BE12 29CF
+153,Corporate Number (Japan),8700150090374
+154,Pinterest username,microsoft
+155,replaced by,aQuantive
+156,editor,Developer_Direct
+157,copyright representative,Matthew Carter
+158,translator,Lost Planet: Extreme Condition
+159,small logo or icon,http://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20icon.svg
+160,has use,Designbox
+161,maintained by,Kusto Query Language
+162,architect,Xbox 360 Lounge
+163,standards body,NetDDE
+164,educated at,Évelyn Aparecida Nascimento
+165,signatory,Christchurch Call summit
+166,acknowledged,Sparks of Artificial General Intelligence: Early experiments with GPT-4
+167,copyright status,Microsoft Windows 1.0 Developer Release 5
+168,named by,Spamouflage
+169,contact page URL,https://support.microsoft.com/en-us/contactus
+170,Similarweb ranking,44
+171,Bluesky handle,microsoft.com
+172,depicts,Mapy.CZ data sources
+173,business division,Microsoft Research
+174,maintains linking to,Kultboy
+175,has written for,Cevin Soling
+176,parent,Internet Game Database
+177,stated in,The Secret Story of Santa Claus
+178,platform,Airport City
+179,in opposition to,Protest at Amazon logistics center in Berlin-Tegel
+180,place of publication,Q106907372
+181,website account on,Paul Doucet
+182,Wikidata property,Amazon author ID
+183,Giphy username,amazon
+184,stylized name,amazon
+185,Delaware Division of Corporations file number,2620453
+186,GitHub topic,amazon
+187,applicable 'stated in' value,Amazon author ID
+188,vehicle normally used,Larry Page
+189,target,#teslafiles
+190,EBITDA,13558000000
+191,Baidu Tieba name,特斯拉
+192,Bilibili UID,491190876
+193,schematic,http://commons.wikimedia.org/wiki/Special:FilePath/Filiales%20d%27Alphabet.png
+194,motto text,do the right thing
+195,native label,Berkshire Hathaway
+196,replaces,Berkshire Fine Spinning Associates
+197,director / manager,Stephen J. Hemsley
+198,D-U-N-S number,112871561
+199,ACM Classification Code (2012),10011562
+200,exact match,http://www.fundinguniverse.com/company-histories/nvidia-corporation-history/
+201,Stack Exchange tag,https://stackoverflow.com/tags/nvidia
+202,corporate officer,Tim Teter
+203,postal code,95050
+204,follows,3dfx Interactive
+205,ArchWiki article,NVIDIA
+206,GitLab.com username,nvidia
+207,EU Participant Identification Code,888894322
+208,uses,Texas two-step bankruptcy
+209,represents,American Fuel & Petrochemical Manufacturers
+210,significant event,Exxon Valdez disaster
+211,contributing factor of,climate change denial
+212,panoramic view,http://commons.wikimedia.org/wiki/Special:FilePath/ExxonBR.JPG
+213,street address,5959 Las Colinas Boulevard, Irving, Texas 75039-2298
+214,cites work,Identifying Reliable Sources of Information about Companies in Multilingual Wikipedia
+215,endorsed by,SotM Asia 2019
+216,IPv6 routing prefix,2a03:8180:1002:19d::/64
+217,designated as terrorist by,Russia
+218,name,Meta
+219,source of income,advertising
+220,official symbol,infinity symbol romna
+221,chief operating officer,Javier Olivan
+222,participant in,Data Transfer Project
+223,item operated,Facebook
+224,Threads username,meta
+225,charter URL,https://s21.q4cdn.com/399680738/files/doc_downloads/governance_documents/2021/Meta-A-R-Bylaws-(2021).pdf
+226,press information URL,https://news.pg.com/press-kits/default.aspx
+227,card network,BEYOND Visa Signature
+228,payment types accepted,DoubleTree by Hilton Hotel London - Hyde Park
+229,donated by,National Veterans Resource Center
+230,assets under management,2511000000000
+231,reward program,Chase Ultimate Rewards
+232,common equity tier 1 capital ratio (CETI),13.1
+233,winner,Public Eye Environment Award
+234,language used,English
+235,located in the administrative territorial entity,Federal Capital Territory
+236,has characteristic,Fortune 500 companies who have provided financial support to members of Congress who sought to invalidate the 2020 presidential election results
+237,official color,orange
+238,location information URL,https://www.homedepot.com/l/store-locator
+239,Xiaohongshu profile,62d9052100000000020032d8
+240,partner in business or sport,Warner–Lambert
+241,subclass of,Pfizer Award
+242,research site,Study To Evaluate The Impact Of Difficult To Treat Sites On Biological Response In Moderate-To-Severe Plaque Psoriasis(PsO).
+243,addressee,Senator Marco Rubio's Letter to Pfizer, RE: "COVID Mutation Research"
+244,IPA transcription,/ˈfaɪzər/
+245,exhibition history,LOVE
+246,fictional or mythical analog of,Slug-o-Cola
+247,has facility,The Coca Cola Company
+248,has list,list of Coca-Cola brands
+249,Snapchat username,thecocacolaco
+250,has effect,plastic pollution
+251,video,http://commons.wikimedia.org/wiki/Special:FilePath/Transforming%20the%20Plastics%20Economy.webm
+252,DPLA subject term,Coca-Cola Company
+253,D&B Hoovers company profile,the_coca-cola_company.3239928e6d452c95e8843ed3cfa501f4
+254,Telegram username,CocaCola
+255,separated from,Abbott Laboratories
+256,characters,Too Big to Fail
+257,coordinate location,Point(-80.842323 35.2274955)
+258,collection,In Northern Seas
+259,copyright license,Freestyle Script
+260,pronunciation audio,http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q150%20%28fra%29-Visiteur%20Journ%C3%A9e%202%20-%2027%20%28Madehub%29-Adobe.wav
+261,fax number,+353-1-242-6711
+262,location of creation,Mickey and Minnie Mouse
+263,producer,Frozen III
+264,central bank/issuer,Disney dollar
+265,influenced by,Antony Kok
+266,interested in,Andi Stein
+267,original broadcaster,Cuffs
+268,dedicated to,MousePlanet
+269,has cause,Fandom Menace
+270,ISBN publisher prefix,978-1-4231
+271,page banner,http://commons.wikimedia.org/wiki/Special:FilePath/Disneyland%20Sleeping%20Beauty%20Castle%20Wikivoyage%20banner.jpg
+272,mascot,Mickey Mouse
+273,LastDodo-area-ID,1119857
+274,significant person,Bob Iger
+275,enemy,Fandom Menace
+276,fandom,Disney fandom
+277,Zhihu username,di-shi-ni-26
+278,Archive of Our Own tag,Disney RPF
+279,EU VAT number,DE158316344
+280,total debt,28643000000
+281,catchphrase,Bridge to Possible
+282,reply to,Corteza
+283,Uniform Resource Identifier Scheme,salesforce1
+284,URL,https://www.salesforce.com/form/other/privacy-request/
+285,CPU,Odyssey 400
+286,performing organization,Mine air monitor
+287,said to be the same as,Q15716988
+288,is a list of,Comparison of Intel graphics processing units
+289,cast member,The Last Mimzy
+290,applies to part,Intel Management Engine
+291,nickname,Chipzilla
+292,Stadtwiki Dresden article,Intel
+293,main building contractor,Cajundome
+294,published in,Hancock Aortic Tissue Valve
+295,KulturNav-ID,2f1af485-dd1c-4160-a91e-74020f8028fc
+296,stock market index,S&P 100
+297,occupation,Paul Castrucci
+298,DOI prefix,10.1147
+299,Tumblr username,ibmblr
+300,BHCL UUID,b3c084ae-28c9-4fb7-8307-49c61fe7856e
+301,operating system,Climate Data Operators
+302,applies to jurisdiction,IBM Invention Plateau Award
+303,commemorates,IBM-Haus
+304,position held,Robert Rubin
+305,MIC market code,GSCO
+306,Alexa rank,57
+307,OpenStreetMap tag or key,Key:payment:paypal
+308,launch contractor,Coriolis
+309,contains,The Mall Athens
+310,WordLift URL,http://data.thenextweb.com/tnw/entity/starbucks
+311,audio,http://commons.wikimedia.org/wiki/Special:FilePath/WWS%20JohnDeereTractor.ogg
+312,Egapro gender equality index,73
+313,vessel,China Airlines Flight 605
+314,ARCHON code,2068
+315,Transferred Account Data Interchange Group Code,USA27
+316,mobile network code,160
+317,dissolved, abolished or demolished date,2024-04-02T00:00:00Z
+318,GUI number,11464863
+319,regulated by,Q110870862
+320,web feed URL,https://corporate.target.com/article/all/feed
+321,IMDb keyword,reference-to-target-store
+322,locator map image,http://commons.wikimedia.org/wiki/Special:FilePath/PNC%20footprint.png
+323,adjacent building,Deerbrook
+324,CAGE code,3EWZ3
+325,lyricist,Beg for Mercy
+326,voice actor,50 Cent: Bulletproof
+327,screenwriter,Gun
+328,composer,50 Cent: The New Breed
+329,director,Before I Self Destruct
+330,presenter,50 Cent: The Money and the Power
+331,executive producer,Power Book III: Raising Kanan
+332,father,Sire Jackson
+333,work period (start),1996-01-01T00:00:00Z
+334,number of children,2
+335,name in native language,50 Cent
+336,filmography,50 Cent filmography
+337,birth name,Curtis James Jackson III
+338,family name,Jackson
+339,height,183
+340,given name,Curtis
+341,date of birth,1975-07-06T00:00:00Z
+342,pseudonym,50 Cent
+343,instrument,voice
+344,nominated for,Grammy Award for Best New Artist
+345,discography,50 Cent discography
+346,languages spoken, written or signed,English
+347,ethnic group,African Americans
+348,native language,English
+349,sex or gender,male
+350,genre,gangsta rap
+351,country of citizenship,United States of America
+352,child,Sire Jackson
+353,place of birth,South Jamaica
+354,writing language,English
+355,related category,Category:Films directed by 50 Cent
+356,spouse,Rich Paul
+357,mother,Angelo Adkins
+358,unmarried partner,Rich Paul
+359,IPI name number,00544476240
+360,signature,http://commons.wikimedia.org/wiki/Special:FilePath/Adele%20signature.svg
+361,voice type,mezzo-soprano
+362,Douban site name,adele
+363,relative,Zahara Jolie-Pitt
+364,inspired by,Daisy Johnson
+365,sibling,James Haven
+366,guest of honor,Villa Oleandra
+367,religion or worldview,lapsed Catholic
+368,ancestral home,Germany
+369,sexual orientation,bisexuality
+370,eye color,blue
+371,residence,Palisades
+372,godparent,Jacqueline Bisset
+373,handedness,left-handedness
+374,ORCID iD,0009-0002-3821-9625
+375,U.S. National Archives Identifier,10573703
+376,married name,Angelina Jolie Pitt
+377,hair color,brown hair
+378,RIA Novosti reference,1067721474
+379,EcuRed article,Angelina_Jolie
+380,worn by,Black Versace dress of Angelina Jolie
+381,recorded participant,Marvel Studios Assembled: The Making of Eternals
+382,Plex person key,5d77682861141d001fb1381f
+383,based on,Backstreet Boys: Live in Concert Tour
+384,member category,Category:Backstreet Boys members
+385,list of works,Q130222020
+386,stepparent,Emme Muñiz
+387,medical condition,alcoholism
+388,sport,poker
+389,talk show guest,Real Time with Bill Maher, season 12, episode 29
+390,member of political party,Democratic Party
+391,student,Ivana Chubbuck
+392,student of,Ivana Chubbuck
+393,CLARA-ID,17737
+394,net worth,355000000
+395,personal pronoun,L484
+396,narrator,Voyage of Time
+397,lifestyle,vegetarianism
+398,notable role,Vanisher
+399,supported sports team,Liverpool F.C.
+400,Krugosvet article,kultura_i_obrazovanie/muzyka/SPIRS_BRITNI.html
+401,plaque image,http://commons.wikimedia.org/wiki/Special:FilePath/Britney%20Spears%20Hollywood%20Star.jpg
+402,blood type,A
+403,mass,56
+404,Europeana entity,agent/base/146773
+405,work period (end),2022-01-01T00:00:00Z
+406,victory,Eurovision Song Contest 1988
+407,documentation files at,SAPA Foundation, Swiss Archive of the Performing Arts
+408,setlist,list of Cher concert tours
+409,points/goal scored by,2004 Summer Olympics, Morocco v Portugal, 15 August 2004
+410,team captain,Portugal men's national football team
+411,statistical leader,2010 FIFA World Cup Match 30
+412,league or competition,La Liga
+413,member of sports team,Portugal men's national football team
+414,Munzinger Sport number,01000006594
+415,position played on team / speciality,wing half
+416,sport number,7
+417,convicted of,tax noncompliance
+418,country for sport,Portugal
+419,number of matches played/races/starts,8
+420,total goals in career,7
+421,footedness,right-footedness
+422,Colon Classification,O111,6N64
+423,after a work by,Angels & Demons
+424,head coach,Pat Patterson
+425,time period,20th century
+426,sports discipline competed in,college football
+427,full work available at URL,https://www.personality-database.com/search?keyword=dwayne%20johnson
+428,represented by,United Talent Agency
+429,wears,tattoo
+430,subject has role,LGBT culture
+431,OnlyFans username,ellend
+432,coat of arms image,http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Sir%20Elton%20John.svg
+433,noble title,Knight Bachelor
+434,affiliation string,Elton John AIDS Foundation
+435,depicted by,Rocketman
+436,honorific prefix,Sir
+437,generational suffix,L615860-F1
+438,has pet,Vietnamese Pot-bellied
+439,director of photography,Look at Life
+440,film editor,Look at Life
+441,present in work,iSteve
+442,movement,environmentalism
+443,audio recording of the subject's spoken voice,http://commons.wikimedia.org/wiki/Special:FilePath/J%20K%20Rowling%20BBC%20Radio4%20Front%20Row%2027%20Sept%202012%20b01mx27g.flac
+444,NLC authorities,051064532
+445,Regensburg Classification,HN 7620
+446,maintained by WikiProject,Iedereen Leest
+447,production designer,Galaxy of Terror
+448,date of death,2013-06-19T00:00:00Z
+449,place of death,Rome
+450,cause of death,cardiomyopathy
+451,manner of death,natural causes
+452,references work, tradition or theory,My Balls
+453,hairstyle / hairlength,Rachel haircut
+454,alternative name,Jennifer Affleck
+455,facial hair,Van Dyke beard
+456,academic major,Juris Doctor
+457,academic degree,Bachelor of Arts
+458,adapted by,Despacito
+459,Ameblo username,justinbieber-blog
+460,candidate,2020 United States presidential election in Idaho
+461,author of foreword,Raising Kanye: Life Lessons from the Mother of a Hip-Hop Superstar
+462,family,family of Kanye West
+463,Parler username (archived),ye
+464,name in kana,キム・カーダシアン
+465,IAFD actor UUID,b51399e8-75fc-4d16-9abc-a95e9086e695
+466,place of burial,Pacific View Memorial Park
+467,defender,Kobe Bryant sexual assault case
+468,drafted by,Charlotte Hornets
+469,victim(s),2020 Calabasas helicopter crash
+470,date of burial or cremation,2020-02-07T00:00:00Z
+471,officially opened by,The Floating Sistine Chapel
+472,category of associated people,Tekamah
+473,flag bearer,United States at the 2024 Summer Olympics
+474,is the study of,Madonna studies
+475,model,Legend
+476,Library of Congress Classification,ML420.M1387
+477,studied in,Madonna studies
+478,military branch,Philippine Army Reserve Command
+479,torch lit by,2019 Southeast Asian Games
+480,Fach vocal classification,whistle register
+481,highest note,G♯
+482,lowest note,F
+483,permanent resident of,Australia
+484,trained by,Stan Albeck
+485,first family name in Portuguese name,da Silva
+486,speaker,2024 Democratic National Convention
+487,cover art by,Pantomime – Everywhere it's Christmas
+488,escutcheon image,http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20McCartney%20Arms.svg
+489,sports season of league or competition,2019 Roger Federer tennis season
+490,playing hand,one-handed forehand
+491,doubles record,131–93
+492,singles record,1251–275
+493,ranking,24
+494,prize money,130594339
+495,political ideology,conservatism in the United States
+496,second family name in Spanish name,Barragán
+497,place of detention,Manhattan
+498,television judge,American Idol, season 4
+499,montage image,http://commons.wikimedia.org/wiki/Special:FilePath/The%20Beatles%20members%20at%20New%20York%20City%20in%201964.jpg
+500,boiling point,-252.87
+501,melting point,-259.14
+502,atomic number,1
+503,density,0.08987
+504,time of discovery or invention,1766-01-01T00:00:00Z
+505,speed of sound,1270
+506,refractive index,1.000132
+507,Unicode character,氫
+508,color,colorless
+509,E number,E949
+510,oxidation state,-1
+511,thermal conductivity,0.1805
+512,MeSH tree code,D01.362.340
+513,electronegativity,2.2
+514,Dewey Decimal Classification,546.21
+515,made from material,Powerpaste
+516,antiparticle,antihydrogen
+517,raw material processed,Haber-Bosch process
+518,does not have part,alkali metal
+519,coolant,Hydrogen-cooled turbo generator
+520,powered by,Airbus ZEROe
+521,source of energy,NamX HUV
+522,by-product,solid oxide electrolyser cell
+523,manifestation of,hydrogen atom
+524,ionic radius,54
+525,UMLS CUI,C0020275
+526,electron configuration,1s¹
+527,ionization energy,1312
+528,molar enthalpy of vaporization,0.452
+529,location of discovery,United Kingdom
+530,CAS Registry Number,12385-13-6
+531,element symbol,H
+532,Common Procurement Vocabulary code,24111300
+533,standard molar entropy,126
+534,by-product of,natural-gas processing
+535,ASHRAE refrigerant number,704
+536,conjugate acid,hydridohelium(1+)
+537,DSSTOX compound identifier,DTXCID5016402
+538,chemical formula,He
+539,EC number,231-168-5
+540,PubChem CID,23987
+541,ZVG number,7020
+542,InChI,InChI=1S/He
+543,UNII,206GF3GB41
+544,canonical SMILES,[He]
+545,ATC code,V03AN03
+546,InChIKey,SWQJXJOGLNCZEY-UHFFFAOYSA-N
+547,significant drug interaction,pimozide
+548,drug or therapy used for treatment,logorrhea
+549,production statistics,Usine de Pomblière
+550,has listed ingredient,Vichy Catalan
+551,medical condition treated,schizoaffective disorder
+552,molar fusion enthalpy,3
+553,immediately dangerous to life or health,4
+554,associated hazard,acute beryllium poisoning
+555,Gmelin number,16265
+556,electrical conductivity,25000000
+557,ceiling exposure limit,0.0005
+558,time-weighted average exposure limit,0.002
+559,vapor pressure,0
+560,RTECS number,DS1750000
+561,ultimate tensile strength,5700
+562,crystal system,hexagonal crystal system
+563,CosIng number,95647
+564,measures,trophic state index
+565,physically interacts with,hemoglobin
+566,opposite of,phlogiston
+567,UNSPSC Code,12141904
+568,radius,48
+569,frequency,60
+570,facilitates flow of,Sodium:neurotransmitter symporter
+571,solid solution series with,natronambulite
+572,designed to carry,Q22123233
+573,found in taxon,Montanoa grandiflora
+574,Gujarati Vishwakosh entry,સોડિયમ
+575,recycling code,41
+576,safety classification and labelling,Regulation (EC) No. 1272/2008
+577,CPV Supplementary code,AA02
+578,chassis,Zero-X
+579,minimum explosive concentration,160
+580,type locality (geology),Ischler Salzberg
+581,has active ingredient,sulfur
+582,NSC number,403664
+583,Reaxys registry number,3902968
+584,EPPO Code,TXCHLO
+585,conjugate base,argonium
+586,relative to,standard temperature and pressure
+587,dynamic viscosity,22.7
+588,possible treatment,hyperkalemic periodic paralysis
+589,object class of occurrence,Q1026335
+590,specific heat capacity,520
+591,tensile modulus of elasticity,116
+592,Mohs' hardness,6
+593,hardness,2125
+594,Poisson's ratio,0.32
+595,shear modulus,41.4
+596,short-term exposure limit,3
+597,magnetic ordering,ferromagnetism
+598,embodied energy,25
+599,relative permeability,200000
+600,IMA Mineral Symbol,Fe
+601,ritual object,witchcraft investigation of Cristian Stewart
+602,electrical resistivity,0.000000017
+603,compressive modulus of elasticity,100
+604,fossil found in this unit,Q86672562
+605,fabrication method,The Mystical Marriage of Saint Catherine
+606,active ingredient in,Wilzin
+607,Biology Online Biology Dictionary entry,zinc
+608,minimal lethal concentration,19.5
+609,median lethal dose (LD50),763
+610,minimal lethal dose,338
+611,sublimation temperature,1135
+612,principal investigator,Nadia Valentina Martínez Villegas
+613,MCN code,2805.19.10
+614,Dictionary.com entry,molybdenum
+615,currency,Luyag na Kaboloan
+616,has immediate cause,itai-itai disease
+617,UN number,2871
+618,Kemler code,60
+619,electric dipole moment,0
+620,research intervention,HEK293
+621,subject lexeme,L18238
+622,related image,http://commons.wikimedia.org/wiki/Special:FilePath/Promethium%20spectrum%20visible.png
+623,heritage designation,Cascata delle Marmore
+624,price,47784.69
+625,total produced,3300
+626,aerial view,http://commons.wikimedia.org/wiki/Special:FilePath/Illegal%20Mining%2C%20Peru%2C%202017-01-20%20by%20Planet%20Labs.jpg
+627,thermal diffusivity,127
+628,Thomson Reuters Business Classification,51201060
+629,type of passengers/cargo,1494 Torres return voyage (Hispanolia to Spain)
+630,has goal,Columbus Conquistador of America
+631,domain of saint or deity,Q114774092
+632,typically sells,Kasua gold Market
+633,icon,http://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20symbol.svg
+634,armament,Valery Nekhaev
+635,EAGLE id,material/lod/108
+636,produced by,granite
+637,Medierådet rating,For ages 11 and up
+638,Amazon Standard Identification Number,B00MEXP49I
+639,RTC film rating,B
+640,Plex media key,5d7768eef617c9002015a9ec
+641,assessment,Bechdel test
+642,form of creative work,feature film
+643,fictional universe described in,Transformers Bayverse
+644,derivative work,Transformers
+645,part of the series,Transformers
+646,original language of film or TV show,English
+647,MPA film rating,PG-13
+648,narrative location,Texas
+649,ISAN,0000-0003-D124-0000-K-0000-0000-E
+650,takes place in fictional universe,Transformers Bayverse
+651,JMK film rating,free from 12 years
+652,FSK film rating,FSK 12
+653,title,Трансформеры: Эпоха истребления
+654,filming location,Utah
+655,NMHH film rating,Category III
+656,distribution format,video on demand
+657,ICAA rating,not recommended for children under 12
+658,CNC film rating (Romania),A.P. - 12
+659,review score,18%
+660,duration,165
+661,Kijkwijzer rating,12
+662,box office,245439076
+663,publication date,2014-08-12T00:00:00Z
+664,capital cost,210000000
+665,exploitation mark number,139587
+666,BBFC rating,15 certificate
+667,costume designer,Richard Taylor
+668,CNC film rating (France),no age restriction
+669,aspect ratio (W:H),2.35:1
+670,supplement to,The Hobbit: The Battle of the Five Armies Extended Edition
+671,IMDA rating,PG13
+672,ClassInd rating,12
+673,FPB rating,10-12 PG
+674,set in environment,fictional country
+675,RCQ classification,G
+676,IFCO rating,12A
+677,INCAA film rating,+13
+678,first appearance,Garthan Saal
+679,working title,Full Tilt
+680,attendance,1362516
+681,soundtrack release,Guardians of the Galaxy – Original Score
+682,language of work or name,English
+683,music created for,Once Upon a Dream
+684,make-up artist,Arjen Tuiten
+685,OFLC classification,M
+686,Australian Classification,M
+687,Hong Kong film rating,Category IIA
+688,media franchise,Planet of the Apes
+689,BAMID film rating,6+
+690,set in period,2067
+691,film crew member,Paul Franklin
+692,has edition or translation,Baymax - Riesiges Robowabohu
+693,list of characters,list of Disney's Big Hero 6 characters
+694,edition or translation of,Baymax - Riesiges Robowabohu
+695,date depicted,1999-01-01T00:00:00Z
+696,Filmiroda rating,Category II
+697,has spin-off,The Lego Ninjago Movie
+698,date of first performance,2014-02-01T00:00:00Z
+699,RARS rating,12+
+700,EIRIN film rating,G
+701,time index,34
+702,original film format,35 mm film
+703,OCLC control number,946928803
+704,IGAC rating,M/14
+705,theme music,Writing's on the Wall
+706,set during recurring event,Day of the Dead
+707,quotes work,The 200 films to see before you almost grow up
+708,storyboard artist,Domee Shi
+709,budget,108000000
+710,KFCB classification (Kenya),Restricted/Banned
+711,choreographer,Rob Ashford
+712,crew member(s),Brad Winderbaum
+713,film poster,http://www.wikidata.org/.well-known/genid/70c71a4af09f7b2eb1bf74ae2136bb54
+714,tracklist,I'm in Love with a Monster
+715,featured track(s),I'm in Love with a Monster
+716,art director,Gregory S. Hooper
+717,plot expanded in,Andor
+718,animator,Hal Hickel
+719,Global Trade Item Number,786936851052
+720,copyright registration,PA0001981432
+721,announcement date,2013-08-09T00:00:00Z
+722,location of first performance,El Capitan Theatre
+723,MTRCB rating,R-16
+724,CHVRS Classification,14A
+725,KMRB film rating,Adults only
+726,contributed to creative work,Marc Pilcher
+727,complies with,Bechdel test
+728,assistant director,Willem Quarles van Ufford
+729,KAVI rating,12
+730,sound designer,Oriol Tarragó
+731,catalog code,20381
+732,CBFC rating,U/A certificate
+733,created for,Fantastic Beasts: The Crimes of Grindelwald — The Original Screenplay
+734,musical conductor,Alan Silvestri
+735,has semantic argument,generic drug
+736,production date,2017-03-15T00:00:00Z
+737,shares border with,Lacerta
+738,astronomic symbol image,http://commons.wikimedia.org/wiki/Special:FilePath/Andromeda%20symbol%20%28Moskowitz%2C%20variable%20width%29.svg
+739,area,722
+740,Hederich encyclopedia article,Aqvarivs
+741,notation,♒︎
+742,child astronomical body,Delta Aurigids
+743,declination,45
+744,right ascension,20.5
+745,partially coincident with,Scorpio
