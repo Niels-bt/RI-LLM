@@ -21,13 +21,16 @@ good=0
 wrong_articles = []
 
 for f in files:
+    print("checking file")
     for i in f:
         elems = i.split(",")
         #problem elems 4 needs the person but its the page link corrected
         without_n = elems[5].replace("\n","")
         r = req.get(f"https://dbpedia.org/resource/{without_n}")
+        r2 = req.get(elems[4])
 
-        if r.url != elems[4]:
+        #if r.url != elems[4]: # old one used before but doesnt check if the page link is also redirected
+        if r.url != r2.url:
             print("wrong found",elems[5])
             wrong+=1
             wrong_articles.append(without_n)
