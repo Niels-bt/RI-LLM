@@ -64,7 +64,17 @@ def get_person_data(person, new_query=True,printing = False):
                 #relations[item['propertyLabel']['value']] = ""
                 if printing:
                     print(f"Item: {item['propertyLabel']['value']}, Label: {item['valueLabel']['value']}")
-                clean_data[item['propertyLabel']['value']]=item['valueLabel']['value']
+
+                if item['propertyLabel']['value'] in clean_data:
+                    if type(clean_data[item['propertyLabel']['value']]) == list:
+                        clean_data[item['propertyLabel']['value']].append(item['valueLabel']['value'])
+                    else:
+                        temp = []
+                        temp.append(clean_data[item['propertyLabel']['value']])
+                        temp.append(item['valueLabel']['value'])
+                        clean_data[item['propertyLabel']['value']] = temp
+                else:
+                    clean_data[item['propertyLabel']['value']]=item['valueLabel']['value']
             i2 += 1
 
         print("number of ids:", i, "out of", i2, "entries")
@@ -76,7 +86,8 @@ def get_person_data(person, new_query=True,printing = False):
 
 if __name__=="__main__":
     get_person_data("Q34660",False) #this is for marie curie
-    get_person_data("Q34660",True) #this is for marie curie
+    aa = get_person_data("Q34660",True) #this is for marie curie
+
 
 
 
