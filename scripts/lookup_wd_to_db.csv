@@ -1,751 +1,745 @@
-0,Reddit username,username
-1,subreddit,nothing
-2,category for employees of the organization,organization,other
-3,board member,board,members
-4,hashtag,nothing
-5,total assets,assets,total
-6,IPv4 routing prefix,nothing
-7,permanent duplicated item,nothing
-8,operating income,assets,revenue,profit
-9,net profit,revenue,profit
-10,market capitalization,equity
-11,autonomous system number,nothing
-12,PermID,nothing
-13,Code List for Cultural Heritage Organizations,nothing
-14,has subsidiary,subsidiary,company
-15,archives at,nothing
-16,industry,industry,companies,industries
-17,official website,website
-18,part of,nothing
-19,inception,nothing
-20,stock exchange,nothing
-21,country of origin,origin,country
-22,Commons category,commons,category
-23,chairperson,nothing
-24,member of,members
-25,location of formation,location
-26,location,location,locations
-27,employer,employer
-28,developer,developer,developers
-29,manufacturer,distributor,manufacturer,manufacturers
-30,operator,operator,operators
-31,designed by,by
-32,type foundry,type,foundry
-33,owner of,owner,owners
-34,copyright holder,copyright,holder
-35,owned by,by
-36,publisher,publisher
-37,has part(s),nothing
-38,distributed by,by
-39,spoken text audio,text,language
-40,product,products,product
-41,GitHub username,username
-42,Commons gallery,commons
-43,total equity,assets,equity,total
-44,X username,x,username
-45,motto,motto
-46,history of topic,nothing
-47,employees,employer
-48,Legal Entity Identifier,nothing
-49,legal form,nothing
-50,topic's main Wikimedia portal,nothing
-51,described by source,source,by
-52,phone number,number
-53,short name,name
-54,topic's main template,nothing
-55,total liabilities,assets,total
-56,Instagram username,username
-57,described at URL,nothing
-58,total revenue,revenue,profit,total
-59,official name,name
-60,OmegaWiki Defined Meaning,meaning
-61,ISIN,nothing
-62,IRS Employer Identification Number,employer
-63,Facebook username,username
-64,notable work,works
-65,creator,creator,creators
-66,advertises,nothing
-67,parent organization,organization,parent
-68,authority,nothing
-69,merged into,nothing
-70,privacy policy URL,nothing
-71,TikTok username,username
-72,Wikimedia outline,nothing
-73,terms of service URL,services,service
-74,has works in the collection,works,in
-75,OpenCorporates corporate grouping,nothing
-76,Spectrum Management System Company Number,company,management
-77,Stack Exchange site URL,url
-78,Wolfram Language entity code,language
-79,Central Index Key,index
-80,National Equipment Registration System Supplier Number,nothing
-81,copyright status as a creator,nothing
-82,FCC Grantee Code,nothing
-83,Libris-URI,nothing
-84,external auditor,nothing
-85,on focus list of Wikimedia project,nothing
-86,record label,label,record,labels
-87,founded by,founded,by
-88,main subject,nothing
-89,facet of,nothing
-90,used by,by
-91,plaintiff,nothing
-92,participant,participation,participants
-93,affiliation,affiliations,affiliation
-94,commissioned by,by
-95,named after,after,before
-96,funder,nothing
-97,brand,brand,brands
-98,model item,nothing
-99,template has topic,nothing
-100,category combines topics,category
-101,discoverer or inventor,nothing
-102,sponsor,sponsor,sponsors
-103,category's main topic,category
-104,defendant,nothing
-105,symbol of,symbol
-106,partnership with,partners,partner,with
-107,Wikimedia portal's main topic,nothing
-108,organizer,nothing
-109,conferred by,by
-110,author,author,writer,authors,book
-111,production company,industry,company,companies,production
-112,occupant,nothing
-113,followed by,by
-114,performer,nothing
-115,issued by,by
-116,has part(s) of the class,nothing
-117,contributor to the creative work or subject,certain,other
-118,field of work,field
-119,exhibited creator,creator
-120,topic's main category,category
-121,investor,equity
-122,chief executive officer,director,chairman,president
-123,YouTube handle,nothing
-124,item for this sense,reason,certain
-125,Wikidata property example,nothing
-126,social media followers,nothing
-127,official jobs URL,url
-128,service status information URL,services,service
-129,date of incorporation,date
-130,headquarters location,location,locations
-131,award received,award,awards
-132,official shop URL,url
-133,instance of,certain
-134,shortened URL formatter,nothing
-135,country,country
-136,ISNI,nothing
-137,Google Play developer slug,developer
-138,sitemap URL,url
-139,official forum URL,url
-140,logo image,image,logo
-141,affiliated worker organisation,organization,organisation
+0,has subsidiary,subsidiary,company
+1,archives at,nothing
+2,industry,industry,company,companies,manufacturers,industries
+3,official website,homepage,website
+4,part of,place,end
+5,inception,nothing
+6,stock exchange,commodity,currency
+7,country of origin,origin,country
+8,Commons category,commons,category
+9,chairperson,chairman
+10,member of,members
+11,location of formation,location,place
+12,location,location,locations
+13,Reddit username,username
+14,autonomous system number,number
+15,subreddit,nothing
+16,category for employees of the organization,company,organization,certain,place,other
+17,employer,employer
+18,developer,developer,developers
+19,manufacturer,products,product,company,distributor,manufacturer,manufacturers
+20,operator,operator,operators
+21,designed by,by
+22,type foundry,type,foundry
+23,owner of,owner,owners,ownership
+24,copyright holder,copyright,holder
+25,owned by,by
+26,publisher,publisher,editor
+27,has part(s),carrier(s)_
+28,distributed by,by
+29,notable work,works,major,other
+30,described by source,source,by
+31,creator,creator,creators
+32,advertises,nothing
+33,parent organization,organization,parent,organisation,group
+34,authority,nothing
+35,merged into,nothing
+36,spoken text audio,text,language
+37,product,products,product,manufacturer,brand
+38,GitHub username,username
+39,Commons gallery,commons
+40,total equity,assets,equity,revenue,profit,total,percentage
+41,X username,x,username
+42,motto,motto
+43,history of topic,nothing
+44,employees,employer
+45,Legal Entity Identifier,nothing
+46,legal form,nothing
+47,topic's main Wikimedia portal,portal
+48,topic's main category,category
+49,phone number,number
+50,short name,name
+51,market capitalization,equity,profit,commodity
+52,topic's main template,nothing
+53,total liabilities,assets,total,gross
+54,Instagram username,username
+55,described at URL,url
+56,total revenue,revenue,profit,total,percentage,gross,average
+57,official name,name
+58,OmegaWiki Defined Meaning,certain,relation,meaning
+59,ISIN,nothing
+60,IRS Employer Identification Number,employer,number
+61,Facebook username,google,yahoo,username
+62,organizer,nothing
+63,conferred by,by
+64,discoverer or inventor,invented
+65,main subject,certain
+66,used by,by
+67,author,author,writer,authors,book
+68,brand,product,brand,brands
+69,founded by,founded,by
+70,participant,participation,participants
+71,record label,label,record,labels
+72,facet of,nothing
+73,plaintiff,nothing
+74,defendant,nothing
+75,board member,membership,boards,board,members
+76,hashtag,nothing
+77,total assets,assets,equity,revenue,profit,total
+78,IPv4 routing prefix,nothing
+79,permanent duplicated item,nothing
+80,operating income,assets,revenue,profit,basis
+81,net profit,revenue,profit
+82,PermID,nothing
+83,operating area,nothing
+84,Code List for Cultural Heritage Organizations,organization,institutions,other
+85,production company,industry,company,producer,companies,production,producers
+86,category combines topics,category
+87,symbol of,symbol
+88,partnership with,partners,partner,with
+89,Wikimedia portal's main topic,portal
+90,named after,name,after,before,last,first
+91,commissioned by,by
+92,category's main topic,category
+93,privacy policy URL,url
+94,TikTok username,username
+95,Wikimedia outline,nothing
+96,terms of service URL,services,service,certain
+97,has works in the collection,place,works,other,in,first,a
+98,OpenCorporates corporate grouping,nothing
+99,Spectrum Management System Company Number,industry,services,company,network,companies,data,management,number
+100,Stack Exchange site URL,website,url,link
+101,Wolfram Language entity code,language
+102,Central Index Key,index
+103,National Equipment Registration System Supplier Number,industry,services,service,company,registration,number
+104,copyright status as a creator,creator,copyright,a
+105,FCC Grantee Code,nothing
+106,Libris-URI,nothing
+107,on focus list of Wikimedia project,other
+108,occupant,nothing
+109,followed by,by,after,before
+110,sponsor,sponsor,sponsors
+111,date of incorporation,date
+112,official shop URL,website,url
+113,shortened URL formatter,url
+114,Google Play developer slug,google,developer
+115,sitemap URL,homepage,yahoo,url
+116,official forum URL,website,url
+117,affiliated worker organisation,organization,employer,institution,organisation
+118,YouTube handle,nothing
+119,social media followers,nothing
+120,official jobs URL,url
+121,service status information URL,services,website,service,address,url
+122,external auditor,nothing
+123,performer,nothing
+124,affiliation,affiliations,affiliation
+125,funder,nothing
+126,model item,nothing
+127,issued by,by
+128,template has topic,nothing
+129,has part(s) of the class,place,class,other,first
+130,contributor to the creative work or subject,reason,needed,certain,place,works,person,other,help
+131,field of work,needed,place,works,other,fields,field
+132,exhibited creator,creator
+133,investor,equity
+134,chief executive officer,manager,director,chairman,president
+135,headquarters location,location,locations
+136,award received,award,awards,winner
+137,instance of,reason,certain,other
+138,country,country
+139,ISNI,nothing
+140,Wikidata property example,value
+141,logo image,image,logo
 142,image,image
-143,Commons Creator page,creator
-144,official blog URL,website,url
-145,different from,other
-146,ISO 9362 SWIFT/BIC code,nothing
-147,work location,location,locations,place
-148,email address,address
-149,search formatter URL,url
-150,public key fingerprint,nothing
-151,Corporate Number (Japan),nothing
-152,Pinterest username,username
-153,small logo or icon,logo
+143,item for this sense,find,reason,certain,place,a
+144,Commons Creator page,commons,creator,page
+145,official blog URL,homepage,website,url,link
+146,different from,certain,other
+147,ISO 9362 SWIFT/BIC code,nothing
+148,work location,location,locations,place,works
+149,email address,address
+150,search formatter URL,url
+151,public key fingerprint,nothing
+152,Corporate Number (Japan),nothing
+153,Pinterest username,username
 154,replaced by,by
-155,editor,editor
+155,editor,publisher,writer,editor
 156,copyright representative,copyright
 157,translator,nothing
-158,has use,nothing
-159,maintained by,by
-160,architect,nothing
-161,standards body,nothing
-162,educated at,nothing
-163,signatory,nothing
-164,acknowledged,nothing
-165,copyright status,copyright
-166,named by,by
-167,contact page URL,website,url,link,page
-168,Similarweb ranking,rank
-169,business division,company,divisions,division
-170,parent,parent,parents
-171,stated in,in
-172,maintains linking to,nothing
-173,has written for,nothing
-174,place of publication,place
-175,platform,platform,platforms
-176,in opposition to,in
-177,website account on,website
-178,Wikidata property,nothing
-179,Giphy username,username
-180,stylized name,name
-181,Delaware Division of Corporations file number,number
-182,GitHub topic,nothing
-183,applicable 'stated in' value,value
-184,vehicle normally used,nothing
-185,depicts,nothing
-186,target,target
-187,Bilibili UID,nothing
-188,EBITDA,nothing
-189,Baidu Tieba name,nothing
-190,schematic,nothing
-191,motto text,text,motto
-192,native label,label
-193,replaces,nothing
-194,D-U-N-S number,n,id
-195,director / manager,director
-196,ACM Classification Code (2012),nothing
-197,exact match,nothing
-198,Stack Exchange tag,nothing
-199,corporate officer,nothing
-200,postal code,nothing
-201,follows,nothing
-202,ArchWiki article,nothing
-203,GitLab.com username,username
-204,EU Participant Identification Code,nothing
-205,uses,nothing
-206,represents,nothing
-207,significant event,nothing
-208,contributing factor of,nothing
-209,panoramic view,nothing
-210,street address,address
-211,cites work,works
-212,endorsed by,by
-213,IPv6 routing prefix,nothing
-214,designated as terrorist by,nothing
-215,official symbol,symbol
-216,name,name
-217,source of income,source
-218,chief operating officer,nothing
-219,participant in,in
-220,item operated,nothing
-221,Threads username,username
-222,charter URL,url
-223,press information URL,website,url
-224,card network,network,networks
-225,payment types accepted,certain
-226,common equity tier 1 capital ratio (CETI),equity
-227,donated by,by
-228,assets under management,assets,management
-229,reward program,nothing
-230,winner,award,wins,winner,won
-231,language used,language
-232,located in the administrative territorial entity,nothing
-233,official color,colour
-234,location information URL,location,url
+158,small logo or icon,logo,small
+159,has use,reason,other,with
+160,maintained by,by
+161,architect,builder,engineer
+162,standards body,nothing
+163,educated at,nothing
+164,signatory,nothing
+165,acknowledged,nothing
+166,copyright status,copyright
+167,named by,by
+168,contact page URL,homepage,website,url,link,page
+169,Similarweb ranking,rank
+170,Bluesky handle,nothing
+171,depicts,nothing
+172,business division,industry,company,divisions,division,companies,management
+173,maintains linking to,nothing
+174,has written for,first,with
+175,parent,parent,child,parents
+176,stated in,in
+177,platform,platform,platforms
+178,in opposition to,place,in
+179,place of publication,place,first
+180,website account on,homepage,website,link,page
+181,Wikidata property,ownership
+182,Giphy username,username
+183,stylized name,name
+184,Delaware Division of Corporations file number,division,companies,certain,number,other
+185,GitHub topic,nothing
+186,applicable 'stated in' value,value,certain
+187,vehicle normally used,certain
+188,target,target
+189,EBITDA,nothing
+190,Baidu Tieba name,nothing
+191,Bilibili UID,nothing
+192,schematic,nothing
+193,motto text,text,motto
+194,native label,label,labels
+195,replaces,nothing
+196,director / manager,manager,director
+197,D-U-N-S number,n,id
+198,ACM Classification Code (2012),nothing
+199,exact match,nothing
+200,Stack Exchange tag,nothing
+201,corporate officer,company
+202,postal code,nothing
+203,follows,nothing
+204,ArchWiki article,nothing
+205,GitLab.com username,username
+206,EU Participant Identification Code,registration
+207,uses,nothing
+208,represents,nothing
+209,significant event,participants,major
+210,contributing factor of,nothing
+211,panoramic view,nothing
+212,street address,address
+213,cites work,works
+214,endorsed by,by
+215,IPv6 routing prefix,nothing
+216,designated as terrorist by,by
+217,name,name,nickname
+218,source of income,revenue,source,certain,profit
+219,official symbol,symbol,emblem
+220,chief operating officer,chairman,president
+221,participant in,participation,participants,in
+222,item operated,nothing
+223,Threads username,username
+224,charter URL,url
+225,press information URL,website,url
+226,card network,network,networks
+227,payment types accepted,certain,basis
+228,donated by,by
+229,assets under management,assets,equity,management,ownership
+230,reward program,nothing
+231,common equity tier 1 capital ratio (CETI),equity,ratio
+232,winner,award,awards,wins,champion,winner,won
+233,language used,language,meaning
+234,located in the administrative territorial entity,state,in
 235,has characteristic,nothing
-236,Xiaohongshu profile,nothing
-237,research site,website
-238,partner in business or sport,nothing
-239,subclass of,nothing
-240,addressee,nothing
-241,IPA transcription,nothing
-242,exhibition history,nothing
-243,fictional or mythical analog of,nothing
-244,has list,nothing
-245,Snapchat username,username
+236,official color,colour
+237,location information URL,website,location,locations,url
+238,Xiaohongshu profile,nothing
+239,partner in business or sport,company,partners,place,partner,other,in
+240,subclass of,nothing
+241,research site,website
+242,addressee,nothing
+243,IPA transcription,nothing
+244,exhibition history,nothing
+245,fictional or mythical analog of,nothing
 246,has facility,nothing
-247,has effect,nothing
-248,video,video
-249,DPLA subject term,nothing
-250,D&B Hoovers company profile,company
-251,Telegram username,username
-252,separated from,nothing
-253,characters,nothing
-254,coordinate location,location,locations
-255,collection,collections
-256,copyright license,license,copyright
-257,pronunciation audio,nothing
-258,fax number,number
-259,produced by,by
-260,influenced by,by,influenced
-261,franchisor,nothing
-262,nickname,nickname
-263,category for maps,category
-264,number of branches,number,branch
-265,European Union trademark number,nothing
-266,category contains,category
-267,based on,nothing
-268,flag image,image
-269,mascot,mascot
-270,flag,nothing
-271,operating area,nothing
-272,location of creation,location,place
-273,producer,producer,producers
-274,interested in,in
-275,dedicated to,nothing
-276,has cause,reason,causes
-277,central bank/issuer,nothing
-278,original broadcaster,nothing
-279,page banner,homepage,pages,page
-280,significant person,certain,person
-281,enemy,nothing
-282,LastDodo-area-ID,nothing
-283,fandom,nothing
-284,Zhihu username,username
-285,Archive of Our Own tag,nothing
-286,ISBN publisher prefix,publisher,isbn
-287,EU VAT number,nothing
-288,total debt,total
-289,catchphrase,nothing
-290,reply to,nothing
-291,Uniform Resource Identifier Scheme,nothing
-292,URL,url
-293,CPU,cpu
-294,performing organization,organization
-295,said to be the same as,reason,place,certain,before,next,other,first,end
-296,cast member,members
-297,is a list of,a
-298,applies to part,certain
-299,kit supplier,manufacturer
-300,contains,nothing
-301,Vintage Fashion Guild label,label
-302,main building contractor,contractors,construction
-303,published in,in
-304,KulturNav-ID,nothing
-305,occupation,occupation
-306,DOI prefix,doi
-307,Tumblr username,username
-308,BHCL UUID,nothing
-309,operating system,nothing
-310,stock market index,index
-311,applies to jurisdiction,nothing
-312,commemorates,nothing
-313,position held,position
-314,MIC market code,nothing
-315,Alexa rank,rank
-316,OpenStreetMap tag or key,nothing
-317,launch contractor,contractors
-318,WordLift URL,url
-319,audio,nothing
-320,Egapro gender equality index,nothing
-321,vessel,nothing
-322,ARCHON code,nothing
-323,Transferred Account Data Interchange Group Code,data
-324,mobile network code,network,networks
-325,dissolved,nothing
-326,GUI number,nothing
-327,regulated by,by
-328,web feed URL,website,url
-329,IMDb keyword,nothing
-330,locator map image,image
-331,adjacent building,nothing
-332,CAGE code,nothing
-333,executive producer,producer,director
-334,father,father,mother,parents
-335,composer,composer
-336,lyricist,lyricist
-337,voice actor,voice,voices,actor
-338,screenwriter,writer,screenplay
-339,director,director
-340,presenter,presenter
-341,work period (start),nothing
-342,number of children,children,child,number,other
-343,name in native language,name,language
-344,filmography,nothing
-345,birth name,name
-346,family name,name,family
-347,height,width,height
-348,given name,name
-349,date of birth,date
-350,pseudonym,nothing
-351,instrument,nothing
-352,nominated for,award
-353,discography,nothing
-354,languages spoken,language
-355,ethnic group,group
-356,native language,language
-357,sex or gender,nothing
-358,genre,genre
-359,country of citizenship,citizenship,country
-360,child,children,mother,child,parents
-361,place of birth,place
-362,writing language,language
-363,related category,related,category
-364,spouse,spouse
-365,mother,father,mother,child,parents
-366,unmarried partner,partners,spouse,partner
-367,IPI name number,nothing
-368,signature,signature
-369,voice type,type,voice
-370,Douban site name,name,website
-371,relative,relative
-372,inspired by,by
-373,sibling,nothing
-374,guest of honor,nothing
-375,religion or worldview,religion
-376,ancestral home,nothing
-377,sexual orientation,nothing
-378,eye color,colour
-379,residence,residence
-380,godparent,nothing
-381,handedness,nothing
-382,hair color,colour
-383,U.S. National Archives Identifier,nothing
-384,RIA Novosti reference,nothing
-385,EcuRed article,nothing
-386,married name,name,father,mother
-387,worn by,by
-388,recorded participant,recorded
-389,Plex person key,person
-390,member category,members,category
-391,list of works,works,other
-392,stepparent,nothing
-393,medical condition,treatment
-394,sport,nothing
-395,talk show guest,show,talk
-396,member of political party,members,party
-397,student,education,college
-398,student of,college
-399,CLARA-ID,nothing
-400,net worth,profit
-401,personal pronoun,nothing
-402,narrator,narrator
-403,lifestyle,nothing
-404,notable role,nothing
-405,supported sports team,team,teams
-406,Krugosvet article,nothing
-407,plaque image,image
-408,blood type,type
-409,mass,nothing
-410,Europeana entity,nothing
-411,work period (end),nothing
-412,victory,wins,won
-413,documentation files at,nothing
-414,setlist,nothing
-415,points/goal scored by,goals
-416,team captain,team,captain,teams
-417,statistical leader,leader
-418,league or competition,league,teams
-419,member of sports team,team,teams
-420,Munzinger Sport number,number
-421,ORCID iD,nothing
-422,position played on team / speciality,team,position
-423,sport number,number
-424,convicted of,nothing
-425,country for sport,country
-426,number of matches played/races/starts,nothing
-427,total goals in career,goals,total
-428,footedness,nothing
-429,after a work by,by,after,before,first,with,a
-430,Colon Classification,nothing
-431,head coach,coach,head
-432,time period,nothing
-433,sports discipline competed in,nothing
-434,full work available at URL,nothing
-435,represented by,by
-436,wears,nothing
-437,subject has role,nothing
-438,OnlyFans username,username
-439,coat of arms image,nothing
-440,noble title,title
-441,depicted by,by
-442,honorific prefix,nothing
-443,affiliation string,nothing
-444,generational suffix,nothing
-445,has pet,nothing
-446,director of photography,director
-447,film editor,editor
-448,present in work,place,works,in
-449,movement,nothing
-450,maintained by WikiProject,nothing
-451,audio recording of the subject's spoken voice,sound,voice
-452,NLC authorities,nothing
-453,Regensburg Classification,nothing
-454,production designer,designer,production,designers
-455,date of death,date
-456,place of death,place
-457,cause of death,causes
-458,manner of death,certain
-459,references work,works
-460,hairstyle / hairlength,nothing
-461,alternative name,name
-462,facial hair,nothing
-463,academic major,education,major
-464,academic degree,education
-465,adapted by,by
-466,Ameblo username,username
-467,candidate,candidate
-468,author of foreword,author,writer,book
-469,family,relatives,parents,family
-470,Parler username (archived),nothing
-471,name in kana,name
-472,IAFD actor UUID,nothing
-473,place of burial,place
-474,defender,nothing
-475,drafted by,by
-476,victim(s),carrier(s)_
-477,date of burial or cremation,nothing
-478,officially opened by,nothing
-479,category of associated people,certain,other
-480,flag bearer,nothing
-481,is the study of,nothing
-482,model,nothing
-483,Library of Congress Classification,nothing
-484,studied in,in
-485,military branch,branch
-486,torch lit by,nothing
-487,Fach vocal classification,nothing
-488,highest note,note
-489,lowest note,note
-490,permanent resident of,nothing
-491,trained by,by
-492,first family name in Portuguese name,name,first
-493,speaker,nothing
-494,cover art by,by
-495,escutcheon image,escutcheon
-496,sports season of league or competition,league,teams
-497,playing hand,nothing
-498,doubles record,record
-499,singles record,record
-500,ranking,rank
-501,prize money,nothing
-502,political ideology,religion
-503,second family name in Spanish name,name,first
-504,place of detention,place
-505,television judge,television
-506,montage image,image
-507,boiling point,point
-508,melting point,point,melt
-509,atomic number,number
-510,density,nothing
-511,time of discovery or invention,certain
-512,speed of sound,sound
-513,refractive index,index
-514,Unicode character,nothing
-515,color,colour,colours
-516,E number,number,e
-517,oxidation state,state
-518,thermal conductivity,nothing
-519,MeSH tree code,nothing
-520,electronegativity,nothing
-521,Dewey Decimal Classification,nothing
-522,does not have part,reason,certain
-523,made from material,material,materials
-524,antiparticle,nothing
-525,raw material processed,material,materials
-526,coolant,nothing
-527,by-product,product,by
-528,powered by,by
-529,source of energy,source
-530,manifestation of,nothing
-531,ionic radius,nothing
-532,UMLS CUI,nothing
-533,electron configuration,nothing
-534,ionization energy,nothing
-535,molar enthalpy of vaporization,nothing
-536,location of discovery,location
-537,CAS Registry Number,registry
-538,element symbol,symbol,element
-539,Common Procurement Vocabulary code,nothing
-540,standard molar entropy,nothing
-541,by-product of,product,by
-542,ASHRAE refrigerant number,nothing
-543,conjugate acid,nothing
-544,DSSTOX compound identifier,nothing
-545,chemical formula,chemical,formula
-546,EC number,number
-547,PubChem CID,nothing
-548,ZVG number,number
-549,InChI,nothing
-550,UNII,nothing
-551,canonical SMILES,nothing
-552,ATC code,nothing
-553,InChIKey,nothing
-554,significant drug interaction,medication
-555,drug or therapy used for treatment,treatment,medication
-556,production statistics,production
-557,medical condition treated,treatment
-558,molar fusion enthalpy,nothing
-559,has listed ingredient,ingredient
-560,immediately dangerous to life or health,reason,certain,other
-561,associated hazard,risks
-562,Gmelin number,number
-563,electrical conductivity,nothing
-564,ceiling exposure limit,nothing
-565,time-weighted average exposure limit,average
-566,vapor pressure,nothing
-567,RTECS number,number
-568,ultimate tensile strength,nothing
-569,crystal system,nothing
-570,CosIng number,number
-571,measures,nothing
-572,physically interacts with,nothing
-573,opposite of,nothing
-574,UNSPSC Code,nothing
-575,radius,nothing
-576,frequency,nothing
-577,facilitates flow of,nothing
-578,solid solution series with,with
-579,found in taxon,nothing
-580,Gujarati Vishwakosh entry,nothing
-581,designed to carry,nothing
-582,recycling code,nothing
-583,safety classification and labelling,nothing
-584,CPV Supplementary code,nothing
-585,chassis,chassis
-586,minimum explosive concentration,nothing
-587,type locality (geology),nothing
-588,has active ingredient,active,ingredient
-589,NSC number,nothing
-590,Reaxys registry number,registry,number
-591,EPPO Code,nothing
-592,conjugate base,nothing
-593,relative to,relative
-594,dynamic viscosity,nothing
-595,possible treatment,treatment
-596,object class of occurrence,class
-597,specific heat capacity,nothing
-598,tensile modulus of elasticity,nothing
-599,Mohs' hardness,nothing
-600,hardness,nothing
-601,Poisson's ratio,ratio
-602,shear modulus,nothing
-603,short-term exposure limit,nothing
-604,magnetic ordering,nothing
-605,embodied energy,nothing
-606,relative permeability,relative
-607,IMA Mineral Symbol,nothing
-608,ritual object,nothing
-609,electrical resistivity,nothing
-610,compressive modulus of elasticity,nothing
-611,fossil found in this unit,nothing
-612,fabrication method,nothing
-613,active ingredient in,active,ingredient
-614,Biology Online Biology Dictionary entry,nothing
-615,minimal lethal concentration,nothing
-616,median lethal dose (LD50),nothing
-617,minimal lethal dose,nothing
-618,sublimation temperature,nothing
-619,principal investigator,nothing
-620,MCN code,nothing
-621,Dictionary.com entry,nothing
-622,currency,currency
-623,has immediate cause,reason,causes
-624,UN number,nothing
-625,Kemler code,nothing
-626,electric dipole moment,nothing
-627,research intervention,nothing
-628,subject lexeme,nothing
-629,related image,image,related
-630,heritage designation,nothing
-631,price,nothing
-632,total produced,total
-633,aerial view,nothing
-634,thermal diffusivity,nothing
-635,Thomson Reuters Business Classification,nothing
-636,type of passengers/cargo,nothing
-637,has goal,goals
-638,domain of saint or deity,nothing
-639,typically sells,nothing
-640,icon,nothing
-641,armament,nothing
-642,EAGLE id,d,id,u
-643,original language of film or TV show,show
-644,MPA film rating,nothing
-645,narrative location,location
-646,ISAN,nothing
-647,takes place in fictional universe,place
-648,JMK film rating,nothing
-649,FSK film rating,nothing
-650,title,title
-651,filming location,location
-652,NMHH film rating,rating
-653,distribution format,format
-654,ICAA rating,rating
-655,CNC film rating (Romania),nothing
-656,review score,score
-657,duration,nothing
-658,Kijkwijzer rating,rating
-659,box office,office
-660,publication date,date
-661,capital cost,nothing
-662,film crew member,nothing
-663,exploitation mark number,number
-664,fictional universe described in,nothing
-665,derivative work,nothing
-666,Medierådet rating,rating
-667,Amazon Standard Identification Number,number
-668,RTC film rating,nothing
-669,Plex media key,nothing
-670,part of the series,first,series
-671,assessment,nothing
-672,form of creative work,works
-673,BBFC rating,nothing
-674,costume designer,designer
-675,CNC film rating (France),nothing
-676,aspect ratio (W:H),nothing
-677,supplement to,nothing
-678,IMDA rating,rating
-679,ClassInd rating,rating
-680,FPB rating,nothing
-681,set in environment,in
-682,RCQ classification,nothing
-683,IFCO rating,rating
-684,INCAA film rating,rating
-685,first appearance,first
-686,working title,title
-687,attendance,nothing
-688,soundtrack release,album,released
-689,language of work or name,name,language,certain,other,meaning
-690,make-up artist,artist
-691,music created for,music
-692,OFLC classification,nothing
-693,Australian Classification,nothing
-694,Hong Kong film rating,nothing
-695,media franchise,nothing
-696,BAMID film rating,rating
-697,set in period,in
-698,has edition or translation,nothing
-699,list of characters,nothing
-700,edition or translation of,nothing
-701,date depicted,date
-702,Filmiroda rating,rating
-703,has spin-off,nothing
-704,date of first performance,date,before,last,first
-705,RARS rating,rating
-706,EIRIN film rating,rating
-707,OCLC control number,nothing
-708,time index,index
-709,original film format,format
-710,IGAC rating,rating
-711,theme music,music,theme
-712,set during recurring event,nothing
-713,quotes work,quote
-714,storyboard artist,artist
-715,budget,budget
-716,KFCB classification (Kenya),nothing
-717,choreographer,nothing
-718,crew member(s),nothing
-719,film poster,nothing
-720,tracklist,nothing
-721,featured track(s),nothing
-722,art director,artist,director
-723,animator,nothing
-724,plot expanded in,in
-725,Global Trade Item Number,number
-726,copyright registration,license,registration,copyright
-727,announcement date,date
-728,location of first performance,location,place,first
-729,MTRCB rating,rating
-730,CHVRS Classification,nothing
-731,KMRB film rating,rating
-732,contributed to creative work,works
-733,complies with,with
-734,assistant director,director
-735,KAVI rating,rating
-736,sound designer,designer,sound
-737,catalog code,nothing
-738,CBFC rating,rating
-739,created for,nothing
-740,musical conductor,composer
-741,production date,date,production
-742,shares border with,border,with
-743,astronomic symbol image,image,symbol
-744,area,region
-745,Hederich encyclopedia article,nothing
-746,notation,nothing
-747,child astronomical body,child
-748,declination,declination
-749,right ascension,nothing
-750,partially coincident with,nothing
+247,has list,nothing
+248,Snapchat username,username
+249,has effect,nothing
+250,video,video
+251,DPLA subject term,certain,relation,basis,meaning
+252,D&B Hoovers company profile,company
+253,Telegram username,username
+254,separated from,nothing
+255,characters,nothing
+256,coordinate location,location,locations
+257,collection,collections
+258,copyright license,license,copyright
+259,pronunciation audio,sound
+260,fax number,address,number
+261,location of creation,location,place
+262,producer,producer,production,producers
+263,central bank/issuer,nothing
+264,influenced by,by,influenced,influences
+265,interested in,find,in
+266,original broadcaster,nothing
+267,dedicated to,help
+268,has cause,reason,certain,causes
+269,ISBN publisher prefix,publisher,isbn
+270,page banner,homepage,website,link,pages,page
+271,mascot,mascot
+272,LastDodo-area-ID,nothing
+273,significant person,reason,certain,relation,person,basis,other
+274,enemy,nothing
+275,fandom,nothing
+276,Zhihu username,username
+277,Archive of Our Own tag,other
+278,EU VAT number,nothing
+279,total debt,equity,total
+280,catchphrase,nothing
+281,reply to,nothing
+282,Uniform Resource Identifier Scheme,nothing
+283,URL,url
+284,CPU,cpu,processor
+285,performing organization,organization,organisation
+286,said to be the same as,point,reason,needed,certain,place,after,before,person,next,last,other,first,with,a,end
+287,is a list of,place,other,first,with,a
+288,cast member,members
+289,applies to part,reason,certain,place,person,other,end
+290,nickname,name,nickname
+291,Stadtwiki Dresden article,nothing
+292,main building contractor,contractors,builder,construction
+293,published in,in
+294,KulturNav-ID,nothing
+295,stock market index,equity,index,commodity
+296,occupation,occupation
+297,DOI prefix,doi
+298,Tumblr username,username
+299,BHCL UUID,nothing
+300,operating system,nothing
+301,applies to jurisdiction,certain,basis
+302,commemorates,nothing
+303,position held,place,position
+304,MIC market code,nothing
+305,Alexa rank,rank
+306,OpenStreetMap tag or key,nothing
+307,launch contractor,company,contractors
+308,contains,nothing
+309,WordLift URL,url
+310,audio,sound,video
+311,Egapro gender equality index,index
+312,vessel,nothing
+313,ARCHON code,nothing
+314,Transferred Account Data Interchange Group Code,data
+315,mobile network code,network,networks
+316,dissolved,nothing
+317,GUI number,number
+318,regulated by,by
+319,web feed URL,homepage,google,website,url,link
+320,IMDb keyword,nothing
+321,locator map image,image,location
+322,adjacent building,construction
+323,CAGE code,nothing
+324,lyricist,composer,lyricist
+325,voice actor,voices,actor,voice
+326,screenwriter,writer,screenplay
+327,composer,composer,lyricist
+328,director,director,chairman,directed
+329,presenter,presenter
+330,executive producer,producer,director,chairman,producers
+331,father,father,mother,parents,family
+332,work period (start),before,period
+333,number of children,certain,children,child,parents,number,other
+334,name in native language,name,language,in,meaning
+335,filmography,nothing
+336,birth name,name,mother
+337,family name,name,father,mother,parents,family
+338,height,width,height
+339,given name,name,reason,certain
+340,date of birth,date
+341,pseudonym,pseudonym
+342,instrument,nothing
+343,nominated for,award,awards
+344,discography,album
+345,languages spoken,language
+346,ethnic group,group
+347,native language,language
+348,sex or gender,nothing
+349,genre,genre
+350,country of citizenship,citizenship,nationality,country
+351,child,parent,children,mother,child,parents
+352,place of birth,place,before,first
+353,writing language,text,language
+354,related category,related,category
+355,spouse,spouse
+356,mother,father,mother,child,parents,family
+357,unmarried partner,partners,spouse,partner
+358,IPI name number,name,number
+359,signature,signature
+360,voice type,type,sound,voice
+361,Douban site name,name,website,link,page
+362,relative,relative,relation
+363,inspired by,by
+364,sibling,parent
+365,guest of honor,guests
+366,religion or worldview,religion
+367,ancestral home,family
+368,sexual orientation,nothing
+369,eye color,colour,colours
+370,residence,residence
+371,godparent,nothing
+372,handedness,nothing
+373,ORCID iD,nothing
+374,U.S. National Archives Identifier,nothing
+375,married name,name,father,mother
+376,hair color,colour,colours
+377,RIA Novosti reference,nothing
+378,EcuRed article,nothing
+379,worn by,by
+380,recorded participant,participants,record,recorded
+381,Plex person key,person
+382,based on,basis
+383,member category,members,category
+384,list of works,certain,works,other
+385,stepparent,nothing
+386,medical condition,treatment
+387,sport,nothing
+388,talk show guest,host,guests,show,talk
+389,member of political party,members,party
+390,student,education,college
+391,student of,education,college
+392,CLARA-ID,nothing
+393,net worth,revenue,profit
+394,personal pronoun,nothing
+395,narrator,narrator
+396,lifestyle,nothing
+397,notable role,major
+398,supported sports team,team,league,teams
+399,Krugosvet article,nothing
+400,plaque image,image
+401,blood type,type
+402,mass,nothing
+403,Europeana entity,nothing
+404,work period (end),before,period,end
+405,victory,wins,champion,won
+406,documentation files at,nothing
+407,setlist,nothing
+408,points/goal scored by,point,goals,score
+409,team captain,team,captain,league,coach,teams
+410,statistical leader,leader
+411,league or competition,team,league,teams
+412,member of sports team,members,team,league,teams
+413,Munzinger Sport number,number
+414,position played on team / speciality,team,position,teams
+415,sport number,number
+416,convicted of,nothing
+417,country for sport,country
+418,number of matches played/races/starts,nothing
+419,total goals in career,goals,total,in
+420,footedness,nothing
+421,Colon Classification,nothing
+422,after a work by,by,after,before,next,last,first,with,a,end
+423,head coach,coach,head
+424,time period,years,after,before,last,period,year,month
+425,sports discipline competed in,teams,in
+426,full work available at URL,find,needed
+427,represented by,by
+428,wears,nothing
+429,subject has role,reason,certain,relation
+430,OnlyFans username,username
+431,coat of arms image,image
+432,noble title,title
+433,affiliation string,affiliation
+434,depicted by,by
+435,honorific prefix,nothing
+436,generational suffix,nothing
+437,has pet,nothing
+438,director of photography,director
+439,film editor,director,writer,editor
+440,present in work,needed,certain,place,works,before,other,in,first
+441,movement,nothing
+442,audio recording of the subject's spoken voice,sound,music,voice
+443,NLC authorities,nothing
+444,Regensburg Classification,nothing
+445,maintained by WikiProject,nothing
+446,production designer,designer,producer,production,designers,design
+447,date of death,date,after,before
+448,place of death,certain,place,after,before,in,end
+449,cause of death,reason,certain,after,causes
+450,manner of death,certain,other
+451,references work,needed,works
+452,hairstyle / hairlength,nothing
+453,alternative name,name
+454,facial hair,nothing
+455,academic major,institutions,education,major,college
+456,academic degree,institution,education,college
+457,adapted by,by
+458,Ameblo username,username
+459,candidate,candidate
+460,author of foreword,author,writer,authors,book
+461,family,father,mother,relatives,parents,family
+462,Parler username (archived),nothing
+463,name in kana,name
+464,IAFD actor UUID,nothing
+465,place of burial,place
+466,defender,nothing
+467,drafted by,by
+468,victim(s),carrier(s)_
+469,date of burial or cremation,date
+470,officially opened by,by,after,before,first
+471,category of associated people,certain,other,related,category
+472,flag bearer,nothing
+473,is the study of,reason,place,first,with,a
+474,model,nothing
+475,Library of Congress Classification,nothing
+476,studied in,in
+477,military branch,branch
+478,torch lit by,nothing
+479,Fach vocal classification,nothing
+480,highest note,note
+481,lowest note,note
+482,permanent resident of,nothing
+483,trained by,by
+484,first family name in Portuguese name,name,place,family,first
+485,speaker,nothing
+486,cover art by,artist,by
+487,escutcheon image,image,escutcheon
+488,sports season of league or competition,team,league,teams
+489,playing hand,player,plays
+490,doubles record,record
+491,singles record,record
+492,ranking,rank
+493,prize money,winner
+494,political ideology,religion
+495,second family name in Spanish name,name,place,family,first
+496,place of detention,place
+497,television judge,tv,television,judges
+498,montage image,image
+499,boiling point,point
+500,melting point,point,melt
+501,atomic number,number
+502,density,nothing
+503,time of discovery or invention,reason,certain,before,other,first
+504,speed of sound,sound
+505,refractive index,index
+506,Unicode character,nothing
+507,color,colour,colours
+508,E number,number,e
+509,oxidation state,state
+510,thermal conductivity,nothing
+511,MeSH tree code,nothing
+512,electronegativity,nothing
+513,Dewey Decimal Classification,nothing
+514,made from material,other,material,materials
+515,antiparticle,nothing
+516,raw material processed,material,materials
+517,does not have part,point,find,reason,needed,certain,place,before,person,other,first,end
+518,coolant,nothing
+519,powered by,by
+520,source of energy,source
+521,by-product,product,by
+522,manifestation of,nothing
+523,ionic radius,nothing
+524,UMLS CUI,nothing
+525,electron configuration,nothing
+526,ionization energy,nothing
+527,molar enthalpy of vaporization,nothing
+528,location of discovery,location,place
+529,CAS Registry Number,registry,number
+530,element symbol,symbol,element
+531,Common Procurement Vocabulary code,language
+532,standard molar entropy,nothing
+533,by-product of,product,by
+534,ASHRAE refrigerant number,nothing
+535,conjugate acid,nothing
+536,DSSTOX compound identifier,nothing
+537,chemical formula,chemical,formula,ingredient
+538,EC number,number
+539,PubChem CID,nothing
+540,ZVG number,number
+541,InChI,nothing
+542,UNII,nothing
+543,canonical SMILES,nothing
+544,ATC code,nothing
+545,InChIKey,nothing
+546,significant drug interaction,medication,risks
+547,drug or therapy used for treatment,treatment,medication
+548,production statistics,production
+549,has listed ingredient,ingredient
+550,medical condition treated,treatment,medication
+551,molar fusion enthalpy,nothing
+552,immediately dangerous to life or health,find,reason,needed,certain,place,before,person,other,help
+553,associated hazard,risks
+554,Gmelin number,number
+555,electrical conductivity,nothing
+556,ceiling exposure limit,nothing
+557,time-weighted average exposure limit,relative,percentage,average
+558,vapor pressure,nothing
+559,RTECS number,number
+560,ultimate tensile strength,nothing
+561,crystal system,nothing
+562,CosIng number,number
+563,measures,nothing
+564,physically interacts with,with
+565,opposite of,direction,end
+566,UNSPSC Code,nothing
+567,radius,nothing
+568,frequency,nothing
+569,facilitates flow of,nothing
+570,solid solution series with,with,series
+571,designed to carry,help
+572,found in taxon,species,in
+573,Gujarati Vishwakosh entry,nothing
+574,recycling code,nothing
+575,safety classification and labelling,nothing
+576,CPV Supplementary code,nothing
+577,chassis,chassis
+578,minimum explosive concentration,nothing
+579,type locality (geology),type
+580,has active ingredient,active,ingredient
+581,NSC number,nothing
+582,Reaxys registry number,registry,number
+583,EPPO Code,nothing
+584,conjugate base,nothing
+585,relative to,point,certain,relative,relation
+586,dynamic viscosity,nothing
+587,possible treatment,certain,treatment,medication
+588,object class of occurrence,certain,class,element
+589,specific heat capacity,nothing
+590,tensile modulus of elasticity,nothing
+591,Mohs' hardness,nothing
+592,hardness,nothing
+593,Poisson's ratio,ratio
+594,shear modulus,nothing
+595,short-term exposure limit,certain
+596,magnetic ordering,nothing
+597,embodied energy,nothing
+598,relative permeability,relative
+599,IMA Mineral Symbol,symbol,mineral
+600,ritual object,nothing
+601,electrical resistivity,nothing
+602,compressive modulus of elasticity,nothing
+603,fossil found in this unit,place,in
+604,fabrication method,nothing
+605,active ingredient in,active,in,ingredient
+606,Biology Online Biology Dictionary entry,nothing
+607,minimal lethal concentration,nothing
+608,median lethal dose (LD50),nothing
+609,minimal lethal dose,medication
+610,sublimation temperature,nothing
+611,principal investigator,nothing
+612,MCN code,nothing
+613,Dictionary.com entry,nothing
+614,currency,commodity,currency
+615,has immediate cause,reason,needed,certain,causes
+616,UN number,number
+617,Kemler code,nothing
+618,electric dipole moment,nothing
+619,research intervention,education
+620,subject lexeme,nothing
+621,related image,image,related
+622,heritage designation,nothing
+623,price,nothing
+624,total produced,production,total
+625,aerial view,nothing
+626,thermal diffusivity,nothing
+627,Thomson Reuters Business Classification,reuters
+628,type of passengers/cargo,nothing
+629,has goal,goals
+630,domain of saint or deity,meaning
+631,typically sells,nothing
+632,icon,nothing
+633,armament,nothing
+634,EAGLE id,d,id,u
+635,produced by,by
+636,Medierådet rating,rating
+637,Amazon Standard Identification Number,number
+638,RTC film rating,rating
+639,Plex media key,nothing
+640,assessment,nothing
+641,form of creative work,needed,certain,place,works,other
+642,fictional universe described in,nothing
+643,derivative work,works
+644,part of the series,place,other,first,end,series
+645,original language of film or TV show,television,show
+646,MPA film rating,nothing
+647,narrative location,location
+648,ISAN,nothing
+649,takes place in fictional universe,place,story,in
+650,JMK film rating,nothing
+651,FSK film rating,nothing
+652,title,title
+653,filming location,location,locations
+654,NMHH film rating,rating
+655,distribution format,format
+656,ICAA rating,rating
+657,CNC film rating (Romania),nothing
+658,review score,rating,score
+659,duration,nothing
+660,Kijkwijzer rating,rating
+661,box office,office
+662,publication date,date
+663,capital cost,revenue
+664,exploitation mark number,number
+665,BBFC rating,rating
+666,costume designer,designer,designers
+667,CNC film rating (France),nothing
+668,aspect ratio (W:H),carrier(s)_
+669,supplement to,nothing
+670,IMDA rating,rating
+671,ClassInd rating,rating
+672,FPB rating,rating
+673,set in environment,place,in
+674,RCQ classification,nothing
+675,IFCO rating,rating
+676,INCAA film rating,rating
+677,first appearance,after,before,next,last,show,first
+678,working title,title
+679,attendance,participation
+680,soundtrack release,album,released
+681,language of work or name,name,reason,language,certain,place,works,person,other,with,meaning
+682,music created for,music
+683,make-up artist,artist
+684,OFLC classification,nothing
+685,Australian Classification,nothing
+686,Hong Kong film rating,nothing
+687,media franchise,nothing
+688,BAMID film rating,rating
+689,set in period,place,after,before,period,in,end
+690,film crew member,members
+691,has edition or translation,nothing
+692,list of characters,certain,other
+693,edition or translation of,nothing
+694,date depicted,date
+695,Filmiroda rating,rating
+696,has spin-off,nothing
+697,date of first performance,date,place,after,before,next,last,year,first,end
+698,RARS rating,rating
+699,EIRIN film rating,rating
+700,time index,index
+701,original film format,format
+702,OCLC control number,number
+703,IGAC rating,rating
+704,theme music,music,theme
+705,set during recurring event,after,before,next,last,first
+706,quotes work,quote,works
+707,storyboard artist,artist
+708,budget,budget
+709,KFCB classification (Kenya),nothing
+710,choreographer,nothing
+711,crew member(s),nothing
+712,film poster,nothing
+713,tracklist,nothing
+714,featured track(s),nothing
+715,art director,artist,director
+716,plot expanded in,in
+717,animator,nothing
+718,Global Trade Item Number,value,number
+719,copyright registration,license,registration,copyright
+720,announcement date,date
+721,location of first performance,location,place,next,first,end
+722,MTRCB rating,rating
+723,CHVRS Classification,nothing
+724,KMRB film rating,rating
+725,contributed to creative work,needed,works,help
+726,complies with,with
+727,assistant director,manager,director
+728,KAVI rating,rating
+729,sound designer,designer,sound,designers,design
+730,catalog code,nothing
+731,CBFC rating,rating
+732,created for,nothing
+733,musical conductor,composer
+734,has semantic argument,nothing
+735,production date,date,production
+736,shares border with,border,with
+737,astronomic symbol image,image,symbol
+738,area,location,region
+739,Hederich encyclopedia article,nothing
+740,notation,nothing
+741,child astronomical body,child
+742,declination,declination
+743,right ascension,nothing
+744,partially coincident with,with
