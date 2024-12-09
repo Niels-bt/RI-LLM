@@ -8,19 +8,29 @@ master_db_matchedw_wd = open("lookup_db_to_wd.csv", mode='w')
 
 nlp = spacy.load("en_core_web_lg")
 
-threshold = 0.66
+threshold = 0.60
 db_tokenized_properties = []
 wd_tokenized_properties = []
 
 # For every property, we create the token:
 for line in master_db:
     # We extract the property and format it
-    prop = line.split(",")[1].replace("\n", "")
+    #prop = line.split(",")[-1].replace("\n", "")
+    try:
+        prop = line.split(",")[1]
+    except:
+        print("line problem",line)
+
     db_tokenized_properties.append(nlp(prop))
 
 for line in master_wd:
     # We extract the property and format it
-    prop = line.split(",")[1].replace("\n", "")
+    #prop = line.split(",")[1].replace("\n", "")
+    try:
+        prop = line.split(",")[1]
+    except:
+        print("line problem", line)
+
     wd_tokenized_properties.append(nlp(prop))
 
 # Now, we can loop for all the properties
