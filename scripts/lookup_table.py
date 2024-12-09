@@ -3,8 +3,8 @@ import spacy
 master_db = open("db_master.csv", mode='r')
 master_wd = open("wd_master.csv", mode='r')
 
-master_wd_matchedw_db = open("master_wd_matched_w_db.csv", mode='w')
-master_db_matchedw_wd = open("master_db_matched_w_wd.csv", mode='w')
+master_wd_matchedw_db = open("lookup_wd_to_db.csv", mode='w')
+master_db_matchedw_wd = open("lookup_db_to_wd.csv", mode='w')
 
 nlp = spacy.load("en_core_web_lg")
 
