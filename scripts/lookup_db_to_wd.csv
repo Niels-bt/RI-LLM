@@ -1,21 +1,21 @@
-abbreviation,Australian Classification,Biology Online Biology Dictionary entry,CHVRS Classification,Common Procurement Vocabulary code,DSSTOX compound identifier,Dewey Decimal Classification,IMA Mineral Symbol,Library of Congress Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,affiliated worker organisation,affiliation,affiliation string,assessment,declination,distribution format,duration,edition or translation of,electron configuration,element symbol,fabrication method,headquarters location,located in the administrative territorial entity,location,location of creation,location of formation,narrative location,occupation,official symbol,operating system,oxidation state,performing organization,production statistics,related category,represents,safety classification and labelling,sublimation temperature
+abbreviation,CHVRS Classification,OFLC classification,RCQ classification
 academicDiscipline,
 activeYearsEndYear,
 activeYearsStartYear,
-actor,choreographer,screenwriter,voice actor
+actor,screenwriter,voice actor
 acts,
 adaptedBy,
 address,addressee,street address
-administrator,affiliated worker organisation,assets under management,assistant director,authority,chairperson,chief executive officer,chief operating officer,corporate officer,director,military branch,parent organization,principal investigator,statistical leader
-advertising,advertises,business division,contributor to the creative work or subject,media franchise,official website,production company,social media followers
-affiliation,Australian Classification,CHVRS Classification,Library of Congress Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,affiliated worker organisation,affiliation,affiliation string,assets under management,authority,business division,copyright representative,declination,distribution format,duration,headquarters location,located in the administrative territorial entity,location,location of creation,location of first performance,location of formation,member category,member of political party,movement,narrative location,occupation,official website,oxidation state,parent organization,performing organization,political ideology,production statistics,safety classification and labelling,signatory,statistical leader,work location
-affiliations,Australian Classification,CHVRS Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,affiliated worker organisation,affiliation,affiliation string,assets under management,authority,business division,contributor to the creative work or subject,copyright representative,declination,distribution format,duration,headquarters location,located in the administrative territorial entity,location,location of creation,location of first performance,location of formation,medical condition,medical condition treated,member of political party,movement,narrative location,occupation,official website,oxidation state,parent organization,payment types accepted,performing organization,political ideology,production statistics,references work,related category,represents,safety classification and labelling,social media followers,statistical leader,work location
-after,named after
+administrator,
+advertising,advertises
+affiliation,affiliated worker organisation,affiliation,affiliation string,parent organization
+affiliations,affiliated worker organisation,affiliation,affiliation string
+after,
 afterElection,
-agency,affiliated worker organisation,authority,business division,corporate officer,official website,parent organization
+agency,
 agent,
 aircraftType,
-album,soundtrack release
+album,
 alias,pseudonym
 allWriting,
 ambassadors,
@@ -25,9 +25,9 @@ areaServed,
 arearank,
 areasServed,
 areatotal,
-artist,art director,choreographer,composer,exhibited creator,storyboard artist
+artist,storyboard artist
 asiawins,
-assets,assets under management,currency,investor,operating income,stock exchange,stock market index,total liabilities
+assets,assets under management
 assist,
 assistsLeader,
 associatedActs,
@@ -38,12 +38,12 @@ audioReadBy,
 australianopendoublesresult,
 australianopenresult,
 auswins,
-authors,EcuRed article,Hederich encyclopedia article,author,writing language
+authors,author
 automobilePlatform,
-average,time-weighted average exposure limit,total equity,total liabilities,total revenue
+average,
 award,award received
 awards,award received
-background,affiliation string,instrument,narrative location,official color,partially coincident with,physically interacts with,references work,safety classification and labelling,solid solution series with
+background,
 bandMember,
 basedOn,
 battleHonours,
@@ -56,25 +56,25 @@ birthDate,
 birthName,
 birthPlace,
 birthYear,
-birthname,alternative name,birth name,family name,first family name in Portuguese name,given name,married name,name,official name,second family name in Spanish name
-block,adjacent building
+birthname,birth name,married name
+block,
 blockAlloy,
 boardOfDirectors,
 bodyStyle,
-book,EcuRed article,Hederich encyclopedia article,author
-bordering,adjacent building,located in the administrative territorial entity,operating area,partially coincident with,place of detention,safety classification and labelling,shares border with
+book,
+bordering,
 bowlgames,
 bracesPlayer,
 brand,
-branding,advertises,affiliation,affiliation string,assets under management,business division,complies with,contributor to the creative work or subject,derivative work,distribution format,form of creative work,launch contractor,main building contractor,market capitalization,media franchise,narrative location,parent organization,partnership with,performing organization,physically interacts with,production company,production designer,production statistics,safety classification and labelling,social media followers,solid solution series with,work location
+branding,
 brands,
 brighteststarname,
 budget,budget
-builder,architect,main building contractor
-builders,adjacent building,main building contractor
+builder,
+builders,
 callsignMeaning,
 candidate,candidate
-carbody,chemical formula,electronegativity,ionic radius,molar fusion enthalpy,specific heat capacity,standard molar entropy,standards body,thermal diffusivity,vapor pressure
+carbody,
 careerEnd,
 careerNumber,
 careerPosition,
@@ -82,65 +82,65 @@ careerPrizeMoney,
 careerStart,
 careerStation,
 careerprizemoney,
-carrier,operator,vessel
+carrier,
 carriers,
-category,Commons category,OFLC classification,RCQ classification,member category,related category
-causes,associated hazard,cause of death,has cause,has immediate cause,possible treatment,relative permeability
+category,related category
+causes,
 cbbaskhofYear,
-chairman,assistant director,board member,chairperson,chief executive officer,chief operating officer,director
-champion,winner
+chairman,chairperson
+champion,
 championInDoubleMale,
 championInSingleMale,
 chassis,chassis
-chemical,DSSTOX compound identifier,chemical formula,drug or therapy used for treatment,electrical conductivity,electrical resistivity,electron configuration,electronegativity,fabrication method,ionization energy,magnetic ordering,medical condition,medical condition treated,minimal lethal concentration,minimum explosive concentration,possible treatment,production statistics,raw material processed,relative permeability,safety classification and labelling,significant drug interaction,specific heat capacity,sublimation temperature,thermal conductivity,thermal diffusivity
-child,child,child astronomical body,godparent,mother,parent,sibling
-children,child,child astronomical body,godparent,mother,parent,sibling
-chronology,OFLC classification,RCQ classification,canonical SMILES,discography,exhibition history,narrative location,publication date
-cinematography,BAMID film rating,EIRIN film rating,FSK film rating,INCAA film rating,KMRB film rating,MPA film rating,NMHH film rating,RTC film rating,art director,choreographer,film editor,filmography,musical conductor,screenwriter,storyboard artist
-citizenship,authority
+chemical,chemical formula
+child,child,child astronomical body
+children,child
+chronology,
+cinematography,filmography
+citizenship,
 class,
 client,
 clubnumber,
 clubs,
-coach,head coach,team captain
+coach,head coach
 coachplayers,
 collapsed,
-collapsible,ceiling exposure limit,magnetic ordering,right ascension,safety classification and labelling
-collections,CHVRS Classification,DSSTOX compound identifier,Library of Congress Classification,OFLC classification,RCQ classification,affiliation string,collection,contributor to the creative work or subject,copyright representative,declination,derivative work,distribution format,edition or translation of,exhibition history,form of creative work,has works in the collection,located in the administrative territorial entity,location,location of creation,location of first performance,location of formation,narrative location,notable work,occupation,part of the series,payment types accepted,performing organization,production company,production designer,production statistics,references work,related category,represents,safety classification and labelling,solid solution series with,work location
-college,academic degree,student
-colour,color,eye color,hair color,official color
-colours,color,eye color,hair color,official color
-commercial,academic major,advertises,assets under management,business division,contributor to the creative work or subject,country for sport,created for,derivative work,distribution format,electrical conductivity,has works in the collection,industry,launch contractor,located in the administrative territorial entity,location of first performance,main building contractor,market capitalization,music created for,notable work,operating area,operating income,operating system,partner in business or sport,performing organization,production company,production designer,production statistics,safety classification and labelling,solid solution series with,work location
+collapsible,
+collections,collection
+college,
+colour,color,hair color,official color
+colours,color
+commercial,
 commissionedBy,
-commodity,currency,industry,market capitalization,operating income,production statistics,relative permeability,stock exchange,stock market index,typically sells
-companies,affiliated worker organisation,assets under management,business division,employees,industry,investor,launch contractor,market capitalization,operating income,operating system,payment types accepted,performing organization,production company,production statistics,stock market index
-company,affiliated worker organisation,assets under management,business division,corporate officer,industry,investor,launch contractor,market capitalization,operating system,operator,parent organization,performing organization,production company,production designer,production statistics
+commodity,
+companies,business division,industry,production company
+company,business division,production company
 companyType,
-compiler,ATC code,CPV Supplementary code,Common Procurement Vocabulary code,distribution format,mobile network code
-composer,choreographer,composer,lyricist,musical conductor,performer,producer,screenwriter,storyboard artist
-composition,Australian Classification,CBFC rating,CHVRS Classification,ClassInd rating,DSSTOX compound identifier,Egapro gender equality index,FPB rating,Fach vocal classification,Filmiroda rating,ICAA rating,IFCO rating,IGAC rating,IMDA rating,KAVI rating,Library of Congress Classification,MTRCB rating,Medierådet rating,OFLC classification,RARS rating,RCQ classification,affiliation,affiliation string,assessment,assets under management,canonical SMILES,category of associated people,chemical formula,collection,composer,compressive modulus of elasticity,contains,contributing factor of,contributor to the creative work or subject,copyright representative,date of first performance,date of incorporation,declination,derivative work,discography,distribution format,duration,dynamic viscosity,edition or translation of,electrical conductivity,electrical resistivity,electron configuration,electronegativity,element symbol,exhibition history,fabrication method,facilitates flow of,field of work,form of creative work,has works in the collection,instrument,ionization energy,is the study of,language of work or name,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,magnetic ordering,main building contractor,medical condition,medical condition treated,member of political party,minimal lethal concentration,minimum explosive concentration,molar enthalpy of vaporization,movement,music created for,musical conductor,narrative location,native language,notable work,object class of occurrence,occupation,operating system,oxidation state,parent organization,part of the series,partially coincident with,performing organization,physically interacts with,possible treatment,production company,production designer,production statistics,references work,refractive index,related category,relative,relative permeability,represents,safety classification and labelling,solid solution series with,source of energy,statistical leader,sublimation temperature,tensile modulus of elasticity,thermal conductivity,time of discovery or invention,work location,writing language
+compiler,
+composer,composer,musical conductor
+composition,OFLC classification,RCQ classification,affiliation string,narrative location,production statistics
 compositionSecondary,
 computingPlatform,
-connectivity,DSSTOX compound identifier,affiliation string,contributor to the creative work or subject,derivative work,distribution format,electrical conductivity,electrical resistivity,electron configuration,electronegativity,fabrication method,frequency,ionization energy,location,maintains linking to,minimum explosive concentration,mobile network code,narrative location,operating income,operating system,performing organization,physically interacts with,platform,possible treatment,references work,relative,relative permeability,safety classification and labelling,significant drug interaction,solid solution series with,sublimation temperature,thermal conductivity,thermal diffusivity,work location
+connectivity,
 consensus,
 constel,
 constell,
-constellation,Australian Classification,CHVRS Classification,ClassInd rating,DSSTOX compound identifier,FPB rating,Filmiroda rating,ICAA rating,IGAC rating,IMDA rating,KAVI rating,Medierådet rating,OFLC classification,RARS rating,RCQ classification,affiliation,affiliation string,assets under management,collection,crystal system,declination,distribution format,duration,edition or translation of,electrical conductivity,electron configuration,element symbol,fabrication method,filming location,form of creative work,has works in the collection,headquarters location,instrument,ionization energy,is the study of,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,market capitalization,minimum explosive concentration,movement,narrative location,object class of occurrence,occupation,operating system,oxidation state,parent organization,part of the series,partially coincident with,performing organization,physically interacts with,production company,production statistics,relative,relative permeability,represents,safety classification and labelling,solid solution series with,sublimation temperature,time of discovery or invention,work location
+constellation,RCQ classification,declination
 constellationName,
-construction,Australian Classification,CHVRS Classification,DSSTOX compound identifier,OFLC classification,RCQ classification,adjacent building,affiliated worker organisation,affiliation,affiliation string,armament,assessment,assets under management,business division,collection,contributor to the creative work or subject,declination,derivative work,distribution format,duration,electrical conductivity,electrical resistivity,electron configuration,fabrication method,field of work,filming location,form of creative work,has works in the collection,headquarters location,ionization energy,is the study of,launch contractor,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,market capitalization,medical condition,medical condition treated,minimum explosive concentration,movement,narrative location,notable work,occupation,operating area,operating income,operating system,oxidation state,part of the series,partially coincident with,performing organization,possible treatment,present in work,production company,production designer,production statistics,references work,relative permeability,safety classification and labelling,solid solution series with,sublimation temperature,work location
+construction,adjacent building,main building contractor,occupation,production statistics
 constructionMaterial,
-contaminants,DSSTOX compound identifier,associated hazard,ceiling exposure limit,chemical formula,drug or therapy used for treatment,electrical conductivity,electrical resistivity,electronegativity,magnetic ordering,medical condition treated,minimal lethal concentration,minimum explosive concentration,physically interacts with,possible treatment,raw material processed,relative permeability,safety classification and labelling,significant drug interaction,specific heat capacity,sublimation temperature,thermal conductivity,thermal diffusivity,vapor pressure
-contractors,affiliated worker organisation,affiliation string,assets under management,business division,complies with,contributed to creative work,contributor to the creative work or subject,derivative work,electrical conductivity,employees,industry,launch contractor,main building contractor,market capitalization,medical condition,medical condition treated,notable work,operating area,operating income,operating system,oxidation state,parent organization,payment types accepted,performing organization,possible treatment,production company,production statistics,references work,safety classification and labelling,work location
+contaminants,
+contractors,
 copyright,copyright holder,copyright license,copyright representative
 count,
-country,country,country for sport,country of citizenship,country of origin,oxidation state
-creator,animator,creator,exhibited creator,storyboard artist
+country,country
+creator,creator,exhibited creator
 creatorname,
-creators,characters,contributed to creative work,creator,exhibited creator,social media followers
+creators,
 credits,
 crest,
-curator,art director,assistant director,director,exhibited creator
-currency,currency,market capitalization,operating income,stock exchange,stock market index
+curator,
+currency,currency
 currentMember,
 currentMemberOf,
 currentMembers,
@@ -162,20 +162,20 @@ debutleague,
 debutteam,
 debutyear,
 decWins,
-declination,Australian Classification,CBFC rating,CHVRS Classification,ClassInd rating,Egapro gender equality index,FPB rating,Filmiroda rating,ICAA rating,IFCO rating,IGAC rating,IMDA rating,KAVI rating,Library of Congress Classification,MTRCB rating,Medierådet rating,OFLC classification,RARS rating,RCQ classification,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,business division,category of associated people,contributing factor of,contributor to the creative work or subject,country of citizenship,country of origin,date of first performance,date of incorporation,declination,distribution format,duration,electrical conductivity,exhibition history,form of creative work,has works in the collection,headquarters location,ionization energy,is the study of,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,minimal lethal concentration,minimum explosive concentration,movement,narrative location,object class of occurrence,occupation,oxidation state,parent organization,part of the series,partially coincident with,performing organization,place of detention,possible treatment,production company,production statistics,relative,relative permeability,represents,safety classification and labelling,sexual orientation,significant drug interaction,significant person,sublimation temperature,time of discovery or invention,work location
-design,costume designer,fabrication method,model,production designer,solid solution series with,sound designer
+declination,declination,occupation
+design,production designer
 designGroup,
-designer,architect,costume designer,creator,production designer,sound designer,storyboard artist
-designers,costume designer,production designer,sound designer
+designer,costume designer,production designer
+designers,production designer
 designfirm,
-developer,investor,launch contractor,production company,production designer,production statistics
-developers,contributed to creative work,derivative work,launch contractor,market capitalization,platform,production company,production designer,production statistics,work location
+developer,
+developers,
 developmentCode,
-directed,assistant director,director
+directed,
 directedby,
-director,art director,assistant director,chairperson,chief executive officer,chief operating officer,director,director / manager,executive producer,principal investigator,producer
-distributor,business division,distribution format,launch contractor,production company,production designer,production statistics,typically sells
-division,Australian Classification,OFLC classification,RCQ classification,affiliation,affiliation string,business division,headquarters location,located in the administrative territorial entity,member of sports team,military branch,occupation,part of the series,performing organization,supported sports team
+director,assistant director,director
+distributor,
+division,business division
 domesticPartner,
 domesticpartner,
 doublesWins,
@@ -189,29 +189,29 @@ draftpick,
 draftround,
 draftteam,
 draftyear,
-editing,distribution format,production statistics,references work,writing language
-editor,author,film editor
-education,CHVRS Classification,OFLC classification,RCQ classification,academic degree,academic major,affiliated worker organisation,affiliation,assessment,business division,contributed to creative work,contributor to the creative work or subject,declination,derivative work,duration,form of creative work,location of creation,medical condition,medical condition treated,movement,narrative location,occupation,oxidation state,parent organization,performing organization,production statistics,references work,reward program,safety classification and labelling,student,work location
-element,CHVRS Classification,DSSTOX compound identifier,Egapro gender equality index,OFLC classification,RCQ classification,affiliation,affiliation string,assessment,business division,chemical formula,collection,compressive modulus of elasticity,contributing factor of,contributor to the creative work or subject,crystal system,declination,derivative work,distribution format,duration,edition or translation of,electrical conductivity,electrical resistivity,electron configuration,electronegativity,element symbol,fabrication method,form of creative work,instrument,ionization energy,is a list of,is the study of,legal form,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,minimal lethal concentration,minimum explosive concentration,molar enthalpy of vaporization,movement,narrative location,object class of occurrence,occupation,operating system,oxidation state,parent organization,part of the series,partially coincident with,performing organization,physically interacts with,possible treatment,production statistics,refractive index,relative,relative permeability,represents,ritual object,safety classification and labelling,significant drug interaction,significant person,solid solution series with,source of energy,standard molar entropy,sublimation temperature,thermal conductivity,time of discovery or invention,work location
-employer,affiliated worker organisation,employees,operating income,parent organization,significant person
+editing,
+editor,
+education,
+element,DSSTOX compound identifier,element symbol
+employer,employees
 endorsedBy,
-engine,chassis
+engine,
 engineType,
 entrant,
-equity,Egapro gender equality index,investor,market capitalization,stock exchange,stock market index,total equity
+equity,total equity
 equityYear,
 escutcheon,
 etymology,
 eurowins,
 executiveProducer,
-family,ancestral home,family,family name,father,mother
+family,family
 fate,
-father,family,family name,father,mother,sibling,unmarried partner
+father,father,mother
 fibaHofPlayer,
-field,field of work,supported sports team
+field,
 fields,
 fighter,
-filling,magnetic ordering
+filling,
 finaldate,
 finalleague,
 finalsMvp,
@@ -226,28 +226,28 @@ flagbearer,flag bearer
 formerBandMember,
 formerName,
 formerNames,
-formula,chemical formula,fabrication method
-foundation,Australian Classification,CHVRS Classification,Library of Congress Classification,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,business division,collection,declination,derivative work,duration,exhibition history,fabrication method,field of work,form of creative work,funder,has works in the collection,headquarters location,is the study of,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,medical condition,medical condition treated,movement,narrative location,occupation,operating system,oxidation state,parent organization,part of the series,performing organization,production company,production statistics,references work,safety classification and labelling,solid solution series with,work location
+formula,chemical formula
+foundation,
 founded,
 foundedBy,
-founder,assistant director,director,executive producer
-founders,affiliated worker organisation,exhibited creator,statistical leader
+founder,
+founders,
 foundingDate,
 foundingYear,
-foundry,type foundry
+foundry,
 frenchopendoublesresult,
 frenchopenresult,
 ft,
 fuelSource,
 fullname,
-funding,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,business division,contributed to creative work,contributor to the creative work or subject,declination,funder,market capitalization,operating income,oxidation state,parent organization,performing organization,possible treatment,production statistics,reward program,safety classification and labelling,work location
-genitive,personal pronoun,relative permeability,significant person
-genre,genre,theme music
-goals,total goals in career
+funding,funder
+genitive,
+genre,genre
+goals,
 gold,
 goldMedalist,
-gross,total revenue
-group,ethnic group,performing organization
+gross,
+group,ethnic group
 guests,
 halftime,
 hatTricksPlayer,
@@ -255,8 +255,8 @@ head,head coach
 headAlloy,
 headliner,
 headliners,
-headquarter,chief operating officer,headquarters location,located in the administrative territorial entity
-height,ceiling exposure limit,height,time-weighted average exposure limit
+headquarter,headquarters location
+height,height
 heightFootnote,
 heightFt,
 heightIn,
@@ -265,17 +265,17 @@ heightin,
 highSchool,
 highestdoublesranking,
 highestsinglesranking,
-highlights,exhibition history,location of first performance,notable work,part of the series,production statistics,represents,solid solution series with
-highschool,student
+highlights,
+highschool,
 hofPlayer,
 hofers,
 holder,copyright holder
-homepage,Commons Creator page,Douban site name,official website
-hometown,ancestral home
+homepage,
+hometown,
 honorificPrefix,
 honorificSuffix,
 hopmancupresult,
-host,presenter
+host,
 hosts,
 hotSpringType,
 hqLocation,
@@ -283,18 +283,18 @@ hqLocationCity,
 hqLocationCountry,
 hypernym,
 importantStation,
-impurities,DSSTOX compound identifier,chemical formula,electrical conductivity,electronegativity,ionization energy,minimal lethal concentration,minimum explosive concentration,oxidation state,possible treatment,relative permeability,sublimation temperature
-in,active ingredient in,fictional universe described in,first family name in Portuguese name,found in taxon,has works in the collection,in opposition to,interested in,located in the administrative territorial entity,name in native language,participant in,partner in business or sport,plot expanded in,present in work,published in,second family name in Spanish name,set in environment,set in period,sports discipline competed in,stated in,studied in,takes place in fictional universe,total goals in career
+impurities,
+in,active ingredient in,fictional universe described in,found in taxon,interested in,name in native language,participant in,plot expanded in,present in work,published in,set in environment,set in period,sports discipline competed in,stated in,studied in,takes place in fictional universe
 incomeYear,
-industries,business division,industry,market capitalization,operating income,operating system,performing organization,production company,production designer,production statistics,safety classification and labelling
-industry,business division,industry,market capitalization,production company,production statistics
+industries,industry
+industry,industry
 influenced,
 influencedBy,
-influences,derivative work,discography,exhibition history,form of creative work,movement,native language,notable work,performing organization,physically interacts with,political ideology,references work,relative,relative permeability,writing language
-ingredient,chemical formula
-initiator,organizer
-institution,Australian Classification,CHVRS Classification,Library of Congress Classification,OFLC classification,RCQ classification,academic degree,academic major,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,authority,business division,contributor to the creative work or subject,copyright representative,corporate officer,country,country of citizenship,declination,derivative work,distribution format,duration,exhibition history,form of creative work,funder,has works in the collection,headquarters location,instrument,is the study of,legal form,located in the administrative territorial entity,location,location of creation,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,military branch,movement,narrative location,object class of occurrence,occupation,operating income,operating system,oxidation state,parent organization,performing organization,place of detention,political ideology,possible treatment,production company,production statistics,relative,relative permeability,residence,reward program,safety classification and labelling,significant person,statistical leader,work location
-institutions,Library of Congress Classification,OFLC classification,RCQ classification,academic degree,academic major,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,authority,business division,category of associated people,contributed to creative work,contributor to the creative work or subject,copyright representative,corporate officer,country,country of citizenship,declination,derivative work,distribution format,exhibition history,field of work,form of creative work,has works in the collection,instrument,legal form,located in the administrative territorial entity,location of creation,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,military branch,movement,narrative location,occupation,operating income,operating system,oxidation state,parent organization,partner in business or sport,payment types accepted,performing organization,physically interacts with,place of detention,political ideology,possible treatment,present in work,production company,production statistics,references work,relative,relative permeability,represents,residence,safety classification and labelling,significant person,social media followers,statistical leader,work location
+influences,
+ingredient,
+initiator,
+institution,affiliated worker organisation,affiliation,parent organization,performing organization
+institutions,performing organization
 inventName,
 invented,
 isPartOf,
@@ -302,66 +302,66 @@ isPrimaryTopicOf,
 isbn,
 issuingAuthority,
 japwins,
-judges,television judge
+judges,
 keel,
 keyPeople,
 keyPerson,
 knownFor,
 ko,
 koWins,
-label,native label,record label
-labels,native label,record label
-language,language of work or name,languages spoken,name in native language,native language,writing language
+label,record label
+labels,
+language,languages spoken,native language,writing language
 last,
 lastAppearance,
 lastMajor,
 latestGoalPlayer,
 launchContractor,
-leader,chief executive officer,statistical leader
+leader,statistical leader
 leaderName,
-league,team captain
+league,
 leagueTopscorer,
-length,height
-license,copyright holder,copyright license
+length,
+license,copyright license
 licensedfrom,
-licensee,copyright holder,copyright license,copyright representative
+licensee,copyright license
 literaryGenre,
-lithology,Biology Online Biology Dictionary entry,exhibition history,filmography
-location,CHVRS Classification,DSSTOX compound identifier,OFLC classification,RCQ classification,adjacent building,affiliation,area,collection,declination,distribution format,duration,fabrication method,filming location,headquarters location,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,narrative location,occupation,operating area,operating system,oxidation state,performing organization,production company,production statistics,residence,safety classification and labelling,sublimation temperature,work location
+lithology,
+location,filming location,headquarters location,location,narrative location,work location
 locationCity,
 locationCountry,
-locations,CHVRS Classification,DSSTOX compound identifier,OFLC classification,RCQ classification,adjacent building,affiliation,affiliation string,area,collection,declination,distribution format,duration,filming location,headquarters location,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,narrative location,occupation,operating area,operating system,oxidation state,performing organization,production company,production statistics,safety classification and labelling,sublimation temperature,work location
+locations,filming location,headquarters location,location,narrative location,work location
 loser,
 lost,
-lyricist,choreographer,composer,lyricist,screenwriter
+lyricist,lyricist
 mainIngredient,
-major,academic major,main building contractor
+major,academic major
 majorwins,
-management,CHVRS Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,affiliated worker organisation,affiliation,assessment,assets under management,business division,contributor to the creative work or subject,corporate officer,declination,derivative work,distribution format,duration,electrical conductivity,form of creative work,ionization energy,located in the administrative territorial entity,location of creation,location of first performance,location of formation,main building contractor,market capitalization,medical condition,medical condition treated,narrative location,occupation,operating income,operating system,oxidation state,parent organization,partnership with,performing organization,possible treatment,production company,production designer,production statistics,related category,relative permeability,safety classification and labelling,significant drug interaction,statistical leader,work location
-manufacturer,production company,production designer
-manufacturers,industry,production company,production designer,production statistics
+management,assessment,assets under management
+manufacturer,
+manufacturers,
 manufacturier,
 markTitle,
 mascot,mascot
 masters,
 masterscupresult,
-material,DSSTOX compound identifier,chemical formula,compressive modulus of elasticity,contributor to the creative work or subject,derivative work,distribution format,edition or translation of,electrical conductivity,electrical resistivity,electron configuration,electronegativity,fabrication method,form of creative work,instrument,ionization energy,made from material,magnetic ordering,minimum explosive concentration,narrative location,possible treatment,production statistics,raw material processed,references work,relative permeability,safety classification and labelling,solid solution series with,specific heat capacity,sublimation temperature,thermal conductivity,thermal diffusivity,time of discovery or invention
-materials,DSSTOX compound identifier,chemical formula,contributor to the creative work or subject,derivative work,distribution format,electrical conductivity,electrical resistivity,electron configuration,fabrication method,ionization energy,made from material,magnetic ordering,minimum explosive concentration,possible treatment,production statistics,raw material processed,references work,relative permeability,safety classification and labelling,solid solution series with,specific heat capacity,sublimation temperature,thermal conductivity
-meaning,DSSTOX compound identifier,contributor to the creative work or subject,derivative work,element symbol,language of work or name,legal form,narrative location,native language,personal pronoun,possible treatment,relative,relative permeability,religion or worldview,ritual object,significant person,time of discovery or invention,writing language
+material,fabrication method,raw material processed
+materials,raw material processed
+meaning,
 medaltemplatesExpand,
 medaltemplatesTitle,
 medicalCause,
-medication,CHVRS Classification,DSSTOX compound identifier,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,assessment,assets under management,chemical formula,contributor to the creative work or subject,declination,derivative work,distribution format,drug or therapy used for treatment,duration,electrical conductivity,fabrication method,ionization energy,location,medical condition,medical condition treated,minimal lethal concentration,minimum explosive concentration,narrative location,occupation,operating system,oxidation state,parent organization,payment types accepted,performing organization,possible treatment,production company,production statistics,relative permeability,safety classification and labelling,significant drug interaction,significant person,sublimation temperature,work location
+medication,medical condition,medical condition treated,possible treatment,significant drug interaction
 medium,
 melt,
-members,affiliated worker organisation,board member,cast member,employees,member category
-membership,affiliated worker organisation,affiliation,affiliation string,attendance,board member,business division,copyright representative,member category,member of political party,member of sports team,official website,operating income,parent organization,performing organization,reward program
+members,
+membership,
 menMostS,
 meteorshowers,
 militaryService,
-mineral,IMA Mineral Symbol,chemical formula,raw material processed
+mineral,
 misc,
-modem,mobile network code
+modem,
 mostAssistsPlayer,
 mostAwards,
 mostCaps,
@@ -375,22 +375,22 @@ mostWins,
 mostYears,
 mostrecent,
 mostwins,
-mother,child,child astronomical body,family,father,godparent,mother,parent,sibling,unmarried partner
+mother,father,mother
 motto,motto
-music,composer,music created for,musical conductor,theme music
+music,theme music
 musicBy,
 musicComposer,
 mvp,
-name,Douban site name,alternative name,birth name,family name,first family name in Portuguese name,given name,married name,name,nickname,official name,pseudonym,second family name in Spanish name
+name,Douban site name,alternative name,birth name,family name,given name,married name,name,official name
 namedAfter,
 namedFor,
 namedafter,
-namesake,Douban site name,alternative name,birth name,family name,first family name in Portuguese name,given name,married name,name,official name,second family name in Spanish name
-narrated,narrator
-narrator,narrator,voice actor
+namesake,name
+narrated,
+narrator,narrator
 nasdaq,
 nationalgoals,
-nationality,Australian Classification,CHVRS Classification,Egapro gender equality index,Library of Congress Classification,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,affiliation string,assets under management,authority,business division,category of associated people,contributing factor of,contributor to the creative work or subject,copyright representative,country,country for sport,country of citizenship,country of origin,declination,distribution format,duration,edition or translation of,element symbol,ethnic group,exhibition history,field of work,form of creative work,has works in the collection,is the study of,language of work or name,legal form,located in the administrative territorial entity,location of creation,location of discovery,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,member of sports team,movement,name in native language,narrative location,native language,number of children,object class of occurrence,occupation,oxidation state,parent organization,part of the series,performing organization,permanent resident of,place of detention,political ideology,production statistics,relative,relative permeability,represents,safety classification and labelling,sexual orientation,significant person,social media followers,source of income,sports season of league or competition,statistical leader,time of discovery or invention,work location
+nationality,
 nationalteam,
 nationalyears,
 naturalResources,
@@ -399,12 +399,12 @@ neareststarname,
 neighbourConstellations,
 netIncome,
 netIncomeYear,
-network,business division,distribution format,media franchise,mobile network code,operating system,performing organization,platform,production company
+network,mobile network code
 networkEn,
-networks,business division,distribution format,media franchise,mobile network code,operating system,performing organization,platform,social media followers
+networks,
 nextTitle,
 nick,
-nickname,alternative name,birth name,name,nickname
+nickname,nickname
 nonscore,
 notableMembers,
 notableRestaurants,
@@ -423,8 +423,8 @@ numbermainstars,
 numbermessierobjects,
 numbernearbystars,
 numberstarsplanets,
-occupation,Australian Classification,CHVRS Classification,DSSTOX compound identifier,Library of Congress Classification,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,affiliation string,armament,assessment,assets under management,authority,business division,category of associated people,collection,contributing factor of,contributor to the creative work or subject,country of citizenship,country of origin,date of burial or cremation,date of first performance,date of incorporation,declination,duration,edition or translation of,exhibition history,fictional universe described in,field of work,filming location,form of creative work,has works in the collection,headquarters location,is the study of,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,medical condition,medical condition treated,member of political party,military branch,minimum explosive concentration,movement,name in native language,narrative location,number of children,object class of occurrence,occupation,operating area,operating system,oxidation state,parent organization,part of the series,partially coincident with,performing organization,permanent resident of,place of burial,place of death,place of detention,possible treatment,present in work,production company,production statistics,relative,relative permeability,residence,safety classification and labelling,time of discovery or invention,work location
-office,box office,corporate officer,residence
+occupation,declination,located in the administrative territorial entity,occupation
+office,
 oldestScorerPlayer,
 olympicsdoublesresult,
 olympicsresult,
@@ -433,17 +433,17 @@ openingTheme,
 opentheme,
 operatingIncome,
 operatingSystem,
-operator,item operated,launch contractor,operating system,operator,production company
-operators,affiliated worker organisation,assets under management,business division,employees,launch contractor,main building contractor,mobile network code,operating area,operating income,operating system,operator,production company,production statistics
-opponent,defender
+operator,operator
+operators,operator
+opponent,
 opponents,
 optionName,
-organisation,Australian Classification,CHVRS Classification,Library of Congress Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,academic major,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,authority,business division,category of associated people,collection,contributed to creative work,contributor to the creative work or subject,copyright representative,corporate officer,country for sport,country of citizenship,declination,derivative work,distribution format,duration,exhibition history,field of work,form of creative work,funder,has works in the collection,headquarters location,industry,instrument,ionization energy,is the study of,legal form,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,market capitalization,medical condition,medical condition treated,member of political party,member of sports team,military branch,movement,narrative location,occupation,operating income,operating system,organizer,oxidation state,parent organization,part of the series,partnership with,performing organization,political ideology,production company,production statistics,references work,represents,safety classification and labelling,significant drug interaction,social media followers,statistical leader,supported sports team,work location
-organised,affiliated worker organisation,organizer,performing organization,position held
-organisers,affiliated worker organisation,organizer
-organization,Australian Classification,CHVRS Classification,Library of Congress Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,authority,business division,collection,contributed to creative work,contributor to the creative work or subject,copyright representative,corporate officer,declination,derivative work,distribution format,duration,exhibition history,field of work,form of creative work,funder,has works in the collection,headquarters location,ionization energy,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,main building contractor,market capitalization,medical condition,medical condition treated,member of political party,member of sports team,military branch,movement,narrative location,occupation,operating income,operating system,organizer,oxidation state,parent organization,part of the series,performing organization,political ideology,production company,production statistics,references work,represents,reward program,safety classification and labelling,significant drug interaction,statistical leader,work location
-organized,affiliated worker organisation,located in the administrative territorial entity,organizer,parent organization,performing organization
-origin,country of origin,first family name in Portuguese name,name in native language,second family name in Spanish name
+organisation,affiliated worker organisation,affiliation,business division,movement,parent organization,performing organization
+organised,
+organisers,
+organization,affiliated worker organisation,affiliation,business division,parent organization,performing organization
+organized,organizer
+origin,
 otherNames,
 otherparty,
 othertournaments,
@@ -451,19 +451,19 @@ othertournamentsdoubles,
 otherwins,
 owner,
 ownerNames,
-owners,employees
-ownership,affiliation,assets under management,business division,copyright license,copyright representative,operating income,parent organization
+owners,
+ownership,
 owningCompany,
-pages,Commons Creator page
-parent,child,godparent,mother,parent,parent organization,sibling,significant person,spouse,stepparent
+pages,
+parent,godparent,parent,parent organization
 parentCompany,
 parentOrganisation,
 parentOrganization,
-parents,child,family,father,godparent,mother,parent,parent organization,sibling,stepparent
-participants,affiliated worker organisation,applies to part,assessment,attendance,category of associated people,contributed to creative work,contributor to the creative work or subject,employees,parent organization,payment types accepted,performing organization,physically interacts with,possible treatment,recorded participant,safety classification and labelling,significant drug interaction,significant person,social media followers
-participation,Australian Classification,CHVRS Classification,Egapro gender equality index,Library of Congress Classification,OFLC classification,RCQ classification,Thomson Reuters Business Classification,U.S. National Archives Identifier,academic major,affiliated worker organisation,affiliation,affiliation string,applies to part,assessment,assets under management,attendance,authority,business division,category of associated people,collection,contributed to creative work,contributing factor of,contributor to the creative work or subject,copyright representative,country for sport,country of citizenship,created for,date of first performance,date of incorporation,declination,derivative work,distribution format,duration,edition or translation of,electrical conductivity,exhibition history,field of work,form of creative work,funder,has works in the collection,headquarters location,ionization energy,is the study of,legal form,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,member of sports team,minimum explosive concentration,movement,narrative location,notable work,number of children,object class of occurrence,occupation,operating income,operating system,oxidation state,parent organization,part of the series,partially coincident with,partnership with,payment types accepted,performing organization,physically interacts with,place of detention,political ideology,possible treatment,production company,production statistics,recorded participant,references work,related category,relative,relative permeability,represents,reward program,safety classification and labelling,set during recurring event,sexual orientation,significant drug interaction,significant person,social media followers,sports discipline competed in,sports season of league or competition,statistical leader,supported sports team,work location
+parents,godparent,mother
+participants,
+participation,affiliated worker organisation,affiliation,declination,occupation,parent organization,performing organization
 partner,unmarried partner
-partners,affiliated worker organisation,business division,employees,funder,parent organization,partnership with,performing organization,supported sports team,unmarried partner
+partners,
 party,
 pastMemberOf,
 pastMembers,
@@ -472,87 +472,87 @@ patron,
 patrons,
 penaltiesMissedPlayer,
 penaltiesScoredPlayer,
-person,child,child astronomical body,immediately dangerous to life or health,personal pronoun,significant person
+person,significant person
 pgawins,
-place,takes place in fictional universe
+place,
 plantOperator,
 plantTurbines,
-platform,mobile network code,operating system,platform
-platforms,advertises,mobile network code,platform
-player,team captain
+platform,platform
+platforms,platform
+player,
 playerWins,
 playeroftheyear,
 plays,
 portrayedBy,
-portrayer,narrator,voice actor
-position,CHVRS Classification,OFLC classification,RCQ classification,affiliation,affiliation string,armament,assets under management,authority,business division,contributor to the creative work or subject,declination,duration,electron configuration,headquarters location,instrument,located in the administrative territorial entity,location,movement,narrative location,occupation,operating system,oxidation state,parent organization,performing organization,position held,production statistics,relative,relative permeability,right ascension,safety classification and labelling,statistical leader,work location
+portrayer,
+position,
 postmatch,
 powerType,
 predecessor,
 predecessorLine,
 predecessors,
 prematch,
-presenter,executive producer,original broadcaster,performer,presenter
-president,assistant director,chairperson,chief executive officer,chief operating officer,director,statistical leader
+presenter,presenter
+president,
 prevTitle,
 previousWork,
 previousowners,
 primaryMaterial,
 primaryTopic,
 primaryUser,
-processor,CPU,crystal system,distribution format,electron configuration,fabrication method,operating system
-processors,crystal system,distribution format,electron configuration,fabrication method,mobile network code,operating system,payment types accepted,production company,production statistics,raw material processed,solid solution series with
+processor,
+processors,
 producedby,
-producer,composer,director,executive producer,producer,production company,production designer,screenwriter
-producers,executive producer,industry,producer,production company,production designer,production statistics
-product,chemical formula,distribution format,fabrication method,item operated,market capitalization,model item,production company,production designer,production statistics,raw material processed
-production,Australian Classification,CHVRS Classification,OFLC classification,RCQ classification,affiliation string,business division,collection,declination,derivative work,distribution format,duration,electrical conductivity,electrical resistivity,electron configuration,executive producer,fabrication method,filming location,form of creative work,has works in the collection,industry,ionization energy,location of creation,location of first performance,location of formation,main building contractor,market capitalization,minimum explosive concentration,narrative location,occupation,operating system,oxidation state,performing organization,producer,production company,production date,production designer,production statistics,safety classification and labelling,solid solution series with,sublimation temperature,total produced,work location
+producer,executive producer,producer
+producers,executive producer,producer
+product,
+production,production company,production designer,production statistics
 productionCompanies,
 productionCompany,
-products,chemical formula,fabrication method,item operated,market capitalization,production company,production designer,production statistics,raw material processed,typically sells
-profession,academic degree,academic major,affiliated worker organisation,affiliation,affiliation string,assessment,business division,contributed to creative work,contributor to the creative work or subject,copyright representative,corporate officer,country for sport,declination,derivative work,field of work,form of creative work,industry,instrument,medical condition,medical condition treated,member of sports team,notable work,occupation,parent organization,performing organization,possible treatment,production company,references work,reward program,safety classification and labelling,significant person,student,supported sports team,work location
-profit,net profit,operating income
+products,
+profession,
+profit,net profit
 programmingLanguage,
 projectParticipant,
 proteam,
 prowins,
 psUnitsManuModel,
 psUnitsOperational,
-publisher,author
+publisher,
 quadrant,
 ramtype,
-rank,Alexa rank,ranking
-rating,BAMID film rating,BBFC rating,CBFC rating,ClassInd rating,EIRIN film rating,FPB rating,FSK film rating,Filmiroda rating,ICAA rating,IFCO rating,IGAC rating,IMDA rating,INCAA film rating,KAVI rating,KMRB film rating,MPA film rating,MTRCB rating,Medierådet rating,NMHH film rating,OFLC classification,RARS rating,RCQ classification,RTC film rating,affiliation string,assessment,declination,minimum explosive concentration,operating income,operating system,production statistics,ranking,refractive index,relative permeability,review score,safety classification and labelling,time-weighted average exposure limit,total liabilities
+rank,Alexa rank
+rating,BBFC rating,CBFC rating,ClassInd rating,FPB rating,Filmiroda rating,ICAA rating,IFCO rating,IGAC rating,IMDA rating,KAVI rating,MTRCB rating,Medierådet rating,RARS rating
 reach,
 recordLabel,
-recorded,doubles record,recorded participant,singles record,total produced
+recorded,recorded participant
 reflector,
-region,area,country,located in the administrative territorial entity,operating area
+region,
 regionServed,
-registry,CAS Registry Number,Reaxys registry number,official website
-related,DSSTOX compound identifier,OFLC classification,RCQ classification,associated hazard,category of associated people,complies with,contributing factor of,date of burial or cremation,date of incorporation,drug or therapy used for treatment,edition or translation of,fictional or mythical analog of,field of work,form of creative work,language of work or name,location of creation,location of discovery,location of first performance,location of formation,medical condition,medical condition treated,number of children,object class of occurrence,performing organization,physically interacts with,production statistics,related category,relative,relative permeability,represents,safety classification and labelling,significant drug interaction,source of income,time of discovery or invention
-relation,Australian Classification,CHVRS Classification,DSSTOX compound identifier,Egapro gender equality index,Library of Congress Classification,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,affiliation string,assessment,assets under management,associated hazard,authority,business division,category of associated people,collection,complies with,compressive modulus of elasticity,contributing factor of,contributor to the creative work or subject,copyright representative,country of citizenship,country of origin,date of burial or cremation,date of first performance,date of incorporation,declination,derivative work,distribution format,duration,edition or translation of,electrical conductivity,electrical resistivity,electron configuration,element symbol,exhibition history,fabrication method,facilitates flow of,fictional or mythical analog of,field of work,form of creative work,has works in the collection,instance of,instrument,ionization energy,is the study of,language of work or name,legal form,located in the administrative territorial entity,location,location of creation,location of discovery,location of first performance,location of formation,manifestation of,manner of death,market capitalization,medical condition,medical condition treated,member of political party,minimal lethal concentration,minimum explosive concentration,molar enthalpy of vaporization,movement,narrative location,number of children,object class of occurrence,occupation,operating system,oxidation state,parent organization,part of the series,partially coincident with,partnership with,payment types accepted,performing organization,permanent resident of,physically interacts with,place of detention,political ideology,possible treatment,production company,production statistics,references work,related category,relative,relative permeability,represents,safety classification and labelling,sexual orientation,significant drug interaction,significant person,solid solution series with,source of energy,source of income,statistical leader,subject lexeme,sublimation temperature,time of discovery or invention,work location
-relations,CHVRS Classification,OFLC classification,RCQ classification,affiliated worker organisation,affiliation,affiliation string,assets under management,business division,contributor to the creative work or subject,copyright representative,declination,derivative work,duration,edition or translation of,electrical conductivity,form of creative work,has works in the collection,located in the administrative territorial entity,location of creation,location of discovery,location of first performance,location of formation,market capitalization,medical condition,medical condition treated,member of political party,movement,narrative location,occupation,oxidation state,parent organization,partially coincident with,partnership with,performing organization,physically interacts with,political ideology,production company,production statistics,references work,relative,relative permeability,represents,safety classification and labelling,sexual orientation,significant drug interaction,social media followers,statistical leader,work location
-relative,DSSTOX compound identifier,Egapro gender equality index,OFLC classification,RCQ classification,affiliation string,assessment,associated hazard,category of associated people,cause of death,complies with,compressive modulus of elasticity,contributing factor of,contributor to the creative work or subject,country of citizenship,country of origin,date of burial or cremation,declination,derivative work,duration,edition or translation of,electrical conductivity,electrical resistivity,electron configuration,electronegativity,element symbol,facilitates flow of,fictional or mythical analog of,field of work,form of creative work,frequency,instance of,ionization energy,is the study of,language of work or name,located in the administrative territorial entity,location of creation,location of discovery,location of first performance,location of formation,magnetic ordering,market capitalization,medical condition,medical condition treated,member of political party,minimal lethal concentration,minimum explosive concentration,molar enthalpy of vaporization,movement,narrative location,native language,notable work,number of children,object class of occurrence,occupation,operating income,oxidation state,parent organization,partially coincident with,performing organization,permanent resident of,physically interacts with,place of detention,possible treatment,production statistics,references work,refractive index,related category,relative,relative permeability,represents,safety classification and labelling,sexual orientation,significant drug interaction,significant person,source of energy,source of income,statistical leader,sublimation temperature,tensile modulus of elasticity,thermal conductivity,thermal diffusivity,time of discovery or invention,time-weighted average exposure limit,work location
-relatives,DSSTOX compound identifier,category of associated people,contributor to the creative work or subject,family,godparent,medical condition,medical condition treated,mother,native language,number of children,parent organization,partially coincident with,physically interacts with,possible treatment,relative,relative permeability,safety classification and labelling,sibling,significant drug interaction,significant person,social media followers
-released,recorded participant,soundtrack release
-religion,political ideology,religion or worldview,ritual object
-residence,adjacent building,ancestral home,headquarters location,located in the administrative territorial entity,location,main building contractor,military branch,occupation,residence,work location
+registry,Reaxys registry number
+related,related category
+relation,OFLC classification,RCQ classification,declination,duration,narrative location,occupation,relative,relative permeability,safety classification and labelling
+relations,
+relative,relative,relative permeability
+relatives,relative
+released,soundtrack release
+religion,
+residence,residence
 restaurants,
 restingPlace,
 retired,
-revenue,capital cost,market capitalization,net profit,operating income,total equity,total liabilities,total revenue
-risks,associated hazard
+revenue,operating income,total revenue
+risks,
 routeEnd,
 runtime,
 score,review score
-screenplay,BAMID film rating,EIRIN film rating,FSK film rating,INCAA film rating,KMRB film rating,MPA film rating,NMHH film rating,RTC film rating,film editor,filmography,screenwriter
+screenplay,screenwriter
 seasonTopscorer,
 secondTeam,
-section,Australian Classification,CHVRS Classification,Common Procurement Vocabulary code,DSSTOX compound identifier,OFLC classification,RCQ classification,affiliation,affiliation string,collection,declination,distribution format,duration,electron configuration,fabrication method,headquarters location,located in the administrative territorial entity,location,location of creation,location of formation,main building contractor,movement,narrative location,occupation,operating area,operating system,oxidation state,performing organization,production statistics,related category,safety classification and labelling
-series,solid solution series with
-service,affiliated worker organisation,business division,operating system,work location
-services,affiliated worker organisation,assets under management,business division,operating system,performing organization,production company,work location
+section,
+series,
+service,
+services,
 shipNamesake,
 shipOwner,
 shipSponsor,
@@ -565,41 +565,41 @@ singlesWins,
 singlestitles,
 sizeFrom,
 soldby,
-sound,sound designer,voice type
+sound,sound designer
 source,
 space,
 spacecraft,
-species,DSSTOX compound identifier
+species,
 spinoffOf,
 spinoffs,
-sponsor,funder,sponsor
-sponsors,funder,sponsor
-spouse,godparent,parent,spouse,unmarried partner
+sponsor,sponsor
+sponsors,sponsor
+spouse,spouse
 stardistancely,
 stardistancepc,
 starmagnitude,
-starring,screenwriter
+starring,
 startYear,
-state,authority,country,located in the administrative territorial entity,oxidation state
+state,oxidation state
 statleague,
 statsLeague,
 statyear,
-story,characters,narrator
+story,
 structuralSystem,
 studio,
 subsequentWork,
-subsidiary,business division,production company
-successor,statistical leader
+subsidiary,
+successor,
 successors,
 supportAct,
-symbolism,element symbol,official symbol,ritual object
-talk,talk show guest
+symbolism,
+talk,
 target,
 team,supported sports team,team captain
-teams,supported sports team,team captain
+teams,supported sports team
 technicalServiceProvider,
 teleplay,
-television,RTC film rating,original broadcaster,original language of film or TV show,presenter,television judge
+television,original language of film or TV show
 termEnd,
 termPeriod,
 termStart,
@@ -615,27 +615,27 @@ topGoalscorer,
 topPick,
 topScorer,
 torchLighter,
-total,total debt,total equity,total liabilities,total produced,total revenue
+total,total equity,total liabilities,total produced,total revenue
 totalLength,
 tour,
 tradeName,
 tradingName,
-treatment,DSSTOX compound identifier,RCQ classification,assessment,chemical formula,drug or therapy used for treatment,duration,fabrication method,medical condition,medical condition treated,minimal lethal concentration,minimum explosive concentration,oxidation state,possible treatment,relative permeability,safety classification and labelling,significant drug interaction
+treatment,medical condition,medical condition treated,possible treatment
 turnedpro,
 tv,
 tvstation,
-type,DSSTOX compound identifier,blood type,type foundry,voice type
+type,type foundry,voice type
 usopendoublesresult,
 usopenresult,
-valves,coolant
-voice,voice actor,voice type
-voices,voice actor
+valves,
+voice,voice actor
+voices,
 volume,
 volumeNote,
 votes,
-weapons,armament
-website,Commons Creator page,Douban site name,advertises,official website
-weight,height,specific heat capacity,time-weighted average exposure limit,ultimate tensile strength
+weapons,
+website,official website
+weight,
 weightLb,
 weightLbs,
 wghofid,
@@ -643,15 +643,15 @@ wghofyear,
 wimbledondoublesresult,
 wimbledonresult,
 winner,winner
-wins,winner
-won,winner
+wins,
+won,
 wordOrigin,
 workInstitution,
 workInstitutions,
-workplaces,affiliated worker organisation,contributed to creative work,contributor to the creative work or subject,country for sport,derivative work,employees,immediately dangerous to life or health,notable work,partner in business or sport,performing organization,physically interacts with,possible treatment,references work,safety classification and labelling,significant person,work location
-works,derivative work,notable work,references work,work location
-writer,author,choreographer,composer,creator,film editor,lyricist,screenwriter,storyboard artist,translator
-writers,author,references work,screenwriter,writing language
+workplaces,
+works,derivative work,notable work,references work
+writer,author,screenwriter
+writers,
 yearpro,
 years,
 yearsActive,

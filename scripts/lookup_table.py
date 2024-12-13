@@ -1,8 +1,5 @@
-from dataclasses import fields
-
-import spacy
 import re
-
+import spacy
 
 
 # This returns a hashmap of the desired lookup table
@@ -36,7 +33,7 @@ def create_lookup_tables():
 
     nlp = spacy.load("en_core_web_lg")
 
-    threshold = 0.60
+    threshold = 0.75
 
 
     # For every property, we create the token
@@ -70,13 +67,13 @@ def create_lookup_tables():
                 db_result[db_token.text].append(wd_token.text)
 
     # This is for wd to db
-    for token in wd_tokenized_properties:
-        wd_result[token.text] = []
+    for wd_token in wd_tokenized_properties:
+        wd_result[wd_token.text] = []
         # We loop for every property
-        for token_2 in db_tokenized_properties:
+        for db_token in db_tokenized_properties:
             # If the properties are similar enough, we append the property in the line
-            if token.similarity(token_2) > threshold:
-                wd_result[token.text].append(token_2.text)
+            if wd_token.similarity(db_token) > threshold:
+                wd_result[wd_token.text].append(db_token.text)
 
 
     # Here, we write the results to 2 files

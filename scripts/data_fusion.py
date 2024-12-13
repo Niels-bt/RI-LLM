@@ -3,8 +3,8 @@ import wikidata_fetch_query
 from scripts.data_cleaning import master_filter
 from scripts.lookup_table import get_lookup_hash_db, get_lookup_hash_wd
 
-db_hash = dbpedia_fetch_query.get_person_data("Marie_Curie")
-wd_hash = wikidata_fetch_query.get_person_data("Q7186")
+db_hash = dbpedia_fetch_query.get_person_data("Coldplay")
+wd_hash = wikidata_fetch_query.get_person_data("Q45188")
 
 # Filters the tuples using the master_filter
 db_hash = master_filter(db_hash, True, False)
@@ -21,7 +21,7 @@ for db_label in db_hash:
     print(db_label)
     db_values = db_hash[db_label]
 
-    # Printing all values. We need check if the values is a single string or else a string will be split into chars
+    # Printing all values. We need check if the values is a single string or else the string will be split into chars
     if isinstance(db_values, str):
         print("          " + db_values)
     else:
@@ -34,12 +34,41 @@ for db_label in db_hash:
                 print("-> " + wd_label)
                 wd_values = wd_hash[wd_label]
 
-                # Printing all values. We need check if the values is a single string or else a string will be split into chars
+                # Printing all values. We need check if the values is a single string or else the string will be split into chars
                 if isinstance(wd_values, str):
                     print("          " + wd_values)
                 else:
                     for wd_value in wd_hash[wd_label]:
                         print("          " + wd_value)
+print("----------------------------------------------")
+print("wd to db fusion:")
+print("----------------------------------------------")
+# Looping for all labels
+for wd_label in wd_hash:
+    print(wd_label)
+    wd_values = wd_hash[wd_label]
+
+    # Printing all values. We need check if the values is a single string or else the string will be split into chars
+    if isinstance(wd_values, str):
+        print("          " + wd_values)
+    else:
+        for db_value in wd_hash[wd_label]:
+            print("          " + db_value)
+
+        # Checking for matches
+        for db_label in wd_lookup_hash[wd_label]:
+            if db_label in db_hash:
+                print("-> " + db_label)
+                db_values = db_hash[db_label]
+
+                # Printing all values. We need check if the values is a single string or else the string will be split into chars
+                if isinstance(db_values, str):
+                    print("          " + db_values)
+                else:
+                    for wd_value in db_hash[db_label]:
+                        print("          " + wd_value)
+print("----------------------------------------------")
+
 '''
 # prepares the tuples and transforms them into lists
 db_list = prep_db(db_hash)
