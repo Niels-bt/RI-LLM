@@ -1,4 +1,36 @@
+import re
+
 import spacy
+
+
+# This is the filter for DBpedia using the masterfile
+# Bools decide whether DBpedia or WIKIDATA is used
+def master_filter(tuples, dbpedia, wikidata):
+
+   # Loads the right file. Throws an exception if the bools are wrong
+   # This is complicated on purpose to stop an accident with the bool
+    if dbpedia and not wikidata:
+        file_master = open("../scripts/db_master.csv", mode='r', encoding='utf-8')
+    elif wikidata and not dbpedia:
+        file_master = open("../scripts/wd_master.csv", mode='r', encoding='utf-8')
+    else:
+        raise Exception("Undefined, if DBpedia or WIKIDATA is to be used")
+
+    # Creates a list of all included labels
+    included_labels = []
+    for line in file_master:
+        elements = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
+        if elements[1] == "True":
+            included_labels.append(elements[0])
+
+    # Checks for each tuple, if it's included in the list
+    included_tuples = []
+    for element in tuples:
+        if included_labels.__contains__(element[0]):
+            included_tuples.append(element)
+
+    return included_tuples
+
 
 
 # Very rough filter on db entries before they are transformed into readable tuples
