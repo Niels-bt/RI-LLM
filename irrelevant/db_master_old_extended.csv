@@ -1,0 +1,978 @@
+1,rdf-schema#seeAlso,IMac_G3
+2,name,Apple Inc.
+3,homepage,www.apple.com
+4,wgs84_pos#lat,37.33489990234375
+5,wgs84_pos#long,-122.0090026855469
+6,secCik,320193
+7,thumbnail,Apple_logo_black.svg?width=300
+8,bloomberg,AAPL:US
+9,google,AAPL:NASDAQ
+10,reuters,AAPL.O
+11,yahoo,AAPL
+12,align,right
+13,alt,An thin iMac in blue color on a desk.
+14,areaServed,Worldwide
+15,assets,3.5276E11
+16,auto,1
+17,caption,iMac with M1 chip
+18,date,November 2020
+19,direction,horizontal
+20,equity,5.067E10
+21,equityYear,2022
+22,formerName,Apple Computer, Inc. (1977–2007)
+23,founded,1976-04-01
+24,founders,
+25,hqLocation,1
+26,hqLocationCity,Cupertino,_California
+27,hqLocationCountry,U.S.
+28,image,M2 Macbook Air Midnight model - 1.jpg
+29,imageCaption,Apple Park, the company's headquarters in Cupertino, California within Silicon Valley
+30,imageSize,260
+31,industry,Software_services
+32,keyPeople,Arthur D. Levinson
+33,logo,Apple logo black.svg
+34,logoSize,80
+35,netIncome,9.98E10
+36,numEmployees,164000
+37,numEmployeesYear,2022
+38,numLocations,521
+39,numLocationsYear,2022
+40,operatingIncome,1.1944E11
+41,perrow,2
+42,products,AirPods
+43,quote,"The scenes I witnessed at the opening of the new Apple store in London's Covent Garden were more like an evangelical prayer meeting than a chance to buy a phone or a laptop."
+44,revenue,3.9433E11
+45,revenueYear,2022
+46,services,Apple Pay
+47,source,—Alex Riley, writing for the BBC
+48,subsid,Dark Sky
+49,symbol,AAPL
+50,title,Mike_Markkula
+51,totalWidth,250
+52,tradedAs,NASDAQ:AAPL
+53,type,MacInTouch
+54,voy,Cupertino
+55,website,www.apple.com
+56,width,30.0
+57,point,37.3349 -122.009
+58,assetsYear,2022
+59,find,toxins
+60,incomeYear,2022
+61,isin,3.78331005E8
+62,netIncomeYear,2022
+63,sameAs,154701873
+64,wordnet_type,synset-web_site-noun-1
+65,core#closeMatch,grid.474412.0
+66,prov#wasDerivedFrom,Apple_Inc.?oldid=1124493258&ns=0
+67,wikiPageLength,295591
+68,foundingDate,1976-04-01
+69,foundingYear,1976
+70,numberOfEmployees,164000
+71,numberOfLocations,521
+72,foundedBy,Taligent
+73,headquarter,Apple_Park
+74,keyPerson,Arthur_D._Levinson
+75,locationCity,Cupertino,_California
+76,product,Supermono_Studios
+77,service,Tekserve
+78,subsidiary,InVisage_Technologies
+79,isPrimaryTopicOf,Apple_Inc.
+80,wgs84_pos#geometry,POINT(-122.00900268555 37.334899902344)
+81,owl#differentFrom,Private_Security_Liaison
+82,wikiPageDisambiguates,I_(disambiguation)
+83,videoFormat,CBOYSTV
+84,workplaces,Ramanathan_V._Guha
+85,manuf,Apple_motion_coprocessors
+86,namesake,Apple_Park
+87,affiliations,Apple_University
+88,author,OpenCL
+89,branding,Apple_Wireless_Keyboard
+90,company,Pentalobe_screw
+91,currentowner,IAd
+92,designer,Swift_(programming_language)
+93,developer,Apple_ProDOS__16__1
+94,distributor,Sugar_(upcoming_TV_series)
+95,manufacturer,IPad_Air_(3rd_generation)__iPad_Air_3rd_generation__1
+96,membership,PCI-SIG
+97,mostWins,World_Branding_Awards
+98,network,Urban_Wolf
+99,organization,Priya_Balasubramaniam
+100,owner,IWork__.com__1
+101,parent,P.A._Semi
+102,platform,Ulysses_(text_editor)
+103,producer,Rayman_Mini
+104,publisher,Through_the_Looking_Glass_(video_game)
+105,tv,Major_League_Soccer
+106,award1pub,Alba:_A_Wildlife_Adventure
+107,organized,Worldwide_Developers_Conference
+108,boards,Katherine_L._Adams
+109,brand,IPhone_XS
+110,commissionedBy,Apple_Color_Emoji
+111,designfirm,Hard_Disk_20SC
+112,employer,Bruce_Sewell
+113,foundry,San_Francisco_(sans-serif_typeface)
+114,parentOrganization,Genius_Bar
+115,board,Bruce_Sewell
+116,institution,Alan_Kay__Alan_Kay__1
+117,affiliation,Apple_University
+118,computingPlatform,Ulysses_(text_editor)
+119,cpu,IPad_(4th_generation)__iPad__1
+120,knownFor,Michael_Spindler
+121,license,OS_X_Lion__OS_X_Lion__1
+122,literaryGenre,Revolution_in_the_Valley
+123,nonFictionSubject,Infinite_Loop_(book)
+124,occupation,Randy_Haykin
+125,operatingSystem,Sony_Reader
+126,owningCompany,AIM_alliance
+127,parentCompany,P.A._Semi
+128,parentOrganisation,Genius_Bar
+129,primaryTopic,Apple_Inc.
+130,brands,Visual Studio
+131,b,no
+132,commons,Category:Microsoft
+133,d,no
+134,divisions,
+135,footnotes,Financials
+136,logoAlt,A square divided into four sub-squares, colored red-orange, green, yellow and blue , with the company name appearing to its right
+137,n,yes
+138,portal,United States
+139,q,Microsoft
+140,reason,"The Internet" is a huge network of cables, microwave links and switching equipment, and even Microsoft at the time didn't have the financial means to replicate it, nor would there have been any business reason to do so.
+141,s,no
+142,species,no
+143,style,font-size:100%
+144,text,"We provide customer data only when we receive a legally binding order or subpoena to do so, and never on a voluntary basis. In addition, we only ever comply with orders for requests about specific accounts or identifiers. If the government has a broader voluntary national security program to gather customer data, we don't participate in it."
+145,tradeName,Microsoft
+146,v,Portal: Microsoft
+147,wikt,no
+148,hypernym,Company
+149,division,Xbox_Game_Studios
+150,commercial,Yes
+151,currentStatus,Active
+152,founder,Climate_Pledge_Fund
+153,language,Turkish
+154,logoCaption,Logo since January 2000
+155,programmingLanguage,C++ and Java
+156,registration,Optional
+157,screenshot,amazon.com screenshot.jpeg
+158,sign,Amazon.com Help
+159,collapsetext,Screenshot
+160,collapsible,yes
+161,licensee,Altair:_A_Record_of_Battles
+162,platforms,War_Robots
+163,rev,I_Wanna_Be_with_You_(album)
+164,nativeClients,Cinq_Music_Group
+165,tradingName,Alphabet
+166,owners,Sergey Brin
+167,registry,.google
+168,location,Kiewit_Plaza
+169,successor,Garanimals
+170,sponsor,2016_UnitedHealthcare_season
+171,foundation,1993-04-05
+172,soc,Surface_2
+173,workInstitutions,Steve_Scott_(computer_architect)
+174,graphics,Toshiba_Thrive
+175,partners,Made_in_Thailand_e-Sports
+176,stockrow,JNJ
+177,xaxistitle,year
+178,y1title,turn-over
+179,yaxismin,0
+180,yaxistitle,$ billion
+181,border,1
+182,height,150
+183,locationCountry,United_States
+184,x,9223372036854775807
+185,y,50.5
+186,ta,center
+187,workInstitution,Zoltan_Hajos
+188,previousowners,O.b._(brand)
+189,institutions,Earle_Dickson
+190,patrons,Gladys_Rockmore_Davis
+191,award,Ronke_Olabisi
+192,predecessor,Standard_Oil
+193,currentTenants,Mossmorran
+194,operator,Hides_gas_field
+195,operators,Arun_gas_field
+196,opponents,Movement_for_the_Emancipation_of_the_Niger_Delta
+197,companies,ExxonMobil_Electrofrac
+198,contractors,West_Qurna_Field
+199,customValue,Universe_of_Energy
+200,significantBuilding,Michel_Mossessian
+201,funding,Oversight_Board_(Meta)
+202,recordLabel,Ross_Lara
+203,creator,The_Jensen_Project
+204,free,Monroe_Comprehensive_High_School
+205,presenter,32nd_Daytime_Emmy_Awards
+206,producedby,Head_&_Shoulders
+207,footer,Sample Barclaycard , as issued in the UK in the 1960s/70s. Co-branded cards were also issued by affiliates, such as The Co-operative Bank and Yorkshire Bank. The Chargex logo  used in Canada.
+208,nasdaq,V
+209,sponsors,Carissa_Moore
+210,ratio,Tier 1 14.6%
+211,aum,3.11E12
+212,predecessors,Chemical_Bank
+213,assetUnderManagement,3.11E12
+214,office,Kalpana_Morparia
+215,formerNames,Standard Oil of California
+216,thirdTeam,1973_New_Zealand_Grand_Prix
+217,locations,2312
+218,areasServed,US_Virgin_Islands
+219,client,Priceless_(advertising_campaign)
+220,projectParticipant,ETOX
+221,space,List_of_licensed_and_localized_editions_of_Monopoly:_USA
+222,data,PARAMOUNT_trial
+223,academicDiscipline,Donald_Ivey
+224,currentMember,2013–14_Sevilla_FC_season__Coke__1
+225,titlestyle,background:white;
+226,toggle,left
+227,left,Brand
+228,titlebar,#DDD
+229,float,right
+230,quoted,yes
+231,members,118900000
+232,membersYear,2022
+233,state,collapsed
+234,successors,Bank_of_Carthage_(Missouri)
+235,opponent,1940–41_UCLA_Bruins_men's_basketball_team
+236,manufacturers,Accelerated_solvent_extraction
+237,colwidth,30
+238,organised,Adobe_MAX
+239,1a,Susanin
+240,1p,294
+241,1pp,381
+242,1y,2011
+243,2a,Barrier
+244,2p,629
+245,2pp,606
+246,2y,2015
+247,fmt,eq
+248,index,US
+249,p,283
+250,startYear,1937
+251,value,8000000
+252,artist,The_Best_of_Disney_Volume_2
+253,label,Fred_LaBour
+254,origin,Disney_Channel_Circle_of_Stars
+255,shipOwner,Disney_Wonder
+256,studio,Self_Control_(film)
+257,advertising,DisneyNow
+258,currentOwner,Hungry_Bear_Restaurant
+259,initiator,Acquisition_of_21st_Century_Fox_by_Disney
+260,issuingAuthority,Disney_Dollars
+261,licensedfrom,Lego_Spider-Man
+262,productionCompany,Self_Control_(film)
+263,associatedBand,Lisa_Simone
+264,associatedMusicalArtist,Lisa_Simone
+265,carrier,Nokia_Lumia_Icon
+266,captionAlign,center
+267,footerAlign,center
+268,years,--06-08
+269,aux,List_of_The_Try_Guys_episodes
+270,importantStation,Williamsburg_Area_Transit_Authority
+271,dir,rtl
+272,tvstation,2021_UTEP_Miners_football_team
+273,management,10_Universal_City_Plaza
+274,networkEn,Samurai_Girl:_Real_Bout_High_School
+275,needed,Largest in the world? In North America?
+276,modem,IPhone_14_Pro
+277,processor,Nest_Wifi
+278,soldby,Sitara_ARM_Processor
+279,sound,IBM_PCjr
+280,developers,Lisp_Machine_Lisp
+281,regionServed,Multinational_corporation
+282,imageAlt,Image of AMD's headquarters located in Santa Clara, California.
+283,processors,Socket_563
+284,certain,yes
+285,fid,co/015196
+286,content,\new Staff \with { \remove "Time_signature_engraver" }
+\relative c' { \time 3/2 \tempo 4 = 133
+ \set Score.tempoHideNote = ##t \set Staff.midiInstrument = #"marimba"
+ des2\fermata des8 ges des as'2
+}
+287,sizeFrom,Ice_Lake_(microprocessor)
+288,boardOfDirectors,Telecom_Infra_Project
+289,inventName,Direct_Media_Interface
+290,titleSponsor,2010_Cotton_Bowl_Classic
+291,patron,2012_U.S._Olympic_trials_(gymnastics)
+292,place,2005_NBA_playoffs
+293,sp,2010_Puerto_Rico_Islanders_season
+294,team,Williams_FW32
+295,carriers,BlackBerry_Torch_9800
+296,connectivity,Barnes_&_Noble_Nook_1st_Edition
+297,currentposition,Paul_Jones_(American_football)
+298,networks,Samsung_Focus_2
+299,carrier(s)_,Nexus_One
+300,position,Paul_Jones_(American_football)
+301,notableStudent,C._Bradley_Moore
+302,production,per day
+303,technicalServiceProvider,Norpipe
+304,markTitle,Design_Tech_High_School
+305,copyright,Common_Development_and_Distribution_License
+306,designers,MARS_(cipher)
+307,by,Code_page_936_(IBM)
+308,header,Major Goldman Sachs offices
+309,rating,Moody's: A3
+310,proteam,Katrina_Berger
+311,bot,InternetArchiveBot
+312,fixAttempted,yes
+313,lsp,2001_in_spaceflight
+314,builders,Dry_Combat_Submersible
+315,launchContractor,Solar_and_Heliospheric_Observatory
+316,designGroup,SAI_Quiet_Supersonic_Transport
+317,laterwork,James_O._Ellis
+318,profession,Chris_Myers_(New_Jersey_politician)
+319,builder,Sea_Slice
+320,credits,Richard_Lui
+321,companyType,Public_company
+322,description,Netflix's audio logo, adopted in 2019
+323,filename,Netflix audio logo .webm
+324,imageStyle,border:none;
+325,numUsers,223090000
+326,soundRecording,Netflix__Sound__1
+327,engine,Tatra_816__T816_FORCE__1
+328,ownership,Caterpillar_Diesels
+329,psUnitsManuModel,Warden_Energy_Centre
+330,engineType,D19E
+331,powerType,RS_RocketShip
+332,address,Bitchū-Takahashi_Station
+333,notableRestaurants,Harveys_Lake_Tahoe
+334,manager,Hilltop_Horizon
+335,fate,Heinrich_Lanz_AG
+336,side,2021_John_Deere_strike
+337,curator,Future_of_Flight_Aviation_Center_&_Boeing_Tour
+338,moreUsers,Shuttle_Carrier_Aircraft
+339,primaryUser,Boeing_Persistent_Munition_Technology_Demonstrator
+340,road,Interstate_170
+341,aircraftType,Aer_Lingus_Flight_164
+342,manufacturier,Unity_(ISS_module)
+343,agency,Lake_James
+344,plantOperator,Markland_Locks_and_Dam
+345,hoovers,General_Electric_Company.8e594783fd3e6c6e
+346,thTechnology,RockGen_Energy_Center
+347,tractionmotors,ALCO_300
+348,design,GE_BWR
+349,eng1Name,Convair_NB-36H
+350,invented,Unijunction_transistor
+351,npReactorSupplier,Pilgrim_Nuclear_Power_Station
+352,plantTurbines,La_Grande-1_generating_station
+353,psUnitsOperational,Port_Washington_Generating_Station
+354,spacecraft,AMC-4
+355,routeEnd,Alabama_State_Route_67
+356,url,www.target.com
+357,secondTeam,2010_Indy_Japan_300
+358,video,Gregg Alton of Gilead Sciences & others, "The Evolution of HIV/AIDS Therapies: A Conversation", 2012, Chemical Heritage Foundation via Vimeo
+359,headerimage,210
+360,profit,7.01E9
+361,predecessorLine,South_Carolina_Central_Railroad
+362,target,Acquisition_of_Activision_Blizzard_by_Microsoft
+363,administrator,2015_Heroes_of_the_Storm_World_Championship
+364,engineer,Willis_Tower
+365,birthPlace,New York City, U.S.
+366,birthDate,1975-07-06
+367,works,videography
+368,awards,List_of_awards_and_nominations_received_by_50_Cent
+369,birthName,Curtis James Jackson III
+370,children,2
+371,yearsActive,–present
+372,display,50
+373,activeYearsStartYear,1996
+374,birthYear,1975
+375,associatedActs,DJ_Whoo_Kid
+376,director,Before_I_Self_Destruct_(film)
+377,extra,Immortal_(Michael_Jackson_album)
+378,note,Street_Warz
+379,starring,Setup_(2011_film)
+380,writer,Window_Shopper__Window_Shopper__1
+381,composer,50_Cent:_The_Money_and_the_Power
+382,executiveProducer,For_Life_(TV_series)
+383,formerBandMember,G-Unit
+384,musicComposer,Before_I_Self_Destruct_(film)
+385,narrator,Power_Book_III:_Raising_Kanan
+386,openingTheme,Supermodel_(Swiss_TV_series)
+387,signature,Adele signature.svg
+388,after,Kristen Lopez and Robert Lopez
+389,almaMater,BRIT_School
+390,before,Zac_Brown_Band
+391,c,category:Adele
+392,class,artist
+393,id,mn0000503460
+394,m,no
+395,mw,no
+396,spouse,Simon Konecki
+397,2data,Brit_Awards
+398,chronology,Easy_on_Me
+399,mostAwards,Brit_Awards_2016
+400,music,Avenida_Brasil_(TV_series)
+401,module,--04-17
+402,bgcolor,#E0E6F8
+403,citizenship,Cambodia
+404,father,Jon_Voight
+405,mother,Marcheline_Bertrand
+406,otherNames,Angelina Jolie Pitt
+407,relatives,Barry_Voight
+408,alias,Angelina Jolie Pitt
+409,relative,Chip_Taylor
+410,portrayer,Lara_Croft
+411,child,Marcheline_Bertrand
+412,qalign,center
+413,currentMembers,* AJ McLean
+* Howie Dorough
+* Nick Carter
+* Kevin Richardson
+* Brian Littrell
+414,genre,
+415,landscape,yes
+416,salign,right
+417,acts,Miss_USA_2016
+418,anthem,Super_Bowl_XXXV
+419,birthname,Benjamin Géza Affleck-Boldt
+420,party,Democratic_Party_(United_States)
+421,relations,Casey_Affleck
+422,relation,Casey_Affleck
+423,leaderName,Eastern_Congo_Initiative
+424,person,Eastern_Congo_Initiative__PersonFunction__1
+425,pastMembers,* Alec John Such
+* Dave Sabo
+* Richie Sambora
+426,bandMember,Phil_X
+427,hometown,Sayreville,_New_Jersey
+428,spinoffs,Scandal_(American_band)
+429,participation,Live_Earth_(2007_concert)
+430,pastMemberOf,Alec_John_Such
+431,contentstyle,text-align:left
+432,format,Ogg
+433,imageUpright,0.9
+434,parents,Jamie_Spears
+435,pos,right
+436,hosts,American_Music_Awards_of_2001
+437,mostNominations,2008_MTV_Europe_Music_Awards
+438,holder,Billboard_Millennium_Award
+439,notableWork,Sheppard_Solomon
+440,showJudge,The_X_Factor_(American_TV_series)
+441,basedOn,Once_Upon_a_One_More_Time
+442,lyrics,Once_Upon_a_One_More_Time
+443,musicBy,Once_Upon_a_One_More_Time
+444,headerAlign,center
+445,allWriting,Working_on_a_Dream
+446,host,Renegades:_Born_in_the_USA
+447,participants,Glastonbury_Festival_2009
+448,nationality,American
+449,activeYearsEndYear,2022
+450,shortsummary,List_of_Film_Sack_episodes
+451,voices,Bruno_the_Kid
+452,actor,General_Joseph_Colton
+453,voice,Bruno_the_Kid
+454,endorsedBy,Celine_Dion_Parfums
+455,entrant,Switzerland_in_the_Eurovision_Song_Contest_1988
+456,deathPlace,Madeleine_Sologne
+457,nickname,Jim_McGuinness
+458,notableWorks,Safta_Jaffery
+459,spinoffOf,Apparatjik
+460,headliner,Super_Bowl_50_halftime_show
+461,youthclubs,Sporting_CP_Youth_Academy
+462,youthyears,1997
+463,fullname,Cristiano Ronaldo dos Santos Aveiro
+464,goals,311
+465,caps,292
+466,clubUpdate,--11-22
+467,clubs,Sporting_CP_B
+468,nationalcaps,193
+469,nationalgoals,118
+470,nationalteam,Portugal_national_under-21_football_team
+471,nationalteamUpdate,--11-28
+472,nationalyears,2004
+473,careerStation,Cristiano_Ronaldo__CareerStation__9
+474,lw,Real_Madrid_CF
+475,captain,Portugal_national_football_team
+476,lcf,Portugal_national_football_team
+477,rcf,2010_FIFA_Ballon_d'Or
+478,ss,History_of_Exeter_City_F.C.
+479,topScorer,Real_Madrid_CF_in_international_football
+480,manOfTheMatch1a,2017_FIFA_Club_World_Cup_Final
+481,manOfTheMatch1b,2008_UEFA_Champions_League_Final
+482,leagueTopscorer,2008–09_Manchester_United_F.C._season
+483,seasonTopscorer,2009–10_Real_Madrid_CF_season
+484,topGoalScorer,2010–11_Copa_del_Rey
+485,motm,2016–17_Atlético_Madrid_season
+486,ambassadors,Clear_(shampoo)
+487,bracesPlayer,UEFA_Euro_2020_statistics
+488,firstHatTrickPlayer,2018_FIFA_World_Cup_statistics
+489,hatTricksPlayer,2018_FIFA_World_Cup_statistics
+490,mostCaps,Portugal_national_football_team
+491,mostGoalsAssistsPlayer,UEFA_Euro_2020_statistics
+492,mostGoalsPlayerMatchPlayer,UEFA_Euro_2020_statistics
+493,mostGoalsPlayerPlayer,UEFA_Euro_2020_statistics
+494,oldestScorerPlayer,2022_FIFA_World_Cup_statistics
+495,penaltiesMissedPlayer,2018_FIFA_World_Cup_statistics
+496,penaltiesScoredPlayer,2022_FIFA_World_Cup_statistics
+497,partner,Irina_Shayk
+498,notableworks,Digital Fortress
+499,organisation,UNICEF
+500,bg,white
+501,agent,Simon Fuller
+502,bordercolor,#0B0B3F
+503,fg,#0B0B3F
+504,chairman,Inter_Miami_CF
+505,rcm,2011_Los_Angeles_Galaxy_season
+506,rm,2010_Los_Angeles_Galaxy_season
+507,education,John_C._Fremont_High_School
+508,imdbId,1114695
+509,afterElection,Billboard_Music_Awards
+510,halftime,2011_NBA_All-Star_Game
+511,lyricist,Duppy_Freestyle
+512,writers,List_of_songs_recorded_by_Justin_Timberlake
+513,otherp,List_of_songs_recorded_by_Justin_Timberlake
+514,family,Anoa'i_family
+515,weight,253
+516,bowlgames,* Cotton Bowl Classic 
+* Orange Bowl
+517,currentnumber,94
+518,heightft,6
+519,heightin,5
+520,highlights,* AP Poll national champion
+521,highschool,
+522,major,Criminology and physiology
+523,pastschools,* Miami (FL)
+524,rd1Team,Vengeance_(2001)
+525,engvoice,Cliffjumper
+526,honorificSuffix,Order_of_the_British_Empire
+527,postmatch,2014_AFL_Grand_Final
+528,prematch,2014_AFL_Grand_Final
+529,medium,Stand-up
+530,story,The_Puppy_Episode
+531,rtitle,Inside_Comedy
+532,honorificPrefix,Knight_Bachelor
+533,allMusic,The_Diving_Board
+534,guests,The_Final_(concert)
+535,themeMusicComposer,Dan_Dare:_Pilot_of_the_Future_(TV_series)
+536,creatorname,Zarkana_(Cirque_du_Soleil)
+537,programmeFormat,Shade_45
+538,nick,TBE (The Best Ever)
+539,ko,27
+540,next,José Luis Castillo
+541,rows,2
+542,section,Discussion about whom
+543,total,50
+544,wins,50
+545,decWins,23
+546,koWins,27
+547,nonscore,2
+548,reach,72.0
+549,last,Keith_Thurman
+550,fighter,Arturo_Gatti_vs._Floyd_Mayweather_Jr.
+551,bestActor,Washington_D.C._Area_Film_Critics_Association_Awards_2011
+552,core#exactMatch,i96038
+553,cinematography,Herbie_(film)__Herbie__1
+554,creators,Indiana_Jones_and_the_Tomb_of_the_Gods
+555,editing,Herbie_(film)__Herbie__1
+556,influenced,Joseph_Campbell
+557,halign,left
+558,candidate,1994_New_York_gubernatorial_election
+559,influences,Roger_Black_(actor)
+560,influencedBy,Roger_Black_(actor)
+561,viaf,116796842
+562,period,1997
+563,onlinebooks,no
+564,pseudonym,Robert Galbraith
+565,basis,A_Very_Potter_Sequel
+566,screenplay,Fantastic_Beasts_(film_series)
+567,deathDate,2013-06-19
+568,deathYear,2013
+569,authors,Zoo_(Patterson_novel)
+570,television,Women of the Movement
+571,compiler,The_Hits_Collection,_Volume_One
+572,optionName,Roc_Nation_albums_discography
+573,domesticPartner,Tate_Donovan
+574,judges,The_Cut_(2005_TV_series)
+575,headliners,Super_Bowl_LIV_halftime_show
+576,active,1976
+577,domesticpartner,Sherilyn_Fenn
+578,username,kanyewest
+579,fontsize,90.0
+580,archiveDate,2022-10-09
+581,archiveUrl,1578957396604424193
+582,small,yes
+583,signatureSize,100
+584,stat1label,Point_(basketball)
+585,stat1value,33643
+586,stat2label,Rebound_(basketball)
+587,stat2value,7047
+588,stat3label,Assist_(basketball)
+589,stat3value,6306
+590,weightLb,212
+591,champion,y
+592,heightFt,6
+593,heightIn,6
+594,leader,y
+595,highSchool,
+596,bbr,bryanko01
+597,careerEnd,2016
+598,careerNumber,824
+599,careerPosition,Shooting_guard
+600,careerStart,1996
+601,draftPick,13
+602,draftRound,1
+603,draftTeam,Charlotte_Hornets
+604,draftYear,1996
+605,heightFootnote,ref|In 2017, Vanessa Bryant said that Kobe was 6 feet 4 and 3/4 inches (1.95 m) without shoes and  with shoes. In 2006, Bryant said that he was . In 2008, he stated he was "probably"  in shoes.|group=lower-alpha|name=height_note
+606,hofPlayer,kobe-bryant
+607,nba,977
+608,mvp,2007_NBA_All-Star_Game
+609,hofers,2004_NBA_Finals
+610,assist,2001_NBA_Finals
+611,finalsMvp,2009–10_NBA_season
+612,seeAlso,Kobe_(given_name)
+613,supportAct,Take_That_Presents:_The_Circus_Live
+614,bestActress,Washington_D.C._Area_Film_Critics_Association_Awards_2018
+615,league,NBA
+616,number,6
+617,record,y
+618,topPick,2003–04_NBA_season
+619,assistsLeader,2012_United_States_men's_Olympic_basketball_team
+620,clubnumber,30
+621,currentclub,Paris_Saint-Germain_F.C.
+622,topGoalscorer,La_Liga
+623,youngestScorerPlayer,2006_FIFA_World_Cup_statistics
+624,namedafter,Messi_(cougar)
+625,player,2011_FIFA_Club_World_Cup
+626,mostAssistsPlayer,2018_FIFA_World_Cup_statistics
+627,mostConvertedFreeKicksPlayer,Copa_América_Centenario_statistics
+628,mostPlayerAppearances,El_Clásico
+629,currentMemberOf,Monte_Pittman
+630,loser,Sarangani Reconciliation and Reformation Organization
+631,branch,25
+632,percentage,100
+633,rank,40
+634,termEnd,2022-06-30
+635,termStart,2018-09-18
+636,votes,214969
+637,winner,United Nationalist Alliance
+638,otherparty,Nacionalista
+639,militaryService,Manny_Pacquiao__MilitaryService__1
+640,termPeriod,Manny_Pacquiao__Tenure__4
+641,torchLighter,2019_Southeast_Asian_Games
+642,cand,Isko_Moreno
+643,callsignMeaning,DXEP
+644,coach,2016–17_Kia_Picanto_season
+645,other,E.I.S._Men's_Volleyball
+646,1namedata,Rodrigo_Duterte
+647,flagbearer,Philippines_at_the_2008_Summer_Olympics
+648,shipSponsor,Disney_Fantasy
+649,allLyrics,Emotions_(Mariah_Carey_album)
+650,teleplay,Christopher_(The_Sopranos)
+651,stat21label,Batting average
+652,stat21value,0.252
+653,stat22label,Runs batted in
+654,stat22value,8
+655,stat2league,Arizona Fall League
+656,statleague,Southern League
+657,statsLeague,NBA
+658,statyear,1994
+659,throws,Right
+660,college,North_Carolina_Tar_Heels_men's_basketball
+661,draftpick,3
+662,draftround,1
+663,draftyear,1984
+664,finaldate,--03-10
+665,teams,* Birmingham Barons 
+* Scottsdale Scorpions
+666,weightLbs,216
+667,bats,Right
+668,debut2league,Arizona_Fall_League
+669,debut2team,Scottsdale Scorpions
+670,debut2year,1994
+671,debutdate,--04-08
+672,debutleague,Southern_League_(1964–2020)
+673,debutteam,Birmingham Barons
+674,debutyear,1994
+675,draftteam,Chicago_Bulls
+676,fibaHofPlayer,Michael-JORDAN
+677,finalleague,Southern League
+678,finalteam,Birmingham Barons
+679,finalyear,1995
+680,mostwins,NBA_Finals_Most_Valuable_Player_Award
+681,president,2000–01_Washington_Wizards_season
+682,playeroftheyear,1983–84_NCAA_Division_I_men's_basketball_season
+683,ownerNames,23XI_Racing
+684,mostrecent,Samba_Gold
+685,firstBracePlayer,2014_FIFA_World_Cup_statistics
+686,firstGoalPlayer,2013_FIFA_Confederations_Cup_statistics
+687,latestGoalPlayer,2018_FIFA_World_Cup_statistics
+688,background,group_or_band
+689,award1Winner,33rd_International_Emmy_Awards
+690,narrated,Life_(British_TV_series)
+691,religion,Liz_Lemon
+692,imagesize,250
+693,restaurants,The Lady & Sons Restaurant, Paula Deen's Family Kitchen , Paula Deen's Creek House
+694,motto,ECCE COR MEUM
+695,notes,--06-18
+696,crest,On a wreath of the colours a Liver Bird calling Sable supporting with the dexter claws a guitar Or stringed Sable.
+697,escutcheon,Or between two Flaunches fracted fesswise two roundels Sable over all six guitar strings palewise throughout counterchanged.
+698,organisers,Concerts_for_the_People_of_Kampuchea
+699,5optionName,Roc_Nation_albums_discography
+700,notableMembers,University_of_London_Boat_Club
+701,singlestitles,103
+702,turnedpro,1998
+703,usopendoublesresult,3.0
+704,usopenresult,W
+705,wimbledondoublesresult,QF
+706,wimbledonresult,W
+707,residence,Wollerau
+708,retired,2022
+709,lost,60
+710,won,369
+711,australianopendoublesresult,3.0
+712,australianopenresult,W
+713,careerprizemoney,1.30594339E8
+714,daviscupresult,W
+715,doublestitles,8
+716,frenchopendoublesresult,1.0
+717,frenchopenresult,W
+718,highestdoublesranking,No. 24
+719,highestsinglesranking,List_of_ATP_number_1_ranked_singles_tennis_players
+720,hopmancupresult,W
+721,integer,yes
+722,masterscupresult,W
+723,medaltemplatesExpand,yes
+724,medaltemplatesTitle,Olympic medal record
+725,olympicsdoublesresult,15
+726,olympicsresult,15
+727,othertournaments,yes
+728,othertournamentsdoubles,yes
+729,plays,Right-handed (one-handed backhand)
+730,careerPrizeMoney,1.30594339E8
+731,singlesWins,Switzerland_Davis_Cup_team
+732,gold,Tennis_at_the_2008_Summer_Olympics_–_Men's_doubles
+733,silver,Tennis_at_the_2012_Summer_Olympics_–_Men's_singles
+734,team2Abbrev,2017_ATP_Finals
+735,coachplayers,Ivan_Ljubičić
+736,doublesWins,Switzerland_at_the_Hopman_Cup
+737,menMostS,Wimbledon_Championships
+738,mostYears,Switzerland_Davis_Cup_team
+739,playerWins,Switzerland_at_the_Hopman_Cup
+740,goldMedalist,Tennis_at_the_2008_Summer_Olympics_–_Men's_doubles
+741,silverMedalist,Tennis_at_the_2012_Summer_Olympics_–_Men's_singles
+742,championInDoubleMale,2005_Gerry_Weber_Open
+743,championInSingleMale,2017_Miami_Open
+744,restingPlace,St._Louis
+745,recorded,Cupid_(112_song)
+746,ft,7
+747,in,10
+748,cbbaskhofYear,2014
+749,draftLeague,NBA
+750,espn,614
+751,nbaHistorical,shaquille_oneal
+752,portrayedBy,List_of_black_superheroes
+753,group,nb
+754,theme,Spiceworld:_The_Exhibition
+755,editor,Savage_(1973_TV_film)
+756,adaptedBy,Henry_Wu_(character)
+757,directedby,The_Psychiatrist_(TV_series)
+758,indent,yes
+759,blankData,City_of_Lover
+760,opentheme,The_Farmer_Wants_a_Wife_(Australian_TV_series)
+761,show,27
+762,commonsSearch,Category:Eagles
+763,dSearch,Q189635
+764,namedAfter,19383_Rolling_Stones
+765,collections,Stones_Fan_Museum
+766,beforeElection,Billboard_Music_Awards
+767,usopen,Won: 2000, 2002, 2008
+768,wghofid,tiger-woods
+769,wghofyear,2021
+770,yearpro,1996
+771,open,Won: 2000, 2005, 2006
+772,year,9223372036854775807
+773,pga,Won: 1999, 2000, 2006, 2007
+774,tour,PGA_Tour
+775,asiawins,2
+776,auswins,3
+777,awardssection,List of career achievements by Tiger Woods#Awards
+778,eurowins,41
+779,japwins,3
+780,majorwins,15
+781,masters,Won: 1997, 2001, 2002, 2005, 2019
+782,otherwins,17
+783,pgawins,82
+784,prowins,110
+785,winsAtAsia,List_of_career_achievements_by_Tiger_Woods
+786,winsAtPGA,List_of_career_achievements_by_Tiger_Woods
+787,winsAtAus,List_of_career_achievements_by_Tiger_Woods
+788,winsAtJapan,List_of_career_achievements_by_Tiger_Woods
+789,winsAtOtherTournaments,List_of_career_achievements_by_Tiger_Woods
+790,winsAtProTournaments,List_of_career_achievements_by_Tiger_Woods
+791,winsInEurope,List_of_career_achievements_by_Tiger_Woods
+792,awaycaptain,2019_Presidents_Cup
+793,link,Wikipedia:
+794,nocat,yes
+795,audioReadBy,The_Dutch_House_(novel)
+796,directed,Madea_Goes_to_Jail_(play)
+797,help,no
+798,bSearch,Wikijunior:The Elements/Hydrogen
+799,book,Period 1 elements
+800,vSearch,Hydrogen atom
+801,wiktSearch,hydrogen
+802,containerOnly,yes
+803,lcheading,Hydrogen
+804,isPartOf,target
+805,thFuelPrimary,Taleghan_solar_hydrogen_energy_system
+806,volumeNote,La_France_(airship)
+807,atmosphereComposition,Moon
+808,chemical,Atmosphere_of_Mercury
+809,fuelSource,Car
+810,naturalResources,Geography_of_the_Czech_Republic
+811,contaminants,Halaco_Engineering_Co.
+812,reflector,Advanced_Test_Reactor
+813,fields,William_Lipscomb
+814,formula,Blue_diamond
+815,industries,Economy_of_Turkey
+816,composition,Coal
+817,melt,Red_diamond
+818,related,Breathing_gas
+819,doi,10.1002
+820,first,Shirley A.
+821,isbn,3527306730
+822,pages,609
+823,talk,Fluorine for Dental Care?
+824,volume,15
+825,field,Michal_Martychowiec
+826,opt4n,Asahi_Point_Zero
+827,filling,M84_stun_grenade
+828,chassis,Eagle_Mk1
+829,impurities,Goldmanite
+830,blockAlloy,Judd_(engine)__Judd_KV__1
+831,carbody,Korail_Class_210000
+832,head,Opel_cam-in-head_engine
+833,material,Charles_Perkins_Centre
+834,block,Mercedes-Benz_OM642_engine
+835,exportGoods,Economy_of_Quebec
+836,automobilePlatform,Mercedes-Benz_C112
+837,headAlloy,Toyota_GR_engine__Toyota_GR_engine__1
+838,bodyStyle,Formula_Palmer_Audi
+839,shipNamesake,HMS_Phosphorus_(1804)
+840,core#narrower,Sulfur%20and%20Sulfur%20Compounds
+841,hotSpringType,Surajkund_hot_spring
+842,namedFor,Sulphurdale,_Utah
+843,colour,Szomolnokite
+844,commonscat,yes
+845,weapons,2014_Kafr_Zita_chemical_attack
+846,developmentCode,Odyssey_(Magic:_The_Gathering)
+847,treatment,Long_QT_syndrome
+848,medicalCause,Rickets
+849,medication,Premenstrual_syndrome
+850,valves,Cosworth_GMA
+851,structuralSystem,National_Centre_for_the_Performing_Arts_(China)
+852,compositionSecondary,Oil_shale
+853,etymology,Manganese,_Minnesota
+854,lithology,Úrkút_Manganese_Ore_Formation
+855,battleHonours,24th_Mechanized_Brigade_(Ukraine)
+856,construction,South_Fox_Island_Light
+857,drum,List_of_Caribbean_idiophones
+858,constructionMaterial,Jungfern_Bridge
+859,blankInfoSec,Department_of_Tacna
+860,commodity,Copper_mining_in_Arizona
+861,materials,Newman_University_Church
+862,mineral,Arizona
+863,otherlithology,Kupferschiefer
+864,currency,Gyaman
+865,region,NA
+866,ew,16
+867,ns,-27.81916666666667
+868,category,Ianbruceite
+869,nams,Beta-2_adrenergic_receptor
+870,opt2n,Lard
+871,pams,Beta-2_adrenergic_receptor
+872,causes,Arsenic_poisoning
+873,risks,Basal-cell_carcinoma
+874,with,details of optical properties
+875,opt1n,Brazil_nut
+876,opt3n,Suet
+877,mainIngredient,Vark
+878,primaryMaterial,Kiani_Crown
+879,ingredient,Vark
+880,cs1Dates,ly
+881,sSearch,Special:Search/Iodine
+882,colours,Timorese_Social_Democratic_Action_Center
+883,meaning,Goldie_(given_name)
+884,peggedWith,Lumi_(currency)
+885,ramtype,Pilot_ACE
+886,keel,Howth_17
+887,btype,.45-60_Winchester
+888,wordOrigin,List_of_chemical_element_name_etymologies
+889,element,meitnerium
+890,wikiPageInterLanguageLink,کوپرنیشیئم
+891,a,r
+892,w,70.0
+893,end,–6)
+894,nSearch,Controversy-plagued Element 118, the heaviest atom yet, finally discovered
+895,e,-41
+896,u,m2
+897,stardistancely,10.3
+898,stardistancepc,3.16
+899,starmagnitude,2.07
+900,symbolism,the Chained Woman
+901,abbreviation,And
+902,month,November
+903,arearank,19
+904,areatotal,722
+905,bordering,Lacerta
+906,brighteststarname,Alpha_Andromedae
+907,dec,–
+908,genitive,Andromedae
+909,latmax,90
+910,latmin,40
+911,meteorshowers,Andromedids
+912,neareststarname,Ross 248
+913,numberbfstars,65
+914,numberbrightstars,3
+915,numbermainstars,16
+916,numbermessierobjects,3
+917,numbernearbystars,3
+918,numberstarsplanets,12
+919,pronounce,genitive
+920,ra,–
+921,neighbourConstellations,Triangulum
+922,constellation,Andromedids
+923,constell,Xi_Andromedae
+924,constellationName,Messier_32
+925,page,249
+926,wstitle,Aquila
+927,declination,7
+928,mainStars,5
+929,quadrant,SQ3
+930,emblem,Samoa_national_rugby_union_team
+931,city,Dorado_Ground_Water_Contamination_Site
+932,county,Dorado_Ground_Water_Contamination_Site
+933,constel,Haro_11
+934,mascot,Legio_X_Gemina
+935,budget,2.1E8
+936,country,United States
+937,gross,1.104E9
+938,runtime,9900.0
+939,prevTitle,Maps_to_the_Stars
+940,lastAppearance,Tauriel
+941,album,Once_Upon_a_Dream_(Sleeping_Beauty_song)__Once_Upon_a_Dream__1
+942,length,71.0
+943,misc,--12-09
+944,nextTitle,The_Hunger_Games:_Mockingjay_–_Part_2
+945,productionCompanies,Color Force
+946,released,2014-11-24
+947,series,Honey_Lemon__Honey_Lemon__1
+948,previousWork,Big_Hero_6:_The_Series
+949,subsequentWork,DreamWorks_Dragons
+950,prevYear,2011
+951,urlStatus,live
+952,accessDate,2022-05-23
+953,count,55
+954,ref,yes
+955,score,80
+956,nextYear,2015
+957,totalLength,3613.0
+958,collapsed,no
+959,extraColumn,Performer
+960,producers,Simon Kinberg
+961,consensus,Star Wars: The Last Jedi honors the saga's rich legacy while adding some surprising twists — and delivering all the emotion-rich action fans could hope for.
+962,firstMajor,Walker_(Star_Wars)
+963,labels,no
+964,lastMajor,Hector_Barbossa
+965,average,5.4
+966,bestActorFilm,55th_Golden_Horse_Awards

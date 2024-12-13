@@ -6,17 +6,17 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 5, ,wgs84_pos#long,,,False,
 6, ,secCik,,,False,
 7, ,thumbnail,,16.0,False, Example:  value:U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg?width=300
-8, ,bloomberg,,,True,
-9, ,google,,,True,
-10, ,reuters,,,True,
-11, ,yahoo,,,True,
-12, ,align,,46.0,True, Example:  value:right
-13, ,alt,,48.0,True, Example:  value:The band onstage
+8, ,bloomberg,,,False,
+9, ,google,,,False,
+10, ,reuters,,,False,
+11, ,yahoo,,,False,
+12, ,align,,46.0,False, Example:  value:right
+13, ,alt,,48.0,False, Example:  value:The band onstage
 14, ,areaServed,,,True,
 15, ,assets,,,True,
-16, ,auto,,,True,
+16, ,auto,,,False,
 17, ,caption,,20.0,False," Example:  value:After the elaborate stadium productions of their previous two tours, U2's 2001 Elevation Tour was a scaled-down affair that featured a heart-shaped stage."
-18, ,date,,113.0,True, Example:  value:2012-09-16
+18, ,date,,113.0,False, Example:  value:2012-09-16
 19, ,direction,,114.0,False, Example:  value:vertical
 20, ,equity,,,True,
 21, ,equityYear,,,True,
@@ -62,7 +62,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 61, ,isin,,,False,
 62, ,netIncomeYear,,,True,
 63, ,sameAs,,35.0,False, Example:  value:124268369
-64, ,wordnet_type,,36.0,True, Example:  value:synset-musician-noun-1
+64, ,wordnet_type,,36.0,False, Example:  value:synset-musician-noun-1
 65, ,core#closeMatch,,,False,
 66, ,prov#wasDerivedFrom,,37.0,False, Example:  value:U2?oldid=1121669628&ns=0
 67, ,wikiPageLength,,38.0,False, Example:  value:218395
@@ -83,7 +83,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 82, ,wikiPageDisambiguates,,154.0,False, Example:  value:R._L._Drake_Company
 83, ,videoFormat,,,False,
 84, ,workplaces,,,True,
-85, ,manuf,,,True,
+85, ,manuf,,,False,
 86, ,namesake,,,True,
 87, ,affiliations,,,True,
 88, ,author,,124.0,False, Example:  value:yes
@@ -104,20 +104,20 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 103, ,producer,,,True,
 104, ,publisher,,,True,
 105, ,tv,,,True,
-106, ,award1pub,,,True,
+106, ,award1pub,,,False,
 107, ,organized,,,True,
-108, ,boards,,195.0,True, Example:  value:
+108, ,boards,,195.0,False, Example:  value:
 109, ,brand,,,True,
 110, ,commissionedBy,,,True,
 111, ,designfirm,,,True,
 112, ,employer,,,True,
 113, ,foundry,,,True,
 114, ,parentOrganization,,,True,
-115, ,board,,196.0,True, Example:  value:Aspiro
+115, ,board,,196.0,False, Example:  value:Aspiro
 116, ,institution,,,True,
 117, ,affiliation,,,True,
 118, ,computingPlatform,,,True,
-119, ,cpu,,,True,
+119, ,cpu,,,False,
 120, ,knownFor,,229.0,True, Example:  value:Kylie_Cosmetics
 121, ,license,,,True,
 122, ,literaryGenre,,,True,
@@ -138,10 +138,10 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 137, ,n,,24.0,False, Example:  value:Category:U2
 138, ,portal,,,False,
 139, ,q,,71.0,False, Example:  value:Tom Hanks
-140, ,reason,,121.0,True, Example:  value:Persistent disruptive editing
+140, ,reason,,121.0,False, Example:  value:Persistent disruptive editing
 141, ,s,,27.0,False, Example:  value:no
 142, ,species,,28.0,True, Example:  value:no
-143, ,style,,59.0,True, Example:  value:padding:10px;
+143, ,style,,59.0,False, Example:  value:padding:10px;
 144, ,text,,175.0,False, Example:  value:citaded
 145, ,tradeName,,,True,
 146, ,v,,29.0,False, Example:  value:no
@@ -162,7 +162,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 161, ,licensee,,,True,
 162, ,platforms,,,True,
 163, ,rev,,,False,
-164, ,nativeClients,,,True,
+164, ,nativeClients,,,False,
 165, ,tradingName,,,True,
 166, ,owners,,,True,
 167, ,registry,,,True,
@@ -197,7 +197,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 196, ,opponents,,,True,
 197, ,companies,,,True,
 198, ,contractors,,,True,
-199, ,customValue,,,True,
+199, ,customValue,,,False,
 200, ,significantBuilding,,,True,
 201, ,funding,,,True,
 202, ,recordLabel,,103.0,True, Example:  value:Mercury_Records
@@ -205,10 +205,10 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 204, ,free,,,False,
 205, ,presenter,,,True,
 206, ,producedby,,,True,
-207, ,footer,,92.0,True," Example:  value:Tesfaye cites Michael Jackson, Prince, and R. Kelly as his main musical inspirations"
+207, ,footer,,92.0,False," Example:  value:Tesfaye cites Michael Jackson, Prince, and R. Kelly as his main musical inspirations"
 208, ,nasdaq,,,True,
 209, ,sponsors,,,True,
-210, ,ratio,,,True,
+210, ,ratio,,,False,
 211, ,aum,,,False,
 212, ,predecessors,,,True,
 213, ,assetUnderManagement,,,False,
@@ -265,7 +265,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 264, ,footerAlign,,115.0,False, Example:  value:center
 265, ,aux,,,False,
 266, ,importantStation,,,True,
-267, ,dir,,,True,
+267, ,dir,,,False,
 268, ,tvstation,,,True,
 269, ,management,,,True,
 270, ,networkEn,,,True,
@@ -281,8 +281,8 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 280, ,processors,,,True,
 281, ,managerClub,,,True,
 282, ,team,,138.0,True, Example:  value:Orlando_Magic
-283, ,fid,,,True,
-284, ,content,,104.0,True, Example:  value:2006-05-27
+283, ,fid,,,False,
+284, ,content,,104.0,False, Example:  value:2006-05-27
 285, ,sizeFrom,,,True,
 286, ,members,,,True,
 287, ,boardOfDirectors,,,True,
@@ -290,12 +290,12 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 289, ,titleSponsor,,,True,
 290, ,patron,,,True,
 291, ,place,,,True,
-292, ,sp,,,True,
+292, ,sp,,,False,
 293, ,carriers,,,True,
 294, ,connectivity,,,True,
 295, ,currentposition,,159.0,True, Example:  value:Defensive_tackle
 296, ,networks,,,True,
-297, ,carrier(s)_,,,True,
+297, ,carrier(s)_,,,False,
 298, ,position,,128.0,True, Example:  value:Center_(basketball)
 299, ,production,,,True,
 300, ,technicalServiceProvider,,,True,
@@ -312,7 +312,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 311, ,builders,,,True,
 312, ,launchContractor,,,True,
 313, ,designGroup,,,True,
-314, ,laterwork,,,True,
+314, ,laterwork,,,False,
 315, ,profession,,,True,
 316, ,builder,,,True,
 317, ,credits,,,True,
@@ -341,12 +341,12 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 340, ,creatorOfDish,,,True,
 341, ,agency,,,True,
 342, ,plantOperator,,,True,
-343, ,certain,,,True,
-344, ,hoovers,,,True,
-345, ,thTechnology,,,True,
-346, ,tractionmotors,,,True,
+343, ,certain,,,False,
+344, ,hoovers,,,False,
+345, ,thTechnology,,,False,
+346, ,tractionmotors,,,False,
 347, ,design,,,True,
-348, ,eng1Name,,,True,
+348, ,eng1Name,,,False,
 349, ,invented,,,True,
 350, ,npReactorSupplier,,,True,
 351, ,plantTurbines,,,True,
@@ -385,16 +385,16 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 384, ,openingTheme,,,True,
 385, ,signature,,44.0,False, Example:  value:Tom Cruise signature.svg
 386, ,after,,45.0,True, Example:  value:Manny Pacquiao
-387, ,almaMater,,47.0,True," Example:  value:California_State_University,_Long_Beach"
+387, ,almaMater,,47.0,False," Example:  value:California_State_University,_Long_Beach"
 388, ,before,,49.0,True, Example:  value:Frank Carmona
 389, ,c,,50.0,False, Example:  value:Category:Tom Hanks
 390, ,class,,51.0,True, Example:  value:artist
-391, ,id,,52.0,True, Example:  value:41706
+391, ,id,,52.0,False, Example:  value:41706
 392, ,m,,54.0,False, Example:  value:no
 393, ,mw,,55.0,False, Example:  value:no
 394, ,spouse,,58.0,True, Example:  value:Rita_Wilson
 395, ,years,,63.0,True, Example:  value:
-396, ,2data,,,True,
+396, ,2data,,,False,
 397, ,chronology,,,True,
 398, ,mostAwards,,,True,
 399, ,music,,,True,
@@ -448,7 +448,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 447, ,notableWork,,141.0,True, Example:  value:Women's_Murder_Club_(book_series)
 448, ,showJudge,,,True,
 449, ,basedOn,,,True,
-450, ,lyrics,,,True,
+450, ,lyrics,,,False,
 451, ,musicBy,,,True,
 452, ,headerAlign,,117.0,False, Example:  value:left/right/center
 453, ,allWriting,,,True,
@@ -468,13 +468,13 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 467, ,youthyears,,123.0,True, Example:  value:2003
 468, ,fullname,,125.0,True, Example:  value:Eldrick Tont Woods
 469, ,goals,,126.0,True, Example:  value:107
-470, ,caps,,129.0,True, Example:  value:177
-471, ,clubUpdate,,130.0,True, Example:  value:--11-13
+470, ,caps,,129.0,False, Example:  value:177
+471, ,clubUpdate,,130.0,False, Example:  value:--11-13
 472, ,clubs,,131.0,True, Example:  value:Paris_Saint-Germain_F.C.
-473, ,nationalcaps,,132.0,True, Example:  value:122
+473, ,nationalcaps,,132.0,False, Example:  value:122
 474, ,nationalgoals,,133.0,True, Example:  value:75
 475, ,nationalteam,,134.0,True, Example:  value:Brazil Olympic
-476, ,nationalteamUpdate,,135.0,True, Example:  value:2022-11-24
+476, ,nationalteamUpdate,,135.0,False, Example:  value:2022-11-24
 477, ,nationalyears,,136.0,True, Example:  value:2016
 478, ,careerStation,,137.0,True, Example:  value:Shaquille_O'Neal__CareerStation__6
 479, ,lw,,,False,
@@ -483,8 +483,8 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 482, ,rcf,,,False,
 483, ,ss,,,False,
 484, ,topScorer,,,True,
-485, ,manOfTheMatch1a,,,True,
-486, ,manOfTheMatch1b,,,True,
+485, ,manOfTheMatch1a,,,False,
+486, ,manOfTheMatch1b,,,False,
 487, ,leagueTopscorer,,,True,
 488, ,seasonTopscorer,,,True,
 489, ,topGoalScorer,,,True,
@@ -506,7 +506,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 505, ,bg,,143.0,False, Example:  value:#FFDF00
 506, ,agent,,144.0,True, Example:  value:Scooter_Braun
 507, ,bordercolor,,145.0,False, Example:  value:blue
-508, ,fg,,146.0,True, Example:  value:navy
+508, ,fg,,146.0,False, Example:  value:navy
 509, ,chairman,,,True,
 510, ,rcm,,,False,
 511, ,rm,,,False,
@@ -517,26 +517,26 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 516, ,family,,155.0,True, Example:  value:Anoa'i_family
 517, ,weight,,156.0,True, Example:  value:83916.0
 518, ,bowlgames,,157.0,True, Example:  value:* Cotton Bowl Classic * Orange Bowl
-519, ,currentnumber,,158.0,True, Example:  value:94
+519, ,currentnumber,,158.0,False, Example:  value:94
 520, ,heightft,,160.0,True, Example:  value:6
 521, ,heightin,,161.0,True, Example:  value:5
 522, ,highlights,,162.0,True, Example:  value:* 4x NBA champion * 3x NBA Finals MVP * NBA Most Valuable Player * 15 NBA All-Star * 3x NBA All-Star Game MVP * 8x All-NBA First Team * 2x All-NBA Second Team * 4x All-NBA Third Team * 3x NBA All-Defensive Second Team * NBA Rookie of the Year * NBA All-Rookie First Team * 2x NBA scoring champion * 2x IBM Award * NBA anniversary team * No. 34 retired by Los Angeles Lakers * No. 32 retired by Miami Heat * Associated Press Player of the Year * UPI Player of the Year * Adolph Rupp Trophy * 2x Consensus first-team All-American * 2x SEC Player of the Year * NCAA blocks leader * NCAA rebounding leader * No. 33 retired by LSU Tigers * FIBA World Championship MVP * USA Basketball Male Athlete of the Year * McDonald's All-American Game Co-MVP * First-team Parade All-American * Texas Mr. Basketball
 523, ,highschool,,163.0,True, Example:  value:
 524, ,major,,164.0,True, Example:  value:Criminology and physiology
 525, ,pastschools,,165.0,True, Example:  value:* Miami (FL)
-526, ,rd1Team,,,True,
-527, ,engvoice,,,True,
+526, ,rd1Team,,,False,
+527, ,engvoice,,,False,
 528, ,honorificSuffix,,166.0,True, Example:  value:Order_of_the_British_Empire
 529, ,postmatch,,,True,
 530, ,prematch,,,True,
 531, ,medium,,167.0,True, Example:  value:Stand-up
 532, ,story,,,True,
 533, ,honorificPrefix,,168.0,True, Example:  value:The_Right_Excellent
-534, ,allMusic,,,True,
+534, ,allMusic,,,False,
 535, ,guests,,,True,
 536, ,themeMusicComposer,,,True,
 537, ,creatorname,,,True,
-538, ,programmeFormat,,,True,
+538, ,programmeFormat,,,False,
 539, ,nick,,169.0,True, Example:  value:Tiger
 540, ,ko,,170.0,True, Example:  value:27
 541, ,next,,171.0,False, Example:  value:Jose Luis Castillo
@@ -550,7 +550,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 549, ,reach,,181.0,True, Example:  value:72.0
 550, ,last,,,True,
 551, ,fighter,,,True,
-552, ,imdbId,,182.0,True, Example:  value:1114695
+552, ,imdbId,,182.0,False, Example:  value:1114695
 553, ,bestActor,,,True,
 554, ,core#exactMatch,,183.0,False, Example:  value:i95412
 555, ,cinematography,,,True,
@@ -571,9 +571,9 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 570, ,domesticPartner,,,True,
 571, ,judges,,,True,
 572, ,headliners,,,True,
-573, ,active,,197.0,True, Example:  value:2001
+573, ,active,,197.0,False, Example:  value:2001
 574, ,domesticpartner,,,True,
-575, ,username,,199.0,True, Example:  value:kanyewest
+575, ,username,,199.0,False, Example:  value:kanyewest
 576, ,archiveDate,,200.0,True, Example:  value:2022-10-09
 577, ,archiveUrl,,201.0,False, Example:  value:1578957396604424193
 578, ,small,,203.0,False, Example:  value:yes
@@ -601,7 +601,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 600, ,draftYear,,225.0,True, Example:  value:1992
 601, ,heightFootnote,,226.0,True," Example:  value:ref|In 2017, Vanessa Bryant said that Kobe was 6 feet 4 and 3/4 inches (1.95 m) without shoes and  with shoes. In 2006, Bryant said that he was . In 2008, he stated he was -probably-  in shoes.|group=lower-alpha|name=height_note"
 602, ,hofPlayer,,227.0,True, Example:  value:shaquille-oneal
-603, ,nba,,228.0,True, Example:  value:893
+603, ,nba,,228.0,False, Example:  value:893
 604, ,mvp,,,True,
 605, ,hofers,,,True,
 606, ,assist,,,True,
@@ -625,8 +625,8 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 624, ,mostPlayerAppearances,,,True,
 625, ,currentMemberOf,,,True,
 626, ,loser,,236.0,True, Example:  value:Sarangani Reconciliation and Reformation Organization
-627, ,branch,,237.0,True, Example:  value:25
-628, ,percentage,,240.0,True, Example:  value:100
+627, ,branch,,237.0,False, Example:  value:25
+628, ,percentage,,240.0,False, Example:  value:100
 629, ,rank,,242.0,True, Example:  value:40
 630, ,termEnd,,245.0,True, Example:  value:2022-06-30
 631, ,termStart,,246.0,True, Example:  value:2018-09-18
@@ -636,20 +636,20 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 635, ,militaryService,,250.0,True, Example:  value:Manny_Pacquiao__MilitaryService__1
 636, ,termPeriod,,251.0,True, Example:  value:Manny_Pacquiao__Tenure__4
 637, ,torchLighter,,,True,
-638, ,cand,,,True,
+638, ,cand,,,False,
 639, ,callsignMeaning,,,True,
 640, ,coach,,295.0,True, Example:  value:Severin_Leuthi
 641, ,other,,,False,
 642, ,1namedata,,,False,
 643, ,flagbearer,,,True,
 644, ,shipSponsor,,,True,
-645, ,allLyrics,,,True,
+645, ,allLyrics,,,False,
 646, ,teleplay,,,True,
-647, ,stat21label,,252.0,True, Example:  value:Batting average
-648, ,stat21value,,253.0,True, Example:  value:0.252
-649, ,stat22label,,254.0,True, Example:  value:Runs batted in
-650, ,stat22value,,255.0,True, Example:  value:8
-651, ,stat2league,,256.0,True, Example:  value:Arizona Fall League
+647, ,stat21label,,252.0,False, Example:  value:Batting average
+648, ,stat21value,,253.0,False, Example:  value:0.252
+649, ,stat22label,,254.0,False, Example:  value:Runs batted in
+650, ,stat22value,,255.0,False, Example:  value:8
+651, ,stat2league,,256.0,False, Example:  value:Arizona Fall League
 652, ,statleague,,257.0,True, Example:  value:Southern League
 653, ,statsLeague,,258.0,True, Example:  value:NBA
 654, ,statyear,,259.0,True, Example:  value:1994
@@ -683,17 +683,17 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 682, ,firstGoalPlayer,,,True,
 683, ,latestGoalPlayer,,,True,
 684, ,background,,282.0,True, Example:  value:group_or_band
-685, ,award1Winner,,,True,
+685, ,award1Winner,,,False,
 686, ,narrated,,,True,
 687, ,religion,,,True,
-688, ,imagesize,,283.0,True, Example:  value:250
+688, ,imagesize,,283.0,False, Example:  value:250
 689, ,restaurants,,284.0,True," Example:  value:The Lady & Sons Restaurant, Paula Deen's Family Kitchen , Paula Deen's Creek House"
 690, ,motto,,285.0,True, Example:  value:ECCE COR MEUM
 691, ,notes,,286.0,False, Example:  value:--06-18
 692, ,crest,,287.0,True, Example:  value:On a wreath of the colours a Liver Bird calling Sable supporting with the dexter claws a guitar Or stringed Sable.
 693, ,escutcheon,,288.0,True, Example:  value:Or between two Flaunches fracted fesswise two roundels Sable over all six guitar strings palewise throughout counterchanged.
 694, ,organisers,,,True,
-695, ,5optionName,,,True,
+695, ,5optionName,,,False,
 696, ,notableMembers,,,True,
 697, ,singlestitles,,289.0,True, Example:  value:103
 698, ,turnedpro,,290.0,True, Example:  value:1998
@@ -728,7 +728,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 727, ,singlesWins,,,True,
 728, ,gold,,,True,
 729, ,silver,,,True,
-730, ,team2Abbrev,,,True,
+730, ,team2Abbrev,,,False,
 731, ,coachplayers,,,True,
 732, ,doublesWins,,,True,
 733, ,menMostS,,,True,
@@ -743,7 +743,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 742, ,in,,322.0,True, Example:  value:10
 743, ,cbbaskhofYear,,323.0,True, Example:  value:2014
 744, ,draftLeague,,324.0,True, Example:  value:NBA
-745, ,espn,,325.0,True, Example:  value:614
+745, ,espn,,325.0,False, Example:  value:614
 746, ,nbaHistorical,,326.0,True, Example:  value:shaquille_oneal
 747, ,portrayedBy,,,True,
 748, ,group,,327.0,True, Example:  value:nb
@@ -758,17 +758,17 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 757, ,namedAfter,,,True,
 758, ,collections,,,True,
 759, ,beforeElection,,,True,
-760, ,usopen,,343.0,True, Example:  value:Won: 2000 * 2002 * 2008
+760, ,usopen,,343.0,False, Example:  value:Won: 2000 * 2002 * 2008
 761, ,wghofid,,344.0,True, Example:  value:tiger-woods
 762, ,wghofyear,,345.0,True, Example:  value:2021
 763, ,yearpro,,346.0,True, Example:  value:1996
-764, ,open,,347.0,True, Example:  value:Won: 2000 * 2005 * 2006
-765, ,year,,348.0,True, Example:  value:9223372036854775807
-766, ,pga,,349.0,True, Example:  value:Won: 1999 * 2000 * 2006 * 2007
+764, ,open,,347.0,False, Example:  value:Won: 2000 * 2005 * 2006
+765, ,year,,348.0,False, Example:  value:9223372036854775807
+766, ,pga,,349.0,False, Example:  value:Won: 1999 * 2000 * 2006 * 2007
 767, ,tour,,350.0,True, Example:  value:PGA_Tour
 768, ,asiawins,,351.0,True, Example:  value:2
 769, ,auswins,,352.0,True, Example:  value:3
-770, ,awardssection,,353.0,True, Example:  value:List of career achievements by Tiger Woods#Awards
+770, ,awardssection,,353.0,False, Example:  value:List of career achievements by Tiger Woods#Awards
 771, ,eurowins,,354.0,True, Example:  value:41
 772, ,japwins,,355.0,True, Example:  value:3
 773, ,majorwins,,356.0,True, Example:  value:15
@@ -776,15 +776,15 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 775, ,otherwins,,358.0,True, Example:  value:17
 776, ,pgawins,,359.0,True, Example:  value:82
 777, ,prowins,,360.0,True, Example:  value:110
-778, ,winsAtAsia,,361.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-779, ,winsAtPGA,,362.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-780, ,winsAtAus,,363.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-781, ,winsAtJapan,,364.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-782, ,winsAtOtherTournaments,,365.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-783, ,winsAtProTournaments,,366.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
-784, ,winsInEurope,,367.0,True, Example:  value:List_of_career_achievements_by_Tiger_Woods
+778, ,winsAtAsia,,361.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+779, ,winsAtPGA,,362.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+780, ,winsAtAus,,363.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+781, ,winsAtJapan,,364.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+782, ,winsAtOtherTournaments,,365.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+783, ,winsAtProTournaments,,366.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
+784, ,winsInEurope,,367.0,False, Example:  value:List_of_career_achievements_by_Tiger_Woods
 785, ,awaycaptain,,,False,
-786, ,link,,368.0,True, Example:  value:Wikipedia:
+786, ,link,,368.0,False, Example:  value:Wikipedia:
 787, ,nocat,,369.0,False, Example:  value:yes
 788, ,audioReadBy,,,True,
 789, ,directed,,,True,
@@ -832,7 +832,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 831, ,headAlloy,,,True,
 832, ,bodyStyle,,,True,
 833, ,shipNamesake,,,True,
-834, ,core#narrower,,,True,
+834, ,core#narrower,,,False,
 835, ,hotSpringType,,,True,
 836, ,namedFor,,,True,
 837, ,colour,,,True,
@@ -860,7 +860,7 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 859, ,ew,,,False,
 860, ,ns,,,False,
 861, ,category,,,True,
-862, ,nams,,,True,
+862, ,nams,,,False,
 863, ,opt2n,,,False,
 864, ,pams,,,False,
 865, ,causes,,,True,
@@ -935,14 +935,14 @@ Id_x, IsRelevant, Property_Name, Value_Example_x,Id_y,IsRelevant, Value_Example_
 934, ,previousWork,,,True,
 935, ,subsequentWork,,,True,
 936, ,dSearch,,,False,
-937, ,prevYear,,,True,
+937, ,prevYear,,,False,
 938, ,released,,,True,
 939, ,firstMajor,,,True,
 940, ,collapsed,,,True,
 941, ,extraColumn,,,False,
 942, ,length,,,True,
 943, ,misc,,,True,
-944, ,nextYear,,,True,
+944, ,nextYear,,,False,
 945, ,totalLength,,,True,
 946, ,producers,,,True,
 947, ,recorded,,,True,
