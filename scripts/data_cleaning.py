@@ -2,35 +2,46 @@ import re
 
 import spacy
 
-# Transforms a hash into a list
-def hash_to_list(hashmap):
-    return [(label, value) for label, value in hashmap.items() for value in label]
 
 
-
-# This is the filter for DBpedia using the masterfile
+# This is a filter using a file
 # It takes a hashmap and returns a hashmap
-# Bools decide whether DBpedia or WIKIDATA is used
-def master_filter(hashmap, dbpedia: bool, wikidata: bool):
-
-   # Loads the right file. Throws an exception if the bools are wrong
-   # This is complicated on purpose to stop an accident with the bool
-    if dbpedia and not wikidata:
-        file_master = open("master_db.csv", mode='r', encoding='utf-8')
-    elif wikidata and not dbpedia:
-        file_master = open("master_wd.csv", mode='r', encoding='utf-8')
-    else:
-        raise Exception("Undefined, if DBpedia or WIKIDATA is to be used")
+def master_filter(hashmap, file):
 
     # Creates a list of all included labels
     included_labels = []
-    for line in file_master:
+    for line in file:
         elements = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
         if elements[1] == "True":
             included_labels.append(elements[0])
 
     # Checks for each label, if it's included in the list
     return dict((label, value) for label, value in hashmap.items() if included_labels.__contains__(label))
+
+def master_filter_db(hashmap):
+    file = open("master_db.csv", mode='r', encoding='utf-8')
+    return master_filter(hashmap, file)
+
+def master_filter_wd(hashmap):
+    file = open("master_wd.csv", mode='r', encoding='utf-8')
+    return master_filter(hashmap, file)
+
+
+
+# Applies .lower() to all values in a hashmap
+def hashmap_values_lower(hashmap):
+    new_hashmap = {}
+    for key, values in hashmap.items():
+        new_hashmap[key] = []
+        if isinstance(values, str): new_hashmap[key].append(values.lower())
+        else:
+            for value in values:
+                new_hashmap[key].append(value.lower())
+    return new_hashmap
+
+# Transforms a hash into a list
+def hash_to_list(hashmap):
+    return [(label, value) for label, value in hashmap.items() for value in label]
 
 
 
