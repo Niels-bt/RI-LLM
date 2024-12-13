@@ -28,7 +28,7 @@ def master_filter(hashmap, dbpedia: bool, wikidata: bool):
             included_labels.append(elements[0])
 
     # Checks for each label, if it's included in the list
-    return dict((label, value) for label, value in hashmap.iteritems() if included_labels.__contains__(label))
+    return dict((label, value) for label, value in hashmap.items() if included_labels.__contains__(label))
 
 
 
