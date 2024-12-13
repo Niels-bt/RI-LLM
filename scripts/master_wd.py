@@ -13,7 +13,7 @@ files=[file_sp500,file_celeb,file_chm,file_movies,file_constellations]
 #files=[file_constellations]
 
 
-file_master = open("wd_master.csv", mode="w")
+file_master = open("master_wd.csv", mode="w")
 #file_master_old = open("wd_master2.csv", mode="r")
 
 

@@ -1,6 +1,6 @@
 import pandas as pd
 
-db_master = pd.read_csv('../scripts/db_master.csv')
+db_master = pd.read_csv('../scripts/master_db.csv')
 dbpedia_celeb = pd.read_csv('../topics/celebrities/dbpedia_celeb_all_properties.csv')
 
 print("db_master columns:", db_master.columns)
