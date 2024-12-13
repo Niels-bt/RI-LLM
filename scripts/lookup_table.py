@@ -7,10 +7,10 @@ def get_lookup_hash(file):
     hashmap = {}
     for line in file:
         elements = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
-        label = elements.pop(0)
+        label = elements.pop(0).replace("\n", "")
         if label not in hashmap: hashmap[label] = []
         for element in elements:
-            if element != "\n": hashmap[label].append(element)
+            if element != "\n": hashmap[label].append(element.replace("\n", ""))
     return hashmap
 
 def get_lookup_hash_db():
