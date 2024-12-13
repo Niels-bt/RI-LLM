@@ -2,10 +2,14 @@ import re
 
 import spacy
 
+# Transforms a hash into a list
+def hash_to_list(hashmap):
+    return [(label, value) for label, value in hashmap.items() for value in label]
 
 # This is the filter for DBpedia using the masterfile
+# It takes a hashmap and returns a hashmap
 # Bools decide whether DBpedia or WIKIDATA is used
-def master_filter(tuples, dbpedia, wikidata):
+def master_filter(hashmap, dbpedia: bool, wikidata: bool):
 
    # Loads the right file. Throws an exception if the bools are wrong
    # This is complicated on purpose to stop an accident with the bool
@@ -23,13 +27,8 @@ def master_filter(tuples, dbpedia, wikidata):
         if elements[1] == "True":
             included_labels.append(elements[0])
 
-    # Checks for each tuple, if it's included in the list
-    included_tuples = []
-    for element in tuples:
-        if included_labels.__contains__(element[0]):
-            included_tuples.append(element)
-
-    return included_tuples
+    # Checks for each label, if it's included in the list
+    return dict((label, value) for label, value in hashmap.iteritems() if included_labels.__contains__(label))
 
 
 
