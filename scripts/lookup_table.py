@@ -6,22 +6,23 @@ import re
 
 
 # This returns a hashmap of the desired lookup table
-def get_lookup_table(file):
+def get_lookup_hash(file):
     hashmap = {}
     for line in file:
         elements = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
         label = elements.pop(0)
+        if label not in hashmap: hashmap[label] = []
         for element in elements:
-            hashmap[label] = element
+            if element != "\n": hashmap[label].append(element)
     return hashmap
 
-def get_lookup_table_db():
+def get_lookup_hash_db():
     file = open("lookup_db_to_wd.csv", mode='r', encoding='utf-8')
-    return get_lookup_table(file)
+    return get_lookup_hash(file)
 
-def get_lookup_table_wd():
+def get_lookup_hash_wd():
     file = open("lookup_wd_to_db.csv", mode='r', encoding='utf-8')
-    return get_lookup_table(file)
+    return get_lookup_hash(file)
 
 
 
