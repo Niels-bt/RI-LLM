@@ -506,7 +506,7 @@ mineral,True,Arizona
 misc,True,--12-09
 modem,True,IPhone_14_Pro
 module,False,--04-17
-month,,November
+month,False,November
 moreUsers,False,Shuttle_Carrier_Aircraft
 mostAssistsPlayer,True,2018_FIFA_World_Cup_statistics
 mostAwards,True,Brit_Awards_2016
@@ -598,7 +598,7 @@ onlinebooks,True,no
 open,False,Won: 2000 2005 2006
 openingTheme,True,Supermodel_(Swiss_TV_series)
 opentheme,True,The_Farmer_Wants_a_Wife_(Australian_TV_series)
-operatingIncome,,1.1944E11
+operatingIncome,True,1.1944E11
 operatingSystem,True,Sony_Reader
 operator,True,Hides_gas_field
 operators,True,Arun_gas_field
