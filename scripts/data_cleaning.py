@@ -42,7 +42,7 @@ def prep_db(db_hash):
 
 # Transforms the list into a hashmap
 # Gets rid of whitespaces
-# If the property contains _of_, its deleted and the
+# If the property contains _of_, _of_ is deleted and the
 # words before and after it are switched (Place of Birth -> birthplace)
 def prep_wd(wd_hash):
     wd_hash_prepared = []
