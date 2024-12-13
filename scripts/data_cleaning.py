@@ -6,6 +6,8 @@ import spacy
 def hash_to_list(hashmap):
     return [(label, value) for label, value in hashmap.items() for value in label]
 
+
+
 # This is the filter for DBpedia using the masterfile
 # It takes a hashmap and returns a hashmap
 # Bools decide whether DBpedia or WIKIDATA is used

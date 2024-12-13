@@ -1,255 +1,250 @@
-ASHRAE refrigerant number,
-ATC code,compiler
 Alexa rank,rank
-Ameblo username,
-Archive of Our Own tag,
-Australian Classification,abbreviation,affiliation,affiliations,composition,constellation,construction,declination,division,foundation,institution,nationality,occupation,organisation,organization,participation,production,relation,section
-BAMID film rating,cinematography,rating,screenplay
+Australian Classification,
+BAMID film rating,
 BBFC rating,rating
-Biology Online Biology Dictionary entry,abbreviation,lithology
-CAS Registry Number,registry
-CBFC rating,composition,declination,rating
-CHVRS Classification,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,institution,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,section
+Biology Online Biology Dictionary entry,
+CBFC rating,rating
+CHVRS Classification,abbreviation
 CNC film rating (France),
-CPU,processor
-CPV Supplementary code,compiler
-ClassInd rating,composition,constellation,declination,rating
-Common Procurement Vocabulary code,abbreviation,compiler,section
-Commons Creator page,homepage,pages,website
-Commons category,category
+CPU,
+CPV Supplementary code,
+ClassInd rating,rating
+Common Procurement Vocabulary code,
+Commons Creator page,
+Commons category,
 Commons gallery,
 CosIng number,
-DSSTOX compound identifier,abbreviation,chemical,collections,composition,connectivity,constellation,construction,contaminants,element,impurities,location,locations,material,materials,meaning,medication,occupation,related,relation,relative,relatives,section,species,treatment,type
-Dewey Decimal Classification,abbreviation
-Douban site name,homepage,name,namesake,website
+DSSTOX compound identifier,element
+Dewey Decimal Classification,
+Douban site name,name
 E number,
 EBITDA,
 EC number,
-EIRIN film rating,cinematography,rating,screenplay
+EIRIN film rating,
 EPPO Code,
-EcuRed article,authors,book
-Egapro gender equality index,composition,declination,element,equity,nationality,participation,relation,relative
-FPB rating,composition,constellation,declination,rating
-FSK film rating,cinematography,rating,screenplay
-Fach vocal classification,composition
-Filmiroda rating,composition,constellation,declination,rating
+EcuRed article,
+Egapro gender equality index,
+FPB rating,rating
+FSK film rating,
+Fach vocal classification,
+Filmiroda rating,rating
 Gmelin number,
-Hederich encyclopedia article,authors,book
+Hederich encyclopedia article,
 Hong Kong film rating,
-ICAA rating,composition,constellation,declination,rating
-IFCO rating,composition,declination,rating
-IGAC rating,composition,constellation,declination,rating
-IMA Mineral Symbol,abbreviation,mineral
-IMDA rating,composition,constellation,declination,rating
-INCAA film rating,cinematography,rating,screenplay
+ICAA rating,rating
+IFCO rating,rating
+IGAC rating,rating
+IMA Mineral Symbol,
+IMDA rating,rating
+INCAA film rating,
 InChI,
-KAVI rating,composition,constellation,declination,rating
+KAVI rating,rating
 KFCB classification (Kenya),
-KMRB film rating,cinematography,rating,screenplay
+KMRB film rating,
 Kemler code,
-Library of Congress Classification,abbreviation,affiliation,collections,composition,declination,foundation,institution,institutions,nationality,occupation,organisation,organization,participation,relation
+Library of Congress Classification,
 MCN code,
-MPA film rating,cinematography,rating,screenplay
-MTRCB rating,composition,declination,rating
+MPA film rating,
+MTRCB rating,rating
 MeSH tree code,
-Medierådet rating,composition,constellation,declination,rating
+Medierådet rating,rating
 Mohs,
-NMHH film rating,cinematography,rating,screenplay
+NMHH film rating,
 NSC number,
-OFLC classification,abbreviation,affiliation,affiliations,category,chronology,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,rating,related,relation,relations,relative,section
+OFLC classification,abbreviation,composition,relation
 Poisson,
 PubChem CID,
-RARS rating,composition,constellation,declination,rating
-RCQ classification,abbreviation,affiliation,affiliations,category,chronology,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,rating,related,relation,relations,relative,section,treatment
-RTC film rating,cinematography,rating,screenplay,television
+RARS rating,rating
+RCQ classification,abbreviation,composition,constellation,relation
+RTC film rating,
 RTECS number,
 Reaxys registry number,registry
 Stadtwiki Dresden article,
-Thomson Reuters Business Classification,abbreviation,affiliation,affiliations,management,organisation,organization,participation
-U.S. National Archives Identifier,abbreviation,affiliation,affiliations,organisation,organization,participation
+Thomson Reuters Business Classification,
+U.S. National Archives Identifier,
 UMLS CUI,
 UN number,
 UNII,
 UNSPSC Code,
 ZVG number,
-academic degree,college,education,institution,institutions,profession
-academic major,commercial,education,institution,institutions,major,organisation,participation,profession
+academic degree,
+academic major,major
 active ingredient in,in
 adapted by,
 addressee,address
-adjacent building,block,bordering,builders,construction,location,locations,residence
-advertises,advertising,branding,commercial,platforms,website
-affiliated worker organisation,abbreviation,administrator,affiliation,affiliations,agency,companies,company,construction,contractors,declination,education,employer,foundation,founders,funding,institution,institutions,management,medication,members,membership,nationality,occupation,operators,organisation,organised,organisers,organization,organized,participants,participation,partners,profession,relation,relations,service,services,workplaces
-affiliation,abbreviation,affiliation,affiliations,branding,composition,constellation,construction,declination,division,education,element,foundation,funding,institution,institutions,location,locations,management,medication,membership,nationality,occupation,organisation,organization,ownership,participation,position,profession,relation,relations,section
-affiliation string,abbreviation,affiliation,affiliations,background,branding,collections,composition,connectivity,constellation,construction,contractors,declination,division,element,foundation,funding,institution,institutions,locations,membership,nationality,occupation,organisation,organization,participation,position,production,profession,rating,relation,relations,relative,section
+adjacent building,construction
+advertises,advertising
+affiliated worker organisation,affiliation,affiliations,institution,organisation,organization,participation
+affiliation,affiliation,affiliations,institution,organisation,organization,participation
+affiliation string,affiliation,affiliations,composition
 after a work by,
-alternative name,birthname,name,namesake,nickname
-ancestral home,family,hometown,residence
-animator,creator
+alternative name,name
+ancestral home,
+animator,
 announcement date,
 antiparticle,
 applicable 'stated in' value,
 applies to jurisdiction,
-applies to part,participants,participation
-architect,builder,designer
+applies to part,
+architect,
 archives at,
-area,location,locations,region
-armament,construction,occupation,position,weapons
-art director,artist,cinematography,curator,director
-assessment,abbreviation,composition,construction,declination,education,element,foundation,funding,institution,institutions,management,medication,occupation,organisation,organization,participants,participation,profession,rating,relation,relative,treatment
-assets under management,administrator,affiliation,affiliations,assets,branding,commercial,companies,company,composition,constellation,construction,contractors,declination,foundation,funding,institution,institutions,management,medication,nationality,occupation,operators,organisation,organization,ownership,participation,position,relation,relations,services
-assistant director,administrator,chairman,curator,directed,director,founder,president
-associated hazard,causes,contaminants,related,relation,relative,risks
+area,
+armament,
+art director,
+assessment,management
+assets under management,assets,management
+assistant director,director
+associated hazard,
 atomic number,
-attendance,membership,participants,participation
-author,authors,book,editor,publisher,writer,writers
+attendance,
+author,authors,writer
 author of foreword,
-authority,administrator,affiliation,affiliations,agency,citizenship,institution,institutions,nationality,occupation,organisation,organization,participation,position,relation,state
+authority,
 award received,award,awards
 based on,
-birth name,birthname,name,namesake,nickname
-blood type,type
-board member,chairman,members,membership
+birth name,birthname,name
+blood type,
+board member,
 boiling point,
-box office,office
+box office,
 budget,budget
-business division,advertising,affiliation,affiliations,agency,branding,commercial,companies,company,construction,contractors,declination,distributor,division,education,element,foundation,funding,industries,industry,institution,institutions,management,membership,nationality,network,networks,occupation,operators,organisation,organization,ownership,participation,partners,position,production,profession,relation,relations,service,services,subsidiary
+business division,companies,company,division,organisation,organization
 by-product,
 by-product of,
 candidate,candidate
-canonical SMILES,chronology,composition
-capital cost,revenue
-cast member,members
+canonical SMILES,
+capital cost,
+cast member,
 catchphrase,
-category of associated people,composition,declination,institutions,nationality,occupation,organisation,participants,participation,related,relation,relative,relatives
-cause of death,causes,relative
-ceiling exposure limit,collapsible,contaminants,height
+category of associated people,
+cause of death,
+ceiling exposure limit,
 central bank/issuer,
-chairperson,administrator,chairman,director,president
-characters,creators,story
-chassis,chassis,engine
-chemical formula,carbody,chemical,composition,contaminants,element,formula,impurities,ingredient,material,materials,medication,mineral,product,products,treatment
-chief executive officer,administrator,chairman,director,leader,president
-chief operating officer,administrator,chairman,director,headquarter,president
-child,child,children,mother,parent,parents,person
-child astronomical body,child,children,mother,person
-choreographer,actor,artist,cinematography,composer,lyricist,writer
-collection,collections,composition,constellation,construction,element,foundation,location,locations,occupation,organisation,organization,participation,production,relation,section
+chairperson,chairman
+characters,
+chassis,chassis
+chemical formula,chemical,formula
+chief executive officer,
+chief operating officer,
+child,child,children
+child astronomical body,child
+choreographer,
+collection,collections
 color,colour,colours
 commemorates,
 common equity tier 1 capital ratio (CETI),
-complies with,branding,contractors,related,relation,relative
-composer,artist,composer,composition,lyricist,music,producer,writer
-compressive modulus of elasticity,composition,element,material,relation,relative
+complies with,
+composer,composer
+compressive modulus of elasticity,
 conferred by,
 conjugate acid,
 conjugate base,
-contains,composition
-contributed to creative work,contractors,creators,developers,education,funding,institutions,organisation,organization,participants,participation,profession,workplaces
-contributing factor of,composition,declination,element,nationality,occupation,participation,related,relation,relative
-contributor to the creative work or subject,advertising,affiliations,branding,collections,commercial,composition,connectivity,construction,contractors,declination,education,element,funding,institution,institutions,management,material,materials,meaning,medication,nationality,occupation,organisation,organization,participants,participation,position,profession,relation,relations,relative,relatives,workplaces
+contains,
+contributed to creative work,
+contributing factor of,
+contributor to the creative work or subject,
 convicted of,
-coolant,valves
-copyright holder,copyright,holder,license,licensee
-copyright license,copyright,license,licensee,ownership
-copyright representative,affiliation,affiliations,collections,composition,copyright,institution,institutions,licensee,membership,nationality,organisation,organization,ownership,participation,profession,relation,relations
-corporate officer,administrator,agency,company,institution,institutions,management,office,organisation,organization,profession
-costume designer,design,designer,designers
-country,country,institution,institutions,nationality,region,state
-country for sport,commercial,country,nationality,organisation,participation,profession,workplaces
-country of citizenship,country,declination,institution,institutions,nationality,occupation,organisation,participation,relation,relative
-country of origin,country,declination,nationality,occupation,origin,relation,relative
+coolant,
+copyright holder,copyright,holder
+copyright license,copyright,license,licensee
+copyright representative,copyright
+corporate officer,
+costume designer,designer
+country,country
+country for sport,
+country of citizenship,
+country of origin,
 cover art by,
-created for,commercial,participation
-creator,creator,creators,designer,writer
+created for,
+creator,creator
 crew member(s),
-crystal system,constellation,element,processor,processors
-currency,assets,commodity,currency
+crystal system,
+currency,currency
 date depicted,
 date of birth,
-date of burial or cremation,occupation,related,relation,relative
+date of burial or cremation,
 date of death,
-date of first performance,composition,declination,occupation,participation,relation
-date of incorporation,composition,declination,occupation,participation,related,relation
-declination,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,funding,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,rating,relation,relations,relative,section
+date of first performance,
+date of incorporation,
+declination,constellation,declination,occupation,participation,relation
 dedicated to,
-defender,opponent
+defender,
 density,
 depicted by,
-derivative work,branding,collections,commercial,composition,connectivity,construction,contractors,developers,education,element,foundation,influences,institution,institutions,management,material,materials,meaning,medication,organisation,organization,participation,production,profession,relation,relations,relative,workplaces,works
+derivative work,works
 described by source,
 designated as terrorist by,
 designed to carry,
-director,administrator,chairman,curator,directed,director,founder,president,producer
-director / manager,director
+director,director
+director / manager,
 director of photography,
-discography,chronology,composition,influences
+discography,
 discoverer or inventor,
 dissolved,
-distribution format,abbreviation,affiliation,affiliations,branding,collections,commercial,compiler,composition,connectivity,constellation,construction,declination,distributor,editing,element,institution,institutions,location,locations,management,material,materials,medication,nationality,network,networks,organisation,organization,participation,processor,processors,product,production,relation,section
+distribution format,
 documentation files at,
 donated by,
-doubles record,recorded
+doubles record,
 drafted by,
-drug or therapy used for treatment,chemical,contaminants,medication,related,treatment
-duration,abbreviation,affiliation,affiliations,composition,constellation,construction,declination,education,element,foundation,institution,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section,treatment
-dynamic viscosity,composition
-edition or translation of,abbreviation,collections,composition,constellation,element,material,nationality,occupation,participation,related,relation,relations,relative
+drug or therapy used for treatment,
+duration,relation
+dynamic viscosity,
+edition or translation of,
 educated at,
 electric dipole moment,
-electrical conductivity,chemical,commercial,composition,connectivity,constellation,construction,contaminants,contractors,declination,element,impurities,management,material,materials,medication,participation,production,relation,relations,relative
-electrical resistivity,chemical,composition,connectivity,construction,contaminants,element,material,materials,production,relation,relative
-electron configuration,abbreviation,chemical,composition,connectivity,constellation,construction,element,material,materials,position,processor,processors,production,relation,relative,section
-electronegativity,carbody,chemical,composition,connectivity,contaminants,element,impurities,material,relative
-element symbol,abbreviation,composition,constellation,element,meaning,nationality,relation,relative,symbolism
+electrical conductivity,
+electrical resistivity,
+electron configuration,
+electronegativity,
+element symbol,element
 embodied energy,
-employees,companies,contractors,employer,members,operators,owners,participants,partners,workplaces
+employees,employer
 endorsed by,
 enemy,
-ethnic group,group,nationality
-executive producer,director,founder,presenter,producer,producers,production
-exhibited creator,artist,creator,creators,curator,founders
-exhibition history,chronology,collections,composition,declination,foundation,highlights,influences,institution,institutions,lithology,nationality,occupation,organisation,organization,participation,relation
+ethnic group,group
+executive producer,producer,producers
+exhibited creator,creator
+exhibition history,
 external auditor,
-eye color,colour,colours
-fabrication method,abbreviation,chemical,composition,connectivity,constellation,construction,design,element,formula,foundation,location,material,materials,medication,processor,processors,product,production,products,relation,section,treatment
+eye color,
+fabrication method,material
 facial hair,
-facilitates flow of,composition,relation,relative
-family,family,father,mother,parents,relatives
-family name,birthname,family,father,name,namesake
+facilitates flow of,
+family,family
+family name,name
 fandom,
-father,family,father,mother,parents
+father,father,mother
 featured track(s),
-fictional or mythical analog of,related,relation,relative
-fictional universe described in,in,occupation
-field of work,composition,construction,field,foundation,institutions,nationality,occupation,organisation,organization,participation,profession,related,relation,relative
+fictional or mythical analog of,
+fictional universe described in,in
+field of work,
 film crew member,
-film editor,cinematography,editor,screenplay,writer
-filming location,constellation,construction,location,locations,occupation,production
-filmography,cinematography,lithology,screenplay
+film editor,
+filming location,location,locations
+filmography,cinematography
 first appearance,
-first family name in Portuguese name,birthname,in,name,namesake,origin
+first family name in Portuguese name,
 flag bearer,flagbearer
 footedness,
-form of creative work,branding,collections,composition,constellation,construction,declination,education,element,foundation,influences,institution,institutions,management,material,nationality,occupation,organisation,organization,participation,production,profession,related,relation,relations,relative
+form of creative work,
 found in taxon,in
 founded by,
-frequency,connectivity,relative
-funder,foundation,funding,institution,organisation,organization,participation,partners,sponsor,sponsors
+frequency,
+funder,funding
 genre,genre
-given name,birthname,name,namesake
-godparent,child,children,mother,parent,parents,relatives,spouse
+given name,name
+godparent,parent,parents
 guest of honor,
-hair color,colour,colours
+hair color,colour
 hairstyle / hairlength,
 handedness,
 hardness,
 has active ingredient,
-has cause,causes
+has cause,
 has effect,
 has facility,
 has goal,
-has immediate cause,causes
+has immediate cause,
 has list,
 has listed ingredient,
 has part(s),
@@ -258,266 +253,266 @@ has semantic argument,
 has spin-off,
 has subsidiary,
 has use,
-has works in the collection,collections,commercial,composition,constellation,construction,declination,foundation,in,institution,institutions,nationality,occupation,organisation,organization,participation,production,relation,relations
+has works in the collection,
 has written for,
 head coach,coach,head
-headquarters location,abbreviation,affiliation,affiliations,constellation,construction,declination,division,foundation,headquarter,institution,location,locations,occupation,organisation,organization,participation,position,residence,section
-height,height,length,weight
-immediately dangerous to life or health,person,workplaces
-in opposition to,in
-industry,commercial,commodity,companies,company,contractors,industries,industry,manufacturers,organisation,producers,production,profession
+headquarters location,headquarter,location,locations
+height,height
+immediately dangerous to life or health,
+in opposition to,
+industry,companies,industries,industry
 influenced by,
 inspired by,
-instance of,relation,relative
-instrument,background,composition,constellation,element,institution,institutions,material,organisation,position,profession,relation
+instance of,
+instrument,
 interested in,in
-investor,assets,companies,company,developer,equity
-ionic radius,carbody
-ionization energy,chemical,composition,connectivity,constellation,construction,declination,element,impurities,management,material,materials,medication,organisation,organization,participation,production,relation,relative
-is a list of,element
-is the study of,composition,constellation,construction,declination,element,foundation,institution,nationality,occupation,organisation,participation,relation,relative
-item operated,operator,product,products
-language of work or name,composition,language,meaning,nationality,related,relation,relative
+investor,
+ionic radius,
+ionization energy,
+is a list of,
+is the study of,
+item operated,
+language of work or name,
 languages spoken,language
-launch contractor,branding,commercial,companies,company,construction,contractors,developer,developers,distributor,operator,operators
+launch contractor,
 league or competition,
-legal form,element,institution,institutions,meaning,nationality,organisation,participation,relation
+legal form,
 lifestyle,
 list of characters,
-located in the administrative territorial entity,abbreviation,affiliation,affiliations,bordering,collections,commercial,composition,constellation,construction,declination,division,element,foundation,headquarter,in,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,organized,participation,position,region,relation,relations,relative,residence,section,state
-location,abbreviation,affiliation,affiliations,collections,composition,connectivity,constellation,construction,declination,element,foundation,institution,location,locations,medication,occupation,organisation,organization,participation,position,relation,residence,section
-location of creation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative,section
-location of discovery,composition,constellation,construction,declination,element,foundation,location,locations,nationality,occupation,organisation,organization,participation,related,relation,relations,relative
-location of first performance,affiliation,affiliations,collections,commercial,composition,constellation,construction,declination,element,foundation,highlights,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative
-location of formation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,element,foundation,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative,section
-lyricist,composer,lyricist,writer
-made from material,material,materials
-magnetic ordering,chemical,collapsible,composition,contaminants,filling,material,materials,relative
-main building contractor,branding,builder,builders,commercial,composition,construction,contractors,element,foundation,location,locations,major,management,occupation,operators,organisation,organization,production,residence,section
+located in the administrative territorial entity,occupation
+location,location,locations
+location of creation,
+location of discovery,
+location of first performance,
+location of formation,
+lyricist,lyricist
+made from material,
+magnetic ordering,
+main building contractor,construction
 maintained by,
-maintains linking to,connectivity
+maintains linking to,
 make-up artist,
-manifestation of,relation
-manner of death,relation
-market capitalization,branding,commercial,commodity,companies,company,constellation,construction,contractors,currency,declination,developers,equity,funding,industries,industry,institution,institutions,management,nationality,organisation,organization,participation,product,production,products,relation,relations,relative,revenue
-married name,birthname,name,namesake
+manifestation of,
+manner of death,
+market capitalization,
+married name,birthname,name
 mascot,mascot
 mass,
 measures,
-media franchise,advertising,branding,network,networks
+media franchise,
 median lethal dose (LD50),
-medical condition,affiliations,chemical,composition,construction,contractors,declination,education,foundation,institution,institutions,management,medication,nationality,occupation,organisation,organization,participation,profession,related,relation,relations,relative,relatives,treatment
-medical condition treated,affiliations,chemical,composition,construction,contaminants,contractors,declination,education,foundation,institution,institutions,management,medication,nationality,occupation,organisation,organization,participation,profession,related,relation,relations,relative,relatives,treatment
+medical condition,medication,treatment
+medical condition treated,medication,treatment
 melting point,
-member category,affiliation,category,members,membership
+member category,
 member of,
-member of political party,affiliation,affiliations,composition,declination,institution,institutions,membership,nationality,occupation,organisation,organization,participation,relation,relations,relative
-member of sports team,division,membership,nationality,organisation,organization,participation,profession
-military branch,administrator,division,institution,institutions,occupation,organisation,organization,residence
-minimal lethal concentration,chemical,composition,contaminants,declination,element,impurities,medication,relation,relative,treatment
+member of political party,
+member of sports team,
+military branch,
+minimal lethal concentration,
 minimal lethal dose,
-minimum explosive concentration,chemical,composition,connectivity,constellation,construction,contaminants,declination,element,impurities,material,materials,medication,occupation,participation,production,rating,relation,relative,treatment
-mobile network code,compiler,connectivity,modem,network,networks,operators,platform,platforms,processors
-model,design
-model item,product
-molar enthalpy of vaporization,composition,element,relation,relative
-molar fusion enthalpy,carbody
-mother,child,children,family,father,mother,parent,parents,relatives
+minimum explosive concentration,
+mobile network code,network
+model,
+model item,
+molar enthalpy of vaporization,
+molar fusion enthalpy,
+mother,father,mother,parents
 motto,motto
 motto text,
-movement,affiliation,affiliations,composition,constellation,construction,declination,education,element,foundation,influences,institution,institutions,nationality,occupation,organisation,organization,participation,position,relation,relations,relative,section
-music created for,commercial,composition,music
-musical conductor,cinematography,composer,composition,music
-name,birthname,name,namesake,nickname
-name in native language,in,language,nationality,occupation,origin
-named after,after
+movement,organisation
+music created for,
+musical conductor,composer
+name,name,namesake
+name in native language,in
+named after,
 named by,
-narrative location,abbreviation,affiliation,affiliations,background,branding,chronology,collections,composition,connectivity,constellation,construction,declination,education,element,foundation,institution,institutions,location,locations,management,material,meaning,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section
-narrator,narrated,narrator,portrayer,story
-native label,label,labels
-native language,composition,influences,language,meaning,nationality,relative,relatives
-net profit,profit,revenue
+narrative location,composition,location,locations,relation
+narrator,narrator
+native label,
+native language,language
+net profit,profit
 net worth,
-nickname,name,nickname
+nickname,nickname
 noble title,title
 nominated for,
 notable role,
-notable work,collections,commercial,composition,construction,contractors,highlights,influences,participation,profession,relative,workplaces,works
-number of children,nationality,occupation,participation,related,relation,relative,relatives
+notable work,works
+number of children,
 number of matches played/races/starts,
-object class of occurrence,composition,constellation,declination,element,institution,nationality,occupation,participation,related,relation,relative
+object class of occurrence,
 occupant,
-occupation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,relation,relations,relative,residence,section
-official color,background,colour,colours
-official name,birthname,name,namesake
-official symbol,abbreviation,symbolism
-official website,advertising,affiliation,affiliations,agency,homepage,membership,registry,website
+occupation,construction,declination,occupation,participation,relation
+official color,colour
+official name,name
+official symbol,
+official website,website
 officially opened by,
-operating area,bordering,commercial,construction,contractors,location,locations,occupation,operators,region,section
-operating income,assets,commercial,commodity,companies,connectivity,construction,contractors,currency,employer,funding,industries,institution,institutions,management,membership,operators,organisation,organization,ownership,participation,profit,rating,relative,revenue
-operating system,abbreviation,commercial,companies,company,composition,connectivity,constellation,construction,contractors,element,foundation,industries,institution,institutions,location,locations,management,medication,network,networks,occupation,operator,operators,organisation,organization,participation,platform,position,processor,processors,production,rating,relation,section,service,services
-operator,carrier,company,operator,operators
+operating area,
+operating income,revenue
+operating system,
+operator,operator,operators
 opposite of,
-organizer,initiator,organisation,organised,organisers,organization,organized
-original broadcaster,presenter,television
+organizer,organized
+original broadcaster,
 original language of film or TV show,television
 owned by,
 owner of,
-oxidation state,abbreviation,affiliation,affiliations,composition,constellation,construction,contractors,country,declination,education,element,foundation,funding,impurities,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section,state,treatment
-parent,child,children,mother,parent,parents,spouse
-parent organization,administrator,affiliation,affiliations,agency,branding,company,composition,constellation,contractors,declination,education,element,employer,foundation,funding,institution,institutions,management,medication,membership,nationality,occupation,organisation,organization,organized,ownership,parent,parents,participants,participation,partners,position,profession,relation,relations,relative,relatives
+oxidation state,state
+parent,parent
+parent organization,affiliation,institution,organisation,organization,parent,participation
 part of,
-part of the series,collections,composition,constellation,construction,declination,division,element,foundation,highlights,nationality,occupation,organisation,organization,participation,relation
-partially coincident with,background,bordering,composition,constellation,construction,declination,element,occupation,participation,relation,relations,relative,relatives
+part of the series,
+partially coincident with,
 participant in,in
-partner in business or sport,commercial,in,institutions,workplaces
-partnership with,branding,management,organisation,participation,partners,relation,relations
-payment types accepted,affiliations,collections,companies,contractors,institutions,medication,participants,participation,processors,relation
-performer,composer,presenter
-performing organization,abbreviation,affiliation,affiliations,branding,collections,commercial,companies,company,composition,connectivity,constellation,construction,contractors,declination,division,education,element,foundation,funding,group,industries,influences,institution,institutions,location,locations,management,medication,membership,nationality,network,networks,occupation,organisation,organised,organization,organized,participants,participation,partners,position,production,profession,related,relation,relations,relative,section,services,workplaces
-permanent resident of,nationality,occupation,relation,relative
-personal pronoun,genitive,meaning,person
-physically interacts with,background,branding,composition,connectivity,constellation,contaminants,element,influences,institutions,participants,participation,related,relation,relations,relative,relatives,workplaces
+partner in business or sport,
+partnership with,
+payment types accepted,
+performer,
+performing organization,institution,institutions,organisation,organization,participation
+permanent resident of,
+personal pronoun,
+physically interacts with,
 place of birth,
-place of burial,occupation
-place of death,occupation
-place of detention,bordering,declination,institution,institutions,nationality,occupation,participation,relation,relative
-platform,connectivity,developers,network,networks,platform,platforms
+place of burial,
+place of death,
+place of detention,
+platform,platform,platforms
 playing hand,
 plot expanded in,in
 points/goal scored by,
-political ideology,affiliation,affiliations,influences,institution,institutions,nationality,organisation,organization,participation,relation,relations,religion
-position held,organised,position
+political ideology,
+position held,
 position played on team / speciality,
-possible treatment,causes,chemical,composition,connectivity,construction,contaminants,contractors,declination,element,funding,impurities,institution,institutions,management,material,materials,meaning,medication,occupation,participants,participation,profession,relation,relative,relatives,treatment,workplaces
+possible treatment,medication,treatment
 postal code,
 powered by,
-present in work,construction,in,institutions,occupation
-presenter,host,presenter,television
+present in work,in
+presenter,presenter
 price,
-principal investigator,administrator,director
+principal investigator,
 prize money,
 produced by,
-producer,composer,director,producer,producers,production
-production company,advertising,branding,collections,commercial,companies,company,composition,constellation,construction,contractors,declination,developer,developers,distributor,foundation,industries,industry,institution,institutions,location,locations,management,manufacturer,manufacturers,medication,network,occupation,operator,operators,organisation,organization,participation,processors,producer,producers,product,production,products,profession,relation,relations,services,subsidiary
-production date,production
-production designer,branding,collections,commercial,company,composition,construction,design,designer,designers,developer,developers,distributor,industries,management,manufacturer,manufacturers,producer,producers,product,production,products
-production statistics,abbreviation,affiliation,affiliations,branding,chemical,collections,commercial,commodity,companies,company,composition,constellation,construction,contractors,declination,developer,developers,distributor,editing,education,element,foundation,funding,highlights,industries,industry,institution,institutions,location,locations,management,manufacturers,material,materials,medication,nationality,occupation,operators,organisation,organization,participation,position,processors,producers,product,production,products,rating,related,relation,relations,relative,section
-pseudonym,alias,name
-publication date,chronology
+producer,producer,producers
+production company,companies,company,production
+production date,
+production designer,design,designer,designers,production
+production statistics,composition,construction,production
+pseudonym,alias
+publication date,
 published in,in
 radius,
-ranking,rank,rating
-raw material processed,chemical,contaminants,material,materials,mineral,processors,product,products
-record label,label,labels
-recorded participant,participants,participation,recorded,released
+ranking,
+raw material processed,material,materials
+record label,label
+recorded participant,recorded
 recycling code,
-references work,affiliations,background,collections,composition,connectivity,construction,contractors,editing,education,foundation,influences,institutions,material,materials,organisation,organization,participation,profession,relation,relations,relative,workplaces,works,writers
-refractive index,composition,element,rating,relative
-related category,abbreviation,affiliations,category,collections,composition,management,participation,related,relation,relative,section
-relative,composition,connectivity,constellation,declination,element,influences,institution,institutions,meaning,nationality,occupation,participation,position,related,relation,relations,relative,relatives
-relative permeability,causes,chemical,commodity,composition,connectivity,constellation,construction,contaminants,declination,element,genitive,impurities,influences,institution,institutions,management,material,materials,meaning,medication,nationality,occupation,participation,position,rating,related,relation,relations,relative,relatives,treatment
+references work,works
+refractive index,
+related category,category,related
+relative,relation,relative,relatives
+relative permeability,relation,relative
 relative to,
-religion or worldview,meaning,religion
+religion or worldview,
 replaces,
 reply to,
 represented by,
-represents,abbreviation,affiliations,collections,composition,constellation,declination,element,highlights,institutions,nationality,organisation,organization,participation,related,relation,relations,relative
-residence,institution,institutions,location,occupation,office,residence
-review score,rating,score
-reward program,education,funding,institution,membership,organization,participation,profession
-right ascension,collapsible,position
-ritual object,element,meaning,religion,symbolism
-safety classification and labelling,abbreviation,affiliation,affiliations,background,bordering,branding,chemical,collapsible,collections,commercial,composition,connectivity,constellation,construction,contaminants,contractors,declination,education,element,foundation,funding,industries,institution,institutions,location,locations,management,material,materials,medication,nationality,occupation,organisation,organization,participants,participation,position,production,profession,rating,related,relation,relations,relative,relatives,section,treatment,workplaces
-screenwriter,actor,cinematography,composer,lyricist,producer,screenplay,starring,writer,writers
-second family name in Spanish name,birthname,in,name,namesake,origin
+represents,
+residence,residence
+review score,score
+reward program,
+right ascension,
+ritual object,
+safety classification and labelling,relation
+screenwriter,actor,screenplay,writer
+second family name in Spanish name,
 separated from,
-set during recurring event,participation
+set during recurring event,
 set in environment,in
 set in period,in
 setlist,
 sex or gender,
-sexual orientation,declination,nationality,participation,relation,relations,relative
-shares border with,bordering
+sexual orientation,
+shares border with,
 shear modulus,
 short-term exposure limit,
-sibling,child,children,father,mother,parent,parents,relatives
-signatory,affiliation
-significant drug interaction,chemical,connectivity,contaminants,declination,element,management,medication,organisation,organization,participants,participation,related,relation,relations,relative,relatives,treatment
-significant person,declination,element,employer,genitive,institution,institutions,meaning,medication,nationality,parent,participants,participation,person,profession,relation,relative,relatives,workplaces
-singles record,recorded
-social media followers,advertising,affiliations,branding,creators,institutions,nationality,networks,organisation,participants,participation,relations,relatives
-solid solution series with,background,branding,collections,commercial,composition,connectivity,constellation,construction,design,element,foundation,highlights,material,materials,processors,production,relation,series
-sound designer,design,designer,designers,sound
-soundtrack release,album,released
-source of energy,composition,element,relation,relative
-source of income,nationality,related,relation,relative
+sibling,
+signatory,
+significant drug interaction,medication
+significant person,person
+singles record,
+social media followers,
+solid solution series with,
+sound designer,sound
+soundtrack release,released
+source of energy,
+source of income,
 speaker,
-specific heat capacity,carbody,chemical,contaminants,material,materials,weight
+specific heat capacity,
 speed of sound,
 sponsor,sponsor,sponsors
 sport,
-sports discipline competed in,in,participation
-sports season of league or competition,nationality,participation
-spouse,parent,spouse
-standard molar entropy,carbody,element
-standards body,carbody
+sports discipline competed in,in
+sports season of league or competition,
+spouse,spouse
+standard molar entropy,
+standards body,
 stated in,in
-statistical leader,administrator,affiliation,affiliations,composition,founders,institution,institutions,leader,management,nationality,organisation,organization,participation,position,president,relation,relations,relative,successor
-stepparent,parent,parents
-stock exchange,assets,commodity,currency,equity
-stock market index,assets,commodity,companies,currency,equity
-storyboard artist,artist,cinematography,composer,creator,designer,writer
+statistical leader,leader
+stepparent,
+stock exchange,
+stock market index,
+storyboard artist,artist
 street address,address
-student,college,education,highschool,profession
+student,
 student of,
 studied in,in
 subclass of,
-subject lexeme,relation
-sublimation temperature,abbreviation,chemical,composition,connectivity,constellation,construction,contaminants,declination,element,impurities,location,locations,material,materials,medication,production,relation,relative
+subject lexeme,
+sublimation temperature,
 supplement to,
-supported sports team,division,field,organisation,participation,partners,profession,team,teams
-takes place in fictional universe,in,place
-talk show guest,show,talk
-team captain,coach,league,player,team,teams
-television judge,judges,television
-tensile modulus of elasticity,composition,relative
-theme music,genre,music,theme
-thermal conductivity,chemical,composition,connectivity,contaminants,element,material,materials,relative
-thermal diffusivity,carbody,chemical,connectivity,contaminants,material,relative
+supported sports team,team,teams
+takes place in fictional universe,in
+talk show guest,show
+team captain,team
+television judge,
+tensile modulus of elasticity,
+theme music,music,theme
+thermal conductivity,
+thermal diffusivity,
 time index,
-time of discovery or invention,composition,constellation,declination,element,material,meaning,nationality,occupation,related,relation,relative
+time of discovery or invention,
 time period,
-time-weighted average exposure limit,average,height,rating,relative,weight
+time-weighted average exposure limit,
 title,title
 torch lit by,
-total debt,total
-total equity,average,equity,revenue,total
-total goals in career,goals,in
-total liabilities,assets,average,rating,revenue,total
-total produced,production,recorded,total
-total revenue,average,gross,revenue,total
+total debt,
+total equity,equity,total
+total goals in career,
+total liabilities,total
+total produced,total
+total revenue,revenue,total
 tracklist,
 trained by,
-translator,writer
-type foundry,foundry,type
+translator,
+type foundry,type
 type locality (geology),
 type of passengers/cargo,
-typically sells,commodity,distributor,products
-ultimate tensile strength,weight
-unmarried partner,father,mother,partner,partners,spouse
+typically sells,
+ultimate tensile strength,
+unmarried partner,partner
 uses,
-vapor pressure,carbody,contaminants
-vessel,carrier
+vapor pressure,
+vessel,
 victim(s),
 victory,
-voice actor,actor,narrator,portrayer,voice,voices
-voice type,sound,type,voice
+voice actor,actor,voice
+voice type,type
 wears,
 website account on,
-winner,champion,winner,wins,won
-work location,affiliation,affiliations,branding,collections,commercial,composition,connectivity,constellation,construction,contractors,declination,developers,education,element,foundation,funding,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,relation,relations,relative,residence,service,services,workplaces,works
+winner,winner
+work location,location,locations
 work period (end),
 work period (start),
 worn by,
-writing language,authors,composition,editing,influences,language,meaning,writers
+writing language,language

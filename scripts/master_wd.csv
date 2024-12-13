@@ -1,13 +1,13 @@
 "product, material, or service produced or provided",True,Nabih
 ACM Classification Code (2012),False,10011562
 ARCHON code,False,2068
-ASHRAE refrigerant number,True,704
-ATC code,True,V03AN03
+ASHRAE refrigerant number,False,704
+ATC code,False,V03AN03
 Alexa rank,True,57
 Amazon Standard Identification Number,False,B00MEXP49I
-Ameblo username,True,justinbieber-blog
+Ameblo username,False,justinbieber-blog
 ArchWiki article,False,NVIDIA
-Archive of Our Own tag,True,Disney RPF
+Archive of Our Own tag,False,Disney RPF
 Australian Classification,True,M
 BAMID film rating,True,6+
 BBFC rating,True,15 certificate
@@ -17,7 +17,7 @@ Bilibili UID,False,491190876
 Biology Online Biology Dictionary entry,True,zinc
 Bluesky handle,False,microsoft.com
 CAGE code,False,3EWZ3
-CAS Registry Number,True,12385-13-6
+CAS Registry Number,False,12385-13-6
 CBFC rating,True,U/A certificate
 CHVRS Classification,True,14A
 CLARA-ID,False,17737
@@ -130,7 +130,6 @@ Pinterest username,False,microsoft
 Plex media key,False,5d7768eef617c9002015a9ec
 Plex person key,False,5d77682861141d001fb1381f
 Poisson,True,s ratio
-Property_Name,IsRelevant,Value_Example
 PubChem CID,True,23987
 RARS rating,True,12+
 RCQ classification,True,G
