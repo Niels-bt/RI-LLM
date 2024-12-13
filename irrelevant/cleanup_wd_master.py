@@ -2,7 +2,7 @@ import re
 
 file_old_master = open("wd_master_old.csv", mode='r', encoding='utf-8')
 
-file_new_master = open("../scripts/wd_master.csv", mode='a', encoding='utf-8')
+file_new_master = open("../scripts/master_wd.csv", mode='a', encoding='utf-8')
 
 # Gather all properties and their descriptions
 old_master = []

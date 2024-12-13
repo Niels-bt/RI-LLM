@@ -1,82 +1,59 @@
 import spacy
 
-master_db = open("db_master.csv", mode='r')
-master_wd = open("wd_master.csv", mode='r')
+master_db = open("master_db.csv", mode='r', encoding='utf-8')
+master_wd = open("master_wd.csv", mode='r', encoding='utf-8')
 
-master_wd_matchedw_db = open("lookup_wd_to_db.csv", mode='w')
-master_db_matchedw_wd = open("lookup_db_to_wd.csv", mode='w')
+lookup_wd_to_db = open("lookup_wd_to_db.csv", mode='w', encoding='utf-8')
+lookup_db_to_wd = open("lookup_db_to_wd.csv", mode='w', encoding='utf-8')
 
 nlp = spacy.load("en_core_web_lg")
 
 threshold = 0.60
+
+
+# For every property, we create the token
 db_tokenized_properties = []
 wd_tokenized_properties = []
-
-# For every property, we create the token:
+# This is for db
 for line in master_db:
-    # We extract the property and format it
-    #prop = line.split(",")[-1].replace("\n", "")
-    try:
-        prop = line.split(",")[1]
-    except:
-        print("line problem",line)
+    # We extract the property, check if it's wanted and then tokenize it
+    elements = line.split(",")
+    if elements[1] == "True":
+        db_tokenized_properties.append(nlp(elements[0]))
 
-    db_tokenized_properties.append(nlp(prop))
-
+# This is for wd
 for line in master_wd:
-    # We extract the property and format it
-    #prop = line.split(",")[1].replace("\n", "")
-    try:
-        prop = line.split(",")[1]
-    except:
-        print("line problem", line)
+    # We extract the property, check if it's wanted and then tokenize it
+    elements = line.split(",")
+    if elements[1] == "True":
+        wd_tokenized_properties.append(nlp(elements[0]))
 
-    wd_tokenized_properties.append(nlp(prop))
 
 # Now, we can loop for all the properties
 db_result = {}
-
-for token in db_tokenized_properties:
-
-    db_result[token.text] = []
-
-    # We loop for every property
-
-    for token_2 in wd_tokenized_properties:
-        # If the properties are similar enough, we append the property in the line
-        if token.similarity(token_2) > threshold:
-            db_result[token.text].append(token_2.text)
-
 wd_result = {}
+# This is for db to wd
+for db_token in db_tokenized_properties:
+    db_result[db_token.text] = []
+    # We loop for every property
+    for wd_token in wd_tokenized_properties:
+        # If the properties are similar enough, we append the property in the line
+        if db_token.similarity(wd_token) > threshold:
+            db_result[db_token.text].append(wd_token.text)
 
+# This is for wd to db
 for token in wd_tokenized_properties:
-
     wd_result[token.text] = []
-
     # We loop for every property
     for token_2 in db_tokenized_properties:
         # If the properties are similar enough, we append the property in the line
         if token.similarity(token_2) > threshold:
             wd_result[token.text].append(token_2.text)
-counter=0
 
-def join_comma(lst):
-    result = ''
-    if lst:
-        for i in lst[:-1]:
-            result += i + ','
-        result += lst[-1]
-    else:
-        result+='nothing'
 
-    return result
+# Here, we write the results to 2 files
+for key in db_result:
+    lookup_db_to_wd.write("%s,%s\n" % (key, ",".join(db_result[key])))
 
-for i in db_result:
-    master_db_matchedw_wd.write((str(counter)+','+i+','+join_comma(db_result[i])+'\n'))
-    counter+=1
-
-counter=0
-
-for i in wd_result:
-    master_wd_matchedw_db.write((str(counter)+','+i+','+join_comma(wd_result[i])+'\n'))
-    counter+=1
+for key in wd_result:
+    lookup_wd_to_db.write("%s,%s\n" % (key, ",".join(wd_result[key])))

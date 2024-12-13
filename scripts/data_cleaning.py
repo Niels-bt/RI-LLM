@@ -10,9 +10,9 @@ def master_filter(tuples, dbpedia, wikidata):
    # Loads the right file. Throws an exception if the bools are wrong
    # This is complicated on purpose to stop an accident with the bool
     if dbpedia and not wikidata:
-        file_master = open("../scripts/db_master.csv", mode='r', encoding='utf-8')
+        file_master = open("master_db.csv", mode='r', encoding='utf-8')
     elif wikidata and not dbpedia:
-        file_master = open("../scripts/wd_master.csv", mode='r', encoding='utf-8')
+        file_master = open("master_wd.csv", mode='r', encoding='utf-8')
     else:
         raise Exception("Undefined, if DBpedia or WIKIDATA is to be used")
 

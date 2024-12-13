@@ -1,4 +1,4 @@
-file_new_master = open("../scripts/db_master.csv", mode='r', encoding='utf-8')
+file_new_master = open("../scripts/master_db.csv", mode='r', encoding='utf-8')
 file_old_master = open("../scripts/old_master_db.csv", mode='r', encoding='utf-8')
 
 file_corrected_master = open("../scripts/corrected_master_db.csv", mode='a', encoding='utf-8')

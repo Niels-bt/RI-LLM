@@ -34,7 +34,7 @@ for f in files:
 
 new_ct = 1
 
-file_master = open("db_master.csv", mode="w")
+file_master = open("master_db.csv", mode="w")
 
 for i in all_prop_hash:
     towrite = str(new_ct)+","+i+","+all_prop_hash[i]+"\n"

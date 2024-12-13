@@ -1,745 +1,523 @@
-0,has subsidiary,subsidiary,company
-1,archives at,nothing
-2,industry,industry,company,companies,manufacturers,industries
-3,official website,homepage,website
-4,part of,place,end
-5,inception,nothing
-6,stock exchange,commodity,currency
-7,country of origin,origin,country
-8,Commons category,commons,category
-9,chairperson,chairman
-10,member of,members
-11,location of formation,location,place
-12,location,location,locations
-13,Reddit username,username
-14,autonomous system number,number
-15,subreddit,nothing
-16,category for employees of the organization,company,organization,certain,place,other
-17,employer,employer
-18,developer,developer,developers
-19,manufacturer,products,product,company,distributor,manufacturer,manufacturers
-20,operator,operator,operators
-21,designed by,by
-22,type foundry,type,foundry
-23,owner of,owner,owners,ownership
-24,copyright holder,copyright,holder
-25,owned by,by
-26,publisher,publisher,editor
-27,has part(s),carrier(s)_
-28,distributed by,by
-29,notable work,works,major,other
-30,described by source,source,by
-31,creator,creator,creators
-32,advertises,nothing
-33,parent organization,organization,parent,organisation,group
-34,authority,nothing
-35,merged into,nothing
-36,spoken text audio,text,language
-37,product,products,product,manufacturer,brand
-38,GitHub username,username
-39,Commons gallery,commons
-40,total equity,assets,equity,revenue,profit,total,percentage
-41,X username,x,username
-42,motto,motto
-43,history of topic,nothing
-44,employees,employer
-45,Legal Entity Identifier,nothing
-46,legal form,nothing
-47,topic's main Wikimedia portal,portal
-48,topic's main category,category
-49,phone number,number
-50,short name,name
-51,market capitalization,equity,profit,commodity
-52,topic's main template,nothing
-53,total liabilities,assets,total,gross
-54,Instagram username,username
-55,described at URL,url
-56,total revenue,revenue,profit,total,percentage,gross,average
-57,official name,name
-58,OmegaWiki Defined Meaning,certain,relation,meaning
-59,ISIN,nothing
-60,IRS Employer Identification Number,employer,number
-61,Facebook username,google,yahoo,username
-62,organizer,nothing
-63,conferred by,by
-64,discoverer or inventor,invented
-65,main subject,certain
-66,used by,by
-67,author,author,writer,authors,book
-68,brand,product,brand,brands
-69,founded by,founded,by
-70,participant,participation,participants
-71,record label,label,record,labels
-72,facet of,nothing
-73,plaintiff,nothing
-74,defendant,nothing
-75,board member,membership,boards,board,members
-76,hashtag,nothing
-77,total assets,assets,equity,revenue,profit,total
-78,IPv4 routing prefix,nothing
-79,permanent duplicated item,nothing
-80,operating income,assets,revenue,profit,basis
-81,net profit,revenue,profit
-82,PermID,nothing
-83,operating area,nothing
-84,Code List for Cultural Heritage Organizations,organization,institutions,other
-85,production company,industry,company,producer,companies,production,producers
-86,category combines topics,category
-87,symbol of,symbol
-88,partnership with,partners,partner,with
-89,Wikimedia portal's main topic,portal
-90,named after,name,after,before,last,first
-91,commissioned by,by
-92,category's main topic,category
-93,privacy policy URL,url
-94,TikTok username,username
-95,Wikimedia outline,nothing
-96,terms of service URL,services,service,certain
-97,has works in the collection,place,works,other,in,first,a
-98,OpenCorporates corporate grouping,nothing
-99,Spectrum Management System Company Number,industry,services,company,network,companies,data,management,number
-100,Stack Exchange site URL,website,url,link
-101,Wolfram Language entity code,language
-102,Central Index Key,index
-103,National Equipment Registration System Supplier Number,industry,services,service,company,registration,number
-104,copyright status as a creator,creator,copyright,a
-105,FCC Grantee Code,nothing
-106,Libris-URI,nothing
-107,on focus list of Wikimedia project,other
-108,occupant,nothing
-109,followed by,by,after,before
-110,sponsor,sponsor,sponsors
-111,date of incorporation,date
-112,official shop URL,website,url
-113,shortened URL formatter,url
-114,Google Play developer slug,google,developer
-115,sitemap URL,homepage,yahoo,url
-116,official forum URL,website,url
-117,affiliated worker organisation,organization,employer,institution,organisation
-118,YouTube handle,nothing
-119,social media followers,nothing
-120,official jobs URL,url
-121,service status information URL,services,website,service,address,url
-122,external auditor,nothing
-123,performer,nothing
-124,affiliation,affiliations,affiliation
-125,funder,nothing
-126,model item,nothing
-127,issued by,by
-128,template has topic,nothing
-129,has part(s) of the class,place,class,other,first
-130,contributor to the creative work or subject,reason,needed,certain,place,works,person,other,help
-131,field of work,needed,place,works,other,fields,field
-132,exhibited creator,creator
-133,investor,equity
-134,chief executive officer,manager,director,chairman,president
-135,headquarters location,location,locations
-136,award received,award,awards,winner
-137,instance of,reason,certain,other
-138,country,country
-139,ISNI,nothing
-140,Wikidata property example,value
-141,logo image,image,logo
-142,image,image
-143,item for this sense,find,reason,certain,place,a
-144,Commons Creator page,commons,creator,page
-145,official blog URL,homepage,website,url,link
-146,different from,certain,other
-147,ISO 9362 SWIFT/BIC code,nothing
-148,work location,location,locations,place,works
-149,email address,address
-150,search formatter URL,url
-151,public key fingerprint,nothing
-152,Corporate Number (Japan),nothing
-153,Pinterest username,username
-154,replaced by,by
-155,editor,publisher,writer,editor
-156,copyright representative,copyright
-157,translator,nothing
-158,small logo or icon,logo,small
-159,has use,reason,other,with
-160,maintained by,by
-161,architect,builder,engineer
-162,standards body,nothing
-163,educated at,nothing
-164,signatory,nothing
-165,acknowledged,nothing
-166,copyright status,copyright
-167,named by,by
-168,contact page URL,homepage,website,url,link,page
-169,Similarweb ranking,rank
-170,Bluesky handle,nothing
-171,depicts,nothing
-172,business division,industry,company,divisions,division,companies,management
-173,maintains linking to,nothing
-174,has written for,first,with
-175,parent,parent,child,parents
-176,stated in,in
-177,platform,platform,platforms
-178,in opposition to,place,in
-179,place of publication,place,first
-180,website account on,homepage,website,link,page
-181,Wikidata property,ownership
-182,Giphy username,username
-183,stylized name,name
-184,Delaware Division of Corporations file number,division,companies,certain,number,other
-185,GitHub topic,nothing
-186,applicable 'stated in' value,value,certain
-187,vehicle normally used,certain
-188,target,target
-189,EBITDA,nothing
-190,Baidu Tieba name,nothing
-191,Bilibili UID,nothing
-192,schematic,nothing
-193,motto text,text,motto
-194,native label,label,labels
-195,replaces,nothing
-196,director / manager,manager,director
-197,D-U-N-S number,n,id
-198,ACM Classification Code (2012),nothing
-199,exact match,nothing
-200,Stack Exchange tag,nothing
-201,corporate officer,company
-202,postal code,nothing
-203,follows,nothing
-204,ArchWiki article,nothing
-205,GitLab.com username,username
-206,EU Participant Identification Code,registration
-207,uses,nothing
-208,represents,nothing
-209,significant event,participants,major
-210,contributing factor of,nothing
-211,panoramic view,nothing
-212,street address,address
-213,cites work,works
-214,endorsed by,by
-215,IPv6 routing prefix,nothing
-216,designated as terrorist by,by
-217,name,name,nickname
-218,source of income,revenue,source,certain,profit
-219,official symbol,symbol,emblem
-220,chief operating officer,chairman,president
-221,participant in,participation,participants,in
-222,item operated,nothing
-223,Threads username,username
-224,charter URL,url
-225,press information URL,website,url
-226,card network,network,networks
-227,payment types accepted,certain,basis
-228,donated by,by
-229,assets under management,assets,equity,management,ownership
-230,reward program,nothing
-231,common equity tier 1 capital ratio (CETI),equity,ratio
-232,winner,award,awards,wins,champion,winner,won
-233,language used,language,meaning
-234,located in the administrative territorial entity,state,in
-235,has characteristic,nothing
-236,official color,colour
-237,location information URL,website,location,locations,url
-238,Xiaohongshu profile,nothing
-239,partner in business or sport,company,partners,place,partner,other,in
-240,subclass of,nothing
-241,research site,website
-242,addressee,nothing
-243,IPA transcription,nothing
-244,exhibition history,nothing
-245,fictional or mythical analog of,nothing
-246,has facility,nothing
-247,has list,nothing
-248,Snapchat username,username
-249,has effect,nothing
-250,video,video
-251,DPLA subject term,certain,relation,basis,meaning
-252,D&B Hoovers company profile,company
-253,Telegram username,username
-254,separated from,nothing
-255,characters,nothing
-256,coordinate location,location,locations
-257,collection,collections
-258,copyright license,license,copyright
-259,pronunciation audio,sound
-260,fax number,address,number
-261,location of creation,location,place
-262,producer,producer,production,producers
-263,central bank/issuer,nothing
-264,influenced by,by,influenced,influences
-265,interested in,find,in
-266,original broadcaster,nothing
-267,dedicated to,help
-268,has cause,reason,certain,causes
-269,ISBN publisher prefix,publisher,isbn
-270,page banner,homepage,website,link,pages,page
-271,mascot,mascot
-272,LastDodo-area-ID,nothing
-273,significant person,reason,certain,relation,person,basis,other
-274,enemy,nothing
-275,fandom,nothing
-276,Zhihu username,username
-277,Archive of Our Own tag,other
-278,EU VAT number,nothing
-279,total debt,equity,total
-280,catchphrase,nothing
-281,reply to,nothing
-282,Uniform Resource Identifier Scheme,nothing
-283,URL,url
-284,CPU,cpu,processor
-285,performing organization,organization,organisation
-286,said to be the same as,point,reason,needed,certain,place,after,before,person,next,last,other,first,with,a,end
-287,is a list of,place,other,first,with,a
-288,cast member,members
-289,applies to part,reason,certain,place,person,other,end
-290,nickname,name,nickname
-291,Stadtwiki Dresden article,nothing
-292,main building contractor,contractors,builder,construction
-293,published in,in
-294,KulturNav-ID,nothing
-295,stock market index,equity,index,commodity
-296,occupation,occupation
-297,DOI prefix,doi
-298,Tumblr username,username
-299,BHCL UUID,nothing
-300,operating system,nothing
-301,applies to jurisdiction,certain,basis
-302,commemorates,nothing
-303,position held,place,position
-304,MIC market code,nothing
-305,Alexa rank,rank
-306,OpenStreetMap tag or key,nothing
-307,launch contractor,company,contractors
-308,contains,nothing
-309,WordLift URL,url
-310,audio,sound,video
-311,Egapro gender equality index,index
-312,vessel,nothing
-313,ARCHON code,nothing
-314,Transferred Account Data Interchange Group Code,data
-315,mobile network code,network,networks
-316,dissolved,nothing
-317,GUI number,number
-318,regulated by,by
-319,web feed URL,homepage,google,website,url,link
-320,IMDb keyword,nothing
-321,locator map image,image,location
-322,adjacent building,construction
-323,CAGE code,nothing
-324,lyricist,composer,lyricist
-325,voice actor,voices,actor,voice
-326,screenwriter,writer,screenplay
-327,composer,composer,lyricist
-328,director,director,chairman,directed
-329,presenter,presenter
-330,executive producer,producer,director,chairman,producers
-331,father,father,mother,parents,family
-332,work period (start),before,period
-333,number of children,certain,children,child,parents,number,other
-334,name in native language,name,language,in,meaning
-335,filmography,nothing
-336,birth name,name,mother
-337,family name,name,father,mother,parents,family
-338,height,width,height
-339,given name,name,reason,certain
-340,date of birth,date
-341,pseudonym,pseudonym
-342,instrument,nothing
-343,nominated for,award,awards
-344,discography,album
-345,languages spoken,language
-346,ethnic group,group
-347,native language,language
-348,sex or gender,nothing
-349,genre,genre
-350,country of citizenship,citizenship,nationality,country
-351,child,parent,children,mother,child,parents
-352,place of birth,place,before,first
-353,writing language,text,language
-354,related category,related,category
-355,spouse,spouse
-356,mother,father,mother,child,parents,family
-357,unmarried partner,partners,spouse,partner
-358,IPI name number,name,number
-359,signature,signature
-360,voice type,type,sound,voice
-361,Douban site name,name,website,link,page
-362,relative,relative,relation
-363,inspired by,by
-364,sibling,parent
-365,guest of honor,guests
-366,religion or worldview,religion
-367,ancestral home,family
-368,sexual orientation,nothing
-369,eye color,colour,colours
-370,residence,residence
-371,godparent,nothing
-372,handedness,nothing
-373,ORCID iD,nothing
-374,U.S. National Archives Identifier,nothing
-375,married name,name,father,mother
-376,hair color,colour,colours
-377,RIA Novosti reference,nothing
-378,EcuRed article,nothing
-379,worn by,by
-380,recorded participant,participants,record,recorded
-381,Plex person key,person
-382,based on,basis
-383,member category,members,category
-384,list of works,certain,works,other
-385,stepparent,nothing
-386,medical condition,treatment
-387,sport,nothing
-388,talk show guest,host,guests,show,talk
-389,member of political party,members,party
-390,student,education,college
-391,student of,education,college
-392,CLARA-ID,nothing
-393,net worth,revenue,profit
-394,personal pronoun,nothing
-395,narrator,narrator
-396,lifestyle,nothing
-397,notable role,major
-398,supported sports team,team,league,teams
-399,Krugosvet article,nothing
-400,plaque image,image
-401,blood type,type
-402,mass,nothing
-403,Europeana entity,nothing
-404,work period (end),before,period,end
-405,victory,wins,champion,won
-406,documentation files at,nothing
-407,setlist,nothing
-408,points/goal scored by,point,goals,score
-409,team captain,team,captain,league,coach,teams
-410,statistical leader,leader
-411,league or competition,team,league,teams
-412,member of sports team,members,team,league,teams
-413,Munzinger Sport number,number
-414,position played on team / speciality,team,position,teams
-415,sport number,number
-416,convicted of,nothing
-417,country for sport,country
-418,number of matches played/races/starts,nothing
-419,total goals in career,goals,total,in
-420,footedness,nothing
-421,Colon Classification,nothing
-422,after a work by,by,after,before,next,last,first,with,a,end
-423,head coach,coach,head
-424,time period,years,after,before,last,period,year,month
-425,sports discipline competed in,teams,in
-426,full work available at URL,find,needed
-427,represented by,by
-428,wears,nothing
-429,subject has role,reason,certain,relation
-430,OnlyFans username,username
-431,coat of arms image,image
-432,noble title,title
-433,affiliation string,affiliation
-434,depicted by,by
-435,honorific prefix,nothing
-436,generational suffix,nothing
-437,has pet,nothing
-438,director of photography,director
-439,film editor,director,writer,editor
-440,present in work,needed,certain,place,works,before,other,in,first
-441,movement,nothing
-442,audio recording of the subject's spoken voice,sound,music,voice
-443,NLC authorities,nothing
-444,Regensburg Classification,nothing
-445,maintained by WikiProject,nothing
-446,production designer,designer,producer,production,designers,design
-447,date of death,date,after,before
-448,place of death,certain,place,after,before,in,end
-449,cause of death,reason,certain,after,causes
-450,manner of death,certain,other
-451,references work,needed,works
-452,hairstyle / hairlength,nothing
-453,alternative name,name
-454,facial hair,nothing
-455,academic major,institutions,education,major,college
-456,academic degree,institution,education,college
-457,adapted by,by
-458,Ameblo username,username
-459,candidate,candidate
-460,author of foreword,author,writer,authors,book
-461,family,father,mother,relatives,parents,family
-462,Parler username (archived),nothing
-463,name in kana,name
-464,IAFD actor UUID,nothing
-465,place of burial,place
-466,defender,nothing
-467,drafted by,by
-468,victim(s),carrier(s)_
-469,date of burial or cremation,date
-470,officially opened by,by,after,before,first
-471,category of associated people,certain,other,related,category
-472,flag bearer,nothing
-473,is the study of,reason,place,first,with,a
-474,model,nothing
-475,Library of Congress Classification,nothing
-476,studied in,in
-477,military branch,branch
-478,torch lit by,nothing
-479,Fach vocal classification,nothing
-480,highest note,note
-481,lowest note,note
-482,permanent resident of,nothing
-483,trained by,by
-484,first family name in Portuguese name,name,place,family,first
-485,speaker,nothing
-486,cover art by,artist,by
-487,escutcheon image,image,escutcheon
-488,sports season of league or competition,team,league,teams
-489,playing hand,player,plays
-490,doubles record,record
-491,singles record,record
-492,ranking,rank
-493,prize money,winner
-494,political ideology,religion
-495,second family name in Spanish name,name,place,family,first
-496,place of detention,place
-497,television judge,tv,television,judges
-498,montage image,image
-499,boiling point,point
-500,melting point,point,melt
-501,atomic number,number
-502,density,nothing
-503,time of discovery or invention,reason,certain,before,other,first
-504,speed of sound,sound
-505,refractive index,index
-506,Unicode character,nothing
-507,color,colour,colours
-508,E number,number,e
-509,oxidation state,state
-510,thermal conductivity,nothing
-511,MeSH tree code,nothing
-512,electronegativity,nothing
-513,Dewey Decimal Classification,nothing
-514,made from material,other,material,materials
-515,antiparticle,nothing
-516,raw material processed,material,materials
-517,does not have part,point,find,reason,needed,certain,place,before,person,other,first,end
-518,coolant,nothing
-519,powered by,by
-520,source of energy,source
-521,by-product,product,by
-522,manifestation of,nothing
-523,ionic radius,nothing
-524,UMLS CUI,nothing
-525,electron configuration,nothing
-526,ionization energy,nothing
-527,molar enthalpy of vaporization,nothing
-528,location of discovery,location,place
-529,CAS Registry Number,registry,number
-530,element symbol,symbol,element
-531,Common Procurement Vocabulary code,language
-532,standard molar entropy,nothing
-533,by-product of,product,by
-534,ASHRAE refrigerant number,nothing
-535,conjugate acid,nothing
-536,DSSTOX compound identifier,nothing
-537,chemical formula,chemical,formula,ingredient
-538,EC number,number
-539,PubChem CID,nothing
-540,ZVG number,number
-541,InChI,nothing
-542,UNII,nothing
-543,canonical SMILES,nothing
-544,ATC code,nothing
-545,InChIKey,nothing
-546,significant drug interaction,medication,risks
-547,drug or therapy used for treatment,treatment,medication
-548,production statistics,production
-549,has listed ingredient,ingredient
-550,medical condition treated,treatment,medication
-551,molar fusion enthalpy,nothing
-552,immediately dangerous to life or health,find,reason,needed,certain,place,before,person,other,help
-553,associated hazard,risks
-554,Gmelin number,number
-555,electrical conductivity,nothing
-556,ceiling exposure limit,nothing
-557,time-weighted average exposure limit,relative,percentage,average
-558,vapor pressure,nothing
-559,RTECS number,number
-560,ultimate tensile strength,nothing
-561,crystal system,nothing
-562,CosIng number,number
-563,measures,nothing
-564,physically interacts with,with
-565,opposite of,direction,end
-566,UNSPSC Code,nothing
-567,radius,nothing
-568,frequency,nothing
-569,facilitates flow of,nothing
-570,solid solution series with,with,series
-571,designed to carry,help
-572,found in taxon,species,in
-573,Gujarati Vishwakosh entry,nothing
-574,recycling code,nothing
-575,safety classification and labelling,nothing
-576,CPV Supplementary code,nothing
-577,chassis,chassis
-578,minimum explosive concentration,nothing
-579,type locality (geology),type
-580,has active ingredient,active,ingredient
-581,NSC number,nothing
-582,Reaxys registry number,registry,number
-583,EPPO Code,nothing
-584,conjugate base,nothing
-585,relative to,point,certain,relative,relation
-586,dynamic viscosity,nothing
-587,possible treatment,certain,treatment,medication
-588,object class of occurrence,certain,class,element
-589,specific heat capacity,nothing
-590,tensile modulus of elasticity,nothing
-591,Mohs' hardness,nothing
-592,hardness,nothing
-593,Poisson's ratio,ratio
-594,shear modulus,nothing
-595,short-term exposure limit,certain
-596,magnetic ordering,nothing
-597,embodied energy,nothing
-598,relative permeability,relative
-599,IMA Mineral Symbol,symbol,mineral
-600,ritual object,nothing
-601,electrical resistivity,nothing
-602,compressive modulus of elasticity,nothing
-603,fossil found in this unit,place,in
-604,fabrication method,nothing
-605,active ingredient in,active,in,ingredient
-606,Biology Online Biology Dictionary entry,nothing
-607,minimal lethal concentration,nothing
-608,median lethal dose (LD50),nothing
-609,minimal lethal dose,medication
-610,sublimation temperature,nothing
-611,principal investigator,nothing
-612,MCN code,nothing
-613,Dictionary.com entry,nothing
-614,currency,commodity,currency
-615,has immediate cause,reason,needed,certain,causes
-616,UN number,number
-617,Kemler code,nothing
-618,electric dipole moment,nothing
-619,research intervention,education
-620,subject lexeme,nothing
-621,related image,image,related
-622,heritage designation,nothing
-623,price,nothing
-624,total produced,production,total
-625,aerial view,nothing
-626,thermal diffusivity,nothing
-627,Thomson Reuters Business Classification,reuters
-628,type of passengers/cargo,nothing
-629,has goal,goals
-630,domain of saint or deity,meaning
-631,typically sells,nothing
-632,icon,nothing
-633,armament,nothing
-634,EAGLE id,d,id,u
-635,produced by,by
-636,Medierådet rating,rating
-637,Amazon Standard Identification Number,number
-638,RTC film rating,rating
-639,Plex media key,nothing
-640,assessment,nothing
-641,form of creative work,needed,certain,place,works,other
-642,fictional universe described in,nothing
-643,derivative work,works
-644,part of the series,place,other,first,end,series
-645,original language of film or TV show,television,show
-646,MPA film rating,nothing
-647,narrative location,location
-648,ISAN,nothing
-649,takes place in fictional universe,place,story,in
-650,JMK film rating,nothing
-651,FSK film rating,nothing
-652,title,title
-653,filming location,location,locations
-654,NMHH film rating,rating
-655,distribution format,format
-656,ICAA rating,rating
-657,CNC film rating (Romania),nothing
-658,review score,rating,score
-659,duration,nothing
-660,Kijkwijzer rating,rating
-661,box office,office
-662,publication date,date
-663,capital cost,revenue
-664,exploitation mark number,number
-665,BBFC rating,rating
-666,costume designer,designer,designers
-667,CNC film rating (France),nothing
-668,aspect ratio (W:H),carrier(s)_
-669,supplement to,nothing
-670,IMDA rating,rating
-671,ClassInd rating,rating
-672,FPB rating,rating
-673,set in environment,place,in
-674,RCQ classification,nothing
-675,IFCO rating,rating
-676,INCAA film rating,rating
-677,first appearance,after,before,next,last,show,first
-678,working title,title
-679,attendance,participation
-680,soundtrack release,album,released
-681,language of work or name,name,reason,language,certain,place,works,person,other,with,meaning
-682,music created for,music
-683,make-up artist,artist
-684,OFLC classification,nothing
-685,Australian Classification,nothing
-686,Hong Kong film rating,nothing
-687,media franchise,nothing
-688,BAMID film rating,rating
-689,set in period,place,after,before,period,in,end
-690,film crew member,members
-691,has edition or translation,nothing
-692,list of characters,certain,other
-693,edition or translation of,nothing
-694,date depicted,date
-695,Filmiroda rating,rating
-696,has spin-off,nothing
-697,date of first performance,date,place,after,before,next,last,year,first,end
-698,RARS rating,rating
-699,EIRIN film rating,rating
-700,time index,index
-701,original film format,format
-702,OCLC control number,number
-703,IGAC rating,rating
-704,theme music,music,theme
-705,set during recurring event,after,before,next,last,first
-706,quotes work,quote,works
-707,storyboard artist,artist
-708,budget,budget
-709,KFCB classification (Kenya),nothing
-710,choreographer,nothing
-711,crew member(s),nothing
-712,film poster,nothing
-713,tracklist,nothing
-714,featured track(s),nothing
-715,art director,artist,director
-716,plot expanded in,in
-717,animator,nothing
-718,Global Trade Item Number,value,number
-719,copyright registration,license,registration,copyright
-720,announcement date,date
-721,location of first performance,location,place,next,first,end
-722,MTRCB rating,rating
-723,CHVRS Classification,nothing
-724,KMRB film rating,rating
-725,contributed to creative work,needed,works,help
-726,complies with,with
-727,assistant director,manager,director
-728,KAVI rating,rating
-729,sound designer,designer,sound,designers,design
-730,catalog code,nothing
-731,CBFC rating,rating
-732,created for,nothing
-733,musical conductor,composer
-734,has semantic argument,nothing
-735,production date,date,production
-736,shares border with,border,with
-737,astronomic symbol image,image,symbol
-738,area,location,region
-739,Hederich encyclopedia article,nothing
-740,notation,nothing
-741,child astronomical body,child
-742,declination,declination
-743,right ascension,nothing
-744,partially coincident with,with
+ASHRAE refrigerant number,
+ATC code,compiler
+Alexa rank,rank
+Ameblo username,
+Archive of Our Own tag,
+Australian Classification,abbreviation,affiliation,affiliations,composition,constellation,construction,declination,division,foundation,institution,nationality,occupation,organisation,organization,participation,production,relation,section
+BAMID film rating,cinematography,rating,screenplay
+BBFC rating,rating
+Biology Online Biology Dictionary entry,abbreviation,lithology
+CAS Registry Number,registry
+CBFC rating,composition,declination,rating
+CHVRS Classification,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,institution,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,section
+CNC film rating (France),
+CPU,processor
+CPV Supplementary code,compiler
+ClassInd rating,composition,constellation,declination,rating
+Common Procurement Vocabulary code,abbreviation,compiler,section
+Commons Creator page,homepage,pages,website
+Commons category,category
+Commons gallery,
+CosIng number,
+DSSTOX compound identifier,abbreviation,chemical,collections,composition,connectivity,constellation,construction,contaminants,element,impurities,location,locations,material,materials,meaning,medication,occupation,related,relation,relative,relatives,section,species,treatment,type
+Dewey Decimal Classification,abbreviation
+Douban site name,homepage,name,namesake,website
+E number,
+EBITDA,
+EC number,
+EIRIN film rating,cinematography,rating,screenplay
+EPPO Code,
+EcuRed article,authors,book
+Egapro gender equality index,composition,declination,element,equity,nationality,participation,relation,relative
+FPB rating,composition,constellation,declination,rating
+FSK film rating,cinematography,rating,screenplay
+Fach vocal classification,composition
+Filmiroda rating,composition,constellation,declination,rating
+Gmelin number,
+Hederich encyclopedia article,authors,book
+Hong Kong film rating,
+ICAA rating,composition,constellation,declination,rating
+IFCO rating,composition,declination,rating
+IGAC rating,composition,constellation,declination,rating
+IMA Mineral Symbol,abbreviation,mineral
+IMDA rating,composition,constellation,declination,rating
+INCAA film rating,cinematography,rating,screenplay
+InChI,
+KAVI rating,composition,constellation,declination,rating
+KFCB classification (Kenya),
+KMRB film rating,cinematography,rating,screenplay
+Kemler code,
+Library of Congress Classification,abbreviation,affiliation,collections,composition,declination,foundation,institution,institutions,nationality,occupation,organisation,organization,participation,relation
+MCN code,
+MPA film rating,cinematography,rating,screenplay
+MTRCB rating,composition,declination,rating
+MeSH tree code,
+Medierådet rating,composition,constellation,declination,rating
+Mohs,
+NMHH film rating,cinematography,rating,screenplay
+NSC number,
+OFLC classification,abbreviation,affiliation,affiliations,category,chronology,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,rating,related,relation,relations,relative,section
+Poisson,
+PubChem CID,
+RARS rating,composition,constellation,declination,rating
+RCQ classification,abbreviation,affiliation,affiliations,category,chronology,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,rating,related,relation,relations,relative,section,treatment
+RTC film rating,cinematography,rating,screenplay,television
+RTECS number,
+Reaxys registry number,registry
+Stadtwiki Dresden article,
+Thomson Reuters Business Classification,abbreviation,affiliation,affiliations,management,organisation,organization,participation
+U.S. National Archives Identifier,abbreviation,affiliation,affiliations,organisation,organization,participation
+UMLS CUI,
+UN number,
+UNII,
+UNSPSC Code,
+ZVG number,
+academic degree,college,education,institution,institutions,profession
+academic major,commercial,education,institution,institutions,major,organisation,participation,profession
+active ingredient in,in
+adapted by,
+addressee,address
+adjacent building,block,bordering,builders,construction,location,locations,residence
+advertises,advertising,branding,commercial,platforms,website
+affiliated worker organisation,abbreviation,administrator,affiliation,affiliations,agency,companies,company,construction,contractors,declination,education,employer,foundation,founders,funding,institution,institutions,management,medication,members,membership,nationality,occupation,operators,organisation,organised,organisers,organization,organized,participants,participation,partners,profession,relation,relations,service,services,workplaces
+affiliation,abbreviation,affiliation,affiliations,branding,composition,constellation,construction,declination,division,education,element,foundation,funding,institution,institutions,location,locations,management,medication,membership,nationality,occupation,organisation,organization,ownership,participation,position,profession,relation,relations,section
+affiliation string,abbreviation,affiliation,affiliations,background,branding,collections,composition,connectivity,constellation,construction,contractors,declination,division,element,foundation,funding,institution,institutions,locations,membership,nationality,occupation,organisation,organization,participation,position,production,profession,rating,relation,relations,relative,section
+after a work by,
+alternative name,birthname,name,namesake,nickname
+ancestral home,family,hometown,residence
+animator,creator
+announcement date,
+antiparticle,
+applicable 'stated in' value,
+applies to jurisdiction,
+applies to part,participants,participation
+architect,builder,designer
+archives at,
+area,location,locations,region
+armament,construction,occupation,position,weapons
+art director,artist,cinematography,curator,director
+assessment,abbreviation,composition,construction,declination,education,element,foundation,funding,institution,institutions,management,medication,occupation,organisation,organization,participants,participation,profession,rating,relation,relative,treatment
+assets under management,administrator,affiliation,affiliations,assets,branding,commercial,companies,company,composition,constellation,construction,contractors,declination,foundation,funding,institution,institutions,management,medication,nationality,occupation,operators,organisation,organization,ownership,participation,position,relation,relations,services
+assistant director,administrator,chairman,curator,directed,director,founder,president
+associated hazard,causes,contaminants,related,relation,relative,risks
+atomic number,
+attendance,membership,participants,participation
+author,authors,book,editor,publisher,writer,writers
+author of foreword,
+authority,administrator,affiliation,affiliations,agency,citizenship,institution,institutions,nationality,occupation,organisation,organization,participation,position,relation,state
+award received,award,awards
+based on,
+birth name,birthname,name,namesake,nickname
+blood type,type
+board member,chairman,members,membership
+boiling point,
+box office,office
+budget,budget
+business division,advertising,affiliation,affiliations,agency,branding,commercial,companies,company,construction,contractors,declination,distributor,division,education,element,foundation,funding,industries,industry,institution,institutions,management,membership,nationality,network,networks,occupation,operators,organisation,organization,ownership,participation,partners,position,production,profession,relation,relations,service,services,subsidiary
+by-product,
+by-product of,
+candidate,candidate
+canonical SMILES,chronology,composition
+capital cost,revenue
+cast member,members
+catchphrase,
+category of associated people,composition,declination,institutions,nationality,occupation,organisation,participants,participation,related,relation,relative,relatives
+cause of death,causes,relative
+ceiling exposure limit,collapsible,contaminants,height
+central bank/issuer,
+chairperson,administrator,chairman,director,president
+characters,creators,story
+chassis,chassis,engine
+chemical formula,carbody,chemical,composition,contaminants,element,formula,impurities,ingredient,material,materials,medication,mineral,product,products,treatment
+chief executive officer,administrator,chairman,director,leader,president
+chief operating officer,administrator,chairman,director,headquarter,president
+child,child,children,mother,parent,parents,person
+child astronomical body,child,children,mother,person
+choreographer,actor,artist,cinematography,composer,lyricist,writer
+collection,collections,composition,constellation,construction,element,foundation,location,locations,occupation,organisation,organization,participation,production,relation,section
+color,colour,colours
+commemorates,
+common equity tier 1 capital ratio (CETI),
+complies with,branding,contractors,related,relation,relative
+composer,artist,composer,composition,lyricist,music,producer,writer
+compressive modulus of elasticity,composition,element,material,relation,relative
+conferred by,
+conjugate acid,
+conjugate base,
+contains,composition
+contributed to creative work,contractors,creators,developers,education,funding,institutions,organisation,organization,participants,participation,profession,workplaces
+contributing factor of,composition,declination,element,nationality,occupation,participation,related,relation,relative
+contributor to the creative work or subject,advertising,affiliations,branding,collections,commercial,composition,connectivity,construction,contractors,declination,education,element,funding,institution,institutions,management,material,materials,meaning,medication,nationality,occupation,organisation,organization,participants,participation,position,profession,relation,relations,relative,relatives,workplaces
+convicted of,
+coolant,valves
+copyright holder,copyright,holder,license,licensee
+copyright license,copyright,license,licensee,ownership
+copyright representative,affiliation,affiliations,collections,composition,copyright,institution,institutions,licensee,membership,nationality,organisation,organization,ownership,participation,profession,relation,relations
+corporate officer,administrator,agency,company,institution,institutions,management,office,organisation,organization,profession
+costume designer,design,designer,designers
+country,country,institution,institutions,nationality,region,state
+country for sport,commercial,country,nationality,organisation,participation,profession,workplaces
+country of citizenship,country,declination,institution,institutions,nationality,occupation,organisation,participation,relation,relative
+country of origin,country,declination,nationality,occupation,origin,relation,relative
+cover art by,
+created for,commercial,participation
+creator,creator,creators,designer,writer
+crew member(s),
+crystal system,constellation,element,processor,processors
+currency,assets,commodity,currency
+date depicted,
+date of birth,
+date of burial or cremation,occupation,related,relation,relative
+date of death,
+date of first performance,composition,declination,occupation,participation,relation
+date of incorporation,composition,declination,occupation,participation,related,relation
+declination,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,funding,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,rating,relation,relations,relative,section
+dedicated to,
+defender,opponent
+density,
+depicted by,
+derivative work,branding,collections,commercial,composition,connectivity,construction,contractors,developers,education,element,foundation,influences,institution,institutions,management,material,materials,meaning,medication,organisation,organization,participation,production,profession,relation,relations,relative,workplaces,works
+described by source,
+designated as terrorist by,
+designed to carry,
+director,administrator,chairman,curator,directed,director,founder,president,producer
+director / manager,director
+director of photography,
+discography,chronology,composition,influences
+discoverer or inventor,
+dissolved,
+distribution format,abbreviation,affiliation,affiliations,branding,collections,commercial,compiler,composition,connectivity,constellation,construction,declination,distributor,editing,element,institution,institutions,location,locations,management,material,materials,medication,nationality,network,networks,organisation,organization,participation,processor,processors,product,production,relation,section
+documentation files at,
+donated by,
+doubles record,recorded
+drafted by,
+drug or therapy used for treatment,chemical,contaminants,medication,related,treatment
+duration,abbreviation,affiliation,affiliations,composition,constellation,construction,declination,education,element,foundation,institution,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section,treatment
+dynamic viscosity,composition
+edition or translation of,abbreviation,collections,composition,constellation,element,material,nationality,occupation,participation,related,relation,relations,relative
+educated at,
+electric dipole moment,
+electrical conductivity,chemical,commercial,composition,connectivity,constellation,construction,contaminants,contractors,declination,element,impurities,management,material,materials,medication,participation,production,relation,relations,relative
+electrical resistivity,chemical,composition,connectivity,construction,contaminants,element,material,materials,production,relation,relative
+electron configuration,abbreviation,chemical,composition,connectivity,constellation,construction,element,material,materials,position,processor,processors,production,relation,relative,section
+electronegativity,carbody,chemical,composition,connectivity,contaminants,element,impurities,material,relative
+element symbol,abbreviation,composition,constellation,element,meaning,nationality,relation,relative,symbolism
+embodied energy,
+employees,companies,contractors,employer,members,operators,owners,participants,partners,workplaces
+endorsed by,
+enemy,
+ethnic group,group,nationality
+executive producer,director,founder,presenter,producer,producers,production
+exhibited creator,artist,creator,creators,curator,founders
+exhibition history,chronology,collections,composition,declination,foundation,highlights,influences,institution,institutions,lithology,nationality,occupation,organisation,organization,participation,relation
+external auditor,
+eye color,colour,colours
+fabrication method,abbreviation,chemical,composition,connectivity,constellation,construction,design,element,formula,foundation,location,material,materials,medication,processor,processors,product,production,products,relation,section,treatment
+facial hair,
+facilitates flow of,composition,relation,relative
+family,family,father,mother,parents,relatives
+family name,birthname,family,father,name,namesake
+fandom,
+father,family,father,mother,parents
+featured track(s),
+fictional or mythical analog of,related,relation,relative
+fictional universe described in,in,occupation
+field of work,composition,construction,field,foundation,institutions,nationality,occupation,organisation,organization,participation,profession,related,relation,relative
+film crew member,
+film editor,cinematography,editor,screenplay,writer
+filming location,constellation,construction,location,locations,occupation,production
+filmography,cinematography,lithology,screenplay
+first appearance,
+first family name in Portuguese name,birthname,in,name,namesake,origin
+flag bearer,flagbearer
+footedness,
+form of creative work,branding,collections,composition,constellation,construction,declination,education,element,foundation,influences,institution,institutions,management,material,nationality,occupation,organisation,organization,participation,production,profession,related,relation,relations,relative
+found in taxon,in
+founded by,
+frequency,connectivity,relative
+funder,foundation,funding,institution,organisation,organization,participation,partners,sponsor,sponsors
+genre,genre
+given name,birthname,name,namesake
+godparent,child,children,mother,parent,parents,relatives,spouse
+guest of honor,
+hair color,colour,colours
+hairstyle / hairlength,
+handedness,
+hardness,
+has active ingredient,
+has cause,causes
+has effect,
+has facility,
+has goal,
+has immediate cause,causes
+has list,
+has listed ingredient,
+has part(s),
+has pet,
+has semantic argument,
+has spin-off,
+has subsidiary,
+has use,
+has works in the collection,collections,commercial,composition,constellation,construction,declination,foundation,in,institution,institutions,nationality,occupation,organisation,organization,participation,production,relation,relations
+has written for,
+head coach,coach,head
+headquarters location,abbreviation,affiliation,affiliations,constellation,construction,declination,division,foundation,headquarter,institution,location,locations,occupation,organisation,organization,participation,position,residence,section
+height,height,length,weight
+immediately dangerous to life or health,person,workplaces
+in opposition to,in
+industry,commercial,commodity,companies,company,contractors,industries,industry,manufacturers,organisation,producers,production,profession
+influenced by,
+inspired by,
+instance of,relation,relative
+instrument,background,composition,constellation,element,institution,institutions,material,organisation,position,profession,relation
+interested in,in
+investor,assets,companies,company,developer,equity
+ionic radius,carbody
+ionization energy,chemical,composition,connectivity,constellation,construction,declination,element,impurities,management,material,materials,medication,organisation,organization,participation,production,relation,relative
+is a list of,element
+is the study of,composition,constellation,construction,declination,element,foundation,institution,nationality,occupation,organisation,participation,relation,relative
+item operated,operator,product,products
+language of work or name,composition,language,meaning,nationality,related,relation,relative
+languages spoken,language
+launch contractor,branding,commercial,companies,company,construction,contractors,developer,developers,distributor,operator,operators
+league or competition,
+legal form,element,institution,institutions,meaning,nationality,organisation,participation,relation
+lifestyle,
+list of characters,
+located in the administrative territorial entity,abbreviation,affiliation,affiliations,bordering,collections,commercial,composition,constellation,construction,declination,division,element,foundation,headquarter,in,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,organized,participation,position,region,relation,relations,relative,residence,section,state
+location,abbreviation,affiliation,affiliations,collections,composition,connectivity,constellation,construction,declination,element,foundation,institution,location,locations,medication,occupation,organisation,organization,participation,position,relation,residence,section
+location of creation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,education,element,foundation,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative,section
+location of discovery,composition,constellation,construction,declination,element,foundation,location,locations,nationality,occupation,organisation,organization,participation,related,relation,relations,relative
+location of first performance,affiliation,affiliations,collections,commercial,composition,constellation,construction,declination,element,foundation,highlights,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative
+location of formation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,element,foundation,institution,institutions,location,locations,management,nationality,occupation,organisation,organization,participation,production,related,relation,relations,relative,section
+lyricist,composer,lyricist,writer
+made from material,material,materials
+magnetic ordering,chemical,collapsible,composition,contaminants,filling,material,materials,relative
+main building contractor,branding,builder,builders,commercial,composition,construction,contractors,element,foundation,location,locations,major,management,occupation,operators,organisation,organization,production,residence,section
+maintained by,
+maintains linking to,connectivity
+make-up artist,
+manifestation of,relation
+manner of death,relation
+market capitalization,branding,commercial,commodity,companies,company,constellation,construction,contractors,currency,declination,developers,equity,funding,industries,industry,institution,institutions,management,nationality,organisation,organization,participation,product,production,products,relation,relations,relative,revenue
+married name,birthname,name,namesake
+mascot,mascot
+mass,
+measures,
+media franchise,advertising,branding,network,networks
+median lethal dose (LD50),
+medical condition,affiliations,chemical,composition,construction,contractors,declination,education,foundation,institution,institutions,management,medication,nationality,occupation,organisation,organization,participation,profession,related,relation,relations,relative,relatives,treatment
+medical condition treated,affiliations,chemical,composition,construction,contaminants,contractors,declination,education,foundation,institution,institutions,management,medication,nationality,occupation,organisation,organization,participation,profession,related,relation,relations,relative,relatives,treatment
+melting point,
+member category,affiliation,category,members,membership
+member of,
+member of political party,affiliation,affiliations,composition,declination,institution,institutions,membership,nationality,occupation,organisation,organization,participation,relation,relations,relative
+member of sports team,division,membership,nationality,organisation,organization,participation,profession
+military branch,administrator,division,institution,institutions,occupation,organisation,organization,residence
+minimal lethal concentration,chemical,composition,contaminants,declination,element,impurities,medication,relation,relative,treatment
+minimal lethal dose,
+minimum explosive concentration,chemical,composition,connectivity,constellation,construction,contaminants,declination,element,impurities,material,materials,medication,occupation,participation,production,rating,relation,relative,treatment
+mobile network code,compiler,connectivity,modem,network,networks,operators,platform,platforms,processors
+model,design
+model item,product
+molar enthalpy of vaporization,composition,element,relation,relative
+molar fusion enthalpy,carbody
+mother,child,children,family,father,mother,parent,parents,relatives
+motto,motto
+motto text,
+movement,affiliation,affiliations,composition,constellation,construction,declination,education,element,foundation,influences,institution,institutions,nationality,occupation,organisation,organization,participation,position,relation,relations,relative,section
+music created for,commercial,composition,music
+musical conductor,cinematography,composer,composition,music
+name,birthname,name,namesake,nickname
+name in native language,in,language,nationality,occupation,origin
+named after,after
+named by,
+narrative location,abbreviation,affiliation,affiliations,background,branding,chronology,collections,composition,connectivity,constellation,construction,declination,education,element,foundation,institution,institutions,location,locations,management,material,meaning,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section
+narrator,narrated,narrator,portrayer,story
+native label,label,labels
+native language,composition,influences,language,meaning,nationality,relative,relatives
+net profit,profit,revenue
+net worth,
+nickname,name,nickname
+noble title,title
+nominated for,
+notable role,
+notable work,collections,commercial,composition,construction,contractors,highlights,influences,participation,profession,relative,workplaces,works
+number of children,nationality,occupation,participation,related,relation,relative,relatives
+number of matches played/races/starts,
+object class of occurrence,composition,constellation,declination,element,institution,nationality,occupation,participation,related,relation,relative
+occupant,
+occupation,abbreviation,affiliation,affiliations,collections,composition,constellation,construction,declination,division,education,element,foundation,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,relation,relations,relative,residence,section
+official color,background,colour,colours
+official name,birthname,name,namesake
+official symbol,abbreviation,symbolism
+official website,advertising,affiliation,affiliations,agency,homepage,membership,registry,website
+officially opened by,
+operating area,bordering,commercial,construction,contractors,location,locations,occupation,operators,region,section
+operating income,assets,commercial,commodity,companies,connectivity,construction,contractors,currency,employer,funding,industries,institution,institutions,management,membership,operators,organisation,organization,ownership,participation,profit,rating,relative,revenue
+operating system,abbreviation,commercial,companies,company,composition,connectivity,constellation,construction,contractors,element,foundation,industries,institution,institutions,location,locations,management,medication,network,networks,occupation,operator,operators,organisation,organization,participation,platform,position,processor,processors,production,rating,relation,section,service,services
+operator,carrier,company,operator,operators
+opposite of,
+organizer,initiator,organisation,organised,organisers,organization,organized
+original broadcaster,presenter,television
+original language of film or TV show,television
+owned by,
+owner of,
+oxidation state,abbreviation,affiliation,affiliations,composition,constellation,construction,contractors,country,declination,education,element,foundation,funding,impurities,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,relation,relations,relative,section,state,treatment
+parent,child,children,mother,parent,parents,spouse
+parent organization,administrator,affiliation,affiliations,agency,branding,company,composition,constellation,contractors,declination,education,element,employer,foundation,funding,institution,institutions,management,medication,membership,nationality,occupation,organisation,organization,organized,ownership,parent,parents,participants,participation,partners,position,profession,relation,relations,relative,relatives
+part of,
+part of the series,collections,composition,constellation,construction,declination,division,element,foundation,highlights,nationality,occupation,organisation,organization,participation,relation
+partially coincident with,background,bordering,composition,constellation,construction,declination,element,occupation,participation,relation,relations,relative,relatives
+participant in,in
+partner in business or sport,commercial,in,institutions,workplaces
+partnership with,branding,management,organisation,participation,partners,relation,relations
+payment types accepted,affiliations,collections,companies,contractors,institutions,medication,participants,participation,processors,relation
+performer,composer,presenter
+performing organization,abbreviation,affiliation,affiliations,branding,collections,commercial,companies,company,composition,connectivity,constellation,construction,contractors,declination,division,education,element,foundation,funding,group,industries,influences,institution,institutions,location,locations,management,medication,membership,nationality,network,networks,occupation,organisation,organised,organization,organized,participants,participation,partners,position,production,profession,related,relation,relations,relative,section,services,workplaces
+permanent resident of,nationality,occupation,relation,relative
+personal pronoun,genitive,meaning,person
+physically interacts with,background,branding,composition,connectivity,constellation,contaminants,element,influences,institutions,participants,participation,related,relation,relations,relative,relatives,workplaces
+place of birth,
+place of burial,occupation
+place of death,occupation
+place of detention,bordering,declination,institution,institutions,nationality,occupation,participation,relation,relative
+platform,connectivity,developers,network,networks,platform,platforms
+playing hand,
+plot expanded in,in
+points/goal scored by,
+political ideology,affiliation,affiliations,influences,institution,institutions,nationality,organisation,organization,participation,relation,relations,religion
+position held,organised,position
+position played on team / speciality,
+possible treatment,causes,chemical,composition,connectivity,construction,contaminants,contractors,declination,element,funding,impurities,institution,institutions,management,material,materials,meaning,medication,occupation,participants,participation,profession,relation,relative,relatives,treatment,workplaces
+postal code,
+powered by,
+present in work,construction,in,institutions,occupation
+presenter,host,presenter,television
+price,
+principal investigator,administrator,director
+prize money,
+produced by,
+producer,composer,director,producer,producers,production
+production company,advertising,branding,collections,commercial,companies,company,composition,constellation,construction,contractors,declination,developer,developers,distributor,foundation,industries,industry,institution,institutions,location,locations,management,manufacturer,manufacturers,medication,network,occupation,operator,operators,organisation,organization,participation,processors,producer,producers,product,production,products,profession,relation,relations,services,subsidiary
+production date,production
+production designer,branding,collections,commercial,company,composition,construction,design,designer,designers,developer,developers,distributor,industries,management,manufacturer,manufacturers,producer,producers,product,production,products
+production statistics,abbreviation,affiliation,affiliations,branding,chemical,collections,commercial,commodity,companies,company,composition,constellation,construction,contractors,declination,developer,developers,distributor,editing,education,element,foundation,funding,highlights,industries,industry,institution,institutions,location,locations,management,manufacturers,material,materials,medication,nationality,occupation,operators,organisation,organization,participation,position,processors,producers,product,production,products,rating,related,relation,relations,relative,section
+pseudonym,alias,name
+publication date,chronology
+published in,in
+radius,
+ranking,rank,rating
+raw material processed,chemical,contaminants,material,materials,mineral,processors,product,products
+record label,label,labels
+recorded participant,participants,participation,recorded,released
+recycling code,
+references work,affiliations,background,collections,composition,connectivity,construction,contractors,editing,education,foundation,influences,institutions,material,materials,organisation,organization,participation,profession,relation,relations,relative,workplaces,works,writers
+refractive index,composition,element,rating,relative
+related category,abbreviation,affiliations,category,collections,composition,management,participation,related,relation,relative,section
+relative,composition,connectivity,constellation,declination,element,influences,institution,institutions,meaning,nationality,occupation,participation,position,related,relation,relations,relative,relatives
+relative permeability,causes,chemical,commodity,composition,connectivity,constellation,construction,contaminants,declination,element,genitive,impurities,influences,institution,institutions,management,material,materials,meaning,medication,nationality,occupation,participation,position,rating,related,relation,relations,relative,relatives,treatment
+relative to,
+religion or worldview,meaning,religion
+replaces,
+reply to,
+represented by,
+represents,abbreviation,affiliations,collections,composition,constellation,declination,element,highlights,institutions,nationality,organisation,organization,participation,related,relation,relations,relative
+residence,institution,institutions,location,occupation,office,residence
+review score,rating,score
+reward program,education,funding,institution,membership,organization,participation,profession
+right ascension,collapsible,position
+ritual object,element,meaning,religion,symbolism
+safety classification and labelling,abbreviation,affiliation,affiliations,background,bordering,branding,chemical,collapsible,collections,commercial,composition,connectivity,constellation,construction,contaminants,contractors,declination,education,element,foundation,funding,industries,institution,institutions,location,locations,management,material,materials,medication,nationality,occupation,organisation,organization,participants,participation,position,production,profession,rating,related,relation,relations,relative,relatives,section,treatment,workplaces
+screenwriter,actor,cinematography,composer,lyricist,producer,screenplay,starring,writer,writers
+second family name in Spanish name,birthname,in,name,namesake,origin
+separated from,
+set during recurring event,participation
+set in environment,in
+set in period,in
+setlist,
+sex or gender,
+sexual orientation,declination,nationality,participation,relation,relations,relative
+shares border with,bordering
+shear modulus,
+short-term exposure limit,
+sibling,child,children,father,mother,parent,parents,relatives
+signatory,affiliation
+significant drug interaction,chemical,connectivity,contaminants,declination,element,management,medication,organisation,organization,participants,participation,related,relation,relations,relative,relatives,treatment
+significant person,declination,element,employer,genitive,institution,institutions,meaning,medication,nationality,parent,participants,participation,person,profession,relation,relative,relatives,workplaces
+singles record,recorded
+social media followers,advertising,affiliations,branding,creators,institutions,nationality,networks,organisation,participants,participation,relations,relatives
+solid solution series with,background,branding,collections,commercial,composition,connectivity,constellation,construction,design,element,foundation,highlights,material,materials,processors,production,relation,series
+sound designer,design,designer,designers,sound
+soundtrack release,album,released
+source of energy,composition,element,relation,relative
+source of income,nationality,related,relation,relative
+speaker,
+specific heat capacity,carbody,chemical,contaminants,material,materials,weight
+speed of sound,
+sponsor,sponsor,sponsors
+sport,
+sports discipline competed in,in,participation
+sports season of league or competition,nationality,participation
+spouse,parent,spouse
+standard molar entropy,carbody,element
+standards body,carbody
+stated in,in
+statistical leader,administrator,affiliation,affiliations,composition,founders,institution,institutions,leader,management,nationality,organisation,organization,participation,position,president,relation,relations,relative,successor
+stepparent,parent,parents
+stock exchange,assets,commodity,currency,equity
+stock market index,assets,commodity,companies,currency,equity
+storyboard artist,artist,cinematography,composer,creator,designer,writer
+street address,address
+student,college,education,highschool,profession
+student of,
+studied in,in
+subclass of,
+subject lexeme,relation
+sublimation temperature,abbreviation,chemical,composition,connectivity,constellation,construction,contaminants,declination,element,impurities,location,locations,material,materials,medication,production,relation,relative
+supplement to,
+supported sports team,division,field,organisation,participation,partners,profession,team,teams
+takes place in fictional universe,in,place
+talk show guest,show,talk
+team captain,coach,league,player,team,teams
+television judge,judges,television
+tensile modulus of elasticity,composition,relative
+theme music,genre,music,theme
+thermal conductivity,chemical,composition,connectivity,contaminants,element,material,materials,relative
+thermal diffusivity,carbody,chemical,connectivity,contaminants,material,relative
+time index,
+time of discovery or invention,composition,constellation,declination,element,material,meaning,nationality,occupation,related,relation,relative
+time period,
+time-weighted average exposure limit,average,height,rating,relative,weight
+title,title
+torch lit by,
+total debt,total
+total equity,average,equity,revenue,total
+total goals in career,goals,in
+total liabilities,assets,average,rating,revenue,total
+total produced,production,recorded,total
+total revenue,average,gross,revenue,total
+tracklist,
+trained by,
+translator,writer
+type foundry,foundry,type
+type locality (geology),
+type of passengers/cargo,
+typically sells,commodity,distributor,products
+ultimate tensile strength,weight
+unmarried partner,father,mother,partner,partners,spouse
+uses,
+vapor pressure,carbody,contaminants
+vessel,carrier
+victim(s),
+victory,
+voice actor,actor,narrator,portrayer,voice,voices
+voice type,sound,type,voice
+wears,
+website account on,
+winner,champion,winner,wins,won
+work location,affiliation,affiliations,branding,collections,commercial,composition,connectivity,constellation,construction,contractors,declination,developers,education,element,foundation,funding,institution,institutions,location,locations,management,medication,nationality,occupation,organisation,organization,participation,position,production,profession,relation,relations,relative,residence,service,services,workplaces,works
+work period (end),
+work period (start),
+worn by,
+writing language,authors,composition,editing,influences,language,meaning,writers
