@@ -19,7 +19,7 @@ db_lookup_hash = get_lookup_hash_db()
 wd_lookup_hash = get_lookup_hash_wd()
 
 data_fusion = []
-for db_label in db_hash:
+for db_label in list(db_hash.keys()):
     # Adding the first label from DBpedia
     labels = [db_label]
 
@@ -30,6 +30,9 @@ for db_label in db_hash:
     else:
         for db_value in db_values:
             values.append(db_value)
+
+    # Removing the dict entry to avoid duplicates and for faster runtime
+    del db_hash[db_label]
 
     # We check WIKIDATA for all similar labels
     wd_labels = []
