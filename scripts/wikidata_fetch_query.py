@@ -74,10 +74,12 @@ def get_person_data(person, new_query=True,printing = False):
                         temp.append(item['valueLabel']['value'])
                         clean_data[item['propertyLabel']['value']] = temp
                 else:
-                    clean_data[item['propertyLabel']['value']]=item['valueLabel']['value']
+                    temp = []
+                    temp.append(item['valueLabel']['value'])
+                    clean_data[item['propertyLabel']['value']]=temp
             i2 += 1
-
-        print("number of ids:", i, "out of", i2, "entries")
+        if printing:
+            print("number of ids:", i, "out of", i2, "entries")
         return clean_data
 
     else:
