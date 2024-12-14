@@ -39,7 +39,9 @@ def fusion_table(start_row: int, end_row: int, domain:int):
             db_id = elements[5].removesuffix("\n")
             file_name = elements[1].removeprefix(" ").replace(" ", "_").lower()
 
-            fusion_list = data_fusion(db_id, wd_id)
+            if domain == 2: fusion_list = data_fusion(db_id, wd_id, False)
+            else: fusion_list = data_fusion(db_id, wd_id)
+
             output_file = open("../topics/"
                                + file_path + "/entities/"
                                + file_name + ".csv",
@@ -60,9 +62,9 @@ def fusion_table(start_row: int, end_row: int, domain:int):
 
         line_counter += 1
 
-def data_fusion(db_id, wd_id):
+def data_fusion(db_id, wd_id, db_new_query = True):
     # Fetches the hashmaps for DBpedia and WIKIDATA
-    db_hash = dbpedia_fetch_query.get_person_data(db_id)
+    db_hash = dbpedia_fetch_query.get_person_data(db_id, db_new_query)
     wd_hash = wikidata_fetch_query.get_person_data(wd_id)
 
     # Filters the tuples using the master_filter

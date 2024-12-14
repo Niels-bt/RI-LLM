@@ -1,22 +1,22 @@
-abbreviation,CHVRS Classification,OFLC classification,RCQ classification
+abbreviation,
 academicDiscipline,
 activeYearsEndYear,
 activeYearsStartYear,
-actor,screenwriter,voice actor
+actor,voice actor
 acts,
 adaptedBy,
-address,addressee,street address
+address,addressee
 administrator,
 advertising,advertises
-affiliation,affiliated worker organisation,affiliation,affiliation string,parent organization
-affiliations,affiliated worker organisation,affiliation,affiliation string
+affiliation,affiliation
+affiliations,affiliation
 after,
 afterElection,
 agency,
 agent,
 aircraftType,
 album,
-alias,pseudonym
+alias,
 allWriting,
 ambassadors,
 anthem,
@@ -27,7 +27,7 @@ areasServed,
 areatotal,
 artist,storyboard artist
 asiawins,
-assets,assets under management
+assets,
 assist,
 assistsLeader,
 associatedActs,
@@ -38,7 +38,7 @@ audioReadBy,
 australianopendoublesresult,
 australianopenresult,
 auswins,
-authors,author
+authors,
 automobilePlatform,
 average,
 award,award received
@@ -56,7 +56,7 @@ birthDate,
 birthName,
 birthPlace,
 birthYear,
-birthname,birth name,married name
+birthname,birth name
 block,
 blockAlloy,
 boardOfDirectors,
@@ -84,19 +84,19 @@ careerStation,
 careerprizemoney,
 carrier,
 carriers,
-category,related category
+category,
 causes,
 cbbaskhofYear,
-chairman,chairperson
+chairman,
 champion,
 championInDoubleMale,
 championInSingleMale,
 chassis,chassis
 chemical,chemical formula
-child,child,child astronomical body
+child,child
 children,child
 chronology,
-cinematography,filmography
+cinematography,
 citizenship,
 class,
 client,
@@ -108,33 +108,33 @@ collapsed,
 collapsible,
 collections,collection
 college,
-colour,color,hair color,official color
+colour,color
 colours,color
 commercial,
 commissionedBy,
 commodity,
-companies,business division,industry,production company
-company,business division,production company
+companies,production company
+company,production company
 companyType,
 compiler,
 composer,composer,musical conductor
-composition,OFLC classification,RCQ classification,affiliation string,narrative location,production statistics
+composition,
 compositionSecondary,
 computingPlatform,
 connectivity,
 consensus,
 constel,
 constell,
-constellation,RCQ classification,declination
+constellation,
 constellationName,
-construction,adjacent building,main building contractor,occupation,production statistics
+construction,main building contractor
 constructionMaterial,
 contaminants,
 contractors,
 copyright,copyright holder,copyright license,copyright representative
 count,
 country,country
-creator,creator,exhibited creator
+creator,creator
 creatorname,
 creators,
 credits,
@@ -162,11 +162,11 @@ debutleague,
 debutteam,
 debutyear,
 decWins,
-declination,declination,occupation
-design,production designer
+declination,declination
+design,
 designGroup,
 designer,costume designer,production designer
-designers,production designer
+designers,
 designfirm,
 developer,
 developers,
@@ -192,13 +192,13 @@ draftyear,
 editing,
 editor,
 education,
-element,DSSTOX compound identifier,element symbol
+element,element symbol
 employer,employees
 endorsedBy,
 engine,
 engineType,
 entrant,
-equity,total equity
+equity,
 equityYear,
 escutcheon,
 etymology,
@@ -240,7 +240,7 @@ frenchopenresult,
 ft,
 fuelSource,
 fullname,
-funding,funder
+funding,
 genitive,
 genre,genre
 goals,
@@ -251,11 +251,11 @@ group,ethnic group
 guests,
 halftime,
 hatTricksPlayer,
-head,head coach
+head,
 headAlloy,
 headliner,
 headliners,
-headquarter,headquarters location
+headquarter,
 height,height
 heightFootnote,
 heightFt,
@@ -284,7 +284,7 @@ hqLocationCountry,
 hypernym,
 importantStation,
 impurities,
-in,active ingredient in,fictional universe described in,found in taxon,interested in,name in native language,participant in,plot expanded in,present in work,published in,set in environment,set in period,sports discipline competed in,stated in,studied in,takes place in fictional universe
+in,active ingredient in,fictional universe described in,found in taxon,interested in,participant in,plot expanded in,present in work,published in,set in environment,set in period,sports discipline competed in,stated in,studied in
 incomeYear,
 industries,industry
 industry,industry
@@ -293,8 +293,8 @@ influencedBy,
 influences,
 ingredient,
 initiator,
-institution,affiliated worker organisation,affiliation,parent organization,performing organization
-institutions,performing organization
+institution,
+institutions,
 inventName,
 invented,
 isPartOf,
@@ -327,17 +327,17 @@ licensedfrom,
 licensee,copyright license
 literaryGenre,
 lithology,
-location,filming location,headquarters location,location,narrative location,work location
+location,filming location,headquarters location,location,narrative location
 locationCity,
 locationCountry,
-locations,filming location,headquarters location,location,narrative location,work location
+locations,headquarters location,location,narrative location
 loser,
 lost,
 lyricist,lyricist
 mainIngredient,
 major,academic major
 majorwins,
-management,assessment,assets under management
+management,
 manufacturer,
 manufacturers,
 manufacturier,
@@ -345,13 +345,13 @@ markTitle,
 mascot,mascot
 masters,
 masterscupresult,
-material,fabrication method,raw material processed
-materials,raw material processed
+material,
+materials,
 meaning,
 medaltemplatesExpand,
 medaltemplatesTitle,
 medicalCause,
-medication,medical condition,medical condition treated,possible treatment,significant drug interaction
+medication,medical condition,medical condition treated,possible treatment
 medium,
 melt,
 members,
@@ -381,11 +381,11 @@ music,theme music
 musicBy,
 musicComposer,
 mvp,
-name,Douban site name,alternative name,birth name,family name,given name,married name,name,official name
+name,alternative name,birth name,family name,given name,married name,name,official name
 namedAfter,
 namedFor,
 namedafter,
-namesake,name
+namesake,
 narrated,
 narrator,narrator
 nasdaq,
@@ -399,7 +399,7 @@ neareststarname,
 neighbourConstellations,
 netIncome,
 netIncomeYear,
-network,mobile network code
+network,
 networkEn,
 networks,
 nextTitle,
@@ -423,7 +423,7 @@ numbermainstars,
 numbermessierobjects,
 numbernearbystars,
 numberstarsplanets,
-occupation,declination,located in the administrative territorial entity,occupation
+occupation,occupation
 office,
 oldestScorerPlayer,
 olympicsdoublesresult,
@@ -438,11 +438,11 @@ operators,operator
 opponent,
 opponents,
 optionName,
-organisation,affiliated worker organisation,affiliation,business division,movement,parent organization,performing organization
+organisation,affiliated worker organisation,parent organization,performing organization
 organised,
 organisers,
-organization,affiliated worker organisation,affiliation,business division,parent organization,performing organization
-organized,organizer
+organization,affiliated worker organisation,affiliation,parent organization,performing organization
+organized,
 origin,
 otherNames,
 otherparty,
@@ -459,9 +459,9 @@ parent,godparent,parent,parent organization
 parentCompany,
 parentOrganisation,
 parentOrganization,
-parents,godparent,mother
+parents,
 participants,
-participation,affiliated worker organisation,affiliation,declination,occupation,parent organization,performing organization
+participation,affiliation,performing organization
 partner,unmarried partner
 partners,
 party,
@@ -504,14 +504,14 @@ processor,
 processors,
 producedby,
 producer,executive producer,producer
-producers,executive producer,producer
+producers,producer
 product,
 production,production company,production designer,production statistics
 productionCompanies,
 productionCompany,
 products,
 profession,
-profit,net profit
+profit,
 programmingLanguage,
 projectParticipant,
 proteam,
@@ -531,22 +531,22 @@ region,
 regionServed,
 registry,Reaxys registry number
 related,related category
-relation,OFLC classification,RCQ classification,declination,duration,narrative location,occupation,relative,relative permeability,safety classification and labelling
+relation,declination,relative,relative permeability
 relations,
 relative,relative,relative permeability
 relatives,relative
-released,soundtrack release
+released,
 religion,
 residence,residence
 restaurants,
 restingPlace,
 retired,
-revenue,operating income,total revenue
+revenue,total revenue
 risks,
 routeEnd,
 runtime,
 score,review score
-screenplay,screenwriter
+screenplay,
 seasonTopscorer,
 secondTeam,
 section,
@@ -596,10 +596,10 @@ symbolism,
 talk,
 target,
 team,supported sports team,team captain
-teams,supported sports team
+teams,
 technicalServiceProvider,
 teleplay,
-television,original language of film or TV show
+television,
 termEnd,
 termPeriod,
 termStart,
@@ -620,11 +620,11 @@ totalLength,
 tour,
 tradeName,
 tradingName,
-treatment,medical condition,medical condition treated,possible treatment
+treatment,medical condition treated,possible treatment
 turnedpro,
 tv,
 tvstation,
-type,type foundry,voice type
+type,type foundry
 usopendoublesresult,
 usopenresult,
 valves,
@@ -649,7 +649,7 @@ wordOrigin,
 workInstitution,
 workInstitutions,
 workplaces,
-works,derivative work,notable work,references work
+works,
 writer,author,screenwriter
 writers,
 yearpro,
