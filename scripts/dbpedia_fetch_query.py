@@ -43,8 +43,9 @@ def get_person_data(person,new_query = True, printing = False):
         results = sparql.query().convert()
 
         # Process and print results
-        print(f"{person} - DBpedia Properties:")
-        print("-" * 50)
+        if printing:
+            print(f"{person} - DBpedia Properties:")
+            print("-" * 50)
         filtered_result = {}
 
         for result in results["results"]["bindings"]:
