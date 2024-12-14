@@ -2,7 +2,8 @@ from re import match
 
 import dbpedia_fetch_query
 import wikidata_fetch_query
-from scripts.data_cleaning import master_filter_db, master_filter_wd, hashmap_values_lower
+from scripts.data_cleaning import master_filter_db, master_filter_wd, hashmap_values_lower, tuple_lemmatization, \
+    data_cleaning
 from scripts.lookup_table import get_lookup_hash_db, get_lookup_hash_wd
 
 
@@ -15,9 +16,9 @@ def data_fusion(db_string, wd_string):
     db_hash = master_filter_db(db_hash)
     wd_hash = master_filter_wd(wd_hash)
 
-    # Applies .lower() to all values in the hashmaps
-    db_hash = hashmap_values_lower(db_hash)
-    wd_hash = hashmap_values_lower(wd_hash)
+    # Cleans the data and applies lemmatization
+    db_hash = data_cleaning(db_hash)
+    wd_hash = data_cleaning(wd_hash)
 
     # Fetches the lookup hashes for db and wd
     db_lookup_hash = get_lookup_hash_db()
@@ -76,13 +77,15 @@ def append_values(base, matches, values):
         if base.__contains__(values):
             base.remove(values)
             matches.append(values)
-        else: base.append(values)
+        elif not matches.__contains__(values):
+            base.append(values)
     else:
         for value in values:
             if base.__contains__(value):
                 base.remove(value)
                 matches.append(value)
-            else: base.append(value)
+            elif not matches.__contains__(values):
+                base.append(value)
 
 
 

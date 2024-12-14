@@ -25,23 +25,83 @@ def master_filter_wd(hashmap):
     file = open("master_wd.csv", mode='r', encoding='utf-8')
     return master_filter(hashmap, file)
 
+def data_cleaning(hashmap, lemmatization: bool = True):
+    # The input is parsed to a list
+    tuples = hash_to_list(hashmap)
+    # All empty values are removed
+    tuples = remove_empty_values(tuples)
+    # All - and _ are removed
+    tuples = remove_minus_and_underscore(tuples)
+    # Duplicates are removed
+    tuples = remove_duplicates(tuples)
+
+    new_hashmap = {}
+    if lemmatization:
+        # Label and value are inverted
+        inverted_tuples = [(value, label) for label, value in tuples]
+        new_hashmap = tuple_lemmatization(inverted_tuples)
+    else:
+        new_hashmap = hashmap_values_lower(dict(tuples))
+
+    # The dict is parsed to a list again to check for duplicates again and then return it as a dict
+    tuples = hash_to_list(new_hashmap)
+    tuples = remove_duplicates(tuples)
+    d = {}
+    for label, value in tuples: d.setdefault(label, []).append(value)
+    # d = {}
+    # [d[tuple[0]].append(tuple[1]) if tuple[0] in list(d.keys()) else d.update({tuple[0]: [tuple[1]]}) for tuple in tuples]
+    return d
+
 
 
 # Applies .lower() to all values in a hashmap
 def hashmap_values_lower(hashmap):
     new_hashmap = {}
-    for key, values in hashmap.items():
-        new_hashmap[key] = []
-        if isinstance(values, str): new_hashmap[key].append(values.lower())
+    for label, values in hashmap.items():
+        new_hashmap[label] = []
+        if isinstance(values, str): new_hashmap[label].append(values.lower())
         else:
             for value in values:
-                new_hashmap[key].append(value.lower())
+                new_hashmap[label].append(value.lower())
+    return new_hashmap
+
+# Applies lemmatization to all values from a list of tuples in this form [(value, label), (value, label)]
+# Additionally, applies .lower() to all values
+# Returns a hashmap
+def tuple_lemmatization(inverted_tuples):
+    # The language pack is loaded and all values are lemmatized
+    nlp = spacy.load('en_core_web_lg')
+    lemmatized_inverted_tuples = nlp.pipe(inverted_tuples, as_tuples=True, disable="parser")
+
+    # The docs are put into a new hashmap and all values are transformed to lowercase
+    new_hashmap = {}
+    for lemmatized_value, label in lemmatized_inverted_tuples:
+        if label not in new_hashmap: new_hashmap[label] = []
+        new_hashmap[label].append(" ".join([doc.lemma_ for doc in lemmatized_value.doc]).lower())
+
     return new_hashmap
 
 # Transforms a hash into a list
 def hash_to_list(hashmap):
-    return [(label, value) for label, value in hashmap.items() for value in label]
+    new_list = []
+    for label, values in hashmap.items():
+        if isinstance(values, str): new_list.append((label, values))
+        else:
+            for value in values:
+                new_list.append((label, value))
+    return new_list
 
+# Removes all - and _ from a list of tuples in the form of (label, value)
+def remove_minus_and_underscore(tuples):
+    return [(tuple[0], tuple[1].replace("-", " ").replace("_", " ")) for tuple in tuples]
+
+# Removes all duplicates in a list of tuples
+def remove_duplicates(tuples):
+    return list(set(tuples))
+
+# Removes all empty values
+def remove_empty_values(tuples):
+    return [tuple for tuple in tuples if tuple[1]]
 
 
 # Very rough filter on db entries before they are transformed into readable tuples
