@@ -3,7 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from scripts.data_cleaning import keep_db
 
 
-def get_person_data(person, printing = False, new_query = True):
+def get_person_data(person,new_query = True, printing = False):
     not_good = 0
     total = 0
     good_ones = 0
@@ -67,22 +67,36 @@ def get_person_data(person, printing = False, new_query = True):
                 if printing:
                     print(f"{prop_name}: {val}")
 
-                if prop_name in filtered_result:
-                    if type(filtered_result[prop_name]) == list:
-                        filtered_result[prop_name].append(val)
+                if '*' in val:
+                    if printing:
+                        print("val has *", val)
+                    val = val.replace("*","")
+                    val = val.replace(" ","")
+                    val = val.split("\n")
+                    temp = []
+                    for zz in val:
+                        temp.append(zz.replace("\n",""))
+                    filtered_result[prop_name] = temp
+
+                else:
+                    if prop_name in filtered_result:
+                        if type(filtered_result[prop_name]) == list:
+                            filtered_result[prop_name].append(val)
+                        else:
+                            temp = []
+                            temp.append(filtered_result[prop_name])
+                            temp.append(val)
+                            filtered_result[prop_name] = temp
                     else:
                         temp = []
-                        temp.append(filtered_result[prop_name])
                         temp.append(val)
                         filtered_result[prop_name] = temp
-                else:
-                    filtered_result[prop_name] = val
 
             else:
                 not_good+=1
             total+=1
-
-        print("total is:",total," total shitty: ",not_good," so total good: ",good_ones)
+        if printing:
+            print("total is:",total," total shitty: ",not_good," so total good: ",good_ones)
         return filtered_result
 
     except Exception as e:
@@ -90,6 +104,7 @@ def get_person_data(person, printing = False, new_query = True):
 
 
 if __name__ == "__main__":
-    get_person_data("J._K._Rowling", True, False)
-    aa = get_person_data("J._K._Rowling",True)
+    #get_person_data("J._K._Rowling", True, False)
+    #aa = get_person_data("J._K._Rowling",True)
+    get_person_data("Coldplay",False,True)
 
