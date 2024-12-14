@@ -4,7 +4,7 @@ BAMID film rating,
 BBFC rating,rating
 Biology Online Biology Dictionary entry,
 CBFC rating,rating
-CHVRS Classification,abbreviation
+CHVRS Classification,
 CNC film rating (France),
 CPU,
 CPV Supplementary code,
@@ -14,9 +14,9 @@ Commons Creator page,
 Commons category,
 Commons gallery,
 CosIng number,
-DSSTOX compound identifier,element
+DSSTOX compound identifier,
 Dewey Decimal Classification,
-Douban site name,name
+Douban site name,
 E number,
 EBITDA,
 EC number,
@@ -51,11 +51,11 @@ Medierådet rating,rating
 Mohs,
 NMHH film rating,
 NSC number,
-OFLC classification,abbreviation,composition,relation
+OFLC classification,
 Poisson,
 PubChem CID,
 RARS rating,rating
-RCQ classification,abbreviation,composition,constellation,relation
+RCQ classification,
 RTC film rating,
 RTECS number,
 Reaxys registry number,registry
@@ -72,11 +72,11 @@ academic major,major
 active ingredient in,in
 adapted by,
 addressee,address
-adjacent building,construction
+adjacent building,
 advertises,advertising
-affiliated worker organisation,affiliation,affiliations,institution,organisation,organization,participation
-affiliation,affiliation,affiliations,institution,organisation,organization,participation
-affiliation string,affiliation,affiliations,composition
+affiliated worker organisation,organisation,organization
+affiliation,affiliation,affiliations,organization,participation
+affiliation string,
 after a work by,
 alternative name,name
 ancestral home,
@@ -91,13 +91,13 @@ archives at,
 area,
 armament,
 art director,
-assessment,management
-assets under management,assets,management
+assessment,
+assets under management,
 assistant director,director
 associated hazard,
 atomic number,
 attendance,
-author,authors,writer
+author,writer
 author of foreword,
 authority,
 award received,award,awards
@@ -108,7 +108,7 @@ board member,
 boiling point,
 box office,
 budget,budget
-business division,companies,company,division,organisation,organization
+business division,division
 by-product,
 by-product of,
 candidate,candidate
@@ -120,14 +120,14 @@ category of associated people,
 cause of death,
 ceiling exposure limit,
 central bank/issuer,
-chairperson,chairman
+chairperson,
 characters,
 chassis,chassis
 chemical formula,chemical,formula
 chief executive officer,
 chief operating officer,
 child,child,children
-child astronomical body,child
+child astronomical body,
 choreographer,
 collection,collections
 color,colour,colours
@@ -166,12 +166,12 @@ date of burial or cremation,
 date of death,
 date of first performance,
 date of incorporation,
-declination,constellation,declination,occupation,participation,relation
+declination,declination,relation
 dedicated to,
 defender,
 density,
 depicted by,
-derivative work,works
+derivative work,
 described by source,
 designated as terrorist by,
 designed to carry,
@@ -187,7 +187,7 @@ donated by,
 doubles record,
 drafted by,
 drug or therapy used for treatment,
-duration,relation
+duration,
 dynamic viscosity,
 edition or translation of,
 educated at,
@@ -202,12 +202,12 @@ employees,employer
 endorsed by,
 enemy,
 ethnic group,group
-executive producer,producer,producers
-exhibited creator,creator
+executive producer,producer
+exhibited creator,
 exhibition history,
 external auditor,
 eye color,
-fabrication method,material
+fabrication method,
 facial hair,
 facilitates flow of,
 family,family
@@ -220,8 +220,8 @@ fictional universe described in,in
 field of work,
 film crew member,
 film editor,
-filming location,location,locations
-filmography,cinematography
+filming location,location
+filmography,
 first appearance,
 first family name in Portuguese name,
 flag bearer,flagbearer
@@ -230,12 +230,12 @@ form of creative work,
 found in taxon,in
 founded by,
 frequency,
-funder,funding
+funder,
 genre,genre
 given name,name
-godparent,parent,parents
+godparent,parent
 guest of honor,
-hair color,colour
+hair color,
 hairstyle / hairlength,
 handedness,
 hardness,
@@ -255,12 +255,12 @@ has subsidiary,
 has use,
 has works in the collection,
 has written for,
-head coach,coach,head
-headquarters location,headquarter,location,locations
+head coach,coach
+headquarters location,location,locations
 height,height
 immediately dangerous to life or health,
 in opposition to,
-industry,companies,industries,industry
+industry,industries,industry
 influenced by,
 inspired by,
 instance of,
@@ -279,7 +279,7 @@ league or competition,
 legal form,
 lifestyle,
 list of characters,
-located in the administrative territorial entity,occupation
+located in the administrative territorial entity,
 location,location,locations
 location of creation,
 location of discovery,
@@ -295,13 +295,13 @@ make-up artist,
 manifestation of,
 manner of death,
 market capitalization,
-married name,birthname,name
+married name,name
 mascot,mascot
 mass,
 measures,
 media franchise,
 median lethal dose (LD50),
-medical condition,medication,treatment
+medical condition,medication
 medical condition treated,medication,treatment
 melting point,
 member category,
@@ -312,55 +312,55 @@ military branch,
 minimal lethal concentration,
 minimal lethal dose,
 minimum explosive concentration,
-mobile network code,network
+mobile network code,
 model,
 model item,
 molar enthalpy of vaporization,
 molar fusion enthalpy,
-mother,father,mother,parents
+mother,father,mother
 motto,motto
 motto text,
-movement,organisation
+movement,
 music created for,
 musical conductor,composer
-name,name,namesake
-name in native language,in
+name,name
+name in native language,
 named after,
 named by,
-narrative location,composition,location,locations,relation
+narrative location,location,locations
 narrator,narrator
 native label,
 native language,language
-net profit,profit
+net profit,
 net worth,
 nickname,nickname
 noble title,title
 nominated for,
 notable role,
-notable work,works
+notable work,
 number of children,
 number of matches played/races/starts,
 object class of occurrence,
 occupant,
-occupation,construction,declination,occupation,participation,relation
-official color,colour
+occupation,occupation
+official color,
 official name,name
 official symbol,
 official website,website
 officially opened by,
 operating area,
-operating income,revenue
+operating income,
 operating system,
 operator,operator,operators
 opposite of,
-organizer,organized
+organizer,
 original broadcaster,
-original language of film or TV show,television
+original language of film or TV show,
 owned by,
 owner of,
 oxidation state,state
 parent,parent
-parent organization,affiliation,institution,organisation,organization,parent,participation
+parent organization,organisation,organization,parent
 part of,
 part of the series,
 partially coincident with,
@@ -369,7 +369,7 @@ partner in business or sport,
 partnership with,
 payment types accepted,
 performer,
-performing organization,institution,institutions,organisation,organization,participation
+performing organization,organisation,organization,participation
 permanent resident of,
 personal pronoun,
 physically interacts with,
@@ -396,20 +396,20 @@ produced by,
 producer,producer,producers
 production company,companies,company,production
 production date,
-production designer,design,designer,designers,production
-production statistics,composition,construction,production
-pseudonym,alias
+production designer,designer,production
+production statistics,production
+pseudonym,
 publication date,
 published in,in
 radius,
 ranking,
-raw material processed,material,materials
+raw material processed,
 record label,label
 recorded participant,recorded
 recycling code,
-references work,works
+references work,
 refractive index,
-related category,category,related
+related category,related
 relative,relation,relative,relatives
 relative permeability,relation,relative
 relative to,
@@ -423,8 +423,8 @@ review score,score
 reward program,
 right ascension,
 ritual object,
-safety classification and labelling,relation
-screenwriter,actor,screenplay,writer
+safety classification and labelling,
+screenwriter,writer
 second family name in Spanish name,
 separated from,
 set during recurring event,
@@ -438,13 +438,13 @@ shear modulus,
 short-term exposure limit,
 sibling,
 signatory,
-significant drug interaction,medication
+significant drug interaction,
 significant person,person
 singles record,
 social media followers,
 solid solution series with,
 sound designer,sound
-soundtrack release,released
+soundtrack release,
 source of energy,
 source of income,
 speaker,
@@ -463,7 +463,7 @@ stepparent,
 stock exchange,
 stock market index,
 storyboard artist,artist
-street address,address
+street address,
 student,
 student of,
 studied in,in
@@ -471,8 +471,8 @@ subclass of,
 subject lexeme,
 sublimation temperature,
 supplement to,
-supported sports team,team,teams
-takes place in fictional universe,in
+supported sports team,team
+takes place in fictional universe,
 talk show guest,show
 team captain,team
 television judge,
@@ -487,7 +487,7 @@ time-weighted average exposure limit,
 title,title
 torch lit by,
 total debt,
-total equity,equity,total
+total equity,total
 total goals in career,
 total liabilities,total
 total produced,total
@@ -507,11 +507,11 @@ vessel,
 victim(s),
 victory,
 voice actor,actor,voice
-voice type,type
+voice type,
 wears,
 website account on,
 winner,winner
-work location,location,locations
+work location,
 work period (end),
 work period (start),
 worn by,
