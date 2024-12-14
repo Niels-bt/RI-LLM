@@ -35,51 +35,45 @@ def data_cleaning(hashmap, lemmatization: bool = True):
     # Duplicates are removed
     tuples = remove_duplicates(tuples)
 
-    new_hashmap = {}
     if lemmatization:
         # Label and value are inverted
         inverted_tuples = [(value, label) for label, value in tuples]
-        new_hashmap = tuple_lemmatization(inverted_tuples)
+        tuples = tuple_lemmatization(inverted_tuples)
     else:
-        new_hashmap = hashmap_values_lower(dict(tuples))
+        tuples = lower_values(tuples)
 
-    # The dict is parsed to a list again to check for duplicates again and then return it as a dict
-    tuples = hash_to_list(new_hashmap)
+    # Duplicates are removed again and then the list is returned as a dict
     tuples = remove_duplicates(tuples)
-    d = {}
-    for label, value in tuples: d.setdefault(label, []).append(value)
-    # d = {}
-    # [d[tuple[0]].append(tuple[1]) if tuple[0] in list(d.keys()) else d.update({tuple[0]: [tuple[1]]}) for tuple in tuples]
-    return d
-
-
-
-# Applies .lower() to all values in a hashmap
-def hashmap_values_lower(hashmap):
     new_hashmap = {}
-    for label, values in hashmap.items():
-        new_hashmap[label] = []
-        if isinstance(values, str): new_hashmap[label].append(values.lower())
-        else:
-            for value in values:
-                new_hashmap[label].append(value.lower())
+    for label, value in tuples: new_hashmap.setdefault(label, []).append(value)
     return new_hashmap
+
+
+
+# Applies .lower() to all values in a list of tuples
+def lower_values(tuples):
+    new_list = []
+    for tuple in tuples:
+        if isinstance(tuple[1], str): new_list.append((tuple[0], tuple[1].lower()))
+        else:
+            for value in tuple[1]:
+                new_list.append((tuple[0], value.lower()))
+    return new_list
 
 # Applies lemmatization to all values from a list of tuples in this form [(value, label), (value, label)]
 # Additionally, applies .lower() to all values
-# Returns a hashmap
+# Returns a list of tuples
 def tuple_lemmatization(inverted_tuples):
     # The language pack is loaded and all values are lemmatized
     nlp = spacy.load('en_core_web_lg')
     lemmatized_inverted_tuples = nlp.pipe(inverted_tuples, as_tuples=True, disable="parser")
 
-    # The docs are put into a new hashmap and all values are transformed to lowercase
-    new_hashmap = {}
+    # The docs are put into a new list and all values are transformed to lowercase
+    new_tuples = []
     for lemmatized_value, label in lemmatized_inverted_tuples:
-        if label not in new_hashmap: new_hashmap[label] = []
-        new_hashmap[label].append(" ".join([doc.lemma_ for doc in lemmatized_value.doc]).lower())
+        new_tuples.append((label, " ".join([doc.lemma_ for doc in lemmatized_value.doc]).lower()))
 
-    return new_hashmap
+    return new_tuples
 
 # Transforms a hash into a list
 def hash_to_list(hashmap):

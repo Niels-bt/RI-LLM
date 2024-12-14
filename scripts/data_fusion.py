@@ -1,9 +1,6 @@
-from re import match
-
 import dbpedia_fetch_query
 import wikidata_fetch_query
-from scripts.data_cleaning import master_filter_db, master_filter_wd, hashmap_values_lower, tuple_lemmatization, \
-    data_cleaning
+from scripts.data_cleaning import master_filter_db, master_filter_wd, data_cleaning
 from scripts.lookup_table import get_lookup_hash_db, get_lookup_hash_wd
 
 
@@ -91,10 +88,26 @@ def append_values(base, matches, values):
 
 if __name__ == "__main__":
     data_fusion = data_fusion("Coldplay", "Q45188")
-    for tuples in data_fusion:
-        for label in tuples[0]:
+    print("--------------------------------------------------")
+    print("data fusion:")
+    for tuple in data_fusion:
+        for label in tuple[0]:
             print(label)
-        for matched_value in tuples[1]:
+        for matched_value in tuple[1]:
             print("--*--" + matched_value)
-        for value in tuples[2]:
+        for value in tuple[2]:
             print("     " + value)
+    print("--------------------------------------------------")
+    matched_labels = 0
+    matched_values = 0
+    unmatched_labels = 0
+    unmatched_values = 0
+    for tuple in data_fusion:
+        if tuple[1]: matched_labels += len(tuple[0])
+        else: unmatched_labels += len(tuple[0])
+        matched_values += len(tuple[1])
+        unmatched_values += len(tuple[2])
+    print("matched labels: " + str(matched_labels))
+    print("unmatched labels: " + str(unmatched_labels))
+    print("matched values: " + str(matched_values))
+    print("unmatched values: " + str(unmatched_values))
