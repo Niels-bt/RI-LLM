@@ -7,10 +7,10 @@ def get_lookup_hash(file):
     hashmap = {}
     for line in file:
         elements = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
-        label = elements.pop(0).replace("\n", "")
+        label = elements.pop(0).removesuffix("\n")
         if label not in hashmap: hashmap[label] = []
         for element in elements:
-            if element != "\n": hashmap[label].append(element.replace("\n", ""))
+            if element != "\n": hashmap[label].append(element.removesuffix("\n"))
     return hashmap
 
 def get_lookup_hash_db():
@@ -28,12 +28,12 @@ def create_lookup_tables():
     master_db = open("master_db.csv", mode='r', encoding='utf-8')
     master_wd = open("master_wd.csv", mode='r', encoding='utf-8')
 
-    lookup_wd_to_db = open("lookup_wd_to_db.csv", mode='w', encoding='utf-8')
-    lookup_db_to_wd = open("lookup_db_to_wd.csv", mode='w', encoding='utf-8')
+    lookup_wd_to_db = open("lookup_wd_to_db.csv", mode='w+', encoding='utf-8')
+    lookup_db_to_wd = open("lookup_db_to_wd.csv", mode='w+', encoding='utf-8')
 
     nlp = spacy.load("en_core_web_lg")
 
-    threshold = 0.75
+    threshold = 0.80
 
 
     # For every property, we create the token
@@ -82,3 +82,8 @@ def create_lookup_tables():
 
     for key in wd_result:
         lookup_wd_to_db.write("%s,%s\n" % (key, ",".join(wd_result[key])))
+
+
+
+if __name__ == "__main__":
+    create_lookup_tables()
