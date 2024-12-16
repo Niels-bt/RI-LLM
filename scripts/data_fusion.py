@@ -4,6 +4,10 @@ import wikidata_fetch_query
 from scripts.data_cleaning import master_filter_db, master_filter_wd, data_cleaning
 from scripts.lookup_table import get_lookup_hash_db, get_lookup_hash_wd
 
+import load_data_pickle
+
+all_data_db = load_data_pickle.load_pickle(dbpedia=True)
+all_data_wd = load_data_pickle.load_pickle(dbpedia=False)
 
 # Creates data fusion tables
 # start_row is an int >= 0
@@ -29,6 +33,9 @@ def fusion_table(start_row: int, end_row: int, domain:int):
     # Opens the file containing all entity ids
     property_file = open("../topics/" + file_path + "/wd_db.csv", mode='r', encoding='utf-8')
 
+    #vertehe nicht warum du einfach so machst ? ja celeb muss celebrities heissen sonst easy
+    #property_file = open("../topics/" + file_path + f"/wd_db_{file_path}.csv", mode='r', encoding='utf-8')
+
     line_counter = 0
     for line in property_file:
         # Only the specified lines are processed
@@ -39,8 +46,10 @@ def fusion_table(start_row: int, end_row: int, domain:int):
             db_id = elements[5].removesuffix("\n")
             file_name = elements[1].removeprefix(" ").replace(" ", "_").lower()
 
-            if domain == 2: fusion_list = data_fusion(db_id, wd_id, False)
-            else: fusion_list = data_fusion(db_id, wd_id)
+            if domain == 2:
+                fusion_list = data_fusion(db_id, wd_id,file_path, False)
+            else:
+                fusion_list = data_fusion(db_id, wd_id,file_path)
 
             output_file = open("../topics/"
                                + file_path + "/entities/"
@@ -62,10 +71,15 @@ def fusion_table(start_row: int, end_row: int, domain:int):
 
         line_counter += 1
 
-def data_fusion(db_id, wd_id, db_new_query = True):
+def data_fusion(db_id, wd_id,file_path, db_new_query = True):
     # Fetches the hashmaps for DBpedia and WIKIDATA
-    db_hash = dbpedia_fetch_query.get_person_data(db_id, db_new_query)
-    wd_hash = wikidata_fetch_query.get_person_data(wd_id)
+
+    #removed the need of calling internet
+    #db_hash = dbpedia_fetch_query.get_person_data(db_id, db_new_query)
+    #wd_hash = wikidata_fetch_query.get_person_data(wd_id)
+
+    db_hash = all_data_db[file_path][db_id]
+    wd_hash = all_data_wd[file_path][wd_id]
 
     # Filters the tuples using the master_filter
     db_hash = master_filter_db(db_hash)
