@@ -173,9 +173,9 @@ if __name__ == "__main__":
     data_fusion = data_fusion("Coldplay", "Q45188", "celebrities")
     print("--------------------------------------------------")
     for tuple in data_fusion:
-        if isinstance(tuple[1], str): print(tuple[1])
+        if isinstance(tuple[0], str): print(tuple[0])
         else:
-            for label in tuple[1]:
+            for label in tuple[0]:
                 print(label)
         for matched_value in tuple[1]:
             print("--*--" + matched_value)
