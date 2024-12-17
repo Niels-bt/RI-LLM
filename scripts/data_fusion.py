@@ -139,6 +139,13 @@ def data_fusion(db_id, wd_id,file_path, db_new_query = True):
             # All labels and values are appended to the ultimate data_fusion list in this form ((label, label,...), (matched_value, matched_value,...), (value, value,...))
             finished_data.append((labels, matched_values, values))
 
+    for wd_label in list(wd_hash.keys()):
+        if wd_label in wd_hash:
+            values = []
+            matched_values = []
+            append_values(values, matched_values, wd_hash[wd_label])
+            finished_data.append((wd_label, matched_values, values))
+
     return finished_data
 
 
@@ -161,13 +168,15 @@ def append_values(base, matches, values):
 
 
 if __name__ == "__main__":
-    fusion_table(start_row=0, end_row=0, domain=0)
-    '''
-    data_fusion = data_fusion("Coldplay", "Q45188")
+    # fusion_table(start_row=0, end_row=0, domain=0)
+
+    data_fusion = data_fusion("Coldplay", "Q45188", "celebrities")
     print("--------------------------------------------------")
     for tuple in data_fusion:
-        for label in tuple[0]:
-            print(label)
+        if isinstance(tuple[0], str): print(tuple[0])
+        else:
+            for label in tuple[0]:
+                print(label)
         for matched_value in tuple[1]:
             print("--*--" + matched_value)
         for value in tuple[2]:
@@ -186,4 +195,3 @@ if __name__ == "__main__":
     print("unmatched labels: " + str(unmatched_labels))
     print("matched values: " + str(matched_values))
     print("unmatched values: " + str(unmatched_values))
-    '''
