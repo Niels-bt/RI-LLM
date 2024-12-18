@@ -341,7 +341,7 @@ enemy,True,Fandom Menace
 escutcheon image,False,http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20McCartney%20Arms.svg
 ethnic group,True,African Americans
 exact match,False,http://www.fundinguniverse.com/company-histories/nvidia-corporation-history/
-executive producer,True,Power Book III: Raising Kanan
+executive producer,False,Power Book III: Raising Kanan
 exhibited creator,True,Recent Acquisitions
 exhibition history,True,LOVE
 exploitation mark number,False,139587
@@ -583,7 +583,7 @@ principal investigator,True,Nadia Valentina Martínez Villegas
 privacy policy URL,False,https://www.apple.com/legal/privacy/
 prize money,True,130594339
 produced by,True,granite
-producer,True,Frozen III
+producer,False,Frozen III
 production company,True,Bad Sisters
 production date,True,2017-03-15T00:00:00Z
 production designer,True,Galaxy of Terror
