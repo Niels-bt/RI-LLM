@@ -206,11 +206,11 @@ atomic number,True,1
 attendance,True,1362516
 audio,False,http://commons.wikimedia.org/wiki/Special:FilePath/WWS%20JohnDeereTractor.ogg
 audio recording of the subject,False,s spoken voice
-author,True,CFNetwork
+author,False,CFNetwork
 author of foreword,True,Raising Kanye: Life Lessons from the Mother of a Hip-Hop Superstar
 authority,True,Apple Account
 autonomous system number,False,2709
-award received,True,National Design Awards
+award received,False,National Design Awards
 based on,True,Backstreet Boys: Live in Concert Tour
 birth name,True,Curtis James Jackson III
 blood type,True,A
@@ -226,7 +226,7 @@ candidate,True,2020 United States presidential election in Idaho
 canonical SMILES,True,[He]
 capital cost,True,210000000
 card network,False,BEYOND Visa Signature
-cast member,True,The Last Mimzy
+cast member,False,The Last Mimzy
 catalog code,False,20381
 catchphrase,True,Bridge to Possible
 category,False,s main topic
@@ -254,7 +254,7 @@ commemorates,True,IBM-Haus
 commissioned by,False,Apple Color Emoji
 common equity tier 1 capital ratio (CETI),True,13.1
 complies with,True,Bechdel test
-composer,True,50 Cent: The New Breed
+composer,False,50 Cent: The New Breed
 compressive modulus of elasticity,True,100
 conferred by,True,Mac Game of the Year
 conjugate acid,True,hydridohelium(1+)
@@ -334,7 +334,7 @@ electronegativity,True,2.2
 element symbol,True,H
 email address,False,mailto:opensource@microsoft.com
 embodied energy,True,25
-employees,True,132000
+employees,False,132000
 employer,False,Rami Krispin
 endorsed by,True,SotM Asia 2019
 enemy,True,Fandom Menace
@@ -420,7 +420,7 @@ immediately dangerous to life or health,True,4
 in opposition to,True,Protest at Amazon logistics center in Berlin-Tegel
 inception,False,1976-04-01T00:00:00Z
 industry,True,digital distribution
-influenced by,True,Antony Kok
+influenced by,False,Antony Kok
 inspired by,True,Daisy Johnson
 instance of,True,enterprise
 instrument,True,voice
@@ -524,7 +524,7 @@ official jobs URL,False,https://www.apple.com/careers/us/
 official name,True,Apple Inc.
 official shop URL,False,https://www.apple.com/mx/store
 official symbol,True,infinity symbol romna
-official website,True,https://www.apple.com/
+official website,False,https://www.apple.com/
 officially opened by,True,The Floating Sistine Chapel
 on focus list of Wikimedia project,False,Wikipedia:Vital articles/Level/4
 operating area,True,worldwide
@@ -536,7 +536,7 @@ organizer,True,WWDC 2024
 original broadcaster,True,Cuffs
 original film format,False,35 mm film
 original language of film or TV show,True,English
-owned by,True,BlackRock
+owned by,False,BlackRock
 owner of,True,JANA Partners
 oxidation state,True,-1
 page banner,False,http://commons.wikimedia.org/wiki/Special:FilePath/Disneyland%20Sleeping%20Beauty%20Castle%20Wikivoyage%20banner.jpg
@@ -551,7 +551,7 @@ participant in,True,Data Transfer Project
 partner in business or sport,True,Warner–Lambert
 partnership with,True,Apple Developer Academy
 payment types accepted,True,DoubleTree by Hilton Hotel London - Hyde Park
-performer,True,An Apple a Day
+performer,False,An Apple a Day
 performing organization,True,Mine air monitor
 permanent duplicated item,False,Q25696231
 permanent resident of,True,Australia
@@ -625,7 +625,7 @@ ritual object,True,witchcraft investigation of Cristian Stewart
 safety classification and labelling,True,Regulation (EC) No. 1272/2008
 said to be the same as,False,Q15716988
 schematic,False,http://commons.wikimedia.org/wiki/Special:FilePath/Filiales%20d%27Alphabet.png
-screenwriter,True,Gun
+screenwriter,False,Gun
 search formatter URL,False,https://www.microsoft.com/zh-cn/search/result.aspx?q=$1&form=MSHOME
 second family name in Spanish name,True,Barragán
 separated from,True,Abbott Laboratories
@@ -708,12 +708,12 @@ topic,False,s main category
 topic,False,s main template
 torch lit by,True,2019 Southeast Asian Games
 total assets,False,323888000000
-total debt,True,28643000000
-total equity,True,62146000000
+total debt,False,28643000000
+total equity,False,62146000000
 total goals in career,True,7
-total liabilities,True,241272000000
+total liabilities,False,241272000000
 total produced,True,3300
-total revenue,True,383285000000
+total revenue,False,383285000000
 tracklist,True,I
 trained by,True,Stan Albeck
 translator,True,Lost Planet: Extreme Condition
