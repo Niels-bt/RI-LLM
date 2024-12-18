@@ -61,17 +61,20 @@ def fusion_table(start_row: int, end_row: int, domain: int, multiple_lines = Tru
                 columns[4] = f"\"{"|".join(wd_labels)}\""
                 if multiple_lines:
                     for matched_value in matched_values:
-                        columns[2] = f"\"{matched_value.replace("\"", "")}\""
+                        columns[2] = f"\"{matched_value[1].replace("\"", "")}\""
                         output_file.write(",".join(columns) + "\n")
                     columns[2] = ""
                     for db_value in db_values:
-                        columns[1] = f"\"{db_value.replace("\"", "")}\""
+                        columns[1] = f"\"{db_value[1].replace("\"", "")}\""
                         output_file.write(",".join(columns) + "\n")
                     columns[1] = ""
                     for wd_value in wd_values:
-                        columns[3] = f"\"{wd_value.replace("\"", "")}\""
+                        columns[3] = f"\"{wd_value[1].replace("\"", "")}\""
                         output_file.write(",".join(columns) + "\n")
                 else:
+                    db_values = [db_value[1] for db_value in db_values]
+                    wd_values = [wd_value[1] for wd_value in wd_values]
+                    matched_values = [matched_value[1] for matched_value in matched_values]
                     columns[1] = f"\"{"|".join(db_values).replace("\"", "")}\""
                     columns[2] = f"\"{"|".join(matched_values).replace("\"", "")}\""
                     columns[3] = f"\"{"|".join(wd_values).replace("\"", "")}\""
@@ -79,7 +82,7 @@ def fusion_table(start_row: int, end_row: int, domain: int, multiple_lines = Tru
 
         line_counter += 1
 
-# Returns a list in this form [[db_labels], [wd_labels], [db_values], [wd_values], [matched_values]]
+# Returns a list in this form [[db_labels], [wd_labels], [(db_value, db_original_value)], [(wd_value, wd_original_value)], [(matched_value, matched_original_value)]]
 # Takes the DBpedia and WIKIDATA id of the entity and the name of the domain (e.g. celebrities, movies)
 def data_fusion(db_id: str, wd_id: str, file_path: str):
 
@@ -127,10 +130,10 @@ def data_fusion(db_id: str, wd_id: str, file_path: str):
 
                     # Adding all values from WIKIDATA
                     for value in wd_hash[wd_label]:
-                        if db_values.__contains__(value):
-                            db_values.remove(value)
+                        if any(value[0] == db_value[0] for db_value in db_values):
+                            db_values = [db_value for db_value in db_values if db_value[0] != value[0]]
                             matched_values.append(value)
-                        elif not matched_values.__contains__(value):
+                        elif not any(value[0] == matched_value[0] for matched_value in matched_values):
                             wd_values.append(value)
 
                     # Removing the dict entry to avoid duplicates and for faster runtime
@@ -145,10 +148,10 @@ def data_fusion(db_id: str, wd_id: str, file_path: str):
 
                         # Adding all values from DBpedia
                         for value in db_hash[db_label_2]:
-                            if wd_values.__contains__(value):
-                                wd_values.remove(value)
+                            if any(value[0] == wd_value[0] for wd_value in wd_values):
+                                wd_values = [wd_value for wd_value in wd_values if wd_values[0] != value[0]]
                                 matched_values.append(value)
-                            elif not matched_values.__contains__(value):
+                            elif not any(value[0] == matched_value[0] for matched_value in matched_values):
                                 db_values.append(value)
 
                         # Removing the dict entry to avoid duplicates and for faster runtime
@@ -167,7 +170,7 @@ def data_fusion(db_id: str, wd_id: str, file_path: str):
 
 
 if __name__ == "__main__":
-    fusion_table(start_row=0, end_row=0, domain=0, multiple_lines = False)
+    fusion_table(start_row=0, end_row=0, domain=0, multiple_lines = True)
 
     '''
     data_fusion = data_fusion("Coldplay", "Q45188", "celebrities")
