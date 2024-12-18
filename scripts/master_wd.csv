@@ -464,7 +464,7 @@ make-up artist,True,Arjen Tuiten
 manifestation of,True,hydrogen atom
 manner of death,True,natural causes
 manufacturer,False,Q130242904
-market capitalization,True,2240000000000
+market capitalization,False,2240000000000
 married name,True,Angelina Jolie Pitt
 mascot,True,Mickey Mouse
 mass,True,56
@@ -504,7 +504,7 @@ narrative location,True,Texas
 narrator,True,Voyage of Time
 native label,True,Berkshire Hathaway
 native language,True,English
-net profit,True,96995000000
+net profit,False,96995000000
 net worth,True,355000000
 nickname,True,Chipzilla
 noble title,True,Knight Bachelor
@@ -528,7 +528,7 @@ official website,False,https://www.apple.com/
 officially opened by,True,The Floating Sistine Chapel
 on focus list of Wikimedia project,False,Wikipedia:Vital articles/Level/4
 operating area,True,worldwide
-operating income,True,114301000000
+operating income,False,114301000000
 operating system,True,Climate Data Operators
 operator,True,Apple Trade In
 opposite of,True,phlogiston

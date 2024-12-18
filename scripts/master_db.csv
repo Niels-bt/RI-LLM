@@ -184,9 +184,9 @@ computingPlatform,True,Ulysses_(text_editor)
 connectivity,True,Barnes_&_Noble_Nook_1st_Edition
 consensus,True,Star Wars: The Last Jedi honors the saga's rich legacy while adding some surprising twists — and delivering all the emotion-rich action fans could hope for.
 constel,True,Haro_11
-constell,True,Xi_Andromedae
+constell,False,Xi_Andromedae
 constellation,True,Andromedids
-constellationName,True,Messier_32
+constellationName,False,Messier_32
 construction,True,South_Fox_Island_Light
 constructionMaterial,True,Jungfern_Bridge
 containerOnly,False,yes
