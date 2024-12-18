@@ -45,16 +45,16 @@ areaServed,True,Worldwide
 arearank,True,19
 areasServed,True,US_Virgin_Islands
 areatotal,True,722
-artist,True,The_Best_of_Disney_Volume_2
+artist,False,The_Best_of_Disney_Volume_2
 asiawins,True,2
 assetUnderManagement,False,3.11E12
 assets,True,3.5276E11
 assetsYear,False,2022
 assist,True,2001_NBA_Finals
 assistsLeader,True,2012_United_States_men's_Olympic_basketball_team
-associatedActs,True,DJ_Whoo_Kid
-associatedBand,True,Lisa_Simone
-associatedMusicalArtist,True,Lisa_Simone
+associatedActs,False,DJ_Whoo_Kid
+associatedBand,False,Lisa_Simone
+associatedMusicalArtist,False,Lisa_Simone
 atmosphereComposition,True,Moon
 audioReadBy,True,The_Dutch_House_(novel)
 aum,False,3.11E12
@@ -67,10 +67,10 @@ auto,False,1
 automobilePlatform,True,Mercedes-Benz_C112
 aux,False,List_of_The_Try_Guys_episodes
 average,True,5.4
-award,True,Ronke_Olabisi
+award,False,Ronke_Olabisi
 award1Winner,False,33rd_International_Emmy_Awards
 award1pub,False,Alba:_A_Wildlife_Adventure
-awards,True,List_of_awards_and_nominations_received_by_50_Cent
+awards,False,List_of_awards_and_nominations_received_by_50_Cent
 awardssection,False,List of career achievements by Tiger Woods#Awards
 awaycaptain,False,2019_Presidents_Cup
 b,False,no
@@ -244,8 +244,8 @@ designGroup,True,SAI_Quiet_Supersonic_Transport
 designer,True,Swift_(programming_language)
 designers,True,MARS_(cipher)
 designfirm,True,Hard_Disk_20SC
-developer,True,Apple_ProDOS__16__1
-developers,True,Lisp_Machine_Lisp
+developer,False,Apple_ProDOS__16__1
+developers,False,Lisp_Machine_Lisp
 developmentCode,True,Odyssey_(Magic:_The_Gathering)
 dir,False,rtl
 directed,True,Madea_Goes_to_Jail_(play)
@@ -393,7 +393,7 @@ hotSpringType,True,Surajkund_hot_spring
 hqLocation,True,1
 hqLocationCity,True,Cupertino_California
 hqLocationCountry,True,U.S.
-hypernym,True,Company
+hypernym,False,Company
 id,False,mn0000503460
 image,False,M2 Macbook Air Midnight model - 1.jpg
 imageCaption,False,Apple Park the company's headquarters in Cupertino California within Silicon Valley
@@ -575,13 +575,13 @@ note,False,Street_Warz
 notes,False,--06-18
 npReactorSupplier,True,Pilgrim_Nuclear_Power_Station
 ns,False,-27.81916666666667
-numEmployees,True,164000
+numEmployees,False,164000
 numEmployeesYear,False,2022
 numLocations,True,521
 numLocationsYear,False,2022
 numUsers,True,223090000
 number,False,6
-numberOfEmployees,True,164000
+numberOfEmployees,False,164000
 numberOfLocations,True,521
 numberbfstars,True,65
 numberbrightstars,True,3
@@ -746,7 +746,7 @@ restingPlace,True,St._Louis
 retired,True,2022
 reuters,False,AAPL.O
 rev,False,I_Wanna_Be_with_You_(album)
-revenue,True,3.9433E11
+revenue,False,3.9433E11
 revenueYear,False,2022
 risks,True,Basal-cell_carcinoma
 rm,False,2010_Los_Angeles_Galaxy_season
@@ -805,7 +805,7 @@ ss,False,History_of_Exeter_City_F.C.
 stardistancely,True,10.3
 stardistancepc,True,3.16
 starmagnitude,True,2.07
-starring,True,Setup_(2011_film)
+starring,False,Setup_(2011_film)
 startYear,True,1937
 stat1label,False,Point_(basketball)
 stat1value,False,33643
@@ -899,7 +899,7 @@ votes,True,214969
 voy,False,Cupertino
 w,False,70.0
 weapons,True,2014_Kafr_Zita_chemical_attack
-website,True,www.apple.com
+website,False,www.apple.com
 weight,True,253
 weightLb,True,212
 weightLbs,True,216
@@ -933,8 +933,8 @@ workInstitution,True,Zoltan_Hajos
 workInstitutions,True,Steve_Scott_(computer_architect)
 workplaces,True,Ramanathan_V._Guha
 works,True,videography
-writer,True,Window_Shopper__Window_Shopper__1
-writers,True,List_of_songs_recorded_by_Justin_Timberlake
+writer,False,Window_Shopper__Window_Shopper__1
+writers,False,List_of_songs_recorded_by_Justin_Timberlake
 wstitle,False,Aquila
 x,False,9223372036854775807
 xaxistitle,False,year
