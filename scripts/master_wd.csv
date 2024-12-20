@@ -341,7 +341,7 @@ enemy,True,Fandom Menace
 escutcheon image,False,http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20McCartney%20Arms.svg
 ethnic group,True,African Americans
 exact match,False,http://www.fundinguniverse.com/company-histories/nvidia-corporation-history/
-executive producer,True,Power Book III: Raising Kanan
+executive producer,False,Power Book III: Raising Kanan
 exhibited creator,True,Recent Acquisitions
 exhibition history,True,LOVE
 exploitation mark number,False,139587
@@ -464,7 +464,7 @@ make-up artist,True,Arjen Tuiten
 manifestation of,True,hydrogen atom
 manner of death,True,natural causes
 manufacturer,False,Q130242904
-market capitalization,True,2240000000000
+market capitalization,False,2240000000000
 married name,True,Angelina Jolie Pitt
 mascot,True,Mickey Mouse
 mass,True,56
@@ -504,7 +504,7 @@ narrative location,True,Texas
 narrator,True,Voyage of Time
 native label,True,Berkshire Hathaway
 native language,True,English
-net profit,True,96995000000
+net profit,False,96995000000
 net worth,True,355000000
 nickname,True,Chipzilla
 noble title,True,Knight Bachelor
@@ -528,7 +528,7 @@ official website,False,https://www.apple.com/
 officially opened by,True,The Floating Sistine Chapel
 on focus list of Wikimedia project,False,Wikipedia:Vital articles/Level/4
 operating area,True,worldwide
-operating income,True,114301000000
+operating income,False,114301000000
 operating system,True,Climate Data Operators
 operator,True,Apple Trade In
 opposite of,True,phlogiston
@@ -583,7 +583,7 @@ principal investigator,True,Nadia Valentina Martínez Villegas
 privacy policy URL,False,https://www.apple.com/legal/privacy/
 prize money,True,130594339
 produced by,True,granite
-producer,True,Frozen III
+producer,False,Frozen III
 production company,True,Bad Sisters
 production date,True,2017-03-15T00:00:00Z
 production designer,True,Galaxy of Terror
