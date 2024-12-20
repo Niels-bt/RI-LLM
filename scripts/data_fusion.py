@@ -170,11 +170,11 @@ def data_fusion(db_id: str, wd_id: str, file_path: str):
 
 
 if __name__ == "__main__":
-    fusion_table(start_row=0, end_row=4, domain=0, multiple_lines=True)
-    fusion_table(start_row=0, end_row=4, domain=1, multiple_lines=True)
-    fusion_table(start_row=0, end_row=4, domain=2, multiple_lines=True)
-    fusion_table(start_row=0, end_row=4, domain=3, multiple_lines=True)
-    fusion_table(start_row=0, end_row=4, domain=4, multiple_lines=True)
+    fusion_table(start_row=0, end_row=9, domain=0, multiple_lines=False)
+    fusion_table(start_row=0, end_row=9, domain=1, multiple_lines=False)
+    fusion_table(start_row=0, end_row=9, domain=2, multiple_lines=False)
+    fusion_table(start_row=0, end_row=9, domain=3, multiple_lines=False)
+    fusion_table(start_row=0, end_row=9, domain=4, multiple_lines=False)
 
     '''
     data_fusion = data_fusion("Coldplay", "Q45188", "celebrities")

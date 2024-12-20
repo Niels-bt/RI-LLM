@@ -88,7 +88,7 @@ applies to jurisdiction,
 applies to part,
 architect,
 archives at,
-area,
+area,areatotal
 armament,
 art director,
 assessment,
@@ -102,18 +102,18 @@ author of foreword,
 authority,
 award received,award,awards
 based on,
-birth name,birthname,name
+birth name,birthname,birthName
 blood type,
 board member,
 boiling point,
-box office,
+box office,gross
 budget,budget
 business division,division
 by-product,
 by-product of,
 candidate,candidate
 canonical SMILES,
-capital cost,
+capital cost,budget
 cast member,
 catchphrase,
 category of associated people,
@@ -152,16 +152,16 @@ corporate officer,
 costume designer,designer
 country,country
 country for sport,
-country of citizenship,
-country of origin,
+country of citizenship,citizenship
+country of origin,origin,country
 cover art by,
 created for,
-creator,creator
+creator,creator,manufacturer,manufacturers
 crew member(s),
 crystal system,
 currency,currency
 date depicted,
-date of birth,
+date of birth,birthDate,birthYear
 date of burial or cremation,
 date of death,
 date of first performance,
@@ -187,7 +187,7 @@ donated by,
 doubles record,
 drafted by,
 drug or therapy used for treatment,
-duration,
+duration,runtime
 dynamic viscosity,
 edition or translation of,
 educated at,
@@ -213,11 +213,11 @@ facilitates flow of,
 family,family
 family name,name
 fandom,
-father,father,mother
+father,father,mother,parents,parent
 featured track(s),
 fictional or mythical analog of,
 fictional universe described in,in
-field of work,
+field of work,occupation
 film crew member,
 film editor,
 filming location,location
@@ -228,7 +228,7 @@ flag bearer,flagbearer
 footedness,
 form of creative work,
 found in taxon,in
-founded by,
+founded by,founder,founders,foundedBy
 frequency,
 funder,
 genre,genre
@@ -251,19 +251,19 @@ has part(s),
 has pet,
 has semantic argument,
 has spin-off,
-has subsidiary,
+has subsidiary,subsidiary
 has use,
 has works in the collection,
 has written for,
 head coach,coach
-headquarters location,location,locations
+headquarters location,location,locations,hqLocationCity,locationCity
 height,height
 immediately dangerous to life or health,
 in opposition to,
 industry,industries,industry
 influenced by,
 inspired by,
-instance of,
+instance of,type
 instrument,
 interested in,in
 investor,
@@ -276,7 +276,7 @@ language of work or name,
 languages spoken,language
 launch contractor,
 league or competition,
-legal form,
+legal form,type
 lifestyle,
 list of characters,
 located in the administrative territorial entity,
@@ -284,7 +284,7 @@ location,location,locations
 location of creation,
 location of discovery,
 location of first performance,
-location of formation,
+location of formation,origin,hqLocationCity
 lyricist,lyricist
 made from material,
 magnetic ordering,
@@ -305,7 +305,7 @@ medical condition,medication
 medical condition treated,medication,treatment
 melting point,
 member category,
-member of,
+member of,currentMembers
 member of political party,
 member of sports team,
 military branch,
@@ -317,7 +317,7 @@ model,
 model item,
 molar enthalpy of vaporization,
 molar fusion enthalpy,
-mother,father,mother
+mother,father,mother,parents,parent
 motto,motto
 motto text,
 movement,
@@ -325,7 +325,7 @@ music created for,
 musical conductor,composer
 name,name
 name in native language,
-named after,
+named after,symbolism
 named by,
 narrative location,location,locations
 narrator,narrator
@@ -338,7 +338,7 @@ noble title,title
 nominated for,
 notable role,
 notable work,
-number of children,
+number of children,children
 number of matches played/races/starts,
 object class of occurrence,
 occupant,
@@ -357,7 +357,7 @@ organizer,
 original broadcaster,
 original language of film or TV show,
 owned by,
-owner of,
+owner of,currentOwner,currentowner
 oxidation state,state
 parent,parent
 parent organization,organisation,organization,parent
@@ -373,7 +373,7 @@ performing organization,organisation,organization,participation
 permanent resident of,
 personal pronoun,
 physically interacts with,
-place of birth,
+place of birth,birthPlace
 place of burial,
 place of death,
 place of detention,
@@ -386,7 +386,7 @@ position held,
 position played on team / speciality,
 possible treatment,medication,treatment
 postal code,
-powered by,
+powered by,fuelSource
 present in work,in
 presenter,presenter
 price,
@@ -394,7 +394,7 @@ principal investigator,
 prize money,
 produced by,
 producer,producer,producers
-production company,companies,company,production
+production company,companies,company,production,productionCompanies
 production date,
 production designer,designer,production
 production statistics,production
@@ -436,7 +436,7 @@ sexual orientation,
 shares border with,neighbourConstellations,bordering
 shear modulus,
 short-term exposure limit,
-sibling,
+sibling,relations,relation
 signatory,
 significant drug interaction,
 significant person,person
@@ -513,6 +513,6 @@ website account on,
 winner,winner
 work location,
 work period (end),
-work period (start),
+work period (start),yearsActive,activeYearsStartYear
 worn by,
 writing language,language

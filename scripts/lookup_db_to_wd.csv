@@ -1,7 +1,7 @@
 abbreviation,
 academicDiscipline,
 activeYearsEndYear,
-activeYearsStartYear,
+activeYearsStartYear,work period (start)
 actor,voice actor
 acts,
 adaptedBy,
@@ -24,7 +24,7 @@ archiveDate,
 areaServed,
 arearank,
 areasServed,
-areatotal,
+areatotal,area
 artist,storyboard artist
 asiawins,
 assets,
@@ -52,10 +52,10 @@ beforeElection,
 bestActor,
 bestActorFilm,
 bestActress,
-birthDate,
-birthName,
-birthPlace,
-birthYear,
+birthDate,date of birth
+birthName,birth name
+birthPlace,place of birth
+birthYear,date of birth
 birthname,birth name
 block,
 blockAlloy,
@@ -69,7 +69,7 @@ brand,
 branding,
 brands,
 brighteststarname,
-budget,budget
+budget,budget,capital cost
 builder,
 builders,
 callsignMeaning,
@@ -94,10 +94,10 @@ championInSingleMale,
 chassis,chassis
 chemical,chemical formula
 child,child
-children,child
+children,child,number of children
 chronology,
 cinematography,
-citizenship,
+citizenship,country of citizenship
 class,
 client,
 clubnumber,
@@ -133,7 +133,7 @@ contaminants,
 contractors,
 copyright,copyright holder,copyright license,copyright representative
 count,
-country,country
+country,country,country of origin
 creator,creator
 creatorname,
 creators,
@@ -143,12 +143,12 @@ curator,
 currency,currency
 currentMember,
 currentMemberOf,
-currentMembers,
-currentOwner,
+currentMembers,member of
+currentOwner,owner of
 currentStatus,
 currentTenants,
 currentclub,
-currentowner,
+currentowner,owner of
 currentposition,
 daviscupresult,
 deathDate,
@@ -229,16 +229,16 @@ formerNames,
 formula,chemical formula
 foundation,
 founded,
-foundedBy,
-founder,
-founders,
+foundedBy,founded by
+founder,founded by
+founders,founded by
 foundingDate,
 foundingYear,
 foundry,
 frenchopendoublesresult,
 frenchopenresult,
 ft,
-fuelSource,
+fuelSource,powered by
 fullname,
 funding,
 genitive,
@@ -246,7 +246,7 @@ genre,genre
 goals,
 gold,
 goldMedalist,
-gross,
+gross,box office
 group,ethnic group
 guests,
 halftime,
@@ -279,7 +279,7 @@ host,
 hosts,
 hotSpringType,
 hqLocation,
-hqLocationCity,
+hqLocationCity,headquarters location,location of formation
 hqLocationCountry,
 hypernym,
 importantStation,
@@ -328,7 +328,7 @@ licensee,copyright license
 literaryGenre,
 lithology,
 location,filming location,headquarters location,location,narrative location
-locationCity,
+locationCity,headquarters location
 locationCountry,
 locations,headquarters location,location,narrative location
 loser,
@@ -338,8 +338,8 @@ mainIngredient,
 major,academic major
 majorwins,
 management,
-manufacturer,
-manufacturers,
+manufacturer,creator
+manufacturers,creator
 manufacturier,
 markTitle,
 mascot,mascot
@@ -381,7 +381,7 @@ music,theme music
 musicBy,
 musicComposer,
 mvp,
-name,alternative name,birth name,family name,given name,married name,name,official name
+name,alternative name,official name,family name,given name,married name,name,""
 namedAfter,
 namedFor,
 namedafter,
@@ -423,7 +423,7 @@ numbermainstars,
 numbermessierobjects,
 numbernearbystars,
 numberstarsplanets,
-occupation,occupation
+occupation,occupation,field of work
 office,
 oldestScorerPlayer,
 olympicsdoublesresult,
@@ -443,7 +443,7 @@ organised,
 organisers,
 organization,affiliated worker organisation,affiliation,parent organization,performing organization
 organized,
-origin,
+origin,country of origin,location of formation
 otherNames,
 otherparty,
 othertournaments,
@@ -455,11 +455,11 @@ owners,
 ownership,
 owningCompany,
 pages,
-parent,godparent,parent,parent organization
+parent,godparent,parent,parent organization,father,mother
 parentCompany,
 parentOrganisation,
 parentOrganization,
-parents,
+parents,father,mother
 participants,
 participation,affiliation,performing organization
 partner,unmarried partner
@@ -507,7 +507,7 @@ producer,executive producer,producer
 producers,producer
 product,
 production,production company,production designer,production statistics
-productionCompanies,
+productionCompanies,production company
 productionCompany,
 products,
 profession,
@@ -531,8 +531,8 @@ region,
 regionServed,
 registry,Reaxys registry number
 related,related category
-relation,declination,relative,relative permeability
-relations,
+relation,declination,relative,relative permeability,sibling
+relations,sibling
 relative,relative,relative permeability
 relatives,relative
 released,
@@ -544,7 +544,7 @@ retired,
 revenue,total revenue
 risks,
 routeEnd,
-runtime,
+runtime,duration
 score,review score
 screenplay,
 seasonTopscorer,
@@ -588,11 +588,11 @@ story,
 structuralSystem,
 studio,
 subsequentWork,
-subsidiary,
+subsidiary,has subsidiary
 successor,
 successors,
 supportAct,
-symbolism,
+symbolism,named after
 talk,
 target,
 team,supported sports team,team captain
@@ -624,7 +624,7 @@ treatment,medical condition treated,possible treatment
 turnedpro,
 tv,
 tvstation,
-type,type foundry
+type,type foundry,instance of,legal form
 usopendoublesresult,
 usopenresult,
 valves,
@@ -654,7 +654,7 @@ writer,author,screenwriter
 writers,
 yearpro,
 years,
-yearsActive,
+yearsActive,work period (start)
 youngestScorerPlayer,
 youthclubs,
 youthyears,
