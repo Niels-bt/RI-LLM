@@ -1,50 +1,51 @@
-"chronology","19_(Adele_album)|Easy_on_Me|21_(Adele_album)","","",""
-"mostWins","Billboard_Music_Award_for_Top_Billboard_200_Album|Grammy_Award_for_Best_Pop_Vocal_Album|Grammy_Award_for_Best_Pop_Solo_Performance","","",""
-"years","2009|2016|Skyfall, 2012|2012","","",""
-"source","—Dave Simpson of The Guardian on Adele's voice and down to earth persona.","","",""
-"producer","Someone_like_You_(Adele_song)","","",""
-"children","","1","Angelo Adkins","child|number of children"
-"mostAwards","2012_Billboard_Music_Awards|54th_Annual_Grammy_Awards|59th_Annual_Grammy_Awards|Brit_Awards_2022|Brit_Awards_2016","","",""
-"activeYearsStartYear|yearsActive","2006|2006","","2006-01-01T00:00:00Z","work period (start)"
-"title","Brit_Award_for_British_Female_Solo_Artist|Articles and topics related to Adele|James Bond title artist|Grammy_Award_for_Best_New_Artist|List_of_awards_and_nominations_received_by_Adele|Academy_Award_for_Best_Original_Song","","",""
-"class","artist","","",""
-"before","Zac_Brown_Band|Another Way to Die, 2008|Jack White and Alicia Keys|Randy_Newman|Paloma_Faith|Laura_Marling|Amy_Winehouse","","",""
-"occupation","Adele__PersonFunction__1","singer|songwriter","musician|executive producer|pianist|composer|guitarist|drummer|recording artist|singer-songwriter|music composing|song","occupation|field of work"
-"works","List_of_songs_recorded_by_Adele|Adele_discography","","",""
-"birthPlace","London|London, England","","Tottenham","place of birth"
-"isPrimaryTopicOf","Adele","","",""
-"knownFor","Michael_Ashton","","",""
-"primaryTopic","Adele","","",""
-"name","","Adele","Adkins|Laurie|Blue","family name|given name"
-"after","Sam_Smith_(singer)|Kristen Lopez and Robert Lopez|Emeli_Sandé|Zac_Brown_Band|Writing's on the Wall, 2015","","",""
-"executiveProducer","Adele_One_Night_Only|Adele_Live_in_New_York_City","","",""
-"label","Adele","","Sony Music|Columbia Records|XL Recordings","record label"
-"birthYear|birthDate","1988|1988-05-05","","1988-05-05T00:00:00Z","date of birth"
-"species","no","","",""
-"spouse","2018|2021-03-04","Simon Konecki","Rich Paul","spouse"
-"music","Avenida_Brasil_(TV_series)|Grammy_Nominees","","",""
-"birthName","","Adele Laurie Blue Adkins","","birth name"
-"","","","I Miss You|I Drink Wine|Sweetest Devotion|Million Years Ago|Turning Tables|Skyfall|Remedy|Crazy for You|Take It All|Easy on Me|Send My Love (To Your New Lover)|Don't You Remember|Rumour Has It|I'll Be Waiting|Painting Pictures|Hello|Water Under the Bridge|All Night Parking (Interlude)|Oh My God|First Love|Cold Shoulder|Can I Get It|He Won't Go|Rolling in the Deep|Daydreamer|Alive|Someone Like You|Set Fire to the Rain|Love in the Dark|My Same|To Be Loved|One and Only|Hometown Glory|Stone Cold|River Lea|Chasing Pavements|When We Were Young|All I Ask|Right as Rain|Best For Last","lyricist"
-"","","","BRIT School for Performing Arts and Technology","educated at"
-"","","","26824749|39409499|27100000|29700000|27325916|28000000|64760263|31000000|23000000|23700000|27684011|31100000|56615181","social media followers"
-"","","","Adele","name in native language"
-"","","","Rolling in the Deep|Daydreamer|Best for Last","contributor to the creative work or subject"
-"","","","pop music|jazz|rhythm and blues|rock music|blue-eyed soul|soul","genre"
-"","","","Glastonbury Festival","participant in"
-"","","","Grammy Award for Best Song Written for Visual Media|Broadcast Film Critics Association Award for Best Song|Satellite Award for Best Original Song|Golden Globe Award for Best Original Song|MTV Europe Music Award for Best Song|Academy Award for Best Original Song","nominated for"
-"","","","Juno Award for International Album of the Year|American Music Award for Favorite Pop/Rock Album|MTV Video Music Award for Best Art Direction|MTV Video Music Award for Best Cinematography|MTV Europe Music Award for Best UK & Ireland Act|Brit Awards 2012|MTV Video Music Award for Best Editing","winner"
-"","","","mezzo-soprano","voice type"
-"","","","Adele","pseudonym"
-"","","","adele","Douban site name"
-"","","","piano|drum kit|viola|trumpet|voice|guitar|bass guitar","instrument"
-"","","","Rich Paul","unmarried partner"
-"","","","Obálky knih|Lentapedia","described by source"
-"","","","SESAC","copyright representative"
-"","","","United Kingdom","country of citizenship"
-"","","","English","native language"
-"","","","Adele discography","discography"
-"","","","female","sex or gender"
-"","","","Angelo Adkins","mother"
-"","","","Adele filmography","filmography"
-"","","","human","instance of"
-"","","","Adele (vocalist)","Commons category"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+chronology,19_(Adele_album)|Easy_on_Me|21_(Adele_album),,,
+mostWins,Billboard_Music_Award_for_Top_Billboard_200_Album|Grammy_Award_for_Best_Pop_Vocal_Album|Grammy_Award_for_Best_Pop_Solo_Performance,,,
+years,"2009|2016|Skyfall, 2012|2012",,,
+source,—Dave Simpson of The Guardian on Adele's voice and down to earth persona.,,,
+producer,Someone_like_You_(Adele_song),,,
+children,,1,Angelo Adkins,child|number of children
+mostAwards,2012_Billboard_Music_Awards|54th_Annual_Grammy_Awards|59th_Annual_Grammy_Awards|Brit_Awards_2022|Brit_Awards_2016,,,
+activeYearsStartYear|yearsActive,2006|2006,,2006-01-01T00:00:00Z,work period (start)
+title,Brit_Award_for_British_Female_Solo_Artist|Articles and topics related to Adele|James Bond title artist|Grammy_Award_for_Best_New_Artist|List_of_awards_and_nominations_received_by_Adele|Academy_Award_for_Best_Original_Song,,,
+class,artist,,,
+before,"Zac_Brown_Band|Another Way to Die, 2008|Jack White and Alicia Keys|Randy_Newman|Paloma_Faith|Laura_Marling|Amy_Winehouse",,,
+occupation,Adele__PersonFunction__1,singer|songwriter,musician|executive producer|pianist|composer|guitarist|drummer|recording artist|singer-songwriter|music composing|song,occupation|field of work
+works,List_of_songs_recorded_by_Adele|Adele_discography,,,
+birthPlace,"London|London, England",,Tottenham,place of birth
+isPrimaryTopicOf,Adele,,,
+knownFor,Michael_Ashton,,,
+primaryTopic,Adele,,,
+name,,Adele,Adkins|Laurie|Blue,family name|given name
+after,"Sam_Smith_(singer)|Kristen Lopez and Robert Lopez|Emeli_Sandé|Zac_Brown_Band|Writing's on the Wall, 2015",,,
+executiveProducer,Adele_One_Night_Only|Adele_Live_in_New_York_City,,,
+label,Adele,,Sony Music|Columbia Records|XL Recordings,record label
+birthYear|birthDate,1988|1988-05-05,,1988-05-05T00:00:00Z,date of birth
+species,no,,,
+spouse,2018|2021-03-04,Simon Konecki,Rich Paul,spouse
+music,Avenida_Brasil_(TV_series)|Grammy_Nominees,,,
+birthName,,Adele Laurie Blue Adkins,,birth name
+,,,I Miss You|I Drink Wine|Sweetest Devotion|Million Years Ago|Turning Tables|Skyfall|Remedy|Crazy for You|Take It All|Easy on Me|Send My Love (To Your New Lover)|Don't You Remember|Rumour Has It|I'll Be Waiting|Painting Pictures|Hello|Water Under the Bridge|All Night Parking (Interlude)|Oh My God|First Love|Cold Shoulder|Can I Get It|He Won't Go|Rolling in the Deep|Daydreamer|Alive|Someone Like You|Set Fire to the Rain|Love in the Dark|My Same|To Be Loved|One and Only|Hometown Glory|Stone Cold|River Lea|Chasing Pavements|When We Were Young|All I Ask|Right as Rain|Best For Last,lyricist
+,,,BRIT School for Performing Arts and Technology,educated at
+,,,26824749|39409499|27100000|29700000|27325916|28000000|64760263|31000000|23000000|23700000|27684011|31100000|56615181,social media followers
+,,,Adele,name in native language
+,,,Rolling in the Deep|Daydreamer|Best for Last,contributor to the creative work or subject
+,,,pop music|jazz|rhythm and blues|rock music|blue-eyed soul|soul,genre
+,,,Glastonbury Festival,participant in
+,,,Grammy Award for Best Song Written for Visual Media|Broadcast Film Critics Association Award for Best Song|Satellite Award for Best Original Song|Golden Globe Award for Best Original Song|MTV Europe Music Award for Best Song|Academy Award for Best Original Song,nominated for
+,,,Juno Award for International Album of the Year|American Music Award for Favorite Pop/Rock Album|MTV Video Music Award for Best Art Direction|MTV Video Music Award for Best Cinematography|MTV Europe Music Award for Best UK & Ireland Act|Brit Awards 2012|MTV Video Music Award for Best Editing,winner
+,,,mezzo-soprano,voice type
+,,,Adele,pseudonym
+,,,adele,Douban site name
+,,,piano|drum kit|viola|trumpet|voice|guitar|bass guitar,instrument
+,,,Rich Paul,unmarried partner
+,,,Obálky knih|Lentapedia,described by source
+,,,SESAC,copyright representative
+,,,United Kingdom,country of citizenship
+,,,English,native language
+,,,Adele discography,discography
+,,,female,sex or gender
+,,,Angelo Adkins,mother
+,,,Adele filmography,filmography
+,,,human,instance of
+,,,Adele (vocalist),Commons category

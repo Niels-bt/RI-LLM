@@ -1,28 +1,29 @@
-"anthem","Super_Bowl_XXXV","","",""
-"currentMembers","NickCarter|KevinRichardson|HowieDorough|BrianLittrell|AJMcLean","","Nick Carter|Kevin Richardson|A. J. McLean|Howie Dorough|Brian Littrell","member of"
-"genre","Teen_pop|Dance-pop|Adult_contemporary_music|Contemporary_R&B","pop music","","genre"
-"chronology","It's_Christmas_Time_Again","","",""
-"label","K-BAHN|BMG_Rights_Management|Legacy_Recordings|RCA_Records","Jive Records","Sony BMG Music Entertainment|RCA","record label"
-"title","List_of_awards_received_by_Backstreet_Boys","","",""
-"name","Backstreet Boys","","",""
-"acts","Miss_USA_2016","","",""
-"yearsActive","1993","","1992-01-01T00:00:00Z|1993-01-01T00:00:00Z","work period (start)"
-"musicComposer","Backstreet_Boys:_Show_'Em_What_You're_Made_Of","","",""
-"source","--Brian Littrell","","",""
-"isPrimaryTopicOf","Backstreet_Boys","","",""
-"origin","Orlando, Florida, U.S.","","United States of America|Orlando","country of origin|location of formation"
-"primaryTopic","Backstreet_Boys","","",""
-"music","Backstreet_Boys:_Show_'Em_What_You're_Made_Of|Grammy_Nominees","","",""
-"","","","MTV Europe Music Award for Best Group|MTV Video Music Award – Viewer's Choice|MTV Video Music Award for Best Group|American Music Award for Favorite Pop/Rock Band/Duo/Group","winner"
-"","","","Category:Backstreet Boys members","member category"
-"","","","7160000|5210000|1063099|5810000|1041411|6570000","social media followers"
-"","","","Grammy Award for Best New Artist","nominated for"
-"","","","Backstreet Boys: Live in Concert Tour","based on"
-"","","","Brian Littrell|Howie Dorough|Nick Carter|Kevin Richardson|A. J. McLean","has part(s)"
-"","","","musical group|boy band","instance of"
-"","","","list of awards and nominations received by Backstreet Boys","has list"
-"","","","Backstreet Boys","Commons category"
-"","","","M.E","inspired by"
-"","","","June Ambrose","contributor to the creative work or subject"
-"","","","Backstreet Boys discography","discography"
-"","","","Backstreet Boys","Commons gallery"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+anthem,Super_Bowl_XXXV,,,
+currentMembers,NickCarter|KevinRichardson|HowieDorough|BrianLittrell|AJMcLean,,Nick Carter|Kevin Richardson|A. J. McLean|Howie Dorough|Brian Littrell,member of
+genre,Teen_pop|Dance-pop|Adult_contemporary_music|Contemporary_R&B,pop music,,genre
+chronology,It's_Christmas_Time_Again,,,
+label,K-BAHN|BMG_Rights_Management|Legacy_Recordings|RCA_Records,Jive Records,Sony BMG Music Entertainment|RCA,record label
+title,List_of_awards_received_by_Backstreet_Boys,,,
+name,Backstreet Boys,,,
+acts,Miss_USA_2016,,,
+yearsActive,1993,,1992-01-01T00:00:00Z|1993-01-01T00:00:00Z,work period (start)
+musicComposer,Backstreet_Boys:_Show_'Em_What_You're_Made_Of,,,
+source,--Brian Littrell,,,
+isPrimaryTopicOf,Backstreet_Boys,,,
+origin,"Orlando, Florida, U.S.",,United States of America|Orlando,country of origin|location of formation
+primaryTopic,Backstreet_Boys,,,
+music,Backstreet_Boys:_Show_'Em_What_You're_Made_Of|Grammy_Nominees,,,
+,,,MTV Europe Music Award for Best Group|MTV Video Music Award – Viewer's Choice|MTV Video Music Award for Best Group|American Music Award for Favorite Pop/Rock Band/Duo/Group,winner
+,,,Category:Backstreet Boys members,member category
+,,,7160000|5210000|1063099|5810000|1041411|6570000,social media followers
+,,,Grammy Award for Best New Artist,nominated for
+,,,Backstreet Boys: Live in Concert Tour,based on
+,,,Brian Littrell|Howie Dorough|Nick Carter|Kevin Richardson|A. J. McLean,has part(s)
+,,,musical group|boy band,instance of
+,,,list of awards and nominations received by Backstreet Boys,has list
+,,,Backstreet Boys,Commons category
+,,,M.E,inspired by
+,,,June Ambrose,contributor to the creative work or subject
+,,,Backstreet Boys discography,discography
+,,,Backstreet Boys,Commons gallery

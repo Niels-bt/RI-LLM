@@ -1,77 +1,78 @@
-"notableWork","Sheppard_Solomon","","",""
-"activeYearsStartYear|yearsActive","1992|1992","","1992-01-01T00:00:00Z","work period (start)"
-"source","Britney:_For_the_Record","","",""
-"children|child","Jamie_Spears","Lynne Spears|2","Sean Federline|James Parnell Spears|Jayden Federline","child|number of children"
-"holder","Billboard_Millennium_Award","","",""
-"occupation","actress|Britney_Spears__PersonFunction__1","singer|dancer|songwriter","actor|composer|popular music|pop music","occupation|field of work"
-"composer","Zoey_101","","",""
-"showJudge","The_X_Factor_(American_TV_series)","","",""
-"relative","Jamie_Lynn_Spears","","",""
-"parents|parent","Jamie_Spears|Jamie_Spears","Lynne Spears","James Parnell Spears|Sean Federline|Jayden Federline","father|mother"
-"homepage","www.britneyspears.com","","",""
-"birthName","","Britney Jean Spears","","birth name"
-"works","Britney_Spears_videography|List_of_songs_recorded_by_Britney_Spears|Britney_Spears_discography","","",""
-"acts","Miss_Teen_USA_1999","","",""
-"musicBy","Once_Upon_a_One_More_Time","","",""
-"formerBandMember","Innosense","","",""
-"title","Freakshow|List_of_awards_and_nominations_received_by_Britney_Spears|You Got It All|Look_at_My_Butt_Crack","","",""
-"director","Britney_Spears_Live_from_Las_Vegas","","",""
-"birthDate|birthYear","1981-12-02|1981","","1981-12-02T00:00:00Z","date of birth"
-"spouse","--01-05","Sam Asghari|Kevin Federline","Jason Allen Alexander","spouse"
-"mostNominations","1999_Billboard_Music_Awards|2008_MTV_Europe_Music_Awards","","",""
-"producer","Britney_Spears_Live:_The_Femme_Fatale_Tour|Britney_Spears_Live_from_Las_Vegas","","",""
-"birthPlace","McComb,_Mississippi|McComb, Mississippi, U.S.","","McComb","place of birth"
-"relatives","Jamie_Lynn_Spears","","",""
-"mostAwards","1999_Billboard_Music_Awards|2008_MTV_Europe_Music_Awards|2008_MTV_Video_Music_Awards","","",""
-"chronology","I_Love_Rock_'n'_Roll|Make_Me_(Britney_Spears_song)|Me_Against_the_Music|Slumber_Party_(song)|Matches_(Britney_Spears_and_Backstreet_Boys_song)|Boys_(Britney_Spears_song)","","",""
-"name","Britney Spears","","Spears|Jean|Britney","family name|given name"
-"isPrimaryTopicOf","Britney_Spears","","",""
-"mostWins","43rd_People's_Choice_Awards|MTV_Video_Music_Award_for_Best_Pop_Video","","",""
-"hosts","American_Music_Awards_of_2001","","",""
-"primaryTopic","Britney_Spears","","",""
-"basedOn","Once_Upon_a_One_More_Time","","",""
-"executiveProducer","Britney_and_Kevin:_Chaotic","","",""
-"music","Grammy_Nominees","","",""
-"","","","list of awards and nominations received by Britney Spears","has list"
-"","","","Kentwood","residence"
-"","","","Make Me...|Anticipating|Someday (I Will Understand)|I've Just Begun|Everytime|Mmm Papi|And Then We Kiss","lyricist"
-"","","","pop music|teen pop|electronic dance music|electropop|dance-pop|synth-pop","genre"
-"","","","Britney Jean","nickname"
-"","","","Michael Jackson Video Vanguard Award|MTV Europe Music Award for Best Song|Mnet Asian Music Award for Best International Artist|MTV Video Music Award for Video of the Year|MTV Europe Music Award for Best New Act|MTV Video Music Award for Best Pop Video|MTV Europe Music Award for Best Album|MTV Europe Music Award for Best Pop|GLAAD Vanguard Award","winner"
-"","","","A","blood type"
-"","","","Jamie Lynn Spears|Bryan Spears","sibling"
-"","","","Colin Farrell|J.R. Rotem|Justin Timberlake|Wade Robson|Columbus Short|Kevin Federline|Sam Asghari|Charlie Ebersol","unmarried partner"
-"","","","Innosense","member of"
-"","","","Britney Spears","Commons category"
-"","","","Free Britney movement","significant person"
-"","","","Believe","creator"
-"","","","232497","Douban site name"
-"","","","Catholicism","religion or worldview"
-"","","","piano|voice","instrument"
-"","","","L484","personal pronoun"
-"","","","57977249|55800000|10000000|52661|42081575|9010000|10600000","social media followers"
-"","","","Grammy Award for Best New Artist|The Record of the Year","nominated for"
-"","","","Parklane Academy|Professional Performing Arts School|University of Nebraska High School","educated at"
-"","","","Courtney Gears|Britney Bitch|Free Britney movement","named after"
-"","","","soprano","voice type"
-"","","","Britney Spears discography","discography"
-"","","","Obálky knih","described by source"
-"","","","United States of America","country of citizenship"
-"","","","56","mass"
-"","","","163","height"
-"","","","dark blond hair","hair color"
-"","","","...Baby One More Time|Oops!... I Did It Again|Toxic","notable work"
-"","","","Are All Men Pedophiles?","recorded participant"
-"","","","Britney Spears","name in native language"
-"","","","Britney Spears filmography","filmography"
-"","","","The Mansion Family","characters"
-"","","","English","native language"
-"","","","Sony Music|Jive Records|RCA Records","record label"
-"","","","Broadcast Music, Inc.","copyright representative"
-"","","","Britney_Spears","EcuRed article"
-"","","","Los Angeles|Las Vegas","work location"
-"","","","female","sex or gender"
-"","","","human","instance of"
-"","","","Britney Spears Live: The Femme Fatale Tour","presenter"
-"","","","Free Britney movement","part of"
-"","","","brown","eye color"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+notableWork,Sheppard_Solomon,,,
+activeYearsStartYear|yearsActive,1992|1992,,1992-01-01T00:00:00Z,work period (start)
+source,Britney:_For_the_Record,,,
+children|child,Jamie_Spears,Lynne Spears|2,Sean Federline|James Parnell Spears|Jayden Federline,child|number of children
+holder,Billboard_Millennium_Award,,,
+occupation,actress|Britney_Spears__PersonFunction__1,singer|dancer|songwriter,actor|composer|popular music|pop music,occupation|field of work
+composer,Zoey_101,,,
+showJudge,The_X_Factor_(American_TV_series),,,
+relative,Jamie_Lynn_Spears,,,
+parents|parent,Jamie_Spears|Jamie_Spears,Lynne Spears,James Parnell Spears|Sean Federline|Jayden Federline,father|mother
+homepage,www.britneyspears.com,,,
+birthName,,Britney Jean Spears,,birth name
+works,Britney_Spears_videography|List_of_songs_recorded_by_Britney_Spears|Britney_Spears_discography,,,
+acts,Miss_Teen_USA_1999,,,
+musicBy,Once_Upon_a_One_More_Time,,,
+formerBandMember,Innosense,,,
+title,Freakshow|List_of_awards_and_nominations_received_by_Britney_Spears|You Got It All|Look_at_My_Butt_Crack,,,
+director,Britney_Spears_Live_from_Las_Vegas,,,
+birthDate|birthYear,1981-12-02|1981,,1981-12-02T00:00:00Z,date of birth
+spouse,--01-05,Sam Asghari|Kevin Federline,Jason Allen Alexander,spouse
+mostNominations,1999_Billboard_Music_Awards|2008_MTV_Europe_Music_Awards,,,
+producer,Britney_Spears_Live:_The_Femme_Fatale_Tour|Britney_Spears_Live_from_Las_Vegas,,,
+birthPlace,"McComb,_Mississippi|McComb, Mississippi, U.S.",,McComb,place of birth
+relatives,Jamie_Lynn_Spears,,,
+mostAwards,1999_Billboard_Music_Awards|2008_MTV_Europe_Music_Awards|2008_MTV_Video_Music_Awards,,,
+chronology,I_Love_Rock_'n'_Roll|Make_Me_(Britney_Spears_song)|Me_Against_the_Music|Slumber_Party_(song)|Matches_(Britney_Spears_and_Backstreet_Boys_song)|Boys_(Britney_Spears_song),,,
+name,Britney Spears,,Spears|Jean|Britney,family name|given name
+isPrimaryTopicOf,Britney_Spears,,,
+mostWins,43rd_People's_Choice_Awards|MTV_Video_Music_Award_for_Best_Pop_Video,,,
+hosts,American_Music_Awards_of_2001,,,
+primaryTopic,Britney_Spears,,,
+basedOn,Once_Upon_a_One_More_Time,,,
+executiveProducer,Britney_and_Kevin:_Chaotic,,,
+music,Grammy_Nominees,,,
+,,,list of awards and nominations received by Britney Spears,has list
+,,,Kentwood,residence
+,,,Make Me...|Anticipating|Someday (I Will Understand)|I've Just Begun|Everytime|Mmm Papi|And Then We Kiss,lyricist
+,,,pop music|teen pop|electronic dance music|electropop|dance-pop|synth-pop,genre
+,,,Britney Jean,nickname
+,,,Michael Jackson Video Vanguard Award|MTV Europe Music Award for Best Song|Mnet Asian Music Award for Best International Artist|MTV Video Music Award for Video of the Year|MTV Europe Music Award for Best New Act|MTV Video Music Award for Best Pop Video|MTV Europe Music Award for Best Album|MTV Europe Music Award for Best Pop|GLAAD Vanguard Award,winner
+,,,A,blood type
+,,,Jamie Lynn Spears|Bryan Spears,sibling
+,,,Colin Farrell|J.R. Rotem|Justin Timberlake|Wade Robson|Columbus Short|Kevin Federline|Sam Asghari|Charlie Ebersol,unmarried partner
+,,,Innosense,member of
+,,,Britney Spears,Commons category
+,,,Free Britney movement,significant person
+,,,Believe,creator
+,,,232497,Douban site name
+,,,Catholicism,religion or worldview
+,,,piano|voice,instrument
+,,,L484,personal pronoun
+,,,57977249|55800000|10000000|52661|42081575|9010000|10600000,social media followers
+,,,Grammy Award for Best New Artist|The Record of the Year,nominated for
+,,,Parklane Academy|Professional Performing Arts School|University of Nebraska High School,educated at
+,,,Courtney Gears|Britney Bitch|Free Britney movement,named after
+,,,soprano,voice type
+,,,Britney Spears discography,discography
+,,,Obálky knih,described by source
+,,,United States of America,country of citizenship
+,,,56,mass
+,,,163,height
+,,,dark blond hair,hair color
+,,,...Baby One More Time|Oops!... I Did It Again|Toxic,notable work
+,,,Are All Men Pedophiles?,recorded participant
+,,,Britney Spears,name in native language
+,,,Britney Spears filmography,filmography
+,,,The Mansion Family,characters
+,,,English,native language
+,,,Sony Music|Jive Records|RCA Records,record label
+,,,"Broadcast Music, Inc.",copyright representative
+,,,Britney_Spears,EcuRed article
+,,,Los Angeles|Las Vegas,work location
+,,,female,sex or gender
+,,,human,instance of
+,,,Britney Spears Live: The Femme Fatale Tour,presenter
+,,,Free Britney movement,part of
+,,,brown,eye color

@@ -1,30 +1,31 @@
-"genre","","glam metal|hard rock|arena rock|pop rock","rock music","genre"
-"bandMember","Tico_Torres|Phil_X|Hugh_McDonald_(American_musician)|David_Bryan|Jon_Bon_Jovi","","",""
-"name","Bon Jovi","","",""
-"formerBandMember","Richie_Sambora|Alec_John_Such|Dave_Sabo","","",""
-"chronology","Do_What_You_Can|Till_We_Ain't_Strangers_Anymore","","",""
-"musicComposer","EDtv|The_Cowboy_Way_(film)","","",""
-"music","The_Cowboy_Way_(film)|EDtv|Grammy_Nominees","","",""
-"currentMembers","HughMcDonald|TicoTorres|DavidBryan|PhilX|JonBonJovi","","David Bryan|John Shanks|Hugh McDonald|Jon Bon Jovi|Tico Torres|Alec John Such|Richie Sambora","member of"
-"activeYearsStartYear|yearsActive","1983|1983","","1983-01-01T00:00:00Z","work period (start)"
-"hometown","Sayreville,_New_Jersey","","",""
-"pastMembers","AlecJohnSuch|RichieSambora|DaveSabo","","",""
-"primaryTopic","Bon_Jovi","","",""
-"isPrimaryTopicOf","Bon_Jovi","","",""
-"title","List_of_awards_and_nominations_received_by_Bon_Jovi","","",""
-"participation","Live_Earth_(2007_concert)","","",""
-"spinoffs","Scandal_(American_band)","","",""
-"label","Island|Vertigo|Mercury","","Mercury Records|Island Records","record label"
-"origin","Sayreville, New Jersey, U.S.","","United States of America|Sayreville","country of origin|location of formation"
-"species","no","","",""
-"recordLabel","Island_Records|Vertigo_Records|Mercury_Records","","",""
-"pastMemberOf","Alec_John_Such","","",""
-"","","","Bon Jovi discography","discography"
-"","","","Bon Jovi","Commons category"
-"","","","Jon Bon Jovi|Phil X|Richie Sambora|Tico Torres|Everett Bradley|David Bryan|Hugh McDonald","has part(s)"
-"","","","2977752|3005431|2930100","social media followers"
-"","","","Jon Bon Jovi|Episinus bonjovi","named after"
-"","","","Michael Jackson Video Vanguard Award|MTV Europe Music Award for Best Rock|American Music Award for Favorite Pop/Rock Band/Duo/Group","winner"
-"","","","Phil X","part of"
-"","","","musical group","instance of"
-"","","","Category:Bon Jovi members","member category"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+genre,,glam metal|hard rock|arena rock|pop rock,rock music,genre
+bandMember,Tico_Torres|Phil_X|Hugh_McDonald_(American_musician)|David_Bryan|Jon_Bon_Jovi,,,
+name,Bon Jovi,,,
+formerBandMember,Richie_Sambora|Alec_John_Such|Dave_Sabo,,,
+chronology,Do_What_You_Can|Till_We_Ain't_Strangers_Anymore,,,
+musicComposer,EDtv|The_Cowboy_Way_(film),,,
+music,The_Cowboy_Way_(film)|EDtv|Grammy_Nominees,,,
+currentMembers,HughMcDonald|TicoTorres|DavidBryan|PhilX|JonBonJovi,,David Bryan|John Shanks|Hugh McDonald|Jon Bon Jovi|Tico Torres|Alec John Such|Richie Sambora,member of
+activeYearsStartYear|yearsActive,1983|1983,,1983-01-01T00:00:00Z,work period (start)
+hometown,"Sayreville,_New_Jersey",,,
+pastMembers,AlecJohnSuch|RichieSambora|DaveSabo,,,
+primaryTopic,Bon_Jovi,,,
+isPrimaryTopicOf,Bon_Jovi,,,
+title,List_of_awards_and_nominations_received_by_Bon_Jovi,,,
+participation,Live_Earth_(2007_concert),,,
+spinoffs,Scandal_(American_band),,,
+label,Island|Vertigo|Mercury,,Mercury Records|Island Records,record label
+origin,"Sayreville, New Jersey, U.S.",,United States of America|Sayreville,country of origin|location of formation
+species,no,,,
+recordLabel,Island_Records|Vertigo_Records|Mercury_Records,,,
+pastMemberOf,Alec_John_Such,,,
+,,,Bon Jovi discography,discography
+,,,Bon Jovi,Commons category
+,,,Jon Bon Jovi|Phil X|Richie Sambora|Tico Torres|Everett Bradley|David Bryan|Hugh McDonald,has part(s)
+,,,2977752|3005431|2930100,social media followers
+,,,Jon Bon Jovi|Episinus bonjovi,named after
+,,,Michael Jackson Video Vanguard Award|MTV Europe Music Award for Best Rock|American Music Award for Favorite Pop/Rock Band/Duo/Group,winner
+,,,Phil X,part of
+,,,musical group,instance of
+,,,Category:Bon Jovi members,member category

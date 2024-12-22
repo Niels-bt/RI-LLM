@@ -1,57 +1,58 @@
-"birthYear|birthDate","1963|1963-12-18","","1963-12-18T00:00:00Z","date of birth"
-"producer","War_Machine_(film)|Big_Men_(film)|The_Tree_of_Life_(film)|By_the_Sea_(2015_film)|Kick-Ass_(film)|Moneyball_(film)|Beautiful_Boy_(2018_film)|Vice_(2018_film)|Ad_Astra_(film)|12_Years_a_Slave_(film)|The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford|The_Departed|Running_with_Scissors_(film)|World_War_Z_(film)|Blonde_(2022_film)|The_Killer_(upcoming_film)|Nightingale_(film)|A_Mighty_Heart_(film)|Voyage_of_Time|The_King_(2019_film)|Killing_Them_Softly__Killing_Them_Softly__1|The_Big_Short_(film)","","",""
-"executiveProducer","Handsome|Lego_Masters_(American_TV_series)|The_Underground_Railroad_(miniseries)|The_Normal_Heart_(film)|Outer_Range|High_School_(2022_TV_series)|Sweetbitter_(TV_series)|The_Third_Day_(TV_series)|The_Three-Body_Problem_(TV_series)|Paper_Girls_(TV_series)|The_OA","","",""
-"spouse","","Angelina Jolie|Jennifer Aniston","","spouse"
-"occupation","Brad_Pitt__PersonFunction__1","actor|film producer","television actor|film actor|executive producer|voice actor|model|film director|television producer|producer|director","occupation"
-"portrayer","Louis_de_Pointe_du_Lac|The_Narrator_(Fight_Club)","","",""
-"yearsActive|activeYearsStartYear","1987|1987","","1987-01-01T00:00:00Z","work period (start)"
-"founder|foundedBy","Not_on_Our_Watch_(organization)","Make It Right Foundation|Plan_B_Entertainment","Plan B Entertainment","founded by"
-"name","List_of_awards_and_nominations_received_by_Brad_Pitt|Brad Pitt","","Pitt|William|Brad|Bradley","family name|given name"
-"narrator","","Voyage of Time","","narrator"
-"title","Children|List_of_awards_and_nominations_received_by_Brad_Pitt","","",""
-"isPrimaryTopicOf","Brad_Pitt","","",""
-"primaryTopic","Brad_Pitt","","",""
-"birthPlace","Shawnee, Oklahoma, U.S.|Shawnee,_Oklahoma","","Shawnee","place of birth"
-"species","no","","",""
-"relations|relation","","Douglas Pitt","","sibling"
-"children","","6","William Alvin Pitt|Jane Etta Hillhouse|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie","child|number of children"
-"birthName","","William Bradley Pitt","","birth name"
-"works","Brad_Pitt_filmography","","",""
-"","","","Brad Pitt","Commons gallery"
-"","","","Liverpool F.C.","supported sports team"
-"","","","Ivana Chubbuck|Roy London","student of"
-"","","","Academy Award for Best Supporting Actor|National Society of Film Critics Award for Best Actor|MTV Movie Award for Best Fight|MTV Movie Award for Best Male Performance|MTV Movie Award for Most Desirable Male|Broadcast Film Critics Association Award for Best Cast|Producers Guild of America Award for Best Theatrical Motion Picture|MTV Movie Award for Best Scared-As-S**t Performance","winner"
-"","","","Brad Pitt filmography","filmography"
-"","","","Gwyneth Paltrow|Juliette Lewis|Jennifer Aniston|Angelina Jolie","unmarried partner"
-"","","","Brad Pitt","name in native language"
-"","","","Château Miraval, Correns-Var|Plan B Entertainment","owner of"
-"","","","vegetarianism","lifestyle"
-"","","","Brangelina","has part(s)"
-"","","","Happy Feet Two|Sinbad and the Cyclops Island|Sinbad: Legend of the Seven Seas|Megamind","voice actor"
-"","","","Golden Globe Award for Best Supporting Actor – Motion Picture|Academy Award for Best Picture|Academy Award for Best Actor|European Film Award – People's Choice Award for Best European Film|Academy Award for Best Supporting Actor","nominated for"
-"","","","Brangelina","part of"
-"","","","Cornish Americans|Dutch Americans|French Americans|Irish Americans|British Americans|Swedish Americans|German Americans","ethnic group"
-"","","","left-handedness","handedness"
-"","","","Jane Etta Hillhouse","mother"
-"","","","180","height"
-"","","","William Alvin Pitt|Vivienne Jolie-Pitt|Shiloh Jolie|Knox Jolie-Pitt","father"
-"","","","Los Angeles|Springfield","residence"
-"","","","Ivana Chubbuck|Roy London","student"
-"","","","University of Missouri|Kickapoo High School","educated at"
-"","","","Brangelina","named after"
-"","","","Maddox Jolie-Pitt|Zahara Jolie-Pitt|Pax Jolie-Pitt","relative"
-"","","","Obálky knih","described by source"
-"","","","United States of America","country of citizenship"
-"","","","Category:Films produced by Brad Pitt","related category"
-"","","","Villa Oleandra","guest of honor"
-"","","","male","sex or gender"
-"","","","English","writing language"
-"","","","American English|English","native language"
-"","","","Real Time with Bill Maher, season 7, episode 23","talk show guest"
-"","","","Plan B Entertainment","director / manager"
-"","","","Brad Pitt","Commons category"
-"","","","Plan B Entertainment","significant person"
-"","","","blue","eye color"
-"","","","dirty blond hair","hair color"
-"","","","human","instance of"
-"","","","Vanisher","notable role"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+birthYear|birthDate,1963|1963-12-18,,1963-12-18T00:00:00Z,date of birth
+producer,War_Machine_(film)|Big_Men_(film)|The_Tree_of_Life_(film)|By_the_Sea_(2015_film)|Kick-Ass_(film)|Moneyball_(film)|Beautiful_Boy_(2018_film)|Vice_(2018_film)|Ad_Astra_(film)|12_Years_a_Slave_(film)|The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford|The_Departed|Running_with_Scissors_(film)|World_War_Z_(film)|Blonde_(2022_film)|The_Killer_(upcoming_film)|Nightingale_(film)|A_Mighty_Heart_(film)|Voyage_of_Time|The_King_(2019_film)|Killing_Them_Softly__Killing_Them_Softly__1|The_Big_Short_(film),,,
+executiveProducer,Handsome|Lego_Masters_(American_TV_series)|The_Underground_Railroad_(miniseries)|The_Normal_Heart_(film)|Outer_Range|High_School_(2022_TV_series)|Sweetbitter_(TV_series)|The_Third_Day_(TV_series)|The_Three-Body_Problem_(TV_series)|Paper_Girls_(TV_series)|The_OA,,,
+spouse,,Angelina Jolie|Jennifer Aniston,,spouse
+occupation,Brad_Pitt__PersonFunction__1,actor|film producer,television actor|film actor|executive producer|voice actor|model|film director|television producer|producer|director,occupation
+portrayer,Louis_de_Pointe_du_Lac|The_Narrator_(Fight_Club),,,
+yearsActive|activeYearsStartYear,1987|1987,,1987-01-01T00:00:00Z,work period (start)
+founder|foundedBy,Not_on_Our_Watch_(organization),Make It Right Foundation|Plan_B_Entertainment,Plan B Entertainment,founded by
+name,List_of_awards_and_nominations_received_by_Brad_Pitt|Brad Pitt,,Pitt|William|Brad|Bradley,family name|given name
+narrator,,Voyage of Time,,narrator
+title,Children|List_of_awards_and_nominations_received_by_Brad_Pitt,,,
+isPrimaryTopicOf,Brad_Pitt,,,
+primaryTopic,Brad_Pitt,,,
+birthPlace,"Shawnee, Oklahoma, U.S.|Shawnee,_Oklahoma",,Shawnee,place of birth
+species,no,,,
+relations|relation,,Douglas Pitt,,sibling
+children,,6,William Alvin Pitt|Jane Etta Hillhouse|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie,child|number of children
+birthName,,William Bradley Pitt,,birth name
+works,Brad_Pitt_filmography,,,
+,,,Brad Pitt,Commons gallery
+,,,Liverpool F.C.,supported sports team
+,,,Ivana Chubbuck|Roy London,student of
+,,,Academy Award for Best Supporting Actor|National Society of Film Critics Award for Best Actor|MTV Movie Award for Best Fight|MTV Movie Award for Best Male Performance|MTV Movie Award for Most Desirable Male|Broadcast Film Critics Association Award for Best Cast|Producers Guild of America Award for Best Theatrical Motion Picture|MTV Movie Award for Best Scared-As-S**t Performance,winner
+,,,Brad Pitt filmography,filmography
+,,,Gwyneth Paltrow|Juliette Lewis|Jennifer Aniston|Angelina Jolie,unmarried partner
+,,,Brad Pitt,name in native language
+,,,"Château Miraval, Correns-Var|Plan B Entertainment",owner of
+,,,vegetarianism,lifestyle
+,,,Brangelina,has part(s)
+,,,Happy Feet Two|Sinbad and the Cyclops Island|Sinbad: Legend of the Seven Seas|Megamind,voice actor
+,,,Golden Globe Award for Best Supporting Actor – Motion Picture|Academy Award for Best Picture|Academy Award for Best Actor|European Film Award – People's Choice Award for Best European Film|Academy Award for Best Supporting Actor,nominated for
+,,,Brangelina,part of
+,,,Cornish Americans|Dutch Americans|French Americans|Irish Americans|British Americans|Swedish Americans|German Americans,ethnic group
+,,,left-handedness,handedness
+,,,Jane Etta Hillhouse,mother
+,,,180,height
+,,,William Alvin Pitt|Vivienne Jolie-Pitt|Shiloh Jolie|Knox Jolie-Pitt,father
+,,,Los Angeles|Springfield,residence
+,,,Ivana Chubbuck|Roy London,student
+,,,University of Missouri|Kickapoo High School,educated at
+,,,Brangelina,named after
+,,,Maddox Jolie-Pitt|Zahara Jolie-Pitt|Pax Jolie-Pitt,relative
+,,,Obálky knih,described by source
+,,,United States of America,country of citizenship
+,,,Category:Films produced by Brad Pitt,related category
+,,,Villa Oleandra,guest of honor
+,,,male,sex or gender
+,,,English,writing language
+,,,American English|English,native language
+,,,"Real Time with Bill Maher, season 7, episode 23",talk show guest
+,,,Plan B Entertainment,director / manager
+,,,Brad Pitt,Commons category
+,,,Plan B Entertainment,significant person
+,,,blue,eye color
+,,,dirty blond hair,hair color
+,,,human,instance of
+,,,Vanisher,notable role

@@ -1,58 +1,59 @@
-"relations|relation","","Casey Affleck","","sibling"
-"spouse","2022|2005|2018","Jennifer Lopez|Jennifer Garner","Bennifer","spouse"
-"birthPlace","Berkeley, California, U.S.|Berkeley,_California","","Berkeley","place of birth"
-"birthname|birthName","Benjamin Géza Affleck-Boldt|Benjamin Géza Affleck-Boldt","","Benjamin Geza Affleck","birth name"
-"occupation","Ben_Affleck__PersonFunction__1","screenwriter|actor|film director|film producer","television actor|poker player|film actor|writer|manufacturer|executive producer|voice actor|Bennifer|television producer","occupation"
-"portrayer","List_of_View_Askewniverse_characters|List_of_View_Askewniverse_characters__Holden_McNeil__1|Jack_Ryan_(character)|Bruce_Wayne_(DC_Extended_Universe)","","",""
-"director","The_Town_(2010_film)|Argo_(2012_film)|Live_by_Night_(film)","I Killed My Lesbian Wife, Hung Her on a Meat Hook, and Now I Have a Three-Picture Deal at Disney|Gone Baby Gone","The Town|Animals|Live by Night|Argo|Air","director"
-"title","List_of_awards_and_nominations_received_by_Ben_Affleck","","",""
-"producer","The_Last_Duel_(2021_film)|Bending_the_Arc|Argo_(2012_film)|Stolen_Summer|Reporter_(film)","","",""
-"executiveProducer","Incorporated_(TV_series)|The_Leisure_Class|The_Runner_(TV_series)|Project_Greenlight|City_on_a_Hill_(TV_series)","","",""
-"activeYearsStartYear|yearsActive","1981|1981","","1981-01-01T00:00:00Z","work period (start)"
-"collapsible","true","","",""
-"after","Mickey_Rourke_filmography","","",""
-"isPrimaryTopicOf","Ben_Affleck","","",""
-"party","Democratic_Party_(United_States)","","",""
-"primaryTopic","Ben_Affleck","","",""
-"creator","","Push, Nevada","","creator"
-"name","Ben Affleck","","Affleck|Ben|Geza","family name|given name"
-"foundedBy|founder","","Pearl Street Films","Artists Equity|LivePlanet|Eastern Congo Initiative","founded by"
-"birthDate|birthYear","1972-08-15|1972","","1972-08-15T00:00:00Z","date of birth"
-"relative|relatives","Casey_Affleck|Casey_Affleck","","Summer Phoenix","relative"
-"species","no","","",""
-"leaderName","Eastern_Congo_Initiative","","",""
-"person","Eastern_Congo_Initiative__PersonFunction__1","","",""
-"children","","3","Violet Affleck|Timothy Byers Affleck|Seraphina Affleck|Christine Anne Boldt|Sam Affleck","child|number of children"
-"works","Ben_Affleck_filmography","","",""
-"","","","University of Vermont|Cambridge Rindge and Latin School|Occidental College","educated at"
-"","","","Directors Guild of America Award for Outstanding Directing – Feature Film|BAFTA Award for Best Direction|Satellite Award for Best Original Screenplay|Critics' Choice Movie Award for Best Director|Valentine Davies Award|Producers Guild of America Award for Best Theatrical Motion Picture|César Award for Best Foreign Film","winner"
-"","","","Ben Affleck filmography","filmography"
-"","","","Matt Damon","partner in business or sport"
-"","","","Gwyneth Paltrow|Jennifer Garner|Shauna Sexton|Ana de Armas|Jennifer Lopez|Lindsay Shookus","unmarried partner"
-"","","","Foster|Joseph: King of Dreams","voice actor"
-"","","","Ben Affleck","Commons category"
-"","","","Violet Affleck|Seraphina Affleck|Sam Affleck|Timothy Byers Affleck","father"
-"","","","alcoholism","medical condition"
-"","","","Real Time with Bill Maher, season 12, episode 29|Real Time with Bill Maher, season 4, episode 19|Real Time with Bill Maher, season 3, episode 19|Real Time with Bill Maher, season 6, episode 23|Real Time with Bill Maher, season 4, episode 8|Real Time with Bill Maher, season 10, episode 30|Real Time with Bill Maher, season 5, episode 14","talk show guest"
-"","","","Ice Bucket Challenge","participant in"
-"","","","Writers Guild of America, West","member of"
-"","","","Ben Affleck","name in native language"
-"","","","Los Angeles","residence"
-"","","","3031614|3123319|2982358|3151655","social media followers"
-"","","","Academy Award for Best Picture|Academy Award for Best Writing, Original Screenplay","nominated for"
-"","","","Maximilian David Anthony|Emme Muñiz","stepparent"
-"","","","Irish Americans","ethnic group"
-"","","","poker","sport"
-"","","","United States of America","country of citizenship"
-"","","","Obálky knih|Disney A to Z","described by source"
-"","","","Category:Films produced by Ben Affleck|Category:Films with screenplays by Ben Affleck|Category:Films directed by Ben Affleck","related category"
-"","","","male","sex or gender"
-"","","","English","writing language"
-"","","","Democratic Party","member of political party"
-"","","","Christine Anne Boldt","mother"
-"","","","English","native language"
-"","","","Ben Affleck and Matt Damon","has part(s)"
-"","","","Artists Equity","chief executive officer"
-"","","","The Roast of Tom Brady","recorded participant"
-"","","","192","height"
-"","","","human","instance of"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+relations|relation,,Casey Affleck,,sibling
+spouse,2022|2005|2018,Jennifer Lopez|Jennifer Garner,Bennifer,spouse
+birthPlace,"Berkeley, California, U.S.|Berkeley,_California",,Berkeley,place of birth
+birthname|birthName,Benjamin Géza Affleck-Boldt|Benjamin Géza Affleck-Boldt,,Benjamin Geza Affleck,birth name
+occupation,Ben_Affleck__PersonFunction__1,screenwriter|actor|film director|film producer,television actor|poker player|film actor|writer|manufacturer|executive producer|voice actor|Bennifer|television producer,occupation
+portrayer,List_of_View_Askewniverse_characters|List_of_View_Askewniverse_characters__Holden_McNeil__1|Jack_Ryan_(character)|Bruce_Wayne_(DC_Extended_Universe),,,
+director,The_Town_(2010_film)|Argo_(2012_film)|Live_by_Night_(film),"I Killed My Lesbian Wife, Hung Her on a Meat Hook, and Now I Have a Three-Picture Deal at Disney|Gone Baby Gone",The Town|Animals|Live by Night|Argo|Air,director
+title,List_of_awards_and_nominations_received_by_Ben_Affleck,,,
+producer,The_Last_Duel_(2021_film)|Bending_the_Arc|Argo_(2012_film)|Stolen_Summer|Reporter_(film),,,
+executiveProducer,Incorporated_(TV_series)|The_Leisure_Class|The_Runner_(TV_series)|Project_Greenlight|City_on_a_Hill_(TV_series),,,
+activeYearsStartYear|yearsActive,1981|1981,,1981-01-01T00:00:00Z,work period (start)
+collapsible,true,,,
+after,Mickey_Rourke_filmography,,,
+isPrimaryTopicOf,Ben_Affleck,,,
+party,Democratic_Party_(United_States),,,
+primaryTopic,Ben_Affleck,,,
+creator,,"Push, Nevada",,creator
+name,Ben Affleck,,Affleck|Ben|Geza,family name|given name
+foundedBy|founder,,Pearl Street Films,Artists Equity|LivePlanet|Eastern Congo Initiative,founded by
+birthDate|birthYear,1972-08-15|1972,,1972-08-15T00:00:00Z,date of birth
+relative|relatives,Casey_Affleck|Casey_Affleck,,Summer Phoenix,relative
+species,no,,,
+leaderName,Eastern_Congo_Initiative,,,
+person,Eastern_Congo_Initiative__PersonFunction__1,,,
+children,,3,Violet Affleck|Timothy Byers Affleck|Seraphina Affleck|Christine Anne Boldt|Sam Affleck,child|number of children
+works,Ben_Affleck_filmography,,,
+,,,University of Vermont|Cambridge Rindge and Latin School|Occidental College,educated at
+,,,Directors Guild of America Award for Outstanding Directing – Feature Film|BAFTA Award for Best Direction|Satellite Award for Best Original Screenplay|Critics' Choice Movie Award for Best Director|Valentine Davies Award|Producers Guild of America Award for Best Theatrical Motion Picture|César Award for Best Foreign Film,winner
+,,,Ben Affleck filmography,filmography
+,,,Matt Damon,partner in business or sport
+,,,Gwyneth Paltrow|Jennifer Garner|Shauna Sexton|Ana de Armas|Jennifer Lopez|Lindsay Shookus,unmarried partner
+,,,Foster|Joseph: King of Dreams,voice actor
+,,,Ben Affleck,Commons category
+,,,Violet Affleck|Seraphina Affleck|Sam Affleck|Timothy Byers Affleck,father
+,,,alcoholism,medical condition
+,,,"Real Time with Bill Maher, season 12, episode 29|Real Time with Bill Maher, season 4, episode 19|Real Time with Bill Maher, season 3, episode 19|Real Time with Bill Maher, season 6, episode 23|Real Time with Bill Maher, season 4, episode 8|Real Time with Bill Maher, season 10, episode 30|Real Time with Bill Maher, season 5, episode 14",talk show guest
+,,,Ice Bucket Challenge,participant in
+,,,"Writers Guild of America, West",member of
+,,,Ben Affleck,name in native language
+,,,Los Angeles,residence
+,,,3031614|3123319|2982358|3151655,social media followers
+,,,"Academy Award for Best Picture|Academy Award for Best Writing, Original Screenplay",nominated for
+,,,Maximilian David Anthony|Emme Muñiz,stepparent
+,,,Irish Americans,ethnic group
+,,,poker,sport
+,,,United States of America,country of citizenship
+,,,Obálky knih|Disney A to Z,described by source
+,,,Category:Films produced by Ben Affleck|Category:Films with screenplays by Ben Affleck|Category:Films directed by Ben Affleck,related category
+,,,male,sex or gender
+,,,English,writing language
+,,,Democratic Party,member of political party
+,,,Christine Anne Boldt,mother
+,,,English,native language
+,,,Ben Affleck and Matt Damon,has part(s)
+,,,Artists Equity,chief executive officer
+,,,The Roast of Tom Brady,recorded participant
+,,,192,height
+,,,human,instance of
