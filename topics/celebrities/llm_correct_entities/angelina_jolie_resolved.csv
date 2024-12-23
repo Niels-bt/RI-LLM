@@ -1,0 +1,13 @@
+label,correct values
+family name | given name | married name | name,Angelina | Angelina Jolie | Angelina Jolie Pitt | Jolie | Voight
+father | mother,Jon Voight | Jon_Voight | Marcheline Bertrand
+spouse,1996 | 2000 | 2014 | Billy Bob Thornton | Brad Pitt | Jonny Lee Miller | div.
+relative | relatives,Barry Voight | Chip Taylor | James Haven | Maddox Jolie-Pitt | Pax Jolie-Pitt | Zahara Jolie-Pitt
+child | children | number of children,6 | Jon Voight | Knox Jolie-Pitt | Maddox Jolie-Pitt | Marcheline Bertrand | Pax Jolie-Pitt | Shiloh Jolie | Vivienne Jolie-Pitt | Zahara Jolie-Pitt
+birthDate | birthYear | date of birth,1975 | 1975-06-04 | 1975-06-04T00:00:00Z
+activeYearsStartYear | work period (start) | yearsActive,1982
+director,A Place in Time | By the Sea | First They Killed My Father | In the Land of Blood and Honey | Unbroken | Without Blood
+birthPlace | place of birth,California | Los Angeles | U.S.
+citizenship | country of citizenship,Cambodia | United States
+field of work | occupation,Actress | actor | film actor | film director | film producer | filmmaker | humanitarian | model | philanthropist | screenwriter | voice actor
+birthName | birth name,Angelina Jolie Voight

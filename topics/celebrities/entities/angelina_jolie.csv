@@ -1,64 +1,65 @@
-"name","Angelina Jolie|List_of_awards_and_nominations_received_by_Angelina_Jolie","","Voight|Jolie|Jolie|Angelina|Angelina Jolie Pitt","family name|given name|married name"
-"mother|father","","Marcheline Bertrand|Jon_Voight","Jon Voight|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie","father|mother"
-"spouse","2000|1996|2003|div.|2019|2014","Brad Pitt|Billy Bob Thornton|Jonny Lee Miller","","spouse"
-"title","List_of_awards_and_nominations_received_by_Angelina_Jolie","","",""
-"relatives|relative","James Haven|James_Haven","Barry Voight|Chip Taylor","Maddox Jolie-Pitt|Zahara Jolie-Pitt|Pax Jolie-Pitt","relative"
-"children|child","","Jon Voight|Marcheline Bertrand|6","Zahara Jolie-Pitt|Pax Jolie-Pitt|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie|Maddox Jolie-Pitt","child|number of children"
-"producer","By_the_Sea_(2015_film)|In_the_Land_of_Blood_and_Honey|Maleficent:_Mistress_of_Evil|The_One_and_Only_Ivan_(film)|Unbroken_(film)","","",""
-"alias","Angelina Jolie Pitt","","",""
-"isPrimaryTopicOf","Angelina_Jolie","","",""
-"birthDate|birthYear","1975-06-04|1975","","1975-06-04T00:00:00Z","date of birth"
-"yearsActive|activeYearsStartYear","1982|1982","","1982-01-01T00:00:00Z","work period (start)"
-"narrator","Trading_Women","","",""
-"portrayer","Lara_Croft|Maleficent","","",""
-"primaryTopic","Angelina_Jolie","","",""
-"director","Unbroken_(film)|First_They_Killed_My_Father_(film)|By_the_Sea_(2015_film)","In the Land of Blood and Honey|A Place in Time","By the Sea|First They Killed My Father|Without Blood|Unbroken","director"
-"productionCompany","The_Breadwinner_(film)__The_Breadwinner__1","","",""
-"birthPlace","Los Angeles, California, U.S.|California","Los Angeles","","place of birth"
-"citizenship","United States","Cambodia","United States of America","country of citizenship"
-"otherNames","Angelina Jolie Pitt","","",""
-"occupation","Actress|Angelina_Jolie__PersonFunction__1","filmmaker|humanitarian","film screenwriter|television actor|film actor|writer|manufacturer|diarist|executive producer|voice actor|character actor|screenwriter|philanthropist|actor|model|film director|fashion model|film producer|film|charity","occupation|field of work"
-"works","Angelina_Jolie_filmography","","",""
-"source","&mdash;Jolie on her reasons for speaking out about her mastectomy|—Jolie on her motives for joining UNHCR in 2001|—Chicago Sun-Times critic Roger Ebert on Jolie's performance in Girl, Interrupted","","",""
-"birthName","","Angelina Jolie Voight","","birth name"
-"species","no","","",""
-"homepage","49c3646c56.html","","",""
-"","","","New York University|Tappan Zee High School|Lee Strasberg Theatre and Film Institute|Beverly Hills High School","educated at"
-"","","","Shark Tale|Tigress|Kung Fu Panda|Kung Fu Panda 3|Kung Fu Panda 4|Kung Fu Panda Holiday|Kung Fu Panda: Secrets of the Masters|Kung Fu Panda 2","voice actor"
-"","","","10573703","U.S. National Archives Identifier"
-"","","","Emmy Award|Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role|Academy Award for Best Actress|Golden Globe Award for Best Actress in a Motion Picture – Musical or Comedy|Golden Globe Award for Best Actress – Motion Picture Drama|Golden Raspberry Awards|Academy Award for Best Supporting Actress|Golden Raspberry Award for Worst Actress|BAFTA Award for Best Actress in a Leading Role","nominated for"
-"","","","Gia|Changeling|Angelina Jolie filmography|Girl, Interrupted","notable work"
-"","","","Aptostichus angelinajolieae|Brangelina","named after"
-"","","","169","height"
-"","","","Council on Foreign Relations|Clinton Foundation|U.S. Committee for Refugees and Immigrants","member of"
-"","","","Angelina_Jolie","EcuRed article"
-"","","","Brangelina","has part(s)"
-"","","","Black Versace dress of Angelina Jolie","worn by"
-"","","","Brangelina","part of"
-"","","","Broadcast Film Critics Association Award for Best Supporting Actress|MTV Movie Award for Best Fight|Golden Globe Award for Best Supporting Actress – Motion Picture|Academy Award for Best Supporting Actress|Saturn Award for Best Actress","winner"
-"","","","Germany","ancestral home"
-"","","","left-handedness","handedness"
-"","","","bisexuality","sexual orientation"
-"","","","33866","social media followers"
-"","","","Los Angeles|Palisades","residence"
-"","","","Angelina Jolie filmography","filmography"
-"","","","Obálky knih|Lentapedia","described by source"
-"","","","Angelina Jolie","Commons category"
-"","","","Marvel Studios Assembled: The Making of Eternals","recorded participant"
-"","","","Villa Oleandra","guest of honor"
-"","","","Category:Films directed by Angelina Jolie|Category:Films produced by Angelina Jolie","related category"
-"","","","English","writing language"
-"","","","Jenny Shimizu|Brad Pitt","unmarried partner"
-"","","","American English|English","native language"
-"","","","Daisy Johnson","inspired by"
-"","","","lapsed Catholic","religion or worldview"
-"","","","blue","eye color"
-"","","","UNHCR Goodwill Ambassador","position held"
-"","","","brown hair","hair color"
-"","","","Maximilian Schell|Jacqueline Bisset","godparent"
-"","","","Angelina Jolie","Commons gallery"
-"","","","Warner Classics","record label"
-"","","","female","sex or gender"
-"","","","Angelina Jolie","name in native language"
-"","","","James Haven","sibling"
-"","","","human","instance of"
+label (Source A),value (Source A),value (common),value (Source B),label (Source B)
+name,Angelina Jolie|List_of_awards_and_nominations_received_by_Angelina_Jolie,,Voight|Jolie|Jolie|Angelina|Angelina Jolie Pitt,family name|given name|married name
+mother|father,,Marcheline Bertrand|Jon_Voight,Jon Voight|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie,father|mother
+spouse,2000|1996|2003|div.|2019|2014,Brad Pitt|Billy Bob Thornton|Jonny Lee Miller,,spouse
+title,List_of_awards_and_nominations_received_by_Angelina_Jolie,,,
+relatives|relative,James Haven|James_Haven,Barry Voight|Chip Taylor,Maddox Jolie-Pitt|Zahara Jolie-Pitt|Pax Jolie-Pitt,relative
+children|child,,Jon Voight|Marcheline Bertrand|6,Zahara Jolie-Pitt|Pax Jolie-Pitt|Vivienne Jolie-Pitt|Knox Jolie-Pitt|Shiloh Jolie|Maddox Jolie-Pitt,child|number of children
+producer,By_the_Sea_(2015_film)|In_the_Land_of_Blood_and_Honey|Maleficent:_Mistress_of_Evil|The_One_and_Only_Ivan_(film)|Unbroken_(film),,,
+alias,Angelina Jolie Pitt,,,
+isPrimaryTopicOf,Angelina_Jolie,,,
+birthDate|birthYear,1975-06-04|1975,,1975-06-04T00:00:00Z,date of birth
+yearsActive|activeYearsStartYear,1982|1982,,1982-01-01T00:00:00Z,work period (start)
+narrator,Trading_Women,,,
+portrayer,Lara_Croft|Maleficent,,,
+primaryTopic,Angelina_Jolie,,,
+director,Unbroken_(film)|First_They_Killed_My_Father_(film)|By_the_Sea_(2015_film),In the Land of Blood and Honey|A Place in Time,By the Sea|First They Killed My Father|Without Blood|Unbroken,director
+productionCompany,The_Breadwinner_(film)__The_Breadwinner__1,,,
+birthPlace,"Los Angeles, California, U.S.|California",Los Angeles,,place of birth
+citizenship,United States,Cambodia,United States of America,country of citizenship
+otherNames,Angelina Jolie Pitt,,,
+occupation,Actress|Angelina_Jolie__PersonFunction__1,filmmaker|humanitarian,film screenwriter|television actor|film actor|writer|manufacturer|diarist|executive producer|voice actor|character actor|screenwriter|philanthropist|actor|model|film director|fashion model|film producer|film|charity,occupation|field of work
+works,Angelina_Jolie_filmography,,,
+source,"&mdash;Jolie on her reasons for speaking out about her mastectomy|—Jolie on her motives for joining UNHCR in 2001|—Chicago Sun-Times critic Roger Ebert on Jolie's performance in Girl, Interrupted",,,
+birthName,,Angelina Jolie Voight,,birth name
+species,no,,,
+homepage,49c3646c56.html,,,
+,,,New York University|Tappan Zee High School|Lee Strasberg Theatre and Film Institute|Beverly Hills High School,educated at
+,,,Shark Tale|Tigress|Kung Fu Panda|Kung Fu Panda 3|Kung Fu Panda 4|Kung Fu Panda Holiday|Kung Fu Panda: Secrets of the Masters|Kung Fu Panda 2,voice actor
+,,,10573703,U.S. National Archives Identifier
+,,,Emmy Award|Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role|Academy Award for Best Actress|Golden Globe Award for Best Actress in a Motion Picture – Musical or Comedy|Golden Globe Award for Best Actress – Motion Picture Drama|Golden Raspberry Awards|Academy Award for Best Supporting Actress|Golden Raspberry Award for Worst Actress|BAFTA Award for Best Actress in a Leading Role,nominated for
+,,,"Gia|Changeling|Angelina Jolie filmography|Girl, Interrupted",notable work
+,,,Aptostichus angelinajolieae|Brangelina,named after
+,,,169,height
+,,,Council on Foreign Relations|Clinton Foundation|U.S. Committee for Refugees and Immigrants,member of
+,,,Angelina_Jolie,EcuRed article
+,,,Brangelina,has part(s)
+,,,Black Versace dress of Angelina Jolie,worn by
+,,,Brangelina,part of
+,,,Broadcast Film Critics Association Award for Best Supporting Actress|MTV Movie Award for Best Fight|Golden Globe Award for Best Supporting Actress – Motion Picture|Academy Award for Best Supporting Actress|Saturn Award for Best Actress,winner
+,,,Germany,ancestral home
+,,,left-handedness,handedness
+,,,bisexuality,sexual orientation
+,,,33866,social media followers
+,,,Los Angeles|Palisades,residence
+,,,Angelina Jolie filmography,filmography
+,,,Obálky knih|Lentapedia,described by source
+,,,Angelina Jolie,Commons category
+,,,Marvel Studios Assembled: The Making of Eternals,recorded participant
+,,,Villa Oleandra,guest of honor
+,,,Category:Films directed by Angelina Jolie|Category:Films produced by Angelina Jolie,related category
+,,,English,writing language
+,,,Jenny Shimizu|Brad Pitt,unmarried partner
+,,,American English|English,native language
+,,,Daisy Johnson,inspired by
+,,,lapsed Catholic,religion or worldview
+,,,blue,eye color
+,,,UNHCR Goodwill Ambassador,position held
+,,,brown hair,hair color
+,,,Maximilian Schell|Jacqueline Bisset,godparent
+,,,Angelina Jolie,Commons gallery
+,,,Warner Classics,record label
+,,,female,sex or gender
+,,,Angelina Jolie,name in native language
+,,,James Haven,sibling
+,,,human,instance of

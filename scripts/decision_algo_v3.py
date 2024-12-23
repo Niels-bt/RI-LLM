@@ -35,7 +35,7 @@ def parse_response(response):
     return match.group(1).strip() if match else "UNKNOWN"
 
 def get_gpt4_response(prompt, max_retries=5, backoff_factor=1.5):
-    """Sends a prompt to GPT-4 model and retrieves the response with retry logic."""
+    """sends a prompt to GPT and retrieves the response with retry logic."""
     for attempt in range(1, max_retries + 1):
         try:
             response = client.chat.completions.create(
@@ -52,16 +52,16 @@ def get_gpt4_response(prompt, max_retries=5, backoff_factor=1.5):
     return None
 
 def add_headers_to_csv(file_path):
-    """Adds headers to a CSV file, avoiding duplicate headers."""
+    """Adds headers to the CSV file, avoiding duplicate headers."""
     headers = [
-        "label (Source A)",
-        "value (Source A)",
-        "value (common)",
-        "value (Source B)",
+        "label (Source A)", 
+        "value (Source A)", 
+        "value (common)", 
+        "value (Source B)", 
         "label (Source B)"
     ]
     df = pd.read_csv(file_path, header=None)
-    if df.iloc[0].tolist() != headers:  # checks if the headers are already present
+    if df.iloc[0].tolist() != headers:  # check if headers are already present
         df.columns = headers
         df.to_csv(file_path, index=False)
 
@@ -106,7 +106,7 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
             })
             print(f"Resolved: {combined_label} -> {' | '.join(sorted(resolved_set))}")
 
-        # process rows with non empty labels in both source A and B, without a common value
+        # process rows with non-empty labels in both Source A and B, without a common value
         elif pd.notnull(label_a) and pd.notnull(label_b) and (value_a or value_b):
             labels_combined = set(map(str.strip, str(label_a).split("|") + str(label_b).split("|")))
             values_combined = set(map(str.strip, str(value_a).split("|") + str(value_b).split("|")))
@@ -128,7 +128,7 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
             })
             print(f"Resolved: {combined_label} -> {' | '.join(sorted(resolved_set))}")
 
-    # save resolved dataset
+    # save the resolved dataset
     resolved_df = pd.DataFrame(resolved_values)
     resolved_df.to_csv(output_csv_path, index=False)
     print(f"Resolved dataset saved to {output_csv_path}")
@@ -139,6 +139,11 @@ def process_entities(entities_dir, output_dir):
         if file_name.endswith(".csv"):
             input_file_path = os.path.join(entities_dir, file_name)
             output_file_path = os.path.join(output_dir, file_name.replace(".csv", "_resolved.csv"))
+
+            # Skip processing if resolved file already exists
+            if os.path.exists(output_file_path):
+                print(f"Resolved file already exists for {file_name}. Skipping processing.")
+                continue
 
             # extract entity name from the file name
             entity_name = file_name.replace("_", " ").replace(".csv", "")
