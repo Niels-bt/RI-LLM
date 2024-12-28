@@ -6,8 +6,8 @@ import re
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "your-api-key"))
-
-PROMPT_TEMPLATE = """
+# Template 0 was for testing.
+PROMPT_TEMPLATE_0 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat.
 Entity: <entity>
 Property: <property>
@@ -18,10 +18,88 @@ Based on your knowledge and reasoning, determine the correct values. Provide the
 Correct Answer: [correct_value1, correct_value2, ...]
 """
 
+PROMPT_TEMPLATE_1 = """
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. 
+You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+Below are examples of resolved inconsistencies and validations for reference:
+1. Entity:  Bon Jovi
+Property: label, record label
+The fused values: Mercury, Island, Vertigo, Mercury Records, Island Records.
+Correct Answer: [Mercury Records, Island Records, Vertigo].
+2. Entity: 50 Cent
+Property: name, birth name, family name, given name.
+The fused values: 50, 50 Cent, Curtis James Jackson III, Jackson, James Curtis.
+Correct Answer: [50 Cent, Curtis James Jackson III, Jackson].
+3. Entity: Backstreet Boys
+Property: genre
+The fused values: Teen_pop, Dance-pop, Adult_contemporary_music, Contemporary_R&B, pop music.
+Correct Answer: [Pop music, Dance-pop, Teen-pop, adult contemporary, R&B].
+Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
+Entity: <entity>
+Property: <property>
+The fused values: <values_list>.
+Provide the answer in the format below:
+Correct Answer: [.....]
+"""
+
+PROMPT_TEMPLATE_2 = """
+
+"""
+
+PROMPT_TEMPLATE_3 = """
+
+"""
+
+PROMPT_TEMPLATE_4 = """
+Movies: You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+Below are examples of resolved inconsistencies and validations for reference:
+Entity: Dawn of the planet of the apes  
+Property: title
+The fused values: List_of_Honest_Trailers_episodes, Dawn of the Planet of the Apes.
+Correct Answer: [Dawn of the Planet of the Apes]
+Entity: Guardians of the Galaxy
+Property: budget, capital cost.
+The fused values: 1.959E8, 2.323E8, 170000000.
+Correct Answer: [1.959E8, 2.323E8]
+Entity: Interstellar
+Property: country, country of origin.
+The fused values: United States, United Kingdom, United States of America.
+Correct Answer: [United States, United Kingdom]
+Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
+Entity: <entity>
+Property: <property>.
+The fused values: <values_list>.
+Provide the answer in the format below:
+Correct Answer: [.....]
+"""
+
+PROMPT_TEMPLATE_5 = """
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+Below are examples of resolved inconsistencies and validations for reference:
+Entity: Berkshire Hathaway  
+Property: location, hqLocationCity, locationCity, headquarters location.
+The fused values: Omaha, Kiewit_Plaza, Omaha,_Nebraska, Omaha,_Nebraska.
+Correct Answer: [Omaha - Nebraska].
+Entity: Johnson & Johnson
+Property: sponsor.
+The fused values: National_Diversity_Awards, It's_Your_Life_(radio_program), baby,The National Diversity Awards.
+Correct Answer: [National Diversity Awards, It's Your Life" Radio Program]
+Entity: Nvidia
+Property: parent, parent organization.
+The fused values: Mental_Images, Cumulus_Networks, Icera, Mellanox Technologies, 3dfx Interactive, “NVIDIA, Helsinki Oy”, Nvidia Ltd., Ageia.
+Correct Answer: [Mellanox Technologies, Cumulus Networks, Ageia, Mental Images, Nvidia Ltd.]
+Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
+Entity: <entity>
+Property: <property>.
+The fused values: <values_list>.
+Provide the answer in the format below:
+Correct Answer: [.....]
+"""
+
 def construct_prompt(entity, property_, values_list):
     """Constructs the prompt for GPT based on the given inputs."""
     prompt = (
-        PROMPT_TEMPLATE
+        PROMPT_TEMPLATE_0
         .replace("<entity>", entity)
         .replace("<property>", property_)
         .replace("<values_list>", values_list)
