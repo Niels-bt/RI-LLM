@@ -39,19 +39,45 @@ Entity: <entity>
 Property: <property>
 The fused values: <values_list>.
 Provide the answer in the format below:
-Correct Answer: [.....]
+Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_2 = """
-
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+Below are examples of resolved inconsistencies and validations for reference:
+Entity: Boron 
+Property: formula, chemical formula 
+The fused values: Blue_diamond, B.
+Correct Answer: [B]
+Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
+Entity: <entity>
+Property: <property>
+The fused values: <values_list>.
+Provide the answer in the format below:
+Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_3 = """
-
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+Below are examples of resolved inconsistencies and validations for reference:
+Entity: Aquila 
+Property: neighbour Constellations, bordering, shares border with.
+The fused values: Serpens Cauda, Serpens Cauda, Hercules_(constellation), Scutum_(constellation), Aquarius_(constellation), Capricornus, Sagitta, Sagittarius, Hercules, Delphinus, Ophiuchus, Scutum, Aquarius, Serpens, Serpens.
+Correct Answer: [Sagitta, Hercules, Ophiuchus, Serpens Cauda, Scutum, Sagittarius, Capricornus, Aquarius, Delphinus]
+Entity: Antlia
+Property: symbolism, named after.
+The fused values: the Air Pump, air pump.
+Correct Answer: [the Air Pump, air pump]
+Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
+Entity: <entity>
+Property: <property>
+The fused values: <values_list>.
+Provide the answer in the format below:
+Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_4 = """
-Movies: You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
 Below are examples of resolved inconsistencies and validations for reference:
 Entity: Dawn of the planet of the apes  
 Property: title
@@ -70,7 +96,7 @@ Entity: <entity>
 Property: <property>.
 The fused values: <values_list>.
 Provide the answer in the format below:
-Correct Answer: [.....]
+Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_5 = """
@@ -93,7 +119,7 @@ Entity: <entity>
 Property: <property>.
 The fused values: <values_list>.
 Provide the answer in the format below:
-Correct Answer: [.....]
+Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 def construct_prompt(entity, property_, values_list):
