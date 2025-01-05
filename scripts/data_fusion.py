@@ -40,7 +40,7 @@ def fusion_table(start_row: int, end_row: int, domain: int, multiple_lines = Tru
             elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
             wd_id: str = elements[3]
             db_id: str = elements[5].removesuffix("\n")
-            file_name: str = elements[1].removeprefix(" ").replace(" ", "_").lower()
+            file_name: str = elements[1].removeprefix(" ").replace(" ", "_").replace(":" ,"").lower()
 
             output_file = open(f"../topics/{file_path}/entities/{file_name}.csv",mode='w+', encoding='utf-8')
 
@@ -57,8 +57,8 @@ def fusion_table(start_row: int, end_row: int, domain: int, multiple_lines = Tru
                 # db_labels | db_value | matched_value | wd_value | wd_labels
                 # multiple_lines decides, if all values are put in one line and seperated by | or if they are split up into many lines
                 columns = ["", "", "", "", ""]
-                columns[0] = f"\"{"|".join(db_labels)}\""
-                columns[4] = f"\"{"|".join(wd_labels)}\""
+                columns[0] = f"\"{" | ".join(db_labels)}\""
+                columns[4] = f"\"{" | ".join(wd_labels)}\""
                 if multiple_lines:
                     for matched_value in matched_values:
                         columns[2] = f"\"{matched_value[1].replace("\"", "")}\""
@@ -75,9 +75,9 @@ def fusion_table(start_row: int, end_row: int, domain: int, multiple_lines = Tru
                     db_values = [db_value[1] for db_value in db_values]
                     wd_values = [wd_value[1] for wd_value in wd_values]
                     matched_values = [matched_value[1] for matched_value in matched_values]
-                    columns[1] = f"\"{"|".join(db_values).replace("\"", "")}\""
-                    columns[2] = f"\"{"|".join(matched_values).replace("\"", "")}\""
-                    columns[3] = f"\"{"|".join(wd_values).replace("\"", "")}\""
+                    columns[1] = f"\"{" | ".join(db_values).replace("\"", "")}\""
+                    columns[2] = f"\"{" | ".join(matched_values).replace("\"", "")}\""
+                    columns[3] = f"\"{" | ".join(wd_values).replace("\"", "")}\""
                     output_file.write(",".join(columns) + "\n")
 
         line_counter += 1
