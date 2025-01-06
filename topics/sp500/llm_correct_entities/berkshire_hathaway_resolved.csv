@@ -1,0 +1,7 @@
+label,correct values
+parent | parent organization,"Brooks Sports | Business Wire | Dairy Queen | Duracell | Fruit of the Loom | GEICO | International Metalworking Companies | Johns Manville | Lubrizol | NetJets | None | Scott Fetzer Company | TTI, Inc."
+has subsidiary | subsidiary,Acme Brick | Ben Bridge Jeweler | Benjamin Moore & Co. | Berkshire Hathaway Energy | Berkshire Hathaway GUARD Insurance Companies | Borsheim's Fine Jewelry | Brooks Sports | Burlington Northern Santa Fe Corporation | Business Wire | Central States Indemnity | Clayton Homes | Dairy Queen | FlightSafety International | GEICO | General Re Corporation | Marmon Group | Medical Protective | National Indemnity Company | NetJets | Scott Fetzer Company | The Buffalo News
+headquarters location | hqLocationCity | location | locationCity,Nebraska | Omaha
+industry,Conglomerate | Insurance
+founded by | foundedBy | founder,Oliver Chace | Warren Buffett
+instance of | legal form | type,Delaware corporation | holding company | public company
