@@ -37,34 +37,45 @@ Correct Answer: [Pop music, Dance-pop, Teen-pop, adult contemporary, R&B].
 Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
 Entity: <entity>
 Property: <property>
-The fused values: <values_list>.
+The fused values: <values_list>
+
 Provide the answer in the format below:
 Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_2 = """
-You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
+You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. 
+You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
 Below are examples of resolved inconsistencies and validations for reference:
-Entity: Boron 
+1. Entity: Boron 
 Property: formula, chemical formula 
 The fused values: Blue_diamond, B.
-Correct Answer: [B]
+Correct Answer: [B].
+2. Entity: Zinc
+Property: instance of, type.
+The fused values: chalcophile element, chemical element, landmark, simple substance.
+Correct Answer: [chalcophile element, chemical element, landmark, simple substance].
+3. Entity: Nickel
+Property: industry
+The fused values: Solway Group, Tsingshan_Holding_Group, Xinjiang_Xinxin_Mining_Industry_Company.
+Correct Answer: [Solway Group, Tsingshan_Holding_Group, Xinjiang_Xinxin_Mining_Industry_Company].
 Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
 Entity: <entity>
 Property: <property>
-The fused values: <values_list>.
+The fused values: <values_list>
+
 Provide the answer in the format below:
 Correct Answer: [correct_value1, correct_value2, ...]
 """
 
 PROMPT_TEMPLATE_3 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
-Below are examples of resolved inconsistencies and validations for reference:
-Entity: Aquila 
+Below are examples of resolved inconsistencies (for constellations fused data) and validations for reference:
+1. Entity: Aquila 
 Property: neighbour Constellations, bordering, shares border with.
 The fused values: Serpens Cauda, Serpens Cauda, Hercules_(constellation), Scutum_(constellation), Aquarius_(constellation), Capricornus, Sagitta, Sagittarius, Hercules, Delphinus, Ophiuchus, Scutum, Aquarius, Serpens, Serpens.
 Correct Answer: [Sagitta, Hercules, Ophiuchus, Serpens Cauda, Scutum, Sagittarius, Capricornus, Aquarius, Delphinus]
-Entity: Antlia
+2. Entity: Antlia
 Property: symbolism, named after.
 The fused values: the Air Pump, air pump.
 Correct Answer: [the Air Pump, air pump]
@@ -78,19 +89,19 @@ Correct Answer: [correct_value1, correct_value2, ...]
 
 PROMPT_TEMPLATE_4 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
-Below are examples of resolved inconsistencies and validations for reference:
-Entity: Dawn of the planet of the apes  
+Below are examples of resolved inconsistencies (for Movies fused data) and validations for reference:
+1. Entity: Dawn of the planet of the apes  
 Property: title
 The fused values: List_of_Honest_Trailers_episodes, Dawn of the Planet of the Apes.
 Correct Answer: [Dawn of the Planet of the Apes]
-Entity: Guardians of the Galaxy
+2. Entity: Guardians of the Galaxy
 Property: budget, capital cost.
 The fused values: 1.959E8, 2.323E8, 170000000.
 Correct Answer: [1.959E8, 2.323E8]
-Entity: Interstellar
+3. Entity: Interstellar
 Property: country, country of origin.
 The fused values: United States, United Kingdom, United States of America.
-Correct Answer: [United States, United Kingdom]
+Correct Answer: [United States, United Kingdom].
 Now resolve the following inconsistency based on your knowledge by providing the correct values from the fused values between square brackets [...]:
 Entity: <entity>
 Property: <property>.
@@ -101,16 +112,16 @@ Correct Answer: [correct_value1, correct_value2, ...]
 
 PROMPT_TEMPLATE_5 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a history facts expert checker, and your role is to validate and correct information in a new dataset generated from fusing two historic data sources: WIKIDATA and DBpedia.
-Below are examples of resolved inconsistencies and validations for reference:
-Entity: Berkshire Hathaway  
+Below are examples of resolved inconsistencies (for S&P 500 fused data) and validations for reference:
+1. Entity: Berkshire Hathaway  
 Property: location, hqLocationCity, locationCity, headquarters location.
 The fused values: Omaha, Kiewit_Plaza, Omaha,_Nebraska, Omaha,_Nebraska.
 Correct Answer: [Omaha - Nebraska].
-Entity: Johnson & Johnson
+2. Entity: Johnson & Johnson
 Property: sponsor.
 The fused values: National_Diversity_Awards, It's_Your_Life_(radio_program), baby,The National Diversity Awards.
 Correct Answer: [National Diversity Awards, It's Your Life" Radio Program]
-Entity: Nvidia
+3. Entity: Nvidia
 Property: parent, parent organization.
 The fused values: Mental_Images, Cumulus_Networks, Icera, Mellanox Technologies, 3dfx Interactive, “NVIDIA, Helsinki Oy”, Nvidia Ltd., Ageia.
 Correct Answer: [Mellanox Technologies, Cumulus Networks, Ageia, Mental Images, Nvidia Ltd.]
@@ -125,7 +136,7 @@ Correct Answer: [correct_value1, correct_value2, ...]
 def construct_prompt(entity, property_, values_list):
     """Constructs the prompt for GPT based on the given inputs."""
     prompt = (
-        PROMPT_TEMPLATE_0
+        PROMPT_TEMPLATE_2
         .replace("<entity>", entity)
         .replace("<property>", property_)
         .replace("<values_list>", values_list)
@@ -258,8 +269,8 @@ def process_entities(entities_dir, output_dir):
             resolve_inconsistencies(input_file_path, output_file_path, entity_name)
 
 if __name__ == "__main__":
-    entities_dir = "../topics/celebrities/entities"
-    output_dir = "../topics/celebrities/llm_correct_entities"
+    entities_dir = "../topics/chemical_elements/entities"
+    output_dir = "../topics/chemical_elements/llm_correct_entities"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
