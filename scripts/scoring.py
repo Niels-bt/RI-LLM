@@ -44,6 +44,16 @@ def scoring():
             merged_values = [[label, human_value, {label: llm_value for label, llm_value in llm_values}[label], all_values] for label, human_value, all_values in human_values]
             for line in merged_values:
 
+                # Apply .lower() and remove underscore and minus from all values
+                line[1] = [human_value.lower().replace("_", " ").replace("-", " ") for human_value in line[1]]
+                line[2] = [llm_value.lower().replace("_", " ").replace("-", " ") for llm_value in line[2]]
+                line[3] = [all_value.lower().replace("_", " ").replace("-", " ") for all_value in line[3]]
+
+                # Remove duplicates
+                line[1] = list(set(line[1]))
+                line[2] = list(set(line[2]))
+                line[3] = list(set(line[3]))
+
                 # TN
                 for all_value in line[3]:
                     if all_value in line[1]: line[3].remove(all_value)
