@@ -1,0 +1,12 @@
+label,correct values
+birthPlace | place of birth,Oklahoma | Shawnee
+spouse | spouse,Angelina Jolie | Jennifer Aniston
+family name | given name | name,Brad Pitt | Pitt | William
+occupation,actor | director | film producer | television producer
+founded by | foundedBy | founder,Make It Right Foundation | Not_on_Our_Watch_(organization) | Plan B Entertainment
+relation | relations | relative | sibling,Douglas Pitt | None
+child | children | number of children,6 | Knox Jolie-Pitt | Shiloh Jolie | Vivienne Jolie-Pitt | William Alvin Pitt
+activeYearsStartYear | work period (start) | yearsActive,1987
+birthDate | birthYear | date of birth,1963-12-18T00:00:00Z
+narrator | narrator,Voyage of Time
+birthName | birth name,William Bradley Pitt

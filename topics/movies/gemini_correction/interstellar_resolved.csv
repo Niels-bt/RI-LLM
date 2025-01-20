@@ -1,0 +1,8 @@
+label,correct values
+country | country of origin,United Kingdom | United States
+production company | productionCompanies,Legendary Pictures | Lynda Obst Productions | Paramount Pictures | Syncopy | Warner Bros. Pictures
+title,Interstellar
+director | director,Christopher Nolan
+box office | gross,677471339 | 701729206
+duration | runtime,169 | 169.0
+budget | capital cost,1.65E8 | 165000000

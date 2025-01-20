@@ -1,0 +1,11 @@
+label,correct values
+founded by | foundedBy | founder,John D. Rockefeller | Standard Oil
+headquarters location | hqLocationCity | locationCity,Irving | Texas
+has subsidiary | subsidiary,Aera Energy | Exxon Neftegas | ExxonMobil (Canada) | ExxonMobil (United Kingdom) | ExxonMobil Australia | ExxonMobil Central Europe Holding | ExxonMobil Chemical | ExxonMobil Fuels | ExxonMobil Fuels & Lubricants Company | ExxonMobil Nigeria | ExxonMobil Refining and Supply Company | ExxonMobil Research and Engineering | Imperial Oil | Lubricants & Specialties Marketing Company | SeaRiver Maritime | XTO Energy
+operator | operators,Arun_gas_field | Domino_gas_field | Esso refinery in Botlek | ExxonMobil Singapore Chemical Plant | Hebron-Ben Nevis oil field | Hibernia oil field | Hides gas field | Papua New Guinea LNG | Pelican_South_gas_field | P’nyang gas field | Scarborough gas field | Skifska_gas_field | Val_Shatsky_oil_field
+instance of | legal form | type,business | multinational corporation | public company
+industry,Oil and gas industry
+name | official name,Exxon Mobil Corporation | ExxonMobil Corporation
+affiliation | affiliations,Garry D. Karner
+currentowner | owner of,Esso | Exxon Neftegas | ExxonMobil Australia | Imperial Oil
+parent | parent organization,ExxonMobil Australia | Exxon_Neftegas | Imperial Oil | XTO Energy
