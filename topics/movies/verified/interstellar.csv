@@ -2,6 +2,6 @@
 "productionCompanies | production company","Legendary Pictures | Paramount Pictures | Lynda Obst Productions | Warner Bros. | Syncopy","Syncopy Inc | Warner Bros","","Warner Bros. Pictures | Syncopy Inc.","Legendary Pictures | Paramount Pictures | Warner Bros | Syncopy Inc | Lynda Obst Productions | Warner Bros. | Syncopy Inc."
 "title | title","Interstellar","","","","Interstellar | "
 "director | director","Christopher Nolan","","","","Christopher Nolan | "
-"gross | box office","741101403","","","188020017 (different values in the resources) | 677471339","741101403 | 677471339 | 701729206 | 188020017"
-"runtime | duration","169","","10140.0 | 169.0","","169 | 169"
+"gross | box office","741101403","","","677471339 | 188020017 (different values in the resources)","741101403 | 677471339 | 701729206 | 188020017"
+"runtime | duration","169","","169.0 | 10140.0","","169 | 169"
 "budget | capital cost","165000000","","","1.65E8","165000000 | 165000000"
