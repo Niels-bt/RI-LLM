@@ -4,6 +4,8 @@ import re
 
 # domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
 domains = ["celebrities"]
+# llm = "chatgpt"
+llm = "gemini"
 
 for domain in domains:
 
@@ -25,7 +27,7 @@ for domain in domains:
 
             # Collect the labels and values from the llm
             llm_values = []
-            llm_file = open(f"../topics/{domain}/corrected_chatgpt/{file_name}_resolved.csv", mode='r', encoding='utf-8')
+            llm_file = open(f"../topics/{domain}/corrected_{llm}/{file_name}_resolved.csv", mode='r', encoding='utf-8')
             skip_first_line = True
             for line in llm_file:
                 if not skip_first_line:
@@ -55,7 +57,7 @@ for domain in domains:
                 values = elements[2].replace("\"", "").split(" | ")
                 matched_values.append((labels, values))
 
-            output_file = open(f"../topics/{domain}/scoring_chatgpt/{file_name}.csv", mode='w+', encoding='utf-8')
+            output_file = open(f"../topics/{domain}/scoring_{llm}/{file_name}.csv", mode='w+', encoding='utf-8')
 
             # Has this form: [[[label, ...], [human_value, ...], [llm_value, ...], [matched_value, ...]], [all_value, ...]], ...]
             merged_values = [[label,
