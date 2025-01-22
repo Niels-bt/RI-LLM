@@ -1,7 +1,7 @@
 label,correct values
-country | country of origin,United Kingdom | United States of America
+country | country of origin,United Kingdom | United States
 production company | productionCompanies,Legendary Pictures | Lynda Obst Productions | Paramount Pictures | Syncopy | Warner Bros. Pictures
-title,Awards for Interstellar | Interstellar
+title,Interstellar | None
 director | director,Christopher Nolan
 box office | gross,677471339 | 7.738E8 | 701729206
 duration | runtime,169

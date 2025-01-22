@@ -136,7 +136,7 @@ Correct Answer: [correct_value1, correct_value2, ...]
 def construct_prompt(entity, property_, values_list):
     """Constructs the prompt for GPT based on the given inputs."""
     prompt = (
-        PROMPT_TEMPLATE_2
+        PROMPT_TEMPLATE_5
         .replace("<entity>", entity)
         .replace("<property>", property_)
         .replace("<values_list>", values_list)

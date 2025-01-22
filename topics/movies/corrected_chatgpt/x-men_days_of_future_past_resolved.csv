@@ -1,7 +1,7 @@
 label,correct values
-budget | capital cost,210000000
+budget | capital cost,2.05E8 | 210000000
 duration | runtime,131 | 132.0
-box office | gross,746045700
-production company | productionCompanies,20th Century Studios | Bad Hat Harry Productions | Genre Films | Ingenious Media | Marvel Entertainment | RatPac-Dune Entertainment | TSG Entertainment | The Donners' Company
+box office | gross,7.46E8 | 746045700
+production company | productionCompanies,20th Century Studios | Bad Hat Harry Productions | Genre Films | Marvel Entertainment | RatPac-Dune Entertainment | TSG Entertainment | The Donners' Company
 director | director,Bryan Singer
 title,X-Men: Days of Future Past

@@ -1,6 +1,6 @@
 label,correct values
-parent | parent organization, | Optum
-instance of | legal form | type,Delaware corporation | business | enterprise | public company
-industry,Insurance | Managed_care | health insurance company
+parent | parent organization,Change Healthcare | Golden Rule Insurance Company | Optum | Quality Software Services
+instance of | legal form | type,Delaware corporation | business | public company
+industry,Health insurance company | Insurance | Managed care
 headquarters location | location,Minnesota | Minnetonka | United States
 founder | founded by,Richard T. Burke

@@ -1,8 +1,8 @@
 label,correct values
 founders | founded by,Edward Mead Johnson | James Wood Johnson | Robert Wood Johnson I
 instance of | legal form | type,business | enterprise | pharmaceutical company | public company
-currentowner | owner of,Acuvue | Aveeno | BabyCenter | Band-Aid | Bengay | Benylin | Carefree | Clean_&_Clear | Compeed | Ethicon Inc. | Euthymol | Janssen Vaccines | Johnson's Baby | Listerine | Microlax | Neosporin (Neomycin/polymyxin B/bacitracin) | Neutrogena | Rembrandt toothpaste | RoC | Visine | o.b.
-parent | parent organization, | Actelion | McNeil Consumer Healthcare | Neutrogena | Synthes
-sponsor,It's_Your_Life_(radio_program) | National_Diversity_Awards | The National Diversity Awards
+currentowner | owner of,Acuvue | Aveeno | BabyCenter | Band-Aid | Bengay | Benylin | Carefree | Clean & Clear | Compeed | Ethicon Inc. | Euthymol | Janssen Vaccines | Johnson's Baby | Listerine | Microlax | Neosporin | Neutrogena | Rembrandt toothpaste | RoC | Visine | o.b.
+parent | parent organization,AbioMed | Actelion | Alza | Aveeno | Carlo Erba | Cilag | Dabao | DePuy | Ethicon | Ethicon Endo-Surgery | Ethicon Inc. | Janssen Biotech | Janssen Pharmaceutica | Janssen Pharmaceuticals | Janssen-Cilag | LifeScan | McNeil Consumer Healthcare | Neutrogena | Penaten | Synthes | Tibotec
+sponsor,"It's Your Life"" Radio Program | National Diversity Awards"
 headquarters location | location | locationCity,New Brunswick | New Jersey | One Johnson & Johnson Plaza
-industry,Consumer_products | Medical_Technology | medical technology industry | pharmaceutical industry
+industry,Consumer products | Medical Technology | pharmaceutical industry

@@ -1,13 +1,13 @@
 label,correct values
 creator | manufacturer,Apple II | Apple II Plus | Apple II series | Apple IIGS | Apple Lisa | Apple Macintosh Color Display | Apple Mighty Mouse | Apple Pencil | Apple TV | Macintosh 128K | Macintosh 128K Home Computer | Macintosh 512K | Macintosh 512Ke | Macintosh Classic | Macintosh Classic Desktop Computer | Macintosh Color Classic | Macintosh Plus | Macintosh Plus Home Computer | Macintosh Portable | Macintosh Portable Computer | Macintosh SE | Macintosh SE/30 | Macintosh XL | Magic Mouse | Magic Trackpad 2 | PowerBook 100 series | PowerBook Duo 230 | eMate 300 | iPad Air (3rd generation) | iPad Pro 12.9-inch (2nd generation) | iPod Classic | iPod Hi-Fi | iPod Mini | iPod Shuffle | iPod Touch (5th generation) | iSight
-founded by | foundedBy | founders, | Ronald Wayne | Steve Jobs | Steve Wozniak | Taligent
-organization | parent | parent organization,Akonia Holographics (United States) | Anobit | Apple Czech | Apple Data Team | Apple Germany | Apple Israel | Apple Original Films | Apple Sales International | Apple Store | Apple Studios | Apple TV+ | AuthenTec | Beats Electronics | Braeburn Capital | Claris | DarwinAI | Emagic | FileMaker | FingerWorks | InVisage Technologies | Inc. | One Voice Technologies | P.A. Semi | Prismo Graphics | Raycer | SchemaSoft | Silicon Grail | Siri Inc. | Taligent | Texture | The Keyboard Company | drive.ai
-has subsidiary | subsidiary,Anobit | Apple Czech | Apple Germany | Apple Israel | Apple Sales International | Apple Store | Apple Studios | AuthenTec | Beats Electronics | Beddit | Braeburn Capital | Claris | Drive.ai | FileMaker | FingerWorks | InVisage Technologies | Inc. | Prismo Graphics | Raycer | SchemaSoft | Siri Inc. | Weather (Apple)
-field of work | occupation,
-affiliation | affiliations,Apple_University
-industry,consumer electronics industry | digital distribution | information technology | mobile phone industry | online services | software development | software industry | software services
+founded by | foundedBy | founders,None | Ronald Wayne | Steve Jobs | Steve Wozniak | Taligent
+organization | parent | parent organization,Akonia Holographics | Anobit | Apple Store | Apple Studios | AuthenTec | Beats Electronics | Braeburn Capital | Claris | Emagic | FingerWorks | InVisage Technologies | P.A. Semi | Raycer | SchemaSoft | Silicon Grail | Siri Inc. | Taligent | Texture | The Keyboard Company | drive.ai
+has subsidiary | subsidiary,Anobit | Apple Czech | Apple Germany | Apple Israel | Apple Sales International | AuthenTec | Beats Electronics | Beddit | Braeburn Capital | Claris | Drive.ai | FileMaker | FingerWorks | InVisage Technologies | Inc. | Prismo Graphics | Raycer | SchemaSoft | Siri Inc. | Weather (Apple)
+field of work | occupation,Ask Different
+affiliation | affiliations,Apple University
+industry,Consumer electronics | Digital distribution | Information technology | Mobile phone industry | Online services | Software development
 instance of | legal form | type | type foundry,brand | business | computer manufacturer | corporation | enterprise | public company | technology company
 name | official name,Apple Inc.
 headquarters location | hqLocationCity | location of formation | locationCity,California | Cupertino
 company | production company,Bad Sisters
-currentowner | owner of,Apple corporate shuttle | IAd | Imagination Technologies
+currentowner | owner of,Apple corporate shuttle | Imagination Technologies | iAd

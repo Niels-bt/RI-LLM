@@ -2,6 +2,6 @@ label,correct values
 duration | runtime,165
 director | director,Michael Bay
 box office | gross,1.104E9 | 1104054072
-country | country of origin,United States of America
-title,Transformers: Age of Extinction | Трансформеры: Эпоха истребления
-budget | capital cost,210000000
+country | country of origin,United States
+title,Transformers: Age of Extinction
+budget | capital cost,2.1E8 | 210000000
