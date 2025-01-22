@@ -2,7 +2,8 @@ import re
 
 
 
-domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
+# domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
+domains = ["celebrities"]
 
 for domain in domains:
 
@@ -24,7 +25,7 @@ for domain in domains:
 
             # Collect the labels and values from the llm
             llm_values = []
-            llm_file = open(f"../topics/{domain}/chatgpt_correct_entities/{file_name}_resolved.csv", mode='r', encoding='utf-8')
+            llm_file = open(f"../topics/{domain}/corrected_chatgpt/{file_name}_resolved.csv", mode='r', encoding='utf-8')
             skip_first_line = True
             for line in llm_file:
                 if not skip_first_line:
@@ -37,7 +38,7 @@ for domain in domains:
 
             # Collect the labels and values from the humans
             human_values = []
-            human_file = open(f"../topics/{domain}/verified/{file_name}.csv", mode='r', encoding='utf-8')
+            human_file = open(f"../topics/{domain}/corrected_human/{file_name}.csv", mode='r', encoding='utf-8')
             for line in human_file:
                 elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
                 labels = sorted(list(set(elements[0].replace("\"", "").split(" | "))))
