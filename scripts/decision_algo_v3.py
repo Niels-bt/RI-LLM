@@ -269,8 +269,8 @@ def process_entities(entities_dir, output_dir):
             resolve_inconsistencies(input_file_path, output_file_path, entity_name)
 
 if __name__ == "__main__":
-    entities_dir = "../topics/movies/entities"
-    output_dir = "../topics/movies/corrected_chatgpt"
+    entities_dir = "../topics/sp500/entities"
+    output_dir = "../topics/sp500/corrected_chatgpt"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
