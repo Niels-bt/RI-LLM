@@ -1,5 +1,5 @@
-"birthPlace | place of birth","","London | England | Tottenham","Tottenham, London, England","","London | London, England | Tottenham"
-"occupation | occupation | field of work","singer | songwriter | musician | composer","","song | guitarist | singer-songwriter | pianist | recording artist | music composing | drummer | executive producer","pop singer and songwriter","guitarist | song | musician | singer-songwriter | pianist | composer | recording artist | Adele__PersonFunction__1 | music composing | drummer | executive producer"
+"birthPlace | place of birth",London | England | Tottenham,"London | England | Tottenham","Tottenham, London, England","","London | London, England | Tottenham"
+"occupation | occupation | field of work",singer | songwriter | musician | composer | guitarist | singer-songwriter | pianist | recording artist | music composing | drummer | executive producer,"","song | guitarist | singer-songwriter | pianist | recording artist | music composing | drummer | executive producer","pop singer and songwriter","guitarist | song | musician | singer-songwriter | pianist | composer | recording artist | Adele__PersonFunction__1 | music composing | drummer | executive producer"
 "birthDate | birthYear | date of birth","1988 | 1988-05-05","","","","1988-05-05 | 1988 | 1988-05-05T00:00:00Z"
 "birthName | birth name","Adele Laurie Blue Adkins","","","",""
 "activeYearsStartYear | yearsActive | work period (start)","2006","","","","2006-01-01T00:00:00Z"
