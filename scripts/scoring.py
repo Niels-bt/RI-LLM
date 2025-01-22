@@ -3,7 +3,7 @@ import re
 
 
 # domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
-domains = ["celebrities", "chemical_elements", "constellations"]
+domains = ["celebrities", "chemical_elements", "constellations", "movies"]
 llms = ["chatgpt", "gemini"]
 
 for domain in domains:
@@ -46,8 +46,7 @@ for domain in domains:
                     elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
                     labels = sorted(list(set(elements[0].replace("\"", "").split(" | "))))
                     values = elements[1].replace("\"", "").split(" | ")
-                    all_values = elements[5].removesuffix("\n").replace("\"", "").split(" | ")
-                    human_values.append((labels, values, all_values))
+                    human_values.append((labels, values))
 
                 # Collect the labels that were matched before the correction
                 matched_values = []
@@ -57,7 +56,7 @@ for domain in domains:
                     labels = sorted(list(set(elements[0].replace("\"", "").split(" | ") + elements[4].removesuffix("\n").replace("\"", "").split(" | "))))
                     values = elements[2].replace("\"", "").split(" | ")
                     all_values = elements[1].replace("\"", "").split(" | ") + elements[3].replace("\"", "").split(" | ")
-                    matched_values.append((labels, values))
+                    matched_values.append((labels, values, all_values))
 
                 output_file = open(f"../topics/{domain}/scoring_{llm}/{file_name}.csv", mode='w+', encoding='utf-8')
 
@@ -65,9 +64,10 @@ for domain in domains:
                 merged_values = [[label,
                                   human_value,
                                   {label[0]: llm_value for label, llm_value in llm_values}[label[0]],
-                                  {label[0]: matched_value for label, matched_value in matched_values}[label[0]],
-                                  all_values]
-                                 for label, human_value, all_values in human_values]
+                                  {label[0]: matched_value for label, matched_value, all_value in matched_values}[label[0]],
+                                  {label[0]: all_value for label, matched_value, all_value in matched_values}[label[0]]
+                                  ]
+                                 for label, human_value in human_values]
 
                 for line in merged_values:
 
@@ -82,6 +82,11 @@ for domain in domains:
                     line[2] = list(set(line[2]))
                     line[3] = list(set(line[3]))
                     line[4] = list(set(line[4]))
+
+                    if "" in line[1]: line[1].remove("")
+                    if "" in line[2]: line[2].remove("")
+                    if "" in line[3]: line[3].remove("")
+                    if "" in line[4]: line[4].remove("")
 
                     # TN
                     tn = line[4].copy()
