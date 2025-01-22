@@ -3,7 +3,7 @@ import re
 
 
 # domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
-domains = ["constellations"]
+domains = ["celebrities", "chemical_elements", "constellations"]
 llms = ["chatgpt", "gemini"]
 
 for domain in domains:
@@ -56,6 +56,7 @@ for domain in domains:
                     elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
                     labels = sorted(list(set(elements[0].replace("\"", "").split(" | ") + elements[4].removesuffix("\n").replace("\"", "").split(" | "))))
                     values = elements[2].replace("\"", "").split(" | ")
+                    all_values = elements[1].replace("\"", "").split(" | ") + elements[3].replace("\"", "").split(" | ")
                     matched_values.append((labels, values))
 
                 output_file = open(f"../topics/{domain}/scoring_{llm}/{file_name}.csv", mode='w+', encoding='utf-8')
