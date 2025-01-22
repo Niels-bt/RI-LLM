@@ -2,5 +2,5 @@
 "budget | capital cost","170000000","","","2.323E8","170000000 | 1.959E8 | 2.323E8"
 "gross | box office","772776600","773350376","","333718600","7.733E8 | 772776600 | 333718600"
 "country | country of origin","United States of America","","","United States","United States | United States of America"
-"runtime | duration","","122","122.0 | 7320.0","","121 | 122.0 | 7320.0"
+"runtime | duration",122 | 7320,"122","122.0 | 7320.0","","121 | 122.0 | 7320.0"
 "director | director","James Gunn","","","",""

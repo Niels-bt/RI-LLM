@@ -1,5 +1,5 @@
-"runtime | duration","97","","97.0 | 5820.0","","97.0 | 5820.0 | 97"
-"gross | box office","","7585367353","759853685","758410378 | ","758410378 | 7.585E8"
+"runtime | duration",97 | 5820,"","97.0 | 5820.0","","97.0 | 5820.0 | 97"
+"gross | box office",759853685,"7585367353","759853685","758410378 | ","758410378 | 7.585E8"
 "director | director","Robert Stromberg","","","",""
 "country | country of origin","United States of America","","","United States","United States | United States of America"
 "budget | capital cost","180000000","","","","180000000 | $180–263 million | 180.0"

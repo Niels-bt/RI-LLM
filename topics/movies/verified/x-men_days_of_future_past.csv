@@ -1,6 +1,6 @@
 "budget | capital cost","200000000","","","2.05E8 | 210000000","2.05E8 | 210000000"
-"runtime | duration","132","","132.0 | 7920.0","","132.0 | 7920.0 | 131"
+"runtime | duration",132 | 7920,"","132.0 | 7920.0","","132.0 | 7920.0 | 131"
 "gross | box office","746045700","747862775","","7.46E8","7.46E8 | 746045700"
-"productionCompanies | production company","Marvel Entertainment | 20th Century Studios | TSG Entertainment | Bad Hat Harry Productions | Ingenious Media","","Genre Films | Donners' Company | Down Productions","The Donners' Company","Ingenious Media | TSG Entertainment | Bad Hat Harry Productions | Genre Films | 20th Century Studios | Bad Hat Harry | RatPac-Dune Entertainment | Marv Studios | The Donners' Company"
+"productionCompanies | production company",Marvel Entertainment | 20th Century Studios | TSG Entertainment | Bad Hat Harry Productions | Ingenious Media | Genre Films | Donners' Company | Down Productions,"","Genre Films | Donners' Company | Down Productions","The Donners' Company","Ingenious Media | TSG Entertainment | Bad Hat Harry Productions | Genre Films | 20th Century Studios | Bad Hat Harry | RatPac-Dune Entertainment | Marv Studios | The Donners' Company"
 "director | director","Bryan Singer","","","",""
 "title | title","X-Men: Days of Future Past","","","","How_It_Should_Have_Ended | List_of_Honest_Trailers_episodes | X-Men: Days of Future Past"

@@ -3,5 +3,5 @@
 "title | title","Interstellar","","","","How_It_Should_Have_Ended | List_of_Honest_Trailers_episodes | Awards for Interstellar"
 "director | director","Christopher Nolan","","","",""
 "gross | box office","741101403","","","677471339 | 188020017 (different values in the resources)","7.738E8 | 677471339 | 188020017 | 701729206"
-"runtime | duration","169","","169.0 | 10140.0","","169.0 | 10140.0 | 169"
+"runtime | duration",169 | 10140,"","169.0 | 10140.0","","169.0 | 10140.0 | 169"
 "budget | capital cost","165000000","","","1.65E8","165000000 | 1.65E8"

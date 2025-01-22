@@ -1,5 +1,5 @@
-"parent | parent organization","Optum | Quality Software Services | Golden Rule Insurance Company","","Change Healthcare","Change_Healthcare","Golden Rule Insurance Company | Change_Healthcare | Quality Software Services"
+"parent | parent organization",Optum | Quality Software Services | Golden Rule Insurance Company | Change Healthcare,"","Change Healthcare","Change_Healthcare","Golden Rule Insurance Company | Change_Healthcare | Quality Software Services"
 "type | instance of | legal form","public company | enterprise | business | Delaware corporation","","","","Delaware corporation | enterprise | business"
-"industry | industry","health insurance company","","","Insurance | Managed_care","health insurance company | Insurance | Managed_care"
-"location | headquarters location","","Minnesota | Minnetonka","Minnetonka, Minnesota, United States","Minnetonka - Minnesota - United States","United_States | Minnetonka,_Minnesota | Minnetonka"
+"industry | industry",health insurance company | Insurance | Managed care,"","","Insurance | Managed_care","health insurance company | Insurance | Managed_care"
+"location | headquarters location",Minnesota | Minnetonka | United States,"Minnesota | Minnetonka","Minnetonka, Minnesota, United States","Minnetonka - Minnesota - United States","United_States | Minnetonka,_Minnesota | Minnetonka"
 "founder | founded by","Richard T. Burke","","","",""
