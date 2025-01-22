@@ -3,7 +3,7 @@ import re
 
 
 # domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"]
-domains = ["chemical_elements"]
+domains = ["constellations"]
 llms = ["chatgpt", "gemini"]
 
 for domain in domains:
