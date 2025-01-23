@@ -1,9 +1,9 @@
-2,2,0,2,"composer | actor","britney spears  personfunction  1 | popular music","","actress | pop music"
-1,2,1,0,"james parnell spears","sean federline | jayden federline","jamie spears",""
+3,2,0,1,actress | composer | actor,"britney spears  personfunction  1 | popular music","",pop music
+2,2,0,0,james parnell spears | jamie spears,"sean federline | jayden federline","",""
 1,2,0,0,"1981 12 02","1981 12 02t00:00:00z | 1981","",""
 2,2,1,0,"sean federline | jayden federline","jamie spears | james parnell spears","lynne spears",""
 1,1,0,0,"jason allen alexander","  01 05","",""
 3,0,0,1,"spears | britney | britney spears","","","jean"
 1,1,0,0,"1992","1992 01 01t00:00:00z","",""
-2,2,1,1,"mccomb | mississippi","mccomb, mississippi, u.s. | mccomb, mississippi","u.s.","united states"
+3,2,0,0,mccomb | mississippi | u.s.,"mccomb, mississippi, u.s. | mccomb, mississippi | united states","",""
 0,0,0,0,"","","",""

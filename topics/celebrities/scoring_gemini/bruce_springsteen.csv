@@ -1,8 +1,8 @@
-6,1,1,6,"composer | record producer | film actor | guitarist | pianist | musician","bruce springsteen  personfunction  1","singer songwriter","television actor | folk music | film director | rock music | blues | recording artist"
+7,3,0,4,composer | record producer | film actor | guitarist | pianist | musician | singer songwriter,bruce springsteen  personfunction  1 | recording artist | television actor,"",folk music | film director | rock music | blues
 0,4,0,0,"","1989 | 1985 | 1991 | divorced","",""
-0,0,1,2,"","","1949 09 23t00:00:00z","1949 | 1949 09 23"
-2,0,1,2,"springsteen | bruce","","bruce springsteen","frederick | joseph"
+1,2,0,0,1949 09 23t00:00:00z,1949 | 1949 09 23,"",""
+3,0,0,2,springsteen | bruce | bruce springsteen,"","","frederick | joseph"
 1,0,0,0,"3","","",""
 1,0,0,0,"western stars","","",""
 0,0,0,0,"","","",""
-2,2,1,1,"long branch | new jersey","long branch, new jersey | long branch, new jersey, u.s.","u.s.","united states"
+2,3,0,0,long branch | new jersey | u.s.,"long branch, new jersey | long branch, new jersey, u.s. | united states","",""

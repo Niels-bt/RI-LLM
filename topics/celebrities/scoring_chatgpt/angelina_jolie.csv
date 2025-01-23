@@ -3,10 +3,10 @@
 0,3,0,0,"","knox jolie pitt | shiloh jolie | vivienne jolie pitt","",""
 4,0,0,0,"pax jolie pitt | james haven | maddox jolie pitt | zahara jolie pitt","","",""
 0,5,1,0,"","1996 | 2019 | 2003 | 2014 | 2000","div.",""
-1,1,1,0,"california","los angeles, california, u.s.","u.s.",""
-8,1,0,11,"film director | film actor | voice actor | philanthropist | film producer | model | actress | screenwriter","angelina jolie  personfunction  1","","television actor | manufacturer | film | executive producer | film screenwriter | diarist | character actor | fashion model | actor | charity | writer"
+2,1,0,0,california | u.s.,"los angeles, california, u.s.","",""
+8,7,0,5,"film director | film actor | voice actor | philanthropist | film producer | model | actress | screenwriter",angelina jolie  personfunction  1 | television actor | film | film screenwriter | character actor | fashion model | actor,"",manufacturer | executive producer | diarist | charity | writer
 1,1,0,0,"1982","1982 01 01t00:00:00z","",""
-3,1,0,2,"jolie | voight | angelina jolie","list of awards and nominations received by angelina jolie","","angelina jolie pitt | angelina"
-1,1,0,1,"1975 06 04","1975 06 04t00:00:00z","","1975"
+3,2,0,1,"jolie | voight | angelina jolie",list of awards and nominations received by angelina jolie | angelina,"",angelina jolie pitt
+1,1,0,0,"1975 06 04",1975 06 04t00:00:00z | 1975,"",""
 0,0,0,0,"","","",""
-0,0,1,1,"","","united states of america","united states"
+1,1,0,0,united states of america,united states,"",""
