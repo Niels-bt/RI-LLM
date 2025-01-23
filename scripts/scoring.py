@@ -1,43 +1,228 @@
 import re
+import statistics
 
 
-def count_scoring(show: list[str] = ["domains", "entities", "labels"], domains: list[str] = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"], llms: list[str] = ["chatgpt", "gemini"]):
+def count_scoring(domains = ["celebrities", "chemical_elements", "constellations", "movies", "sp500"], llms = ["chatgpt", "gemini"]):
 
-    for domain in domains:
+    if isinstance(domains, str): domains = [domains]
+    if isinstance(llms, str): llms = [llms]
 
-        for llm in llms:
+    llm_values = []
 
-            # Opens the file containing all entity ids
-            property_file = open(f"../topics/{domain}/wd_db_{domain}.csv", mode='r', encoding='utf-8')
+    for llm in llms:
+
+        domain_values = []
+
+        for domain in domains:
+
+            entity_values = []
 
             line_counter = 0
-            for entity in property_file:
+            for entity in open(f"../topics/{domain}/wd_db_{domain}.csv", mode='r', encoding='utf-8'):
 
                 # Only do the first 10 entities
                 if line_counter >= 10: break
                 line_counter += 1
 
                 # The file_name is computed from the entity file
-                file_name: str = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', entity)[1::2][1].removeprefix(
-                    " ").replace(" ", "_").replace(":", "").lower()
+                entity_elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', entity)[1::2]
+                file_name = entity_elements[1].removeprefix(" ").replace(" ", "_").replace(":", "").lower()
 
                 # We skip tesla and beyoncé because the files are broken
                 if file_name != "tesla" and file_name != "beyoncé":
 
-                    scoring_file = open(f"../topics/{domain}/scoring_{llm}/{file_name}.csv", mode='r', encoding='utf-8')
-                    for line in scoring_file:
+                    label_values = []
 
-                        elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
-                        tp = int(elements[0])
-                        tn = int(elements[1])
-                        fp = int(elements[2])
-                        fn = int(elements[3])
+                    # The labels are collected in case they should be printed in the console
+                    label_labels = []
+                    for line in open(f"../topics/{domain}/entities/{file_name}.csv", mode='r', encoding='utf-8'):
+                        label_elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
+                        if label_elements[0] != "" and label_elements[4] != "":
+                            label_labels.append(label_elements[0].replace("\"", "").split(" | ") + label_elements[4].removesuffix("\n").replace("\"", "").split(" | "))
+
+                    label_counter = 0
+                    for line in open(f"../topics/{domain}/scoring_{llm}/{file_name}.csv", mode='r', encoding='utf-8'):
+
+                        label_counter += 1
+
+                        label_elements: list[str] = re.split(r'''((?:[^,"']|"[^"]*"|'[^']*')+)''', line)[1::2]
+
+                        tp = int(label_elements[0])
+                        tn = int(label_elements[1])
+                        fp = int(label_elements[2])
+                        fn = int(label_elements[3])
 
                         if (tp + fp) != 0: precision = tp / (tp + fp)
-                        else: precision = 0
+                        else: precision = -1
+                        if (tp + fn) != 0: recall = tp / (tp + fn)
+                        else: recall = -1
+                        if (2 * tp + fp + fn) != 0: f1 = (2 * tp) / (2 * tp + fp + fn)
+                        else: f1 = -1
 
-                        if (tp + fn)
+                        labels = list(set(label_labels[label_counter-1]))
+                        if "" in labels: labels.remove("")
+                        scores = (precision, recall, f1)
+                        values = (tp, tn, fp, tn)
 
+                        label_values.append((labels, scores, values))
+
+                    precision = []
+                    recall = []
+                    f1 = []
+
+                    tp = 0
+                    tn = 0
+                    fp = 0
+                    fn = 0
+
+                    for label_value in label_values:
+
+                        if label_value[1][0] != -1: precision.append(label_value[1][0])
+                        if label_value[1][1] != -1: recall.append(label_value[1][1])
+                        if label_value[1][2] != -1: f1.append(label_value[1][2])
+
+                        tp += label_value[2][0]
+                        tn += label_value[2][1]
+                        fp += label_value[2][2]
+                        fn += label_value[2][3]
+
+                    if not precision: macro_precision = -1
+                    else: macro_precision = statistics.fmean(precision)
+                    if not recall: macro_recall = -1
+                    else: macro_recall = statistics.fmean(recall)
+                    if not f1: macro_f1 = -1
+                    else: macro_f1 = statistics.fmean(f1)
+
+                    if (tp + fp) == 0: micro_precision = -1
+                    else: micro_precision = tp / (tp + fp)
+                    if (tp + fn) == 0: micro_recall = -1
+                    else: micro_recall = tp / (tp + fn)
+                    if (2 * tp + fp + fn) == 0: micro_f1 = -1
+                    else: micro_f1 = (2 * tp) / (2 * tp + fp + fn)
+
+                    entity_name = entity_elements[1]
+                    macro_values = (macro_precision, macro_recall, macro_f1)
+                    micro_values = (micro_precision, micro_recall, micro_f1)
+                    values = (tp, tn, fp, tn)
+
+                    entity_values.append((entity_name, macro_values, micro_values, values, label_values))
+
+            precision = []
+            recall = []
+            f1 = []
+
+            tp = 0
+            tn = 0
+            fp = 0
+            fn = 0
+
+            for entity_value in entity_values:
+
+                if entity_value[1][0] != -1: precision.append(entity_value[1][0])
+                if entity_value[1][1] != -1: recall.append(entity_value[1][1])
+                if entity_value[1][2] != -1: f1.append(entity_value[1][2])
+
+                tp += entity_value[3][0]
+                tn += entity_value[3][1]
+                fp += entity_value[3][2]
+                fn += entity_value[3][3]
+
+            if not precision: macro_precision = -1
+            else: macro_precision = statistics.fmean(precision)
+            if not recall: macro_recall = -1
+            else: macro_recall = statistics.fmean(recall)
+            if not f1: macro_f1 = -1
+            else: macro_f1 = statistics.fmean(f1)
+
+            if (tp + fp) == 0: micro_precision = -1
+            else: micro_precision = tp / (tp + fp)
+            if (tp + fn) == 0: micro_recall = -1
+            else: micro_recall = tp / (tp + fn)
+            if (2 * tp + fp + fn) == 0: micro_f1 = -1
+            else: micro_f1 = (2 * tp) / (2 * tp + fp + fn)
+
+            domain_name = domain
+            macro_values = (macro_precision, macro_recall, macro_f1)
+            micro_values = (micro_precision, micro_recall, micro_f1)
+            values = (tp, tn, fp, tn)
+
+            domain_values.append((domain_name, macro_values, micro_values, values, entity_values))
+
+        precision = []
+        recall = []
+        f1 = []
+
+        tp = 0
+        tn = 0
+        fp = 0
+        fn = 0
+
+        for domain_value in domain_values:
+
+            if domain_value[1][0] != -1: precision.append(domain_value[1][0])
+            if domain_value[1][1] != -1: recall.append(domain_value[1][1])
+            if domain_value[1][2] != -1: f1.append(domain_value[1][2])
+
+            tp += domain_value[3][0]
+            tn += domain_value[3][1]
+            fp += domain_value[3][2]
+            fn += domain_value[3][3]
+
+        if not precision: macro_precision = -1
+        else: macro_precision = statistics.fmean(precision)
+        if not recall: macro_recall = -1
+        else: macro_recall = statistics.fmean(recall)
+        if not f1: macro_f1 = -1
+        else: macro_f1 = statistics.fmean(f1)
+
+        if (tp + fp) == 0: micro_precision = -1
+        else: micro_precision = tp / (tp + fp)
+        if (tp + fn) == 0: micro_recall = -1
+        else: micro_recall = tp / (tp + fn)
+        if (2 * tp + fp + fn) == 0: micro_f1 = -1
+        else: micro_f1 = (2 * tp) / (2 * tp + fp + fn)
+
+        llm_name = llm
+        macro_values = (macro_precision, macro_recall, macro_f1)
+        micro_values = (micro_precision, micro_recall, micro_f1)
+        values = (tp, tn, fp, tn)
+
+        llm_values.append((llm_name, macro_values, micro_values, values, domain_values))
+
+    return llm_values
+
+
+
+def show_scoring(llm_values, show = ["llms", "domains", "entities", "labels"]):
+
+    if isinstance(show, str): show = [show]
+
+    for llm_value in llm_values:
+
+        if "llms" in show:
+            print(f"{llm_value[0]}:")
+            print(f"        macro-average: precision: {round(llm_value[1][0], 2)}, recall: {round(llm_value[1][1], 2)}, f1: {round(llm_value[1][2], 2)}")
+            print(f"        micro-average: precision: {round(llm_value[2][0], 2)}, recall: {round(llm_value[2][1], 2)}, f1: {round(llm_value[2][2], 2)}")
+
+        for domain_value in llm_value[4]:
+
+            if "domains" in show:
+                print(f"    {domain_value[0]}:")
+                print(f"            macro-average: precision: {round(domain_value[1][0], 2)}, recall: {round(domain_value[1][1], 2)}, f1: {round(domain_value[1][2], 2)}")
+                print(f"            micro-average: precision: {round(domain_value[2][0], 2)}, recall: {round(domain_value[2][1], 2)}, f1: {round(domain_value[2][2], 2)}")
+
+            for entity_value in domain_value[4]:
+
+                if "entities" in show:
+                    print(f"        {entity_value[0]}:")
+                    print(f"                macro-average: precision: {round(entity_value[1][0], 2)}, recall: {round(entity_value[1][1], 2)}, f1: {round(entity_value[1][2], 2)}")
+                    print(f"                micro-average: precision: {round(entity_value[2][0], 2)}, recall: {round(entity_value[2][1], 2)}, f1: {round(entity_value[2][2], 2)}")
+
+                for label_value in entity_value[4]:
+
+                    if "labels" in show:
+                        print(f"            {" | ".join(label_value[0])}:")
+                        print(f"                    precision: {round(label_value[1][0], 2)}, recall: {round(label_value[1][1], 2)}, f1: {round(label_value[1][2], 2)}")
 
 
 
@@ -154,3 +339,9 @@ def generate_scoring_files(domains: list[str] = ["celebrities", "chemical_elemen
                         fn_string = f"\"{" | ".join(fn)}\""
                         output_columns = [str(len(tp)), str(len(tn)), str(len(fp)), str(len(fn)), tp_string, tn_string, fp_string, fn_string]
                         output_file.write(",".join(output_columns) + "\n")
+
+
+
+if __name__ == "__main__":
+    scoring = count_scoring()
+    show_scoring(scoring, ["llms", "domains"])
