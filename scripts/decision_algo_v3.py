@@ -136,7 +136,7 @@ Correct Answer: [correct_value1, correct_value2, ...]
 def construct_prompt(entity, property_, values_list):
     """Constructs the prompt for GPT based on the given inputs."""
     prompt = (
-        PROMPT_TEMPLATE_5
+        PROMPT_TEMPLATE_0
         .replace("<entity>", entity)
         .replace("<property>", property_)
         .replace("<values_list>", values_list)
@@ -269,8 +269,8 @@ def process_entities(entities_dir, output_dir):
             resolve_inconsistencies(input_file_path, output_file_path, entity_name)
 
 if __name__ == "__main__":
-    entities_dir = "../topics/sp500/entities"
-    output_dir = "../topics/sp500/corrected_chatgpt"
+    entities_dir = "../topics/celebrities/entities"
+    output_dir = "../topics/celebrities/corrected_old_prompt"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)

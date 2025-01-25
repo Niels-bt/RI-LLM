@@ -343,5 +343,6 @@ def generate_scoring_files(domains: list[str] = ["celebrities", "chemical_elemen
 
 
 if __name__ == "__main__":
+
     scoring = count_scoring()
     show_scoring(scoring, ["llms", "domains"])
