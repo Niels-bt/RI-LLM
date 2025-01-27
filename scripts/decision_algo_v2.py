@@ -7,7 +7,7 @@ import re
 from typing import Optional
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "<The_key>"))
+client = OpenAI()
 
 PROMPT_TEMPLATE = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat. You are a data engineer, and based on your knowledge, you should determine the correct answer.

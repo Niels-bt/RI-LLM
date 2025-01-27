@@ -5,7 +5,7 @@ import pandas as pd
 import re
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "<The_key>"))
+client = OpenAI()
 # Template 0 was for testing.
 PROMPT_TEMPLATE_0 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat.
