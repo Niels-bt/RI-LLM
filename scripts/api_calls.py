@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from spacy.lang.am.examples import sentences
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "your-api-key"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
 
 def get_gpt4o_response(prompt: str) -> str:
     """

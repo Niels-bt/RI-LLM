@@ -1,12 +1,29 @@
 import os
 import time
-import openai
 import pandas as pd
 import re
-from openai import OpenAI
+from tenacity import retry, stop_after_attempt, wait_exponential
+import google.generativeai as genai
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
-# Template 0 was for testing.
+# 1) Configure Gemini / PaLM API
+# Make sure you set the environment variable GEMINI_API_KEY or replace below with your actual key.
+genai.configure(api_key="<The key>")
+
+# 2) Create the model with any generation config you need
+generation_config = {
+    "temperature": 0,
+    "top_p": 0.95,
+    "top_k": 40,
+    "max_output_tokens": 8192,
+    "response_mime_type": "text/plain",
+}
+model = genai.GenerativeModel(
+    model_name="learnlm-1.5-pro-experimental",
+    generation_config=generation_config,
+)
+
+# -------------------------------------------------------------------
+# The same prompt templates you already have:
 PROMPT_TEMPLATE_0 = """
 You should not consider any previous prompts or answers. Make your answer for the next prompt independent of any previous chat.
 Entity: <entity>
@@ -133,8 +150,10 @@ Provide the answer in the format below:
 Correct Answer: [correct_value1, correct_value2, ...]
 """
 
+# -------------------------------------------------------------------
+
 def construct_prompt(entity, property_, values_list):
-    """Constructs the prompt for GPT based on the given inputs."""
+    """Constructs the prompt for Gemini based on the given inputs."""
     prompt = (
         PROMPT_TEMPLATE_4
         .replace("<entity>", entity)
@@ -149,22 +168,21 @@ def parse_response(response):
     match = re.search(r'\[(.*?)\]', response)
     return match.group(1).strip() if match else "UNKNOWN"
 
-def get_gpt4_response(prompt, max_retries=5, backoff_factor=1.5):
-    """sends a prompt to GPT and retrieves the response with retry logic."""
-    for attempt in range(1, max_retries + 1):
-        try:
-            response = client.chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
-                model="gpt-4o",
-                temperature=0,
-                max_tokens=500
-            )
-            return response.choices[0].message.content.strip()
-        except openai.RateLimitError:
-            time.sleep(backoff_factor ** attempt)
-        except Exception as e:
-            print(f"Error: {e}. Retrying...")
-    return None
+
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=1, max=10))
+def get_gemini_response(prompt):
+    """
+    Sends a prompt to Gemini (via google.generativeai) and retrieves the response
+    with simple retry logic, but DOES NOT use a context manager.
+    """
+    try:
+        chat_session = model.start_chat(history=[])
+        response = chat_session.send_message(prompt)
+        return response.text.strip()
+    except Exception as e:
+        print(f"Error: {e}. Retrying...")
+        raise
+
 
 def add_headers_to_csv(file_path):
     """Adds headers to the CSV file, avoiding duplicate headers."""
@@ -184,7 +202,6 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
     """Reads the dataset, resolves inconsistencies, and saves the updated dataset."""
     df = pd.read_csv(input_csv_path)
 
-    # group values by label
     resolved_values = []
 
     for idx, row in df.iterrows():
@@ -194,12 +211,12 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
         label_b = row['label (Source B)']
         value_b = str(row['value (Source B)']).strip() if pd.notnull(row['value (Source B)']) else None
 
-        # process rows with a value in the 3ed column directly
+        # If a 'common' value is already present
         if value_common:
             combined_label = f"{label_a} | {label_b}".strip("|")
             resolved_set = set(map(str.strip, value_common.split("|")))
 
-            # if additional values exist in Source A or B, send them to LLM
+            # If additional values exist in Source A or B, send them to LLM
             if value_a or value_b:
                 labels_combined = set(map(str.strip, str(label_a).split("|") + str(label_b).split("|")))
                 values_combined = set(map(str.strip, str(value_a).split("|") + str(value_b).split("|")))
@@ -209,7 +226,7 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
                 combined_label = " | ".join(sorted(labels_combined))
 
                 prompt = construct_prompt(entity_name, combined_label, values_list)
-                response = get_gpt4_response(prompt)
+                response = get_gemini_response(prompt)
 
                 if response is not None:
                     resolved = parse_response(response)
@@ -221,7 +238,7 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
             })
             print(f"Resolved: {combined_label} -> {' | '.join(sorted(resolved_set))}")
 
-        # process rows with non-empty labels in both Source A and B, without a common value
+        # If there is no common value, but we have non-null labels and at least one value
         elif pd.notnull(label_a) and pd.notnull(label_b) and (value_a or value_b):
             labels_combined = set(map(str.strip, str(label_a).split("|") + str(label_b).split("|")))
             values_combined = set(map(str.strip, str(value_a).split("|") + str(value_b).split("|")))
@@ -230,7 +247,7 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
             combined_label = " | ".join(sorted(labels_combined))
 
             prompt = construct_prompt(entity_name, combined_label, values_list)
-            response = get_gpt4_response(prompt)
+            response = get_gemini_response(prompt)
 
             resolved_set = set()
             if response is not None:
@@ -243,7 +260,6 @@ def resolve_inconsistencies(input_csv_path, output_csv_path, entity_name):
             })
             print(f"Resolved: {combined_label} -> {' | '.join(sorted(resolved_set))}")
 
-    # save the resolved dataset
     resolved_df = pd.DataFrame(resolved_values)
     resolved_df.to_csv(output_csv_path, index=False)
     print(f"Resolved dataset saved to {output_csv_path}")
@@ -255,22 +271,19 @@ def process_entities(entities_dir, output_dir):
             input_file_path = os.path.join(entities_dir, file_name)
             output_file_path = os.path.join(output_dir, file_name.replace(".csv", "_resolved.csv"))
 
-            # Skip processing if resolved file already exists
             if os.path.exists(output_file_path):
-                print(f"Resolved file already exists for {file_name}. Skipping processing.")
+                print(f"Resolved file already exists for {file_name}. Skipping.")
                 continue
 
-            # extract entity name from the file name
             entity_name = file_name.replace("_", " ").replace(".csv", "")
 
-            # add headers
             add_headers_to_csv(input_file_path)
 
             resolve_inconsistencies(input_file_path, output_file_path, entity_name)
 
 if __name__ == "__main__":
     entities_dir = "../topics/movies/entities"
-    output_dir = "../topics/movies/llm_correct_entities"
+    output_dir = "../topics/movies/gemini_correction"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
