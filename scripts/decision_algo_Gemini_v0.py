@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 # 1) Configure Gemini / PaLM API
 # Make sure you set the environment variable GEMINI_API_KEY or replace below with your actual key.
-genai.configure(api_key="<The key>")
+genai.configure(api_key="<The_key>")
 
 # 2) Create the model with any generation config you need
 generation_config = {
